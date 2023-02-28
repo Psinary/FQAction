@@ -71,8 +71,8 @@ def run(playwright: Playwright,password,save_path) -> None:
     download.save_as(save_path)
 
     time_node = time.strftime('%Y-%m-%d_%H-%M-%S', time.localtime(time.time()))
-    download.save_as(time_node + "_" +save_path)
-
+    download.save_as(sys.path[0] + "/old_file/" +time_node + "_" +save_path)
+    
     # ---------------------
     context.close()
     browser.close()
