@@ -6,6 +6,9 @@ name: test
 on:
   # workflow 通过按键触发
   workflow_dispatch:
+  # 美国时间，每天 18：00执行一次脚本，和国内差8小时，同时有延迟，根据服务器负载有一小时到几分钟不等的延迟。
+  schedule:
+    - cron: "0 18 * * *"
 
 # 需要进行的job内容
 jobs:
@@ -15,12 +18,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    # 拉取本仓库代码到本地
       - uses: actions/checkout@v2
+      # 配置本地Python环境
       - name: Set up Python 3.11
         uses: actions/setup-python@v2
         with:
           python-version: "3.11.0"
           architecture: "x64"
+      # 配置相关依赖
       - name: Install dependencies
         run: |
           pwd
