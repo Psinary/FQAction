@@ -21,12 +21,11 @@ jobs:
         with:
           python-version: "3.11.0"
           architecture: "x64"
-          cache: "pip"
       - name: test show
         run: |
           pwd
           ls
-          pip install pip -U
+          # pip install pip -U 升级安装pip
           python3 --version
           pip list
           
