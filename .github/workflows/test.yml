@@ -2,27 +2,31 @@
 
 name: test
 
-# Controls when the workflow will run
+# 触发条件
 on:
-  # Allows you to run this workflow manually from the Actions tab
+  # workflow 通过按键触发
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# 需要进行的job内容
 jobs:
-  # This workflow contains a single job called "build"
+  # workflow 的一个job叫 run_in_linux
   run_on_linux:
-    # The type of runner that the job will run on
+    # 在什么平台上执行，ubuntu，mac, win都可以支持。
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo 你好，hello nihao
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.11.0"
+          architecture: "x64"
+          cache: "pip"
+      - name: test show
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          pwd
+          ls
+          pip install pip -U
+          python3 --version
+          pip list
+          
