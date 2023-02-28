@@ -26,6 +26,7 @@ jobs:
           pwd
           ls
           # pip install pip -U 升级安装pip
+          pip install requests
           python3 --version
           pip list
           
