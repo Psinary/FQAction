@@ -25,8 +25,9 @@ jobs:
         run: |
           pwd
           ls
-          # pip install pip -U 升级安装pip
-          pip install requests
+          pip install requests bs4 playwright
           python3 --version
           pip list
+          python3 -m playwright install
+          python3 -m playwright help
           
