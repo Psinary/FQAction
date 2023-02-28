@@ -21,6 +21,7 @@ jobs:
         with:
           python-version: "3.11.0"
           architecture: "x64"
+          cache: "pip"
       - name: test show
         run: |
           pwd
