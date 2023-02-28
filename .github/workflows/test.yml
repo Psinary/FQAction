@@ -30,4 +30,7 @@ jobs:
           pip list
           python3 -m playwright install
           python3 -m playwright help
-          
+      - name: run python script
+        run: |
+          python3 v2note_update.py
+          ls
