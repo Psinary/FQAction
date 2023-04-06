@@ -1,6 +1,6 @@
 from playwright.sync_api import Playwright, sync_playwright
 import time
-import os,sys
+import os,sys,re
 import requests
 from bs4 import BeautifulSoup
 
@@ -11,7 +11,13 @@ def get_password():
     x = requests.get('https://t.me/s/changfengchannel',verify=True)
     print("打开订阅频道成功")
     bs_1 = BeautifulSoup(x.text, 'lxml')
-    password = bs_1.find("tg-spoiler").text
+
+    reg = '节点密码：.*下次更新时间'
+    re_str = re.findall(reg, bs_1.text)
+    # print(re_str)
+
+    password = re_str[0][5:-6]
+
     print("验证密码：" + password)
     return password
 
