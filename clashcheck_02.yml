@@ -4,1127 +4,336 @@ log-level: info
 mixed-port: 7890
 mode: Rule
 proxies:
-- cipher: aes-256-cfb
-  name: 🇯🇵JP-13.231.243.147-3944 | 14.811MB
-  password: amazonskr05
-  port: 443
-  server: 13.231.243.147
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-35.178.1.78-1426 | 29.024MB
-  password: mps3FwmDjLrWaOVg
-  port: 443
-  server: 35.178.1.78
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸US-34.209.89.132-3946 | 1.324MB
-  password: amazonskr05
-  port: 443
-  server: 34.209.89.132
-  type: ss
-- cipher: aes-256-cfb
-  name: ZA-41.203.4.34-0948 | 10.888MB
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 41.203.4.34
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-5712_484
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-5712_421
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  server: 103.172.116.103
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: ZA-129.232.129.156-0940 | 6.743MB
-  password: DiPietyory
-  port: 444
-  server: 129.232.129.156
-  type: ss
 - alterId: 0
   cipher: auto
-  name: RELAY-104.21.54.252-0180 | 37.994MB
-  network: ws
-  port: 8080
-  server: 104.21.54.252
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: RELAY-172.67.143.192-0337 | 16.149MB_2
-  network: ws
-  port: 8080
-  server: www.velvetmountain.shop
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_4_123_5
-  network: ws
-  port: 8080
-  server: www.velvetmountain.shop
+  name: 🇨🇦_CA_加拿大_1_104
+  network: http
+  port: 3389
+  server: 134.122.41.160
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
-- cipher: aes-256-cfb
-  name: 🇸🇬SG-103.172.116.103-3949 | 11.81MB
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  server: 103.172.116.103
-  type: ss
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: RELAY-172.67.143.192-0241 | 18.017MB
-  network: ws
-  port: 8080
-  server: 172.67.143.192
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- cipher: aes-256-cfb
-  name: 🇸🇬SG-103.172.116.103-3978 | 6.386MB
-  password: rNBfNuuANFCAk7KB
-  port: 9056
-  server: 103.172.116.103
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5_129_8
-  network: ws
-  port: 8080
-  server: 172.67.136.12
+  name: 🇫🇷_FR_法国_2_270
+  network: http
+  port: 3389
+  server: 51.159.155.52
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.ywnouvbale.biz
-    path: /
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_3_291_10
-  network: ws
-  port: 8080
-  server: 172.67.136.12
+  name: 🇨🇦_CA_加拿大_2_262
+  network: http
+  port: 3389
+  server: 134.122.41.160
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.ywnouvbale.biz
-    path: /
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_3_212_9
-  network: ws
-  port: 8080
-  server: 172.67.136.12
+  name: 🇱🇺_LU_卢森堡_2_268
+  network: http
+  port: 3389
+  server: 45.82.31.164
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.ywnouvbale.biz
-    path: /
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_4_328_11
-  network: ws
-  port: 8080
-  server: 172.67.136.12
+  name: 🇱🇺_LU_卢森堡_1_265
+  network: http
+  port: 3389
+  server: 78.111.102.232
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.ywnouvbale.biz
-    path: /
-- cipher: aes-256-cfb
-  name: 🇸🇬SG-103.172.116.103-3971 | 4.668MB
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬SG-103.172.116.103-3968 | 4.293MB
-  password: KnJGad3FqTvjqbaX
-  port: 9014
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬SG-103.172.116.103-3966 | 3.476MB
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬SG-103.172.116.103-3959 | 2.814MB
-  password: ueLXVkvh4hckhErQ
-  port: 9060
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬SG-103.172.116.103-3962 | 2.739MB
-  password: fG2artUmHfNT2cX7
-  port: 9018
-  server: 103.172.116.103
-  type: ss
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: RELAY-104.21.54.252-0043 | 61.21MB
-  network: ws
-  port: 8080
-  server: www.velvetmountain.shop
-  skip-cert-verify: false
+  name: 🇫🇷FR-51.159.155.52-012
+  network: http
+  port: 3389
+  server: 51.159.155.52
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- name: 🇨🇳TW-118.165.42.201-0263 | 8.407MB
-  password: 18f9d14f-e5b4-4dc5-8d19-e446b053072c
-  port: 9755
-  server: b12.ntbq.dynu.net
-  skip-cert-verify: false
-  sni: b12.ntbq.dynu.net
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  ws-headers:
+    Host: 51.159.155.52
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇧🇷BR-78.111.102.232-006
+  network: http
+  port: 3389
+  server: 78.111.102.232
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  ws-headers:
+    Host: 78.111.102.232
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇱🇺_LU_卢森堡_1_296
+  network: http
+  port: 3389
+  server: 78.111.102.232
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦CA-134.122.41.160-003
+  network: http
+  port: 3389
+  server: 134.122.41.160
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  ws-headers:
+    Host: 134.122.41.160
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_1_315
+  network: http
+  port: 3389
+  server: 134.122.41.160
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_1_300
+  network: http
+  port: 3389
+  server: 134.122.41.160
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 🇱🇺_LU_卢森堡_2_301
+  network: http
+  port: 3389
+  server: 45.82.31.164
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 🇱🇺_LU_卢森堡_309
+  network: http
+  port: 3389
+  server: 45.82.31.164
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- name: 🇨🇳CN-223.113.130.26-165
+  password: eb076ad6-9ba8-41b1-804e-66cf27fa6091
+  port: 13029
+  server: 223.113.130.26
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 🇨🇳TW-111.250.141.24-0190 | 7.322MB
-  password: 18f9d14f-e5b4-4dc5-8d19-e446b053072c
-  port: 18912
-  server: ty12t.twty.dynu.net
-  skip-cert-verify: false
-  sni: ty12t.twty.dynu.net
-  type: trojan
-- name: 🇳🇱NL-103.214.68.57-1988 | 29.478MB
-  password: 6x8HcghsjS
-  port: 10003
-  server: 103.214.68.57
-  skip-cert-verify: false
-  sni: yes998.chickenkiller.com
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-35.176.178.206-0897 | 25.311MB
-  password: mps3FwmDjLrWaOVg
-  port: 443
-  server: series-a2.samanehha.co
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-35.176.178.206-0865 | 28.915MB
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: series-a1.samanehha.co
-  type: ss
-- name: 🇨🇳TW-114.37.113.36-0121 | 6.438MB
-  password: 18f9d14f-e5b4-4dc5-8d19-e446b053072c
-  port: 9489
-  server: b13.ntbq.dynu.net
-  skip-cert-verify: false
-  sni: b13.ntbq.dynu.net
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-35.176.178.206-0884 | 29.089MB
-  password: mps3FwmDjLrWaOVg
-  port: 443
-  server: v1.arvancode.eu.org
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-35.176.178.206-0864 | 28.736MB
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: java.ct.arvancode.eu.Org
-  type: ss
-- name: 🇨🇳TW-36.226.143.152-0084 | 8.678MB
-  password: 18f9d14f-e5b4-4dc5-8d19-e446b053072c
-  port: 19489
-  server: b22.ntbq.dynu.net
-  skip-cert-verify: false
-  sni: b22.ntbq.dynu.net
-  type: trojan
-- name: 🇨🇳TW-114.37.139.180-0055 | 8.094MB
-  password: 18f9d14f-e5b4-4dc5-8d19-e446b053072c
-  port: 3271
-  server: b24.ntbq.dynu.net
-  skip-cert-verify: false
-  sni: b24.ntbq.dynu.net
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-13.41.102.95-2623 | 33.118MB
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: java.ct.arvancode.eu.Org
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GB-18.130.5.58-0862_411
-  password: mps3FwmDjLrWaOVg
-  port: 443
-  server: series-a2.samanehha.co
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GB-18.130.5.58-0863_111
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: java.ct.arvancode.eu.Org
-  type: ss
 - alterId: 0
   cipher: auto
-  name: RELAY-172.67.143.192-0337 | 16.149MB_89
-  network: ws
-  port: 8080
-  server: www.velvetmountain.shop
-  skip-cert-verify: false
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇫🇷 _FR_法国 2
+  network: http
+  port: 3389
+  server: 51.159.155.52
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_4_123_90
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇨🇦 _CA_加拿大 2
+  network: http
+  port: 3389
+  server: 134.122.41.160
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇨🇦 _CA_加拿大 3
+  network: http
+  port: 3389
+  server: 134.122.41.160
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇫🇷 _FR_法国 4
+  network: http
+  port: 3389
+  server: 51.159.155.52
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇨🇦 _CA_加拿大 6
+  network: http
+  port: 3389
+  server: 134.122.41.160
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇱🇺 _LU_卢森堡 3
+  network: http
+  port: 3389
+  server: 78.111.102.232
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 8080
-  server: www.velvetmountain.shop
+  server: fbi.gov
+  tls: false
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  ws-opts:
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇱🇺 _LU_卢森堡
+  network: http
+  port: 3389
+  server: 78.111.102.232
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 0,1,3,4,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_13
+  network: http
+  port: 3389
+  server: 134.122.41.160
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_9_106
+  name: 🇺🇸 美国3|@ripaojiedian
   network: ws
   port: 8080
-  server: www.velvetmountain.shop
-  skip-cert-verify: true
+  server: www.coldstone.club
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      host: www.velvetmountain.shop
+      Host: www.coldstone.club
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5_129_87
-  network: ws
-  port: 8080
-  server: 172.67.136.12
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.ywnouvbale.biz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5_158
-  network: ws
-  port: 8080
-  server: 104.21.54.252
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3_291_85
-  network: ws
-  port: 8080
-  server: 172.67.136.12
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.ywnouvbale.biz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_1_145
-  network: ws
-  port: 8080
-  server: www.velvetmountain.shop
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3_212_86
-  network: ws
-  port: 8080
-  server: 172.67.136.12
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.ywnouvbale.biz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_12_125
-  network: ws
-  port: 8080
-  server: 172.67.136.12
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.ywnouvbale.biz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 _US_美国 9_503
-  network: ws
-  port: 8080
-  server: www.velvetmountain.shop
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_7_162
-  network: ws
-  port: 8080
-  server: 172.67.143.192
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2_171
-  network: ws
-  port: 8080
-  server: 104.21.54.252
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_10_108
-  network: ws
-  port: 8080
-  server: www.ywnouvbale.biz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.ywnouvbale.biz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5_203
-  network: ws
-  port: 8080
-  server: 104.21.54.252
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_7_207
-  network: ws
-  port: 8080
-  server: 172.67.143.192
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_1_195
-  network: ws
-  port: 8080
-  server: www.velvetmountain.shop
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇬🇧 英国+伦敦Amazon数据中心_283
-  password: mps3FwmDjLrWaOVg
-  port: 443
-  server: 35.178.1.78
-  tfo: false
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3_172
-  network: ws
-  port: 8080
-  server: www.velvetmountain.shop
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_1_232
-  network: ws
-  port: 8080
-  server: www.velvetmountain.shop
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2_238
-  network: ws
-  port: 8080
-  server: 104.21.54.252
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2_244
-  network: ws
-  port: 8080
-  server: www.velvetmountain.shop
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_4_240
-  network: ws
-  port: 8080
-  server: 172.67.143.192
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_4_247
-  network: ws
-  port: 8080
-  server: 172.67.143.192
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
-- cipher: aes-256-cfb
-  name: 🇮🇸 IS(AzadNet.t.me)
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 37.235.49.152
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3_214
-  network: ws
-  port: 8080
-  server: 172.67.136.12
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.ywnouvbale.biz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_1_256
-  network: ws
-  port: 8080
-  server: www.velvetmountain.shop
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点_275
-  network: ws
-  port: 80
-  server: 104.21.63.52
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
-  ws-opts:
-    headers:
-      Host: us65.netfilx.live
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_7_273
-  network: ws
-  port: 8080
-  server: 172.67.143.192
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.velvetmountain.shop
-    path: /
-- name: 🇮🇪 爱尔兰 都柏林Amazon数据中心 3
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 54.220.14.166
-  skip-cert-verify: false
-  sni: trojan.miwan.co.uk
-  type: trojan
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-3691_296
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-5734_300
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-0993_316
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-5712_330
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  server: 103.172.116.103
-  type: ss
-- name: 🇨🇦_CA_加拿大->🇺🇸_US_美国_251
-  network: ws
-  password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
-  port: 443
-  server: 23.227.38.11
-  skip-cert-verify: true
-  sni: syndication-statutes-wanted-logo.trycloudflare.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /argox-tr
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3_266
-  network: ws
-  port: 8080
-  server: 162.159.130.208
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
-  ws-opts:
-    headers:
-      host: widescreen-instruction-breakdown-postage.trycloudflare.com
-    path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GB-18.130.5.58-0862_298
-  password: mps3FwmDjLrWaOVg
-  port: 443
-  server: series-a2.samanehha.co
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GB-18.130.5.58-0863_409
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: java.ct.arvancode.eu.Org
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GB-18.130.5.58-0862_413
-  password: mps3FwmDjLrWaOVg
-  port: 443
-  server: series-a2.samanehha.co
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 _US_美国_379
-  network: ws
-  port: 8080
-  server: www.velvetmountain.shop
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 _US_美国 4_383
-  network: ws
-  port: 8080
-  server: 172.67.143.192
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 _US_美国 6_385
-  network: ws
-  port: 8080
-  server: 104.21.54.252
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 _US_美国 7_386
-  network: ws
-  port: 8080
-  server: www.velvetmountain.shop
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 _US_美国 13_392
-  network: ws
-  port: 8080
-  server: 172.67.143.192
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-3691_405
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-5712_406
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-0984
-  password: ueLXVkvh4hckhErQ
-  port: 9060
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-8176
-  password: 4R3hUfZ2FHhDmNcP
-  port: 9061
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-0969
-  password: fG2artUmHfNT2cX7
-  port: 9018
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-0993_449
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-8187
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  server: 103.172.116.103
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 _US_美国 10_389
-  network: ws
-  port: 8080
-  server: 104.21.54.252
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 18|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 34.209.89.132
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18|🇬🇧 英国2|@ripaojiedian
-  password: 6682f528-720b-3776-9f89-74121e050543
-  port: 47459
-  server: 120.210.205.220
-  skip-cert-verify: false
-  sni: z139.hongkongnode.top
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921
-- alterId: 64
-  cipher: auto
-  name: 19|英国2|@ripaojiedian
-  network: tcp
-  port: '47459'
-  server: 120.210.205.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 18|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 42.2.115.231
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 18|🇭🇰 香港3|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.185.99
-  tfo: false
-  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇯🇵JP-13.231.243.147-3944 | 14.811MB
-  - 🇬🇧GB-35.178.1.78-1426 | 29.024MB
-  - 🇺🇸US-34.209.89.132-3946 | 1.324MB
-  - ZA-41.203.4.34-0948 | 10.888MB
-  - 🇸🇬 SG-103.172.116.103-5712_484
-  - 🇸🇬 SG-103.172.116.103-5712_421
-  - ZA-129.232.129.156-0940 | 6.743MB
-  - RELAY-104.21.54.252-0180 | 37.994MB
-  - RELAY-172.67.143.192-0337 | 16.149MB_2
-  - 🇺🇸_US_美国_4_123_5
-  - 🇸🇬SG-103.172.116.103-3949 | 11.81MB
-  - RELAY-172.67.143.192-0241 | 18.017MB
-  - 🇸🇬SG-103.172.116.103-3978 | 6.386MB
-  - 🇺🇸_US_美国_5_129_8
-  - 🇺🇸_US_美国_3_291_10
-  - 🇺🇸_US_美国_3_212_9
-  - 🇺🇸_US_美国_4_328_11
-  - 🇸🇬SG-103.172.116.103-3971 | 4.668MB
-  - 🇸🇬SG-103.172.116.103-3968 | 4.293MB
-  - 🇸🇬SG-103.172.116.103-3966 | 3.476MB
-  - 🇸🇬SG-103.172.116.103-3959 | 2.814MB
-  - 🇸🇬SG-103.172.116.103-3962 | 2.739MB
-  - RELAY-104.21.54.252-0043 | 61.21MB
-  - 🇨🇳TW-118.165.42.201-0263 | 8.407MB
-  - 🇨🇳TW-111.250.141.24-0190 | 7.322MB
-  - 🇳🇱NL-103.214.68.57-1988 | 29.478MB
-  - 🇬🇧GB-35.176.178.206-0897 | 25.311MB
-  - 🇬🇧GB-35.176.178.206-0865 | 28.915MB
-  - 🇨🇳TW-114.37.113.36-0121 | 6.438MB
-  - 🇬🇧GB-35.176.178.206-0884 | 29.089MB
-  - 🇬🇧GB-35.176.178.206-0864 | 28.736MB
-  - 🇨🇳TW-36.226.143.152-0084 | 8.678MB
-  - 🇨🇳TW-114.37.139.180-0055 | 8.094MB
-  - 🇬🇧GB-13.41.102.95-2623 | 33.118MB
-  - 🇬🇧 GB-18.130.5.58-0862_411
-  - 🇬🇧 GB-18.130.5.58-0863_111
-  - RELAY-172.67.143.192-0337 | 16.149MB_89
-  - 🇺🇸_US_美国_4_123_90
-  - 🇺🇸_US_美国_9_106
-  - 🇺🇸_US_美国_5_129_87
-  - 🇺🇸_US_美国_5_158
-  - 🇺🇸_US_美国_3_291_85
-  - 🇺🇸_US_美国_1_145
-  - 🇺🇸_US_美国_3_212_86
-  - 🇺🇸_US_美国_12_125
-  - 🇺🇸 _US_美国 9_503
-  - 🇺🇸_US_美国_7_162
-  - 🇺🇸_US_美国_2_171
-  - 🇺🇸_US_美国_10_108
-  - 🇺🇸_US_美国_5_203
-  - 🇺🇸_US_美国_7_207
-  - 🇺🇸_US_美国_1_195
-  - 🇬🇧 英国+伦敦Amazon数据中心_283
-  - 🇺🇸_US_美国_3_172
-  - 🇺🇸_US_美国_1_232
-  - 🇺🇸_US_美国_2_238
-  - 🇺🇸_US_美国_2_244
-  - 🇺🇸_US_美国_4_240
-  - 🇺🇸_US_美国_4_247
-  - 🇮🇸 IS(AzadNet.t.me)
-  - 🇺🇸_US_美国_3_214
-  - 🇺🇸_US_美国_1_256
-  - 🇺🇸 美国 CloudFlare节点_275
-  - 🇺🇸_US_美国_7_273
-  - 🇮🇪 爱尔兰 都柏林Amazon数据中心 3
-  - 🇸🇬 SG-103.172.116.103-3691_296
-  - 🇸🇬 SG-103.172.116.103-5734_300
-  - 🇸🇬 SG-103.172.116.103-0993_316
-  - 🇸🇬 SG-103.172.116.103-5712_330
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_251
-  - 🇺🇸_US_美国_3_266
-  - 🇬🇧 GB-18.130.5.58-0862_298
-  - 🇬🇧 GB-18.130.5.58-0863_409
-  - 🇬🇧 GB-18.130.5.58-0862_413
-  - 🇺🇸 _US_美国_379
-  - 🇺🇸 _US_美国 4_383
-  - 🇺🇸 _US_美国 6_385
-  - 🇺🇸 _US_美国 7_386
-  - 🇺🇸 _US_美国 13_392
-  - 🇸🇬 SG-103.172.116.103-3691_405
-  - 🇸🇬 SG-103.172.116.103-5712_406
-  - 🇸🇬 SG-103.172.116.103-0984
-  - 🇸🇬 SG-103.172.116.103-8176
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇸🇬 SG-103.172.116.103-0993_449
-  - 🇸🇬 SG-103.172.116.103-8187
-  - 🇺🇸 _US_美国 10_389
-  - 18|🇯🇵 日本特殊|@ripaojiedian
-  - 18|🇬🇧 英国2|@ripaojiedian
-  - 19|英国2|@ripaojiedian
-  - 18|🇭🇰 香港KT2|@ripaojiedian
-  - 18|🇭🇰 香港3|@ripaojiedian
+  - 🇨🇦_CA_加拿大_1_104
+  - 🇫🇷_FR_法国_2_270
+  - 🇨🇦_CA_加拿大_2_262
+  - 🇱🇺_LU_卢森堡_2_268
+  - 🇱🇺_LU_卢森堡_1_265
+  - 🇫🇷FR-51.159.155.52-012
+  - 🇧🇷BR-78.111.102.232-006
+  - 🇱🇺_LU_卢森堡_1_296
+  - 🇨🇦CA-134.122.41.160-003
+  - 🇨🇦_CA_加拿大_1_315
+  - 🇨🇦_CA_加拿大_1_300
+  - 🇱🇺_LU_卢森堡_2_301
+  - 🇱🇺_LU_卢森堡_309
+  - 🇨🇳CN-223.113.130.26-165
+  - 🇫🇷 _FR_法国 2
+  - 🇨🇦 _CA_加拿大 2
+  - 🇨🇦 _CA_加拿大 3
+  - 🇫🇷 _FR_法国 4
+  - 🇨🇦 _CA_加拿大 6
+  - 🇱🇺 _LU_卢森堡 3
+  - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  - 🇱🇺 _LU_卢森堡
+  - 0,1,3,4,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_13
+  - 🇺🇸 美国3|@ripaojiedian
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇯🇵JP-13.231.243.147-3944 | 14.811MB
-  - 🇬🇧GB-35.178.1.78-1426 | 29.024MB
-  - 🇺🇸US-34.209.89.132-3946 | 1.324MB
-  - ZA-41.203.4.34-0948 | 10.888MB
-  - 🇸🇬 SG-103.172.116.103-5712_484
-  - 🇸🇬 SG-103.172.116.103-5712_421
-  - ZA-129.232.129.156-0940 | 6.743MB
-  - RELAY-104.21.54.252-0180 | 37.994MB
-  - RELAY-172.67.143.192-0337 | 16.149MB_2
-  - 🇺🇸_US_美国_4_123_5
-  - 🇸🇬SG-103.172.116.103-3949 | 11.81MB
-  - RELAY-172.67.143.192-0241 | 18.017MB
-  - 🇸🇬SG-103.172.116.103-3978 | 6.386MB
-  - 🇺🇸_US_美国_5_129_8
-  - 🇺🇸_US_美国_3_291_10
-  - 🇺🇸_US_美国_3_212_9
-  - 🇺🇸_US_美国_4_328_11
-  - 🇸🇬SG-103.172.116.103-3971 | 4.668MB
-  - 🇸🇬SG-103.172.116.103-3968 | 4.293MB
-  - 🇸🇬SG-103.172.116.103-3966 | 3.476MB
-  - 🇸🇬SG-103.172.116.103-3959 | 2.814MB
-  - 🇸🇬SG-103.172.116.103-3962 | 2.739MB
-  - RELAY-104.21.54.252-0043 | 61.21MB
-  - 🇨🇳TW-118.165.42.201-0263 | 8.407MB
-  - 🇨🇳TW-111.250.141.24-0190 | 7.322MB
-  - 🇳🇱NL-103.214.68.57-1988 | 29.478MB
-  - 🇬🇧GB-35.176.178.206-0897 | 25.311MB
-  - 🇬🇧GB-35.176.178.206-0865 | 28.915MB
-  - 🇨🇳TW-114.37.113.36-0121 | 6.438MB
-  - 🇬🇧GB-35.176.178.206-0884 | 29.089MB
-  - 🇬🇧GB-35.176.178.206-0864 | 28.736MB
-  - 🇨🇳TW-36.226.143.152-0084 | 8.678MB
-  - 🇨🇳TW-114.37.139.180-0055 | 8.094MB
-  - 🇬🇧GB-13.41.102.95-2623 | 33.118MB
-  - 🇬🇧 GB-18.130.5.58-0862_411
-  - 🇬🇧 GB-18.130.5.58-0863_111
-  - RELAY-172.67.143.192-0337 | 16.149MB_89
-  - 🇺🇸_US_美国_4_123_90
-  - 🇺🇸_US_美国_9_106
-  - 🇺🇸_US_美国_5_129_87
-  - 🇺🇸_US_美国_5_158
-  - 🇺🇸_US_美国_3_291_85
-  - 🇺🇸_US_美国_1_145
-  - 🇺🇸_US_美国_3_212_86
-  - 🇺🇸_US_美国_12_125
-  - 🇺🇸 _US_美国 9_503
-  - 🇺🇸_US_美国_7_162
-  - 🇺🇸_US_美国_2_171
-  - 🇺🇸_US_美国_10_108
-  - 🇺🇸_US_美国_5_203
-  - 🇺🇸_US_美国_7_207
-  - 🇺🇸_US_美国_1_195
-  - 🇬🇧 英国+伦敦Amazon数据中心_283
-  - 🇺🇸_US_美国_3_172
-  - 🇺🇸_US_美国_1_232
-  - 🇺🇸_US_美国_2_238
-  - 🇺🇸_US_美国_2_244
-  - 🇺🇸_US_美国_4_240
-  - 🇺🇸_US_美国_4_247
-  - 🇮🇸 IS(AzadNet.t.me)
-  - 🇺🇸_US_美国_3_214
-  - 🇺🇸_US_美国_1_256
-  - 🇺🇸 美国 CloudFlare节点_275
-  - 🇺🇸_US_美国_7_273
-  - 🇮🇪 爱尔兰 都柏林Amazon数据中心 3
-  - 🇸🇬 SG-103.172.116.103-3691_296
-  - 🇸🇬 SG-103.172.116.103-5734_300
-  - 🇸🇬 SG-103.172.116.103-0993_316
-  - 🇸🇬 SG-103.172.116.103-5712_330
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_251
-  - 🇺🇸_US_美国_3_266
-  - 🇬🇧 GB-18.130.5.58-0862_298
-  - 🇬🇧 GB-18.130.5.58-0863_409
-  - 🇬🇧 GB-18.130.5.58-0862_413
-  - 🇺🇸 _US_美国_379
-  - 🇺🇸 _US_美国 4_383
-  - 🇺🇸 _US_美国 6_385
-  - 🇺🇸 _US_美国 7_386
-  - 🇺🇸 _US_美国 13_392
-  - 🇸🇬 SG-103.172.116.103-3691_405
-  - 🇸🇬 SG-103.172.116.103-5712_406
-  - 🇸🇬 SG-103.172.116.103-0984
-  - 🇸🇬 SG-103.172.116.103-8176
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇸🇬 SG-103.172.116.103-0993_449
-  - 🇸🇬 SG-103.172.116.103-8187
-  - 🇺🇸 _US_美国 10_389
-  - 18|🇯🇵 日本特殊|@ripaojiedian
-  - 18|🇬🇧 英国2|@ripaojiedian
-  - 19|英国2|@ripaojiedian
-  - 18|🇭🇰 香港KT2|@ripaojiedian
-  - 18|🇭🇰 香港3|@ripaojiedian
+  - 🇨🇦_CA_加拿大_1_104
+  - 🇫🇷_FR_法国_2_270
+  - 🇨🇦_CA_加拿大_2_262
+  - 🇱🇺_LU_卢森堡_2_268
+  - 🇱🇺_LU_卢森堡_1_265
+  - 🇫🇷FR-51.159.155.52-012
+  - 🇧🇷BR-78.111.102.232-006
+  - 🇱🇺_LU_卢森堡_1_296
+  - 🇨🇦CA-134.122.41.160-003
+  - 🇨🇦_CA_加拿大_1_315
+  - 🇨🇦_CA_加拿大_1_300
+  - 🇱🇺_LU_卢森堡_2_301
+  - 🇱🇺_LU_卢森堡_309
+  - 🇨🇳CN-223.113.130.26-165
+  - 🇫🇷 _FR_法国 2
+  - 🇨🇦 _CA_加拿大 2
+  - 🇨🇦 _CA_加拿大 3
+  - 🇫🇷 _FR_法国 4
+  - 🇨🇦 _CA_加拿大 6
+  - 🇱🇺 _LU_卢森堡 3
+  - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  - 🇱🇺 _LU_卢森堡
+  - 0,1,3,4,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_13
+  - 🇺🇸 美国3|@ripaojiedian
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1133,779 +342,235 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇯🇵JP-13.231.243.147-3944 | 14.811MB
-  - 🇬🇧GB-35.178.1.78-1426 | 29.024MB
-  - 🇺🇸US-34.209.89.132-3946 | 1.324MB
-  - ZA-41.203.4.34-0948 | 10.888MB
-  - 🇸🇬 SG-103.172.116.103-5712_484
-  - 🇸🇬 SG-103.172.116.103-5712_421
-  - ZA-129.232.129.156-0940 | 6.743MB
-  - RELAY-104.21.54.252-0180 | 37.994MB
-  - RELAY-172.67.143.192-0337 | 16.149MB_2
-  - 🇺🇸_US_美国_4_123_5
-  - 🇸🇬SG-103.172.116.103-3949 | 11.81MB
-  - RELAY-172.67.143.192-0241 | 18.017MB
-  - 🇸🇬SG-103.172.116.103-3978 | 6.386MB
-  - 🇺🇸_US_美国_5_129_8
-  - 🇺🇸_US_美国_3_291_10
-  - 🇺🇸_US_美国_3_212_9
-  - 🇺🇸_US_美国_4_328_11
-  - 🇸🇬SG-103.172.116.103-3971 | 4.668MB
-  - 🇸🇬SG-103.172.116.103-3968 | 4.293MB
-  - 🇸🇬SG-103.172.116.103-3966 | 3.476MB
-  - 🇸🇬SG-103.172.116.103-3959 | 2.814MB
-  - 🇸🇬SG-103.172.116.103-3962 | 2.739MB
-  - RELAY-104.21.54.252-0043 | 61.21MB
-  - 🇨🇳TW-118.165.42.201-0263 | 8.407MB
-  - 🇨🇳TW-111.250.141.24-0190 | 7.322MB
-  - 🇳🇱NL-103.214.68.57-1988 | 29.478MB
-  - 🇬🇧GB-35.176.178.206-0897 | 25.311MB
-  - 🇬🇧GB-35.176.178.206-0865 | 28.915MB
-  - 🇨🇳TW-114.37.113.36-0121 | 6.438MB
-  - 🇬🇧GB-35.176.178.206-0884 | 29.089MB
-  - 🇬🇧GB-35.176.178.206-0864 | 28.736MB
-  - 🇨🇳TW-36.226.143.152-0084 | 8.678MB
-  - 🇨🇳TW-114.37.139.180-0055 | 8.094MB
-  - 🇬🇧GB-13.41.102.95-2623 | 33.118MB
-  - 🇬🇧 GB-18.130.5.58-0862_411
-  - 🇬🇧 GB-18.130.5.58-0863_111
-  - RELAY-172.67.143.192-0337 | 16.149MB_89
-  - 🇺🇸_US_美国_4_123_90
-  - 🇺🇸_US_美国_9_106
-  - 🇺🇸_US_美国_5_129_87
-  - 🇺🇸_US_美国_5_158
-  - 🇺🇸_US_美国_3_291_85
-  - 🇺🇸_US_美国_1_145
-  - 🇺🇸_US_美国_3_212_86
-  - 🇺🇸_US_美国_12_125
-  - 🇺🇸 _US_美国 9_503
-  - 🇺🇸_US_美国_7_162
-  - 🇺🇸_US_美国_2_171
-  - 🇺🇸_US_美国_10_108
-  - 🇺🇸_US_美国_5_203
-  - 🇺🇸_US_美国_7_207
-  - 🇺🇸_US_美国_1_195
-  - 🇬🇧 英国+伦敦Amazon数据中心_283
-  - 🇺🇸_US_美国_3_172
-  - 🇺🇸_US_美国_1_232
-  - 🇺🇸_US_美国_2_238
-  - 🇺🇸_US_美国_2_244
-  - 🇺🇸_US_美国_4_240
-  - 🇺🇸_US_美国_4_247
-  - 🇮🇸 IS(AzadNet.t.me)
-  - 🇺🇸_US_美国_3_214
-  - 🇺🇸_US_美国_1_256
-  - 🇺🇸 美国 CloudFlare节点_275
-  - 🇺🇸_US_美国_7_273
-  - 🇮🇪 爱尔兰 都柏林Amazon数据中心 3
-  - 🇸🇬 SG-103.172.116.103-3691_296
-  - 🇸🇬 SG-103.172.116.103-5734_300
-  - 🇸🇬 SG-103.172.116.103-0993_316
-  - 🇸🇬 SG-103.172.116.103-5712_330
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_251
-  - 🇺🇸_US_美国_3_266
-  - 🇬🇧 GB-18.130.5.58-0862_298
-  - 🇬🇧 GB-18.130.5.58-0863_409
-  - 🇬🇧 GB-18.130.5.58-0862_413
-  - 🇺🇸 _US_美国_379
-  - 🇺🇸 _US_美国 4_383
-  - 🇺🇸 _US_美国 6_385
-  - 🇺🇸 _US_美国 7_386
-  - 🇺🇸 _US_美国 13_392
-  - 🇸🇬 SG-103.172.116.103-3691_405
-  - 🇸🇬 SG-103.172.116.103-5712_406
-  - 🇸🇬 SG-103.172.116.103-0984
-  - 🇸🇬 SG-103.172.116.103-8176
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇸🇬 SG-103.172.116.103-0993_449
-  - 🇸🇬 SG-103.172.116.103-8187
-  - 🇺🇸 _US_美国 10_389
-  - 18|🇯🇵 日本特殊|@ripaojiedian
-  - 18|🇬🇧 英国2|@ripaojiedian
-  - 19|英国2|@ripaojiedian
-  - 18|🇭🇰 香港KT2|@ripaojiedian
-  - 18|🇭🇰 香港3|@ripaojiedian
+  - 🇨🇦_CA_加拿大_1_104
+  - 🇫🇷_FR_法国_2_270
+  - 🇨🇦_CA_加拿大_2_262
+  - 🇱🇺_LU_卢森堡_2_268
+  - 🇱🇺_LU_卢森堡_1_265
+  - 🇫🇷FR-51.159.155.52-012
+  - 🇧🇷BR-78.111.102.232-006
+  - 🇱🇺_LU_卢森堡_1_296
+  - 🇨🇦CA-134.122.41.160-003
+  - 🇨🇦_CA_加拿大_1_315
+  - 🇨🇦_CA_加拿大_1_300
+  - 🇱🇺_LU_卢森堡_2_301
+  - 🇱🇺_LU_卢森堡_309
+  - 🇨🇳CN-223.113.130.26-165
+  - 🇫🇷 _FR_法国 2
+  - 🇨🇦 _CA_加拿大 2
+  - 🇨🇦 _CA_加拿大 3
+  - 🇫🇷 _FR_法国 4
+  - 🇨🇦 _CA_加拿大 6
+  - 🇱🇺 _LU_卢森堡 3
+  - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  - 🇱🇺 _LU_卢森堡
+  - 0,1,3,4,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_13
+  - 🇺🇸 美国3|@ripaojiedian
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇯🇵JP-13.231.243.147-3944 | 14.811MB
-  - 🇬🇧GB-35.178.1.78-1426 | 29.024MB
-  - 🇺🇸US-34.209.89.132-3946 | 1.324MB
-  - ZA-41.203.4.34-0948 | 10.888MB
-  - 🇸🇬 SG-103.172.116.103-5712_484
-  - 🇸🇬 SG-103.172.116.103-5712_421
-  - ZA-129.232.129.156-0940 | 6.743MB
-  - RELAY-104.21.54.252-0180 | 37.994MB
-  - RELAY-172.67.143.192-0337 | 16.149MB_2
-  - 🇺🇸_US_美国_4_123_5
-  - 🇸🇬SG-103.172.116.103-3949 | 11.81MB
-  - RELAY-172.67.143.192-0241 | 18.017MB
-  - 🇸🇬SG-103.172.116.103-3978 | 6.386MB
-  - 🇺🇸_US_美国_5_129_8
-  - 🇺🇸_US_美国_3_291_10
-  - 🇺🇸_US_美国_3_212_9
-  - 🇺🇸_US_美国_4_328_11
-  - 🇸🇬SG-103.172.116.103-3971 | 4.668MB
-  - 🇸🇬SG-103.172.116.103-3968 | 4.293MB
-  - 🇸🇬SG-103.172.116.103-3966 | 3.476MB
-  - 🇸🇬SG-103.172.116.103-3959 | 2.814MB
-  - 🇸🇬SG-103.172.116.103-3962 | 2.739MB
-  - RELAY-104.21.54.252-0043 | 61.21MB
-  - 🇨🇳TW-118.165.42.201-0263 | 8.407MB
-  - 🇨🇳TW-111.250.141.24-0190 | 7.322MB
-  - 🇳🇱NL-103.214.68.57-1988 | 29.478MB
-  - 🇬🇧GB-35.176.178.206-0897 | 25.311MB
-  - 🇬🇧GB-35.176.178.206-0865 | 28.915MB
-  - 🇨🇳TW-114.37.113.36-0121 | 6.438MB
-  - 🇬🇧GB-35.176.178.206-0884 | 29.089MB
-  - 🇬🇧GB-35.176.178.206-0864 | 28.736MB
-  - 🇨🇳TW-36.226.143.152-0084 | 8.678MB
-  - 🇨🇳TW-114.37.139.180-0055 | 8.094MB
-  - 🇬🇧GB-13.41.102.95-2623 | 33.118MB
-  - 🇬🇧 GB-18.130.5.58-0862_411
-  - 🇬🇧 GB-18.130.5.58-0863_111
-  - RELAY-172.67.143.192-0337 | 16.149MB_89
-  - 🇺🇸_US_美国_4_123_90
-  - 🇺🇸_US_美国_9_106
-  - 🇺🇸_US_美国_5_129_87
-  - 🇺🇸_US_美国_5_158
-  - 🇺🇸_US_美国_3_291_85
-  - 🇺🇸_US_美国_1_145
-  - 🇺🇸_US_美国_3_212_86
-  - 🇺🇸_US_美国_12_125
-  - 🇺🇸 _US_美国 9_503
-  - 🇺🇸_US_美国_7_162
-  - 🇺🇸_US_美国_2_171
-  - 🇺🇸_US_美国_10_108
-  - 🇺🇸_US_美国_5_203
-  - 🇺🇸_US_美国_7_207
-  - 🇺🇸_US_美国_1_195
-  - 🇬🇧 英国+伦敦Amazon数据中心_283
-  - 🇺🇸_US_美国_3_172
-  - 🇺🇸_US_美国_1_232
-  - 🇺🇸_US_美国_2_238
-  - 🇺🇸_US_美国_2_244
-  - 🇺🇸_US_美国_4_240
-  - 🇺🇸_US_美国_4_247
-  - 🇮🇸 IS(AzadNet.t.me)
-  - 🇺🇸_US_美国_3_214
-  - 🇺🇸_US_美国_1_256
-  - 🇺🇸 美国 CloudFlare节点_275
-  - 🇺🇸_US_美国_7_273
-  - 🇮🇪 爱尔兰 都柏林Amazon数据中心 3
-  - 🇸🇬 SG-103.172.116.103-3691_296
-  - 🇸🇬 SG-103.172.116.103-5734_300
-  - 🇸🇬 SG-103.172.116.103-0993_316
-  - 🇸🇬 SG-103.172.116.103-5712_330
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_251
-  - 🇺🇸_US_美国_3_266
-  - 🇬🇧 GB-18.130.5.58-0862_298
-  - 🇬🇧 GB-18.130.5.58-0863_409
-  - 🇬🇧 GB-18.130.5.58-0862_413
-  - 🇺🇸 _US_美国_379
-  - 🇺🇸 _US_美国 4_383
-  - 🇺🇸 _US_美国 6_385
-  - 🇺🇸 _US_美国 7_386
-  - 🇺🇸 _US_美国 13_392
-  - 🇸🇬 SG-103.172.116.103-3691_405
-  - 🇸🇬 SG-103.172.116.103-5712_406
-  - 🇸🇬 SG-103.172.116.103-0984
-  - 🇸🇬 SG-103.172.116.103-8176
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇸🇬 SG-103.172.116.103-0993_449
-  - 🇸🇬 SG-103.172.116.103-8187
-  - 🇺🇸 _US_美国 10_389
-  - 18|🇯🇵 日本特殊|@ripaojiedian
-  - 18|🇬🇧 英国2|@ripaojiedian
-  - 19|英国2|@ripaojiedian
-  - 18|🇭🇰 香港KT2|@ripaojiedian
-  - 18|🇭🇰 香港3|@ripaojiedian
+  - 🇨🇦_CA_加拿大_1_104
+  - 🇫🇷_FR_法国_2_270
+  - 🇨🇦_CA_加拿大_2_262
+  - 🇱🇺_LU_卢森堡_2_268
+  - 🇱🇺_LU_卢森堡_1_265
+  - 🇫🇷FR-51.159.155.52-012
+  - 🇧🇷BR-78.111.102.232-006
+  - 🇱🇺_LU_卢森堡_1_296
+  - 🇨🇦CA-134.122.41.160-003
+  - 🇨🇦_CA_加拿大_1_315
+  - 🇨🇦_CA_加拿大_1_300
+  - 🇱🇺_LU_卢森堡_2_301
+  - 🇱🇺_LU_卢森堡_309
+  - 🇨🇳CN-223.113.130.26-165
+  - 🇫🇷 _FR_法国 2
+  - 🇨🇦 _CA_加拿大 2
+  - 🇨🇦 _CA_加拿大 3
+  - 🇫🇷 _FR_法国 4
+  - 🇨🇦 _CA_加拿大 6
+  - 🇱🇺 _LU_卢森堡 3
+  - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  - 🇱🇺 _LU_卢森堡
+  - 0,1,3,4,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_13
+  - 🇺🇸 美国3|@ripaojiedian
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇯🇵JP-13.231.243.147-3944 | 14.811MB
-  - 🇬🇧GB-35.178.1.78-1426 | 29.024MB
-  - 🇺🇸US-34.209.89.132-3946 | 1.324MB
-  - ZA-41.203.4.34-0948 | 10.888MB
-  - 🇸🇬 SG-103.172.116.103-5712_484
-  - 🇸🇬 SG-103.172.116.103-5712_421
-  - ZA-129.232.129.156-0940 | 6.743MB
-  - RELAY-104.21.54.252-0180 | 37.994MB
-  - RELAY-172.67.143.192-0337 | 16.149MB_2
-  - 🇺🇸_US_美国_4_123_5
-  - 🇸🇬SG-103.172.116.103-3949 | 11.81MB
-  - RELAY-172.67.143.192-0241 | 18.017MB
-  - 🇸🇬SG-103.172.116.103-3978 | 6.386MB
-  - 🇺🇸_US_美国_5_129_8
-  - 🇺🇸_US_美国_3_291_10
-  - 🇺🇸_US_美国_3_212_9
-  - 🇺🇸_US_美国_4_328_11
-  - 🇸🇬SG-103.172.116.103-3971 | 4.668MB
-  - 🇸🇬SG-103.172.116.103-3968 | 4.293MB
-  - 🇸🇬SG-103.172.116.103-3966 | 3.476MB
-  - 🇸🇬SG-103.172.116.103-3959 | 2.814MB
-  - 🇸🇬SG-103.172.116.103-3962 | 2.739MB
-  - RELAY-104.21.54.252-0043 | 61.21MB
-  - 🇨🇳TW-118.165.42.201-0263 | 8.407MB
-  - 🇨🇳TW-111.250.141.24-0190 | 7.322MB
-  - 🇳🇱NL-103.214.68.57-1988 | 29.478MB
-  - 🇬🇧GB-35.176.178.206-0897 | 25.311MB
-  - 🇬🇧GB-35.176.178.206-0865 | 28.915MB
-  - 🇨🇳TW-114.37.113.36-0121 | 6.438MB
-  - 🇬🇧GB-35.176.178.206-0884 | 29.089MB
-  - 🇬🇧GB-35.176.178.206-0864 | 28.736MB
-  - 🇨🇳TW-36.226.143.152-0084 | 8.678MB
-  - 🇨🇳TW-114.37.139.180-0055 | 8.094MB
-  - 🇬🇧GB-13.41.102.95-2623 | 33.118MB
-  - 🇬🇧 GB-18.130.5.58-0862_411
-  - 🇬🇧 GB-18.130.5.58-0863_111
-  - RELAY-172.67.143.192-0337 | 16.149MB_89
-  - 🇺🇸_US_美国_4_123_90
-  - 🇺🇸_US_美国_9_106
-  - 🇺🇸_US_美国_5_129_87
-  - 🇺🇸_US_美国_5_158
-  - 🇺🇸_US_美国_3_291_85
-  - 🇺🇸_US_美国_1_145
-  - 🇺🇸_US_美国_3_212_86
-  - 🇺🇸_US_美国_12_125
-  - 🇺🇸 _US_美国 9_503
-  - 🇺🇸_US_美国_7_162
-  - 🇺🇸_US_美国_2_171
-  - 🇺🇸_US_美国_10_108
-  - 🇺🇸_US_美国_5_203
-  - 🇺🇸_US_美国_7_207
-  - 🇺🇸_US_美国_1_195
-  - 🇬🇧 英国+伦敦Amazon数据中心_283
-  - 🇺🇸_US_美国_3_172
-  - 🇺🇸_US_美国_1_232
-  - 🇺🇸_US_美国_2_238
-  - 🇺🇸_US_美国_2_244
-  - 🇺🇸_US_美国_4_240
-  - 🇺🇸_US_美国_4_247
-  - 🇮🇸 IS(AzadNet.t.me)
-  - 🇺🇸_US_美国_3_214
-  - 🇺🇸_US_美国_1_256
-  - 🇺🇸 美国 CloudFlare节点_275
-  - 🇺🇸_US_美国_7_273
-  - 🇮🇪 爱尔兰 都柏林Amazon数据中心 3
-  - 🇸🇬 SG-103.172.116.103-3691_296
-  - 🇸🇬 SG-103.172.116.103-5734_300
-  - 🇸🇬 SG-103.172.116.103-0993_316
-  - 🇸🇬 SG-103.172.116.103-5712_330
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_251
-  - 🇺🇸_US_美国_3_266
-  - 🇬🇧 GB-18.130.5.58-0862_298
-  - 🇬🇧 GB-18.130.5.58-0863_409
-  - 🇬🇧 GB-18.130.5.58-0862_413
-  - 🇺🇸 _US_美国_379
-  - 🇺🇸 _US_美国 4_383
-  - 🇺🇸 _US_美国 6_385
-  - 🇺🇸 _US_美国 7_386
-  - 🇺🇸 _US_美国 13_392
-  - 🇸🇬 SG-103.172.116.103-3691_405
-  - 🇸🇬 SG-103.172.116.103-5712_406
-  - 🇸🇬 SG-103.172.116.103-0984
-  - 🇸🇬 SG-103.172.116.103-8176
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇸🇬 SG-103.172.116.103-0993_449
-  - 🇸🇬 SG-103.172.116.103-8187
-  - 🇺🇸 _US_美国 10_389
-  - 18|🇯🇵 日本特殊|@ripaojiedian
-  - 18|🇬🇧 英国2|@ripaojiedian
-  - 19|英国2|@ripaojiedian
-  - 18|🇭🇰 香港KT2|@ripaojiedian
-  - 18|🇭🇰 香港3|@ripaojiedian
+  - 🇨🇦_CA_加拿大_1_104
+  - 🇫🇷_FR_法国_2_270
+  - 🇨🇦_CA_加拿大_2_262
+  - 🇱🇺_LU_卢森堡_2_268
+  - 🇱🇺_LU_卢森堡_1_265
+  - 🇫🇷FR-51.159.155.52-012
+  - 🇧🇷BR-78.111.102.232-006
+  - 🇱🇺_LU_卢森堡_1_296
+  - 🇨🇦CA-134.122.41.160-003
+  - 🇨🇦_CA_加拿大_1_315
+  - 🇨🇦_CA_加拿大_1_300
+  - 🇱🇺_LU_卢森堡_2_301
+  - 🇱🇺_LU_卢森堡_309
+  - 🇨🇳CN-223.113.130.26-165
+  - 🇫🇷 _FR_法国 2
+  - 🇨🇦 _CA_加拿大 2
+  - 🇨🇦 _CA_加拿大 3
+  - 🇫🇷 _FR_法国 4
+  - 🇨🇦 _CA_加拿大 6
+  - 🇱🇺 _LU_卢森堡 3
+  - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  - 🇱🇺 _LU_卢森堡
+  - 0,1,3,4,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_13
+  - 🇺🇸 美国3|@ripaojiedian
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇯🇵JP-13.231.243.147-3944 | 14.811MB
-  - 🇬🇧GB-35.178.1.78-1426 | 29.024MB
-  - 🇺🇸US-34.209.89.132-3946 | 1.324MB
-  - ZA-41.203.4.34-0948 | 10.888MB
-  - 🇸🇬 SG-103.172.116.103-5712_484
-  - 🇸🇬 SG-103.172.116.103-5712_421
-  - ZA-129.232.129.156-0940 | 6.743MB
-  - RELAY-104.21.54.252-0180 | 37.994MB
-  - RELAY-172.67.143.192-0337 | 16.149MB_2
-  - 🇺🇸_US_美国_4_123_5
-  - 🇸🇬SG-103.172.116.103-3949 | 11.81MB
-  - RELAY-172.67.143.192-0241 | 18.017MB
-  - 🇸🇬SG-103.172.116.103-3978 | 6.386MB
-  - 🇺🇸_US_美国_5_129_8
-  - 🇺🇸_US_美国_3_291_10
-  - 🇺🇸_US_美国_3_212_9
-  - 🇺🇸_US_美国_4_328_11
-  - 🇸🇬SG-103.172.116.103-3971 | 4.668MB
-  - 🇸🇬SG-103.172.116.103-3968 | 4.293MB
-  - 🇸🇬SG-103.172.116.103-3966 | 3.476MB
-  - 🇸🇬SG-103.172.116.103-3959 | 2.814MB
-  - 🇸🇬SG-103.172.116.103-3962 | 2.739MB
-  - RELAY-104.21.54.252-0043 | 61.21MB
-  - 🇨🇳TW-118.165.42.201-0263 | 8.407MB
-  - 🇨🇳TW-111.250.141.24-0190 | 7.322MB
-  - 🇳🇱NL-103.214.68.57-1988 | 29.478MB
-  - 🇬🇧GB-35.176.178.206-0897 | 25.311MB
-  - 🇬🇧GB-35.176.178.206-0865 | 28.915MB
-  - 🇨🇳TW-114.37.113.36-0121 | 6.438MB
-  - 🇬🇧GB-35.176.178.206-0884 | 29.089MB
-  - 🇬🇧GB-35.176.178.206-0864 | 28.736MB
-  - 🇨🇳TW-36.226.143.152-0084 | 8.678MB
-  - 🇨🇳TW-114.37.139.180-0055 | 8.094MB
-  - 🇬🇧GB-13.41.102.95-2623 | 33.118MB
-  - 🇬🇧 GB-18.130.5.58-0862_411
-  - 🇬🇧 GB-18.130.5.58-0863_111
-  - RELAY-172.67.143.192-0337 | 16.149MB_89
-  - 🇺🇸_US_美国_4_123_90
-  - 🇺🇸_US_美国_9_106
-  - 🇺🇸_US_美国_5_129_87
-  - 🇺🇸_US_美国_5_158
-  - 🇺🇸_US_美国_3_291_85
-  - 🇺🇸_US_美国_1_145
-  - 🇺🇸_US_美国_3_212_86
-  - 🇺🇸_US_美国_12_125
-  - 🇺🇸 _US_美国 9_503
-  - 🇺🇸_US_美国_7_162
-  - 🇺🇸_US_美国_2_171
-  - 🇺🇸_US_美国_10_108
-  - 🇺🇸_US_美国_5_203
-  - 🇺🇸_US_美国_7_207
-  - 🇺🇸_US_美国_1_195
-  - 🇬🇧 英国+伦敦Amazon数据中心_283
-  - 🇺🇸_US_美国_3_172
-  - 🇺🇸_US_美国_1_232
-  - 🇺🇸_US_美国_2_238
-  - 🇺🇸_US_美国_2_244
-  - 🇺🇸_US_美国_4_240
-  - 🇺🇸_US_美国_4_247
-  - 🇮🇸 IS(AzadNet.t.me)
-  - 🇺🇸_US_美国_3_214
-  - 🇺🇸_US_美国_1_256
-  - 🇺🇸 美国 CloudFlare节点_275
-  - 🇺🇸_US_美国_7_273
-  - 🇮🇪 爱尔兰 都柏林Amazon数据中心 3
-  - 🇸🇬 SG-103.172.116.103-3691_296
-  - 🇸🇬 SG-103.172.116.103-5734_300
-  - 🇸🇬 SG-103.172.116.103-0993_316
-  - 🇸🇬 SG-103.172.116.103-5712_330
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_251
-  - 🇺🇸_US_美国_3_266
-  - 🇬🇧 GB-18.130.5.58-0862_298
-  - 🇬🇧 GB-18.130.5.58-0863_409
-  - 🇬🇧 GB-18.130.5.58-0862_413
-  - 🇺🇸 _US_美国_379
-  - 🇺🇸 _US_美国 4_383
-  - 🇺🇸 _US_美国 6_385
-  - 🇺🇸 _US_美国 7_386
-  - 🇺🇸 _US_美国 13_392
-  - 🇸🇬 SG-103.172.116.103-3691_405
-  - 🇸🇬 SG-103.172.116.103-5712_406
-  - 🇸🇬 SG-103.172.116.103-0984
-  - 🇸🇬 SG-103.172.116.103-8176
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇸🇬 SG-103.172.116.103-0993_449
-  - 🇸🇬 SG-103.172.116.103-8187
-  - 🇺🇸 _US_美国 10_389
-  - 18|🇯🇵 日本特殊|@ripaojiedian
-  - 18|🇬🇧 英国2|@ripaojiedian
-  - 19|英国2|@ripaojiedian
-  - 18|🇭🇰 香港KT2|@ripaojiedian
-  - 18|🇭🇰 香港3|@ripaojiedian
+  - 🇨🇦_CA_加拿大_1_104
+  - 🇫🇷_FR_法国_2_270
+  - 🇨🇦_CA_加拿大_2_262
+  - 🇱🇺_LU_卢森堡_2_268
+  - 🇱🇺_LU_卢森堡_1_265
+  - 🇫🇷FR-51.159.155.52-012
+  - 🇧🇷BR-78.111.102.232-006
+  - 🇱🇺_LU_卢森堡_1_296
+  - 🇨🇦CA-134.122.41.160-003
+  - 🇨🇦_CA_加拿大_1_315
+  - 🇨🇦_CA_加拿大_1_300
+  - 🇱🇺_LU_卢森堡_2_301
+  - 🇱🇺_LU_卢森堡_309
+  - 🇨🇳CN-223.113.130.26-165
+  - 🇫🇷 _FR_法国 2
+  - 🇨🇦 _CA_加拿大 2
+  - 🇨🇦 _CA_加拿大 3
+  - 🇫🇷 _FR_法国 4
+  - 🇨🇦 _CA_加拿大 6
+  - 🇱🇺 _LU_卢森堡 3
+  - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  - 🇱🇺 _LU_卢森堡
+  - 0,1,3,4,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_13
+  - 🇺🇸 美国3|@ripaojiedian
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
   - 🚀 节点选择
   - ♻️ 自动选择
-  - 🇯🇵JP-13.231.243.147-3944 | 14.811MB
-  - 🇬🇧GB-35.178.1.78-1426 | 29.024MB
-  - 🇺🇸US-34.209.89.132-3946 | 1.324MB
-  - ZA-41.203.4.34-0948 | 10.888MB
-  - 🇸🇬 SG-103.172.116.103-5712_484
-  - 🇸🇬 SG-103.172.116.103-5712_421
-  - ZA-129.232.129.156-0940 | 6.743MB
-  - RELAY-104.21.54.252-0180 | 37.994MB
-  - RELAY-172.67.143.192-0337 | 16.149MB_2
-  - 🇺🇸_US_美国_4_123_5
-  - 🇸🇬SG-103.172.116.103-3949 | 11.81MB
-  - RELAY-172.67.143.192-0241 | 18.017MB
-  - 🇸🇬SG-103.172.116.103-3978 | 6.386MB
-  - 🇺🇸_US_美国_5_129_8
-  - 🇺🇸_US_美国_3_291_10
-  - 🇺🇸_US_美国_3_212_9
-  - 🇺🇸_US_美国_4_328_11
-  - 🇸🇬SG-103.172.116.103-3971 | 4.668MB
-  - 🇸🇬SG-103.172.116.103-3968 | 4.293MB
-  - 🇸🇬SG-103.172.116.103-3966 | 3.476MB
-  - 🇸🇬SG-103.172.116.103-3959 | 2.814MB
-  - 🇸🇬SG-103.172.116.103-3962 | 2.739MB
-  - RELAY-104.21.54.252-0043 | 61.21MB
-  - 🇨🇳TW-118.165.42.201-0263 | 8.407MB
-  - 🇨🇳TW-111.250.141.24-0190 | 7.322MB
-  - 🇳🇱NL-103.214.68.57-1988 | 29.478MB
-  - 🇬🇧GB-35.176.178.206-0897 | 25.311MB
-  - 🇬🇧GB-35.176.178.206-0865 | 28.915MB
-  - 🇨🇳TW-114.37.113.36-0121 | 6.438MB
-  - 🇬🇧GB-35.176.178.206-0884 | 29.089MB
-  - 🇬🇧GB-35.176.178.206-0864 | 28.736MB
-  - 🇨🇳TW-36.226.143.152-0084 | 8.678MB
-  - 🇨🇳TW-114.37.139.180-0055 | 8.094MB
-  - 🇬🇧GB-13.41.102.95-2623 | 33.118MB
-  - 🇬🇧 GB-18.130.5.58-0862_411
-  - 🇬🇧 GB-18.130.5.58-0863_111
-  - RELAY-172.67.143.192-0337 | 16.149MB_89
-  - 🇺🇸_US_美国_4_123_90
-  - 🇺🇸_US_美国_9_106
-  - 🇺🇸_US_美国_5_129_87
-  - 🇺🇸_US_美国_5_158
-  - 🇺🇸_US_美国_3_291_85
-  - 🇺🇸_US_美国_1_145
-  - 🇺🇸_US_美国_3_212_86
-  - 🇺🇸_US_美国_12_125
-  - 🇺🇸 _US_美国 9_503
-  - 🇺🇸_US_美国_7_162
-  - 🇺🇸_US_美国_2_171
-  - 🇺🇸_US_美国_10_108
-  - 🇺🇸_US_美国_5_203
-  - 🇺🇸_US_美国_7_207
-  - 🇺🇸_US_美国_1_195
-  - 🇬🇧 英国+伦敦Amazon数据中心_283
-  - 🇺🇸_US_美国_3_172
-  - 🇺🇸_US_美国_1_232
-  - 🇺🇸_US_美国_2_238
-  - 🇺🇸_US_美国_2_244
-  - 🇺🇸_US_美国_4_240
-  - 🇺🇸_US_美国_4_247
-  - 🇮🇸 IS(AzadNet.t.me)
-  - 🇺🇸_US_美国_3_214
-  - 🇺🇸_US_美国_1_256
-  - 🇺🇸 美国 CloudFlare节点_275
-  - 🇺🇸_US_美国_7_273
-  - 🇮🇪 爱尔兰 都柏林Amazon数据中心 3
-  - 🇸🇬 SG-103.172.116.103-3691_296
-  - 🇸🇬 SG-103.172.116.103-5734_300
-  - 🇸🇬 SG-103.172.116.103-0993_316
-  - 🇸🇬 SG-103.172.116.103-5712_330
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_251
-  - 🇺🇸_US_美国_3_266
-  - 🇬🇧 GB-18.130.5.58-0862_298
-  - 🇬🇧 GB-18.130.5.58-0863_409
-  - 🇬🇧 GB-18.130.5.58-0862_413
-  - 🇺🇸 _US_美国_379
-  - 🇺🇸 _US_美国 4_383
-  - 🇺🇸 _US_美国 6_385
-  - 🇺🇸 _US_美国 7_386
-  - 🇺🇸 _US_美国 13_392
-  - 🇸🇬 SG-103.172.116.103-3691_405
-  - 🇸🇬 SG-103.172.116.103-5712_406
-  - 🇸🇬 SG-103.172.116.103-0984
-  - 🇸🇬 SG-103.172.116.103-8176
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇸🇬 SG-103.172.116.103-0993_449
-  - 🇸🇬 SG-103.172.116.103-8187
-  - 🇺🇸 _US_美国 10_389
-  - 18|🇯🇵 日本特殊|@ripaojiedian
-  - 18|🇬🇧 英国2|@ripaojiedian
-  - 19|英国2|@ripaojiedian
-  - 18|🇭🇰 香港KT2|@ripaojiedian
-  - 18|🇭🇰 香港3|@ripaojiedian
+  - 🇨🇦_CA_加拿大_1_104
+  - 🇫🇷_FR_法国_2_270
+  - 🇨🇦_CA_加拿大_2_262
+  - 🇱🇺_LU_卢森堡_2_268
+  - 🇱🇺_LU_卢森堡_1_265
+  - 🇫🇷FR-51.159.155.52-012
+  - 🇧🇷BR-78.111.102.232-006
+  - 🇱🇺_LU_卢森堡_1_296
+  - 🇨🇦CA-134.122.41.160-003
+  - 🇨🇦_CA_加拿大_1_315
+  - 🇨🇦_CA_加拿大_1_300
+  - 🇱🇺_LU_卢森堡_2_301
+  - 🇱🇺_LU_卢森堡_309
+  - 🇨🇳CN-223.113.130.26-165
+  - 🇫🇷 _FR_法国 2
+  - 🇨🇦 _CA_加拿大 2
+  - 🇨🇦 _CA_加拿大 3
+  - 🇫🇷 _FR_法国 4
+  - 🇨🇦 _CA_加拿大 6
+  - 🇱🇺 _LU_卢森堡 3
+  - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  - 🇱🇺 _LU_卢森堡
+  - 0,1,3,4,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_13
+  - 🇺🇸 美国3|@ripaojiedian
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
-  - 🇯🇵JP-13.231.243.147-3944 | 14.811MB
-  - 🇬🇧GB-35.178.1.78-1426 | 29.024MB
-  - 🇺🇸US-34.209.89.132-3946 | 1.324MB
-  - ZA-41.203.4.34-0948 | 10.888MB
-  - 🇸🇬 SG-103.172.116.103-5712_484
-  - 🇸🇬 SG-103.172.116.103-5712_421
-  - ZA-129.232.129.156-0940 | 6.743MB
-  - RELAY-104.21.54.252-0180 | 37.994MB
-  - RELAY-172.67.143.192-0337 | 16.149MB_2
-  - 🇺🇸_US_美国_4_123_5
-  - 🇸🇬SG-103.172.116.103-3949 | 11.81MB
-  - RELAY-172.67.143.192-0241 | 18.017MB
-  - 🇸🇬SG-103.172.116.103-3978 | 6.386MB
-  - 🇺🇸_US_美国_5_129_8
-  - 🇺🇸_US_美国_3_291_10
-  - 🇺🇸_US_美国_3_212_9
-  - 🇺🇸_US_美国_4_328_11
-  - 🇸🇬SG-103.172.116.103-3971 | 4.668MB
-  - 🇸🇬SG-103.172.116.103-3968 | 4.293MB
-  - 🇸🇬SG-103.172.116.103-3966 | 3.476MB
-  - 🇸🇬SG-103.172.116.103-3959 | 2.814MB
-  - 🇸🇬SG-103.172.116.103-3962 | 2.739MB
-  - RELAY-104.21.54.252-0043 | 61.21MB
-  - 🇨🇳TW-118.165.42.201-0263 | 8.407MB
-  - 🇨🇳TW-111.250.141.24-0190 | 7.322MB
-  - 🇳🇱NL-103.214.68.57-1988 | 29.478MB
-  - 🇬🇧GB-35.176.178.206-0897 | 25.311MB
-  - 🇬🇧GB-35.176.178.206-0865 | 28.915MB
-  - 🇨🇳TW-114.37.113.36-0121 | 6.438MB
-  - 🇬🇧GB-35.176.178.206-0884 | 29.089MB
-  - 🇬🇧GB-35.176.178.206-0864 | 28.736MB
-  - 🇨🇳TW-36.226.143.152-0084 | 8.678MB
-  - 🇨🇳TW-114.37.139.180-0055 | 8.094MB
-  - 🇬🇧GB-13.41.102.95-2623 | 33.118MB
-  - 🇬🇧 GB-18.130.5.58-0862_411
-  - 🇬🇧 GB-18.130.5.58-0863_111
-  - RELAY-172.67.143.192-0337 | 16.149MB_89
-  - 🇺🇸_US_美国_4_123_90
-  - 🇺🇸_US_美国_9_106
-  - 🇺🇸_US_美国_5_129_87
-  - 🇺🇸_US_美国_5_158
-  - 🇺🇸_US_美国_3_291_85
-  - 🇺🇸_US_美国_1_145
-  - 🇺🇸_US_美国_3_212_86
-  - 🇺🇸_US_美国_12_125
-  - 🇺🇸 _US_美国 9_503
-  - 🇺🇸_US_美国_7_162
-  - 🇺🇸_US_美国_2_171
-  - 🇺🇸_US_美国_10_108
-  - 🇺🇸_US_美国_5_203
-  - 🇺🇸_US_美国_7_207
-  - 🇺🇸_US_美国_1_195
-  - 🇬🇧 英国+伦敦Amazon数据中心_283
-  - 🇺🇸_US_美国_3_172
-  - 🇺🇸_US_美国_1_232
-  - 🇺🇸_US_美国_2_238
-  - 🇺🇸_US_美国_2_244
-  - 🇺🇸_US_美国_4_240
-  - 🇺🇸_US_美国_4_247
-  - 🇮🇸 IS(AzadNet.t.me)
-  - 🇺🇸_US_美国_3_214
-  - 🇺🇸_US_美国_1_256
-  - 🇺🇸 美国 CloudFlare节点_275
-  - 🇺🇸_US_美国_7_273
-  - 🇮🇪 爱尔兰 都柏林Amazon数据中心 3
-  - 🇸🇬 SG-103.172.116.103-3691_296
-  - 🇸🇬 SG-103.172.116.103-5734_300
-  - 🇸🇬 SG-103.172.116.103-0993_316
-  - 🇸🇬 SG-103.172.116.103-5712_330
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_251
-  - 🇺🇸_US_美国_3_266
-  - 🇬🇧 GB-18.130.5.58-0862_298
-  - 🇬🇧 GB-18.130.5.58-0863_409
-  - 🇬🇧 GB-18.130.5.58-0862_413
-  - 🇺🇸 _US_美国_379
-  - 🇺🇸 _US_美国 4_383
-  - 🇺🇸 _US_美国 6_385
-  - 🇺🇸 _US_美国 7_386
-  - 🇺🇸 _US_美国 13_392
-  - 🇸🇬 SG-103.172.116.103-3691_405
-  - 🇸🇬 SG-103.172.116.103-5712_406
-  - 🇸🇬 SG-103.172.116.103-0984
-  - 🇸🇬 SG-103.172.116.103-8176
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇸🇬 SG-103.172.116.103-0993_449
-  - 🇸🇬 SG-103.172.116.103-8187
-  - 🇺🇸 _US_美国 10_389
-  - 18|🇯🇵 日本特殊|@ripaojiedian
-  - 18|🇬🇧 英国2|@ripaojiedian
-  - 19|英国2|@ripaojiedian
-  - 18|🇭🇰 香港KT2|@ripaojiedian
-  - 18|🇭🇰 香港3|@ripaojiedian
+  - 🇨🇦_CA_加拿大_1_104
+  - 🇫🇷_FR_法国_2_270
+  - 🇨🇦_CA_加拿大_2_262
+  - 🇱🇺_LU_卢森堡_2_268
+  - 🇱🇺_LU_卢森堡_1_265
+  - 🇫🇷FR-51.159.155.52-012
+  - 🇧🇷BR-78.111.102.232-006
+  - 🇱🇺_LU_卢森堡_1_296
+  - 🇨🇦CA-134.122.41.160-003
+  - 🇨🇦_CA_加拿大_1_315
+  - 🇨🇦_CA_加拿大_1_300
+  - 🇱🇺_LU_卢森堡_2_301
+  - 🇱🇺_LU_卢森堡_309
+  - 🇨🇳CN-223.113.130.26-165
+  - 🇫🇷 _FR_法国 2
+  - 🇨🇦 _CA_加拿大 2
+  - 🇨🇦 _CA_加拿大 3
+  - 🇫🇷 _FR_法国 4
+  - 🇨🇦 _CA_加拿大 6
+  - 🇱🇺 _LU_卢森堡 3
+  - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  - 🇱🇺 _LU_卢森堡
+  - 0,1,3,4,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_13
+  - 🇺🇸 美国3|@ripaojiedian
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
-  - 🇯🇵JP-13.231.243.147-3944 | 14.811MB
-  - 🇬🇧GB-35.178.1.78-1426 | 29.024MB
-  - 🇺🇸US-34.209.89.132-3946 | 1.324MB
-  - ZA-41.203.4.34-0948 | 10.888MB
-  - 🇸🇬 SG-103.172.116.103-5712_484
-  - 🇸🇬 SG-103.172.116.103-5712_421
-  - ZA-129.232.129.156-0940 | 6.743MB
-  - RELAY-104.21.54.252-0180 | 37.994MB
-  - RELAY-172.67.143.192-0337 | 16.149MB_2
-  - 🇺🇸_US_美国_4_123_5
-  - 🇸🇬SG-103.172.116.103-3949 | 11.81MB
-  - RELAY-172.67.143.192-0241 | 18.017MB
-  - 🇸🇬SG-103.172.116.103-3978 | 6.386MB
-  - 🇺🇸_US_美国_5_129_8
-  - 🇺🇸_US_美国_3_291_10
-  - 🇺🇸_US_美国_3_212_9
-  - 🇺🇸_US_美国_4_328_11
-  - 🇸🇬SG-103.172.116.103-3971 | 4.668MB
-  - 🇸🇬SG-103.172.116.103-3968 | 4.293MB
-  - 🇸🇬SG-103.172.116.103-3966 | 3.476MB
-  - 🇸🇬SG-103.172.116.103-3959 | 2.814MB
-  - 🇸🇬SG-103.172.116.103-3962 | 2.739MB
-  - RELAY-104.21.54.252-0043 | 61.21MB
-  - 🇨🇳TW-118.165.42.201-0263 | 8.407MB
-  - 🇨🇳TW-111.250.141.24-0190 | 7.322MB
-  - 🇳🇱NL-103.214.68.57-1988 | 29.478MB
-  - 🇬🇧GB-35.176.178.206-0897 | 25.311MB
-  - 🇬🇧GB-35.176.178.206-0865 | 28.915MB
-  - 🇨🇳TW-114.37.113.36-0121 | 6.438MB
-  - 🇬🇧GB-35.176.178.206-0884 | 29.089MB
-  - 🇬🇧GB-35.176.178.206-0864 | 28.736MB
-  - 🇨🇳TW-36.226.143.152-0084 | 8.678MB
-  - 🇨🇳TW-114.37.139.180-0055 | 8.094MB
-  - 🇬🇧GB-13.41.102.95-2623 | 33.118MB
-  - 🇬🇧 GB-18.130.5.58-0862_411
-  - 🇬🇧 GB-18.130.5.58-0863_111
-  - RELAY-172.67.143.192-0337 | 16.149MB_89
-  - 🇺🇸_US_美国_4_123_90
-  - 🇺🇸_US_美国_9_106
-  - 🇺🇸_US_美国_5_129_87
-  - 🇺🇸_US_美国_5_158
-  - 🇺🇸_US_美国_3_291_85
-  - 🇺🇸_US_美国_1_145
-  - 🇺🇸_US_美国_3_212_86
-  - 🇺🇸_US_美国_12_125
-  - 🇺🇸 _US_美国 9_503
-  - 🇺🇸_US_美国_7_162
-  - 🇺🇸_US_美国_2_171
-  - 🇺🇸_US_美国_10_108
-  - 🇺🇸_US_美国_5_203
-  - 🇺🇸_US_美国_7_207
-  - 🇺🇸_US_美国_1_195
-  - 🇬🇧 英国+伦敦Amazon数据中心_283
-  - 🇺🇸_US_美国_3_172
-  - 🇺🇸_US_美国_1_232
-  - 🇺🇸_US_美国_2_238
-  - 🇺🇸_US_美国_2_244
-  - 🇺🇸_US_美国_4_240
-  - 🇺🇸_US_美国_4_247
-  - 🇮🇸 IS(AzadNet.t.me)
-  - 🇺🇸_US_美国_3_214
-  - 🇺🇸_US_美国_1_256
-  - 🇺🇸 美国 CloudFlare节点_275
-  - 🇺🇸_US_美国_7_273
-  - 🇮🇪 爱尔兰 都柏林Amazon数据中心 3
-  - 🇸🇬 SG-103.172.116.103-3691_296
-  - 🇸🇬 SG-103.172.116.103-5734_300
-  - 🇸🇬 SG-103.172.116.103-0993_316
-  - 🇸🇬 SG-103.172.116.103-5712_330
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_251
-  - 🇺🇸_US_美国_3_266
-  - 🇬🇧 GB-18.130.5.58-0862_298
-  - 🇬🇧 GB-18.130.5.58-0863_409
-  - 🇬🇧 GB-18.130.5.58-0862_413
-  - 🇺🇸 _US_美国_379
-  - 🇺🇸 _US_美国 4_383
-  - 🇺🇸 _US_美国 6_385
-  - 🇺🇸 _US_美国 7_386
-  - 🇺🇸 _US_美国 13_392
-  - 🇸🇬 SG-103.172.116.103-3691_405
-  - 🇸🇬 SG-103.172.116.103-5712_406
-  - 🇸🇬 SG-103.172.116.103-0984
-  - 🇸🇬 SG-103.172.116.103-8176
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇸🇬 SG-103.172.116.103-0993_449
-  - 🇸🇬 SG-103.172.116.103-8187
-  - 🇺🇸 _US_美国 10_389
-  - 18|🇯🇵 日本特殊|@ripaojiedian
-  - 18|🇬🇧 英国2|@ripaojiedian
-  - 19|英国2|@ripaojiedian
-  - 18|🇭🇰 香港KT2|@ripaojiedian
-  - 18|🇭🇰 香港3|@ripaojiedian
+  - 🇨🇦_CA_加拿大_1_104
+  - 🇫🇷_FR_法国_2_270
+  - 🇨🇦_CA_加拿大_2_262
+  - 🇱🇺_LU_卢森堡_2_268
+  - 🇱🇺_LU_卢森堡_1_265
+  - 🇫🇷FR-51.159.155.52-012
+  - 🇧🇷BR-78.111.102.232-006
+  - 🇱🇺_LU_卢森堡_1_296
+  - 🇨🇦CA-134.122.41.160-003
+  - 🇨🇦_CA_加拿大_1_315
+  - 🇨🇦_CA_加拿大_1_300
+  - 🇱🇺_LU_卢森堡_2_301
+  - 🇱🇺_LU_卢森堡_309
+  - 🇨🇳CN-223.113.130.26-165
+  - 🇫🇷 _FR_法国 2
+  - 🇨🇦 _CA_加拿大 2
+  - 🇨🇦 _CA_加拿大 3
+  - 🇫🇷 _FR_法国 4
+  - 🇨🇦 _CA_加拿大 6
+  - 🇱🇺 _LU_卢森堡 3
+  - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  - 🇱🇺 _LU_卢森堡
+  - 0,1,3,4,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_13
+  - 🇺🇸 美国3|@ripaojiedian
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇯🇵JP-13.231.243.147-3944 | 14.811MB
-  - 🇬🇧GB-35.178.1.78-1426 | 29.024MB
-  - 🇺🇸US-34.209.89.132-3946 | 1.324MB
-  - ZA-41.203.4.34-0948 | 10.888MB
-  - 🇸🇬 SG-103.172.116.103-5712_484
-  - 🇸🇬 SG-103.172.116.103-5712_421
-  - ZA-129.232.129.156-0940 | 6.743MB
-  - RELAY-104.21.54.252-0180 | 37.994MB
-  - RELAY-172.67.143.192-0337 | 16.149MB_2
-  - 🇺🇸_US_美国_4_123_5
-  - 🇸🇬SG-103.172.116.103-3949 | 11.81MB
-  - RELAY-172.67.143.192-0241 | 18.017MB
-  - 🇸🇬SG-103.172.116.103-3978 | 6.386MB
-  - 🇺🇸_US_美国_5_129_8
-  - 🇺🇸_US_美国_3_291_10
-  - 🇺🇸_US_美国_3_212_9
-  - 🇺🇸_US_美国_4_328_11
-  - 🇸🇬SG-103.172.116.103-3971 | 4.668MB
-  - 🇸🇬SG-103.172.116.103-3968 | 4.293MB
-  - 🇸🇬SG-103.172.116.103-3966 | 3.476MB
-  - 🇸🇬SG-103.172.116.103-3959 | 2.814MB
-  - 🇸🇬SG-103.172.116.103-3962 | 2.739MB
-  - RELAY-104.21.54.252-0043 | 61.21MB
-  - 🇨🇳TW-118.165.42.201-0263 | 8.407MB
-  - 🇨🇳TW-111.250.141.24-0190 | 7.322MB
-  - 🇳🇱NL-103.214.68.57-1988 | 29.478MB
-  - 🇬🇧GB-35.176.178.206-0897 | 25.311MB
-  - 🇬🇧GB-35.176.178.206-0865 | 28.915MB
-  - 🇨🇳TW-114.37.113.36-0121 | 6.438MB
-  - 🇬🇧GB-35.176.178.206-0884 | 29.089MB
-  - 🇬🇧GB-35.176.178.206-0864 | 28.736MB
-  - 🇨🇳TW-36.226.143.152-0084 | 8.678MB
-  - 🇨🇳TW-114.37.139.180-0055 | 8.094MB
-  - 🇬🇧GB-13.41.102.95-2623 | 33.118MB
-  - 🇬🇧 GB-18.130.5.58-0862_411
-  - 🇬🇧 GB-18.130.5.58-0863_111
-  - RELAY-172.67.143.192-0337 | 16.149MB_89
-  - 🇺🇸_US_美国_4_123_90
-  - 🇺🇸_US_美国_9_106
-  - 🇺🇸_US_美国_5_129_87
-  - 🇺🇸_US_美国_5_158
-  - 🇺🇸_US_美国_3_291_85
-  - 🇺🇸_US_美国_1_145
-  - 🇺🇸_US_美国_3_212_86
-  - 🇺🇸_US_美国_12_125
-  - 🇺🇸 _US_美国 9_503
-  - 🇺🇸_US_美国_7_162
-  - 🇺🇸_US_美国_2_171
-  - 🇺🇸_US_美国_10_108
-  - 🇺🇸_US_美国_5_203
-  - 🇺🇸_US_美国_7_207
-  - 🇺🇸_US_美国_1_195
-  - 🇬🇧 英国+伦敦Amazon数据中心_283
-  - 🇺🇸_US_美国_3_172
-  - 🇺🇸_US_美国_1_232
-  - 🇺🇸_US_美国_2_238
-  - 🇺🇸_US_美国_2_244
-  - 🇺🇸_US_美国_4_240
-  - 🇺🇸_US_美国_4_247
-  - 🇮🇸 IS(AzadNet.t.me)
-  - 🇺🇸_US_美国_3_214
-  - 🇺🇸_US_美国_1_256
-  - 🇺🇸 美国 CloudFlare节点_275
-  - 🇺🇸_US_美国_7_273
-  - 🇮🇪 爱尔兰 都柏林Amazon数据中心 3
-  - 🇸🇬 SG-103.172.116.103-3691_296
-  - 🇸🇬 SG-103.172.116.103-5734_300
-  - 🇸🇬 SG-103.172.116.103-0993_316
-  - 🇸🇬 SG-103.172.116.103-5712_330
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_251
-  - 🇺🇸_US_美国_3_266
-  - 🇬🇧 GB-18.130.5.58-0862_298
-  - 🇬🇧 GB-18.130.5.58-0863_409
-  - 🇬🇧 GB-18.130.5.58-0862_413
-  - 🇺🇸 _US_美国_379
-  - 🇺🇸 _US_美国 4_383
-  - 🇺🇸 _US_美国 6_385
-  - 🇺🇸 _US_美国 7_386
-  - 🇺🇸 _US_美国 13_392
-  - 🇸🇬 SG-103.172.116.103-3691_405
-  - 🇸🇬 SG-103.172.116.103-5712_406
-  - 🇸🇬 SG-103.172.116.103-0984
-  - 🇸🇬 SG-103.172.116.103-8176
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇸🇬 SG-103.172.116.103-0993_449
-  - 🇸🇬 SG-103.172.116.103-8187
-  - 🇺🇸 _US_美国 10_389
-  - 18|🇯🇵 日本特殊|@ripaojiedian
-  - 18|🇬🇧 英国2|@ripaojiedian
-  - 19|英国2|@ripaojiedian
-  - 18|🇭🇰 香港KT2|@ripaojiedian
-  - 18|🇭🇰 香港3|@ripaojiedian
+  - 🇨🇦_CA_加拿大_1_104
+  - 🇫🇷_FR_法国_2_270
+  - 🇨🇦_CA_加拿大_2_262
+  - 🇱🇺_LU_卢森堡_2_268
+  - 🇱🇺_LU_卢森堡_1_265
+  - 🇫🇷FR-51.159.155.52-012
+  - 🇧🇷BR-78.111.102.232-006
+  - 🇱🇺_LU_卢森堡_1_296
+  - 🇨🇦CA-134.122.41.160-003
+  - 🇨🇦_CA_加拿大_1_315
+  - 🇨🇦_CA_加拿大_1_300
+  - 🇱🇺_LU_卢森堡_2_301
+  - 🇱🇺_LU_卢森堡_309
+  - 🇨🇳CN-223.113.130.26-165
+  - 🇫🇷 _FR_法国 2
+  - 🇨🇦 _CA_加拿大 2
+  - 🇨🇦 _CA_加拿大 3
+  - 🇫🇷 _FR_法国 4
+  - 🇨🇦 _CA_加拿大 6
+  - 🇱🇺 _LU_卢森堡 3
+  - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  - 🇱🇺 _LU_卢森堡
+  - 0,1,3,4,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_13
+  - 🇺🇸 美国3|@ripaojiedian
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
