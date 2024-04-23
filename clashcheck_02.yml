@@ -5,43 +5,296 @@ mixed-port: 7890
 mode: Rule
 proxies:
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-43.201.54.34-3488 | 12.574MB_40
+  name: 🇰🇷KR-13.125.25.193-3436 | 4.292MB_78
   password: amazonskr05
   port: 443
-  server: 43.201.54.34
+  server: 13.125.25.193
   type: ss
-- name: 🇺🇸_US_美国_6_520
+- name: 🇸🇬SG-138.2.108.195-0682 | 18.702MB
+  password: 0f823acc-0136-4203-8151-7fd99677f5aa
+  port: 35702
+  server: sg01.freeflyingcloud.xyz
+  skip-cert-verify: false
+  sni: sg01.freeflyingcloud.xyz
+  type: trojan
+- cipher: aes-128-cfb
+  name: 🇺🇸US-156.146.38.163-1563 | 126.019MB
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸US-156.146.38.163-0262 | 123.334MB
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-256-cfb
+  name: CO-190.120.231.45-2153 | 11.281MB
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 190.120.231.45
+  type: ss
+- name: 🇫🇷FR-144.24.205.55-0128 | 27.034MB
+  password: 89148410-25da-4dd9-8d32-247ca226e041
+  port: 30502
+  server: fr01.freeflyingcloud.xyz
+  skip-cert-verify: false
+  sni: fr01.freeflyingcloud.xyz
+  type: trojan
+- name: 🇬🇧GB-143.47.251.94-1484 | 6.901MB
+  password: 0d5b3d65-e71e-4235-bf68-ea753ad87cc2
+  port: 22252
+  server: uk01.freeflyingcloud.xyz
+  skip-cert-verify: false
+  sni: uk01.freeflyingcloud.xyz
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.107.226.238-0762 | 2.192MB
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 38.107.226.238
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_335
+  password: amazonskr05
+  port: 443
+  server: 54.199.167.157
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_334
+  password: amazonskr05
+  port: 443
+  server: 54.199.167.157
+  type: ss
+- cipher: aes-256-cfb
+  name: 5|🇰🇷 韩国特殊|@ripaojiedian_348
+  password: amazonskr05
+  port: 443
+  server: 3.113.0.133
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇯🇵JP-3.113.0.133-0706 | 16.136MB
+  password: amazonskr05
+  port: 443
+  server: 3.113.0.133
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇯🇵JP-35.77.94.142-0711 | 10.565MB
+  password: amazonskr05
+  port: 443
+  server: 35.77.94.142
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-43.201.47.36-3428 | 3.758MB_153
+  password: amazonskr05
+  port: 443
+  server: 43.201.47.36
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-43.201.47.36-3428 | 3.758MB_620
+  password: amazonskr05
+  port: 443
+  server: 43.201.47.36
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-13.125.25.193-3436 | 4.292MB_398
+  password: amazonskr05
+  port: 443
+  server: 13.125.25.193
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-52.151.70.24-0680 | 2.79MB_637
+  password: hVKny3qtcPWTmGpfhOmYzS
+  port: 47169
+  server: 52.151.70.24
+  type: ss
+- name: 🇷🇺_RU_俄罗斯联邦_375
   network: tcp
-  password: ecc532e2-3f8b-4a30-b176-78951fda6542
-  port: 48102
-  server: it01.freeflyingcloud.xyz
+  password: ba74833c-8c0f-4dcd-8cbc-13e3c32d3765
+  port: 2053
+  server: 185.236.233.111
   skip-cert-verify: true
-  sni: it01.freeflyingcloud.xyz
+  sni: ftp.debian.org
   type: trojan
   udp: true
-- name: 🇯🇵JP-158.101.144.132-0205 | 14.893MB
-  password: 6d257b63-0632-4dd6-b021-3085f8dc28b2
-  port: 44402
-  server: jp01.freeflyingcloud.xyz
-  skip-cert-verify: false
-  sni: jp01.freeflyingcloud.xyz
-  type: trojan
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-43.201.110.81-3436 | 4.68MB_283
-  password: amazonskr05
-  port: 443
-  server: 43.201.110.81
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-52.151.70.24-0680 | 2.79MB_154
+  password: hVKny3qtcPWTmGpfhOmYzS
+  port: 47169
+  server: 52.151.70.24
   type: ss
-- name: 🇦🇹AT-95.164.9.196-133_659
+- name: 🇳🇱NL-103.214.68.57-206_491_336
+  password: 6x8HcghsjS
+  port: 10003
+  server: 103.214.68.57
+  skip-cert-verify: true
+  sni: yes998.chickenkiller.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 6|美国2|@ripaojiedian_847
+  network: ws
+  port: '46036'
+  server: mmus36.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 5|🇺🇸 美国2|@ripaojiedian_841
+  network: ws
+  port: 46036
+  server: mmus36.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: mmus36.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 6|美国2|@ripaojiedian_667
+  network: ws
+  port: '46036'
+  server: mmus36.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- name: 🇦🇹AT-95.164.9.196-133_659_342
   password: 09191dbf-e7f7-4e7d-b405-c4785ea992bf
   port: 2053
   server: 95.164.9.196
   skip-cert-verify: true
   sni: ftp.debian.org
   type: trojan
+- name: 🇳🇱NL-103.214.68.57-206_420
+  password: 6x8HcghsjS
+  port: 10003
+  server: 103.214.68.57
+  skip-cert-verify: true
+  sni: yes998.chickenkiller.com
+  type: trojan
+- name: 🇰🇷 _KR_韩国_306_419
+  password: 6x8HcghsjS
+  port: 10003
+  server: 103.214.68.57
+  skip-cert-verify: true
+  sni: yes998.chickenkiller.com
+  type: trojan
+- name: 🇰🇷 _KR_韩国_260_421
+  password: 6x8HcghsjS
+  port: 10003
+  server: 103.214.68.57
+  skip-cert-verify: true
+  sni: yes998.chickenkiller.com
+  type: trojan
+- name: 🇬🇮_GI_直布罗陀_1_370
+  network: tcp
+  password: 09191dbf-e7f7-4e7d-b405-c4785ea992bf
+  port: 2053
+  server: 95.164.9.196
+  skip-cert-verify: true
+  sni: ftp.debian.org
+  type: trojan
+  udp: true
+- name: 🇸🇪_SE_瑞典_387
+  network: tcp
+  password: 0d5b3d65-e71e-4235-bf68-ea753ad87cc2
+  port: 30502
+  server: fr01.freeflyingcloud.xyz
+  skip-cert-verify: true
+  sni: fr01.freeflyingcloud.xyz
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 5|🇭🇺 匈牙利|@ripaojiedian_844
+  name: 🇨🇦_CA_加拿大_390
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- name: 🇳🇱NL-103.214.68.57-167
+  password: 6x8HcghsjS
+  port: 10003
+  server: 103.214.68.57
+  skip-cert-verify: true
+  sni: yes998.chickenkiller.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪_DE_德意志联邦共和国_2_392
+  network: ws
+  port: 443
+  server: 23.158.56.229
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 6|匈牙利|@ripaojiedian_848_350
+  network: ws
+  port: '46082'
+  server: mmhu82.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 6|芬兰|@ripaojiedian_849_352
+  network: ws
+  port: '46085'
+  server: mmfi85.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪_DE_德意志联邦共和国_1_391
+  network: ws
+  port: 443
+  server: 23.158.56.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 5|🇭🇺 匈牙利|@ripaojiedian_844_351
   network: ws
   port: 46082
   server: mmhu82.micloud.buzz
@@ -56,35 +309,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 6|匈牙利|@ripaojiedian_848
-  network: ws
-  port: '46082'
-  server: mmhu82.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 6|芬兰|@ripaojiedian_849
-  network: ws
-  port: '46085'
-  server: mmfi85.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 5|🇫🇮 芬兰|@ripaojiedian_669
+  name: 5|🇫🇮 芬兰|@ripaojiedian_845_349
   network: ws
   port: 46085
   server: mmfi85.micloud.buzz
@@ -97,6 +322,160 @@ proxies:
     headers:
       Host: mmfi85.micloud.buzz
     path: /zh-cn
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_388
+  network: tcp
+  password: BZjkHMao
+  port: 51000
+  server: 112.16.228.119
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 5|🇫🇮 芬兰|@ripaojiedian_669_344
+  network: ws
+  port: 46085
+  server: mmfi85.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: mmfi85.micloud.buzz
+    path: /zh-cn
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-43.201.34.246-3414 | 12.55MB_263
+  password: amazonskr05
+  port: 443
+  server: 43.201.34.246
+  type: ss
+- name: 🇦🇹AT-95.164.9.196-133_437
+  password: 09191dbf-e7f7-4e7d-b405-c4785ea992bf
+  port: 2053
+  server: 95.164.9.196
+  skip-cert-verify: true
+  sni: ftp.debian.org
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_1_547_428
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_1_580_434
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省 移动 3
+  network: ws
+  port: 20206
+  server: data-hk-v1.usabooks.com.cn
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-hk-v1.usabooks.com.cn
+    path: /debian
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-13.125.25.193-3436 | 4.292MB_70
+  password: amazonskr05
+  port: 443
+  server: 13.125.25.193
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_566
+  password: amazonskr05
+  port: 443
+  server: 54.199.167.157
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_564
+  password: amazonskr05
+  port: 443
+  server: 54.199.167.157
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-43.201.110.81-3436 | 4.68MB_283
+  password: amazonskr05
+  port: 443
+  server: 43.201.110.81
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-13.125.25.193-3436 | 4.292MB_417
+  password: amazonskr05
+  port: 443
+  server: 13.125.25.193
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇯🇵JP-54.199.167.157-0703 | 16.794MB_706
+  password: amazonskr05
+  port: 443
+  server: 54.199.167.157
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-43.201.110.81-3436 | 4.68MB_711
+  password: amazonskr05
+  port: 443
+  server: 43.201.110.81
+  type: ss
+- name: 🇯🇵JP-158.101.144.132-1550 | 14.843MB
+  password: 6d257b63-0632-4dd6-b021-3085f8dc28b2
+  port: 44402
+  server: jp01.freeflyingcloud.xyz
+  skip-cert-verify: false
+  sni: jp01.freeflyingcloud.xyz
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇸🇬SG-54.179.167.94-0707 | 23.629MB_432
+  password: amazonskr05
+  port: 443
+  server: 54.179.167.94
+  type: ss
+- name: 🇦🇹AT-95.164.9.196-133_659_573
+  password: 09191dbf-e7f7-4e7d-b405-c4785ea992bf
+  port: 2053
+  server: 95.164.9.196
+  skip-cert-verify: true
+  sni: ftp.debian.org
+  type: trojan
 - name: 🇸🇬SG-158.178.238.38-0210 | 10.367MB
   password: 0f823acc-0136-4203-8151-7fd99677f5aa
   port: 35702
@@ -104,72 +483,119 @@ proxies:
   skip-cert-verify: false
   sni: sg01.freeflyingcloud.xyz
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-43.201.54.34-3488 | 12.574MB_418
-  password: amazonskr05
-  port: 443
-  server: 43.201.54.34
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇨🇦_CA_加拿大_2_554_440
+  name: 🇨🇦_CA_加拿大_1_547_438
   network: ws
   port: 443
-  server: 23.162.200.227
+  server: 158.51.123.111
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     path: /linkvws
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_2_529
-  password: amazonskr05
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_1_580_444
+  network: ws
   port: 443
-  server: 35.91.54.169
-  type: ss
-- name: 🇺🇸_US_美国_6_562
-  network: tcp
-  password: ecc532e2-3f8b-4a30-b176-78951fda6542
-  port: 48102
-  server: it01.freeflyingcloud.xyz
+  server: 158.51.123.111
   skip-cert-verify: true
-  sni: it01.freeflyingcloud.xyz
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- name: 🇦🇹AT-95.164.9.196-133_446
+  password: 09191dbf-e7f7-4e7d-b405-c4785ea992bf
+  port: 2053
+  server: 95.164.9.196
+  skip-cert-verify: true
+  sni: ftp.debian.org
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇩🇪_DE_德意志联邦共和国_661
+  name: 5|🇸🇬 新加坡2|@ripaojiedian_671
   network: ws
-  port: 443
-  server: 23.158.56.60
-  skip-cert-verify: true
-  tls: true
+  port: 46016
+  server: mmsg16.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
   ws-opts:
-    path: /linkvws
+    headers:
+      Host: mmsg16.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 6|新加坡2|@ripaojiedian
+  network: ws
+  port: '46016'
+  server: mmsg16.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-43.201.110.81-3436 | 4.68MB_711
+  name: 🇰🇷KR-43.201.34.246-3414 | 12.55MB_47_21
   password: amazonskr05
   port: 443
-  server: 43.201.110.81
+  server: 43.201.34.246
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇨🇦_CA_加拿大_2_699
+  name: 5|🇭🇺 匈牙利|@ripaojiedian_844_574
   network: ws
-  port: 443
-  server: 23.162.200.227
-  skip-cert-verify: true
-  tls: true
+  port: 46082
+  server: mmhu82.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
   ws-opts:
-    path: /linkvws
+    headers:
+      Host: mmhu82.micloud.buzz
+    path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 6|芬兰|@ripaojiedian_775
+  name: 6|匈牙利|@ripaojiedian_848_575
+  network: ws
+  port: '46082'
+  server: mmhu82.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 6|芬兰|@ripaojiedian_849_576
   network: ws
   port: '46085'
   server: mmfi85.micloud.buzz
@@ -183,10 +609,25 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 6|匈牙利|@ripaojiedian_774
+  name: 5|🇫🇮 芬兰|@ripaojiedian_669_578
   network: ws
-  port: '46082'
-  server: mmhu82.micloud.buzz
+  port: 46085
+  server: mmfi85.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: mmfi85.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 6|美国|@ripaojiedian
+  network: ws
+  port: '46037'
+  server: mmus37.micloud.buzz
   servername: ''
   tls: false
   type: vmess
@@ -194,6 +635,132 @@ proxies:
   ws-opts:
     headers:
       Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 5|🇺🇸 美国|@ripaojiedian
+  network: ws
+  port: 46037
+  server: mmus37.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: mmus37.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 5|🇫🇮 芬兰|@ripaojiedian_845_577
+  network: ws
+  port: 46085
+  server: mmfi85.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: mmfi85.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪_DE_德意志联邦共和国_2_599
+  network: ws
+  port: 443
+  server: 23.158.56.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪_DE_德意志联邦共和国_2_561
+  network: ws
+  port: 443
+  server: 23.158.56.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_1_547_753
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_1_580_760
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_1_529_668
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- cipher: aes-256-cfb
+  name: 🇸🇬SG-54.179.167.94-0707 | 23.629MB_737
+  password: amazonskr05
+  port: 443
+  server: 54.179.167.94
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 5|🇭🇺 匈牙利|@ripaojiedian_771
+  network: ws
+  port: 46082
+  server: mmhu82.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: mmhu82.micloud.buzz
     path: /zh-cn
 - alterId: 0
   cipher: auto
@@ -224,6 +791,42 @@ proxies:
     headers:
       Host: mmhu82.micloud.buzz
     path: /zh-cn
+- name: 🇳🇱NL-103.214.68.57-206_797
+  password: 6x8HcghsjS
+  port: 10003
+  server: 103.214.68.57
+  skip-cert-verify: true
+  sni: yes998.chickenkiller.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 6|芬兰|@ripaojiedian_775
+  network: ws
+  port: '46085'
+  server: mmfi85.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 5|🇫🇮 芬兰|@ripaojiedian_770
+  network: ws
+  port: 46085
+  server: mmfi85.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: mmfi85.micloud.buzz
+    path: /zh-cn
 - alterId: 0
   cipher: auto
   name: 6|芬兰|@ripaojiedian_865
@@ -238,59 +841,737 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 5|🇫🇮 芬兰|@ripaojiedian_861
+  network: ws
+  port: 46085
+  server: mmfi85.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: mmfi85.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪_DE_德意志联邦共和国_2_590_666
+  network: ws
+  port: 443
+  server: 23.158.56.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- name: 🇰🇷 _KR_韩国_306_802
+  password: 6x8HcghsjS
+  port: 10003
+  server: 103.214.68.57
+  skip-cert-verify: true
+  sni: yes998.chickenkiller.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 6|匈牙利|@ripaojiedian_774
+  network: ws
+  port: '46082'
+  server: mmhu82.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- name: 🇰🇷 _KR_韩国_260_801
+  password: 6x8HcghsjS
+  port: 10003
+  server: 103.214.68.57
+  skip-cert-verify: true
+  sni: yes998.chickenkiller.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪_DE_德意志联邦共和国_2_379_664
+  network: ws
+  port: 443
+  server: 23.158.56.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- name: 🇷🇺_RU_俄罗斯联邦_831
+  network: tcp
+  password: ba74833c-8c0f-4dcd-8cbc-13e3c32d3765
+  port: 2053
+  server: 185.236.233.111
+  skip-cert-verify: true
+  sni: ftp.debian.org
+  type: trojan
+  udp: true
+- name: 🇬🇮_GI_直布罗陀_1_826
+  network: tcp
+  password: 09191dbf-e7f7-4e7d-b405-c4785ea992bf
+  port: 2053
+  server: 95.164.9.196
+  skip-cert-verify: true
+  sni: ftp.debian.org
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_846
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪_DE_德意志联邦共和国_2_848
+  network: ws
+  port: 443
+  server: 23.158.56.229
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_858
+  network: ws
+  port: 8080
+  server: 104.19.58.60
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      host: concentrations-taxi-about-recognised.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_1_868
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-13.125.25.193-3436 | 4.292MB_217_985
+  password: amazonskr05
+  port: 443
+  server: 13.125.25.193
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪_DE_德意志联邦共和国_1_847
+  network: ws
+  port: 443
+  server: 23.158.56.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- cipher: aes-256-cfb
+  name: 🇸🇬SG-54.179.167.94-0707 | 23.629MB_941
+  password: amazonskr05
+  port: 443
+  server: 54.179.167.94
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 6|美国2|@ripaojiedian_1013
+  network: ws
+  port: '46036'
+  server: mmus36.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- cipher: 2022-blake3-aes-256-gcm
+  name: 🇩🇪DE-91.107.178.253-130
+  password: AKI+XmKUlaFl6hmHysWkyHWlM0O1Aw97RTVNHZuhXws=:rkur8loLERFEJlTqp2EPbJ55sJ7KWb9PP/DL2mqj6sI=
+  port: 8080
+  server: 91.107.178.253
+  type: ss
+- name: 🇦🇹AT-95.164.9.196-133_993
+  password: 09191dbf-e7f7-4e7d-b405-c4785ea992bf
+  port: 2053
+  server: 95.164.9.196
+  skip-cert-verify: true
+  sni: ftp.debian.org
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 5|🇺🇸 美国2|@ripaojiedian_1012
+  network: ws
+  port: 46036
+  server: mmus36.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: mmus36.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_1_580_995
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_1_547_988
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- cipher: 2022-blake3-aes-256-gcm
+  name: 🇩🇪DE-91.107.178.253-184
+  password: AKI+XmKUlaFl6hmHysWkyHWlM0O1Aw97RTVNHZuhXws=:rkur8loLERFEJlTqp2EPbJ55sJ7KWb9PP/DL2mqj6sI=
+  port: 8080
+  server: 91.107.178.253
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_1_529_1009
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪_DE_德意志联邦共和国_2_379_1004
+  network: ws
+  port: 443
+  server: 23.158.56.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- cipher: 2022-blake3-aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇷🇺 俄罗斯+v2rayfree.eu.org
+  password: AKI+XmKUlaFl6hmHysWkyHWlM0O1Aw97RTVNHZuhXws=:rkur8loLERFEJlTqp2EPbJ55sJ7KWb9PP/DL2mqj6sI=
+  port: 8080
+  server: 91.107.178.253
+  tfo: false
+  type: ss
+  udp: true
+- name: 🇳🇱NL-103.214.68.57-166
+  password: 6x8HcghsjS
+  port: 10003
+  server: 103.214.68.57
+  skip-cert-verify: true
+  sni: yes998.chickenkiller.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪_DE_德意志联邦共和国_2_590_1010
+  network: ws
+  port: 443
+  server: 23.158.56.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- name: 🇦🇹AT-95.164.9.196-139
+  password: 09191dbf-e7f7-4e7d-b405-c4785ea992bf
+  port: 2053
+  server: 95.164.9.196
+  skip-cert-verify: true
+  sni: ftp.debian.org
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省 移动_1046
+  network: ws
+  port: 20206
+  server: data-hk-v1.usabooks.com.cn
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-hk-v1.usabooks.com.cn
+    path: /debian
+- cipher: aes-256-cfb
+  name: CO-190.120.231.45-4332
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 190.120.231.45
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸 US-156.146.38.163-3713
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸 US-156.146.38.163-0292
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-256-cfb
+  name: 5|🇸🇬 狮城特殊|@ripaojiedian_1141
+  password: amazonskr05
+  port: 443
+  server: 52.192.178.138
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn香港
+  network: ws
+  port: '80'
+  server: 18.166.75.116
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn加拿大
+  network: ws
+  port: '80'
+  server: 142.93.162.87
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇳_CN_中国->🇺🇸_US_美国_29
+  network: ws
+  port: 46037
+  server: mmus37.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: mmus37.micloud.buzz
+    path: /zh-cn
+- name: 5|🇯🇵 日本|@ripaojiedian
+  password: BZjkHMao
+  port: 443
+  server: 112.16.228.105
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 0,10|🇨🇦_CA_加拿大_2_42
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: DE
+  h2-opts: {}
+  http-opts: {}
+  name: 0,10|🇩🇪_DE_德意志联邦共和国_由快嘴科技提供：kkzui.c...
+  network: ws
+  port: 443
+  server: 23.158.56.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 64
+  cipher: auto
+  name: 5|🇭🇰 香港|@ripaojiedian_1134
+  port: 54437
+  server: 183.236.51.59
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 5|🇫🇷 法国|@ripaojiedian
+  password: BZjkHMao
+  port: 51000
+  server: 112.16.228.119
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_24
+  network: ws
+  port: 46082
+  server: mmhu82.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: mmhu82.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇳_CN_中国->🇩🇪_DE_德国_8
+  network: ws
+  port: 46085
+  server: mmfi85.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: mmfi85.micloud.buzz
+    path: /zh-cn
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_40
-  - 🇺🇸_US_美国_6_520
-  - 🇯🇵JP-158.101.144.132-0205 | 14.893MB
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_78
+  - 🇸🇬SG-138.2.108.195-0682 | 18.702MB
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
+  - CO-190.120.231.45-2153 | 11.281MB
+  - 🇫🇷FR-144.24.205.55-0128 | 27.034MB
+  - 🇬🇧GB-143.47.251.94-1484 | 6.901MB
+  - 🇺🇸US-38.107.226.238-0762 | 2.192MB
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_335
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_334
+  - 5|🇰🇷 韩国特殊|@ripaojiedian_348
+  - 🇯🇵JP-3.113.0.133-0706 | 16.136MB
+  - 🇯🇵JP-35.77.94.142-0711 | 10.565MB
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_153
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_620
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_398
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_637
+  - 🇷🇺_RU_俄罗斯联邦_375
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_154
+  - 🇳🇱NL-103.214.68.57-206_491_336
+  - 6|美国2|@ripaojiedian_847
+  - 5|🇺🇸 美国2|@ripaojiedian_841
+  - 6|美国2|@ripaojiedian_667
+  - 🇦🇹AT-95.164.9.196-133_659_342
+  - 🇳🇱NL-103.214.68.57-206_420
+  - 🇰🇷 _KR_韩国_306_419
+  - 🇰🇷 _KR_韩国_260_421
+  - 🇬🇮_GI_直布罗陀_1_370
+  - 🇸🇪_SE_瑞典_387
+  - 🇨🇦_CA_加拿大_390
+  - 🇳🇱NL-103.214.68.57-167
+  - 🇩🇪_DE_德意志联邦共和国_2_392
+  - 6|匈牙利|@ripaojiedian_848_350
+  - 6|芬兰|@ripaojiedian_849_352
+  - 🇩🇪_DE_德意志联邦共和国_1_391
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_351
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_349
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_388
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_344
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_263
+  - 🇦🇹AT-95.164.9.196-133_437
+  - 🇨🇦_CA_加拿大_1_547_428
+  - 🇨🇦_CA_加拿大_1_580_434
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
+  - 🇨🇳 广东省 移动 3
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_70
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_566
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_564
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_283
-  - 🇦🇹AT-95.164.9.196-133_659
-  - 5|🇭🇺 匈牙利|@ripaojiedian_844
-  - 6|匈牙利|@ripaojiedian_848
-  - 6|芬兰|@ripaojiedian_849
-  - 5|🇫🇮 芬兰|@ripaojiedian_669
-  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_418
-  - 🇨🇦_CA_加拿大_2_554_440
-  - 🇺🇸_US_美国_2_529
-  - 🇺🇸_US_美国_6_562
-  - 🇩🇪_DE_德意志联邦共和国_661
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_417
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_706
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_711
-  - 🇨🇦_CA_加拿大_2_699
-  - 6|芬兰|@ripaojiedian_775
-  - 6|匈牙利|@ripaojiedian_774
+  - 🇯🇵JP-158.101.144.132-1550 | 14.843MB
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_432
+  - 🇦🇹AT-95.164.9.196-133_659_573
+  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
+  - 🇨🇦_CA_加拿大_1_547_438
+  - 🇨🇦_CA_加拿大_1_580_444
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450
+  - 🇦🇹AT-95.164.9.196-133_446
+  - 5|🇸🇬 新加坡2|@ripaojiedian_671
+  - 6|新加坡2|@ripaojiedian
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_47_21
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_574
+  - 6|匈牙利|@ripaojiedian_848_575
+  - 6|芬兰|@ripaojiedian_849_576
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_578
+  - 6|美国|@ripaojiedian
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_577
+  - 🇩🇪_DE_德意志联邦共和国_2_599
+  - 🇩🇪_DE_德意志联邦共和国_2_561
+  - 🇨🇦_CA_加拿大_1_547_753
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761
+  - 🇨🇦_CA_加拿大_1_580_760
+  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_737
+  - 5|🇭🇺 匈牙利|@ripaojiedian_771
   - 6|匈牙利|@ripaojiedian_864
   - 5|🇭🇺 匈牙利|@ripaojiedian_860
+  - 🇳🇱NL-103.214.68.57-206_797
+  - 6|芬兰|@ripaojiedian_775
+  - 5|🇫🇮 芬兰|@ripaojiedian_770
   - 6|芬兰|@ripaojiedian_865
+  - 5|🇫🇮 芬兰|@ripaojiedian_861
+  - 🇩🇪_DE_德意志联邦共和国_2_590_666
+  - 🇰🇷 _KR_韩国_306_802
+  - 6|匈牙利|@ripaojiedian_774
+  - 🇰🇷 _KR_韩国_260_801
+  - 🇩🇪_DE_德意志联邦共和国_2_379_664
+  - 🇷🇺_RU_俄罗斯联邦_831
+  - 🇬🇮_GI_直布罗陀_1_826
+  - 🇨🇦_CA_加拿大_846
+  - 🇩🇪_DE_德意志联邦共和国_2_848
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_858
+  - 🇨🇦_CA_加拿大_1_868
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_217_985
+  - 🇩🇪_DE_德意志联邦共和国_1_847
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_941
+  - 6|美国2|@ripaojiedian_1013
+  - 🇩🇪DE-91.107.178.253-130
+  - 🇦🇹AT-95.164.9.196-133_993
+  - 5|🇺🇸 美国2|@ripaojiedian_1012
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
+  - 🇨🇦_CA_加拿大_1_580_995
+  - 🇨🇦_CA_加拿大_1_547_988
+  - 🇩🇪DE-91.107.178.253-184
+  - 🇨🇦_CA_加拿大_1_529_1009
+  - 🇩🇪_DE_德意志联邦共和国_2_379_1004
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
+  - 🇳🇱NL-103.214.68.57-166
+  - 🇩🇪_DE_德意志联邦共和国_2_590_1010
+  - 🇦🇹AT-95.164.9.196-139
+  - 🇨🇳 广东省 移动_1046
+  - CO-190.120.231.45-4332
+  - 🇺🇸 US-156.146.38.163-3713
+  - 🇺🇸 US-156.146.38.163-0292
+  - 5|🇸🇬 狮城特殊|@ripaojiedian_1141
+  - 9|baipaovpn香港
+  - 9|baipaovpn加拿大
+  - 10|🇨🇳_CN_中国->🇺🇸_US_美国_29
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 0,10|🇨🇦_CA_加拿大_2_42
+  - 0,10|🇩🇪_DE_德意志联邦共和国_由快嘴科技提供：kkzui.c...
+  - 5|🇭🇰 香港|@ripaojiedian_1134
+  - 5|🇫🇷 法国|@ripaojiedian
+  - 10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_24
+  - 10|🇨🇳_CN_中国->🇩🇪_DE_德国_8
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_40
-  - 🇺🇸_US_美国_6_520
-  - 🇯🇵JP-158.101.144.132-0205 | 14.893MB
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_78
+  - 🇸🇬SG-138.2.108.195-0682 | 18.702MB
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
+  - CO-190.120.231.45-2153 | 11.281MB
+  - 🇫🇷FR-144.24.205.55-0128 | 27.034MB
+  - 🇬🇧GB-143.47.251.94-1484 | 6.901MB
+  - 🇺🇸US-38.107.226.238-0762 | 2.192MB
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_335
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_334
+  - 5|🇰🇷 韩国特殊|@ripaojiedian_348
+  - 🇯🇵JP-3.113.0.133-0706 | 16.136MB
+  - 🇯🇵JP-35.77.94.142-0711 | 10.565MB
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_153
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_620
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_398
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_637
+  - 🇷🇺_RU_俄罗斯联邦_375
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_154
+  - 🇳🇱NL-103.214.68.57-206_491_336
+  - 6|美国2|@ripaojiedian_847
+  - 5|🇺🇸 美国2|@ripaojiedian_841
+  - 6|美国2|@ripaojiedian_667
+  - 🇦🇹AT-95.164.9.196-133_659_342
+  - 🇳🇱NL-103.214.68.57-206_420
+  - 🇰🇷 _KR_韩国_306_419
+  - 🇰🇷 _KR_韩国_260_421
+  - 🇬🇮_GI_直布罗陀_1_370
+  - 🇸🇪_SE_瑞典_387
+  - 🇨🇦_CA_加拿大_390
+  - 🇳🇱NL-103.214.68.57-167
+  - 🇩🇪_DE_德意志联邦共和国_2_392
+  - 6|匈牙利|@ripaojiedian_848_350
+  - 6|芬兰|@ripaojiedian_849_352
+  - 🇩🇪_DE_德意志联邦共和国_1_391
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_351
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_349
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_388
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_344
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_263
+  - 🇦🇹AT-95.164.9.196-133_437
+  - 🇨🇦_CA_加拿大_1_547_428
+  - 🇨🇦_CA_加拿大_1_580_434
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
+  - 🇨🇳 广东省 移动 3
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_70
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_566
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_564
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_283
-  - 🇦🇹AT-95.164.9.196-133_659
-  - 5|🇭🇺 匈牙利|@ripaojiedian_844
-  - 6|匈牙利|@ripaojiedian_848
-  - 6|芬兰|@ripaojiedian_849
-  - 5|🇫🇮 芬兰|@ripaojiedian_669
-  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_418
-  - 🇨🇦_CA_加拿大_2_554_440
-  - 🇺🇸_US_美国_2_529
-  - 🇺🇸_US_美国_6_562
-  - 🇩🇪_DE_德意志联邦共和国_661
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_417
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_706
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_711
-  - 🇨🇦_CA_加拿大_2_699
-  - 6|芬兰|@ripaojiedian_775
-  - 6|匈牙利|@ripaojiedian_774
+  - 🇯🇵JP-158.101.144.132-1550 | 14.843MB
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_432
+  - 🇦🇹AT-95.164.9.196-133_659_573
+  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
+  - 🇨🇦_CA_加拿大_1_547_438
+  - 🇨🇦_CA_加拿大_1_580_444
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450
+  - 🇦🇹AT-95.164.9.196-133_446
+  - 5|🇸🇬 新加坡2|@ripaojiedian_671
+  - 6|新加坡2|@ripaojiedian
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_47_21
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_574
+  - 6|匈牙利|@ripaojiedian_848_575
+  - 6|芬兰|@ripaojiedian_849_576
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_578
+  - 6|美国|@ripaojiedian
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_577
+  - 🇩🇪_DE_德意志联邦共和国_2_599
+  - 🇩🇪_DE_德意志联邦共和国_2_561
+  - 🇨🇦_CA_加拿大_1_547_753
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761
+  - 🇨🇦_CA_加拿大_1_580_760
+  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_737
+  - 5|🇭🇺 匈牙利|@ripaojiedian_771
   - 6|匈牙利|@ripaojiedian_864
   - 5|🇭🇺 匈牙利|@ripaojiedian_860
+  - 🇳🇱NL-103.214.68.57-206_797
+  - 6|芬兰|@ripaojiedian_775
+  - 5|🇫🇮 芬兰|@ripaojiedian_770
   - 6|芬兰|@ripaojiedian_865
+  - 5|🇫🇮 芬兰|@ripaojiedian_861
+  - 🇩🇪_DE_德意志联邦共和国_2_590_666
+  - 🇰🇷 _KR_韩国_306_802
+  - 6|匈牙利|@ripaojiedian_774
+  - 🇰🇷 _KR_韩国_260_801
+  - 🇩🇪_DE_德意志联邦共和国_2_379_664
+  - 🇷🇺_RU_俄罗斯联邦_831
+  - 🇬🇮_GI_直布罗陀_1_826
+  - 🇨🇦_CA_加拿大_846
+  - 🇩🇪_DE_德意志联邦共和国_2_848
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_858
+  - 🇨🇦_CA_加拿大_1_868
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_217_985
+  - 🇩🇪_DE_德意志联邦共和国_1_847
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_941
+  - 6|美国2|@ripaojiedian_1013
+  - 🇩🇪DE-91.107.178.253-130
+  - 🇦🇹AT-95.164.9.196-133_993
+  - 5|🇺🇸 美国2|@ripaojiedian_1012
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
+  - 🇨🇦_CA_加拿大_1_580_995
+  - 🇨🇦_CA_加拿大_1_547_988
+  - 🇩🇪DE-91.107.178.253-184
+  - 🇨🇦_CA_加拿大_1_529_1009
+  - 🇩🇪_DE_德意志联邦共和国_2_379_1004
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
+  - 🇳🇱NL-103.214.68.57-166
+  - 🇩🇪_DE_德意志联邦共和国_2_590_1010
+  - 🇦🇹AT-95.164.9.196-139
+  - 🇨🇳 广东省 移动_1046
+  - CO-190.120.231.45-4332
+  - 🇺🇸 US-156.146.38.163-3713
+  - 🇺🇸 US-156.146.38.163-0292
+  - 5|🇸🇬 狮城特殊|@ripaojiedian_1141
+  - 9|baipaovpn香港
+  - 9|baipaovpn加拿大
+  - 10|🇨🇳_CN_中国->🇺🇸_US_美国_29
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 0,10|🇨🇦_CA_加拿大_2_42
+  - 0,10|🇩🇪_DE_德意志联邦共和国_由快嘴科技提供：kkzui.c...
+  - 5|🇭🇰 香港|@ripaojiedian_1134
+  - 5|🇫🇷 法国|@ripaojiedian
+  - 10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_24
+  - 10|🇨🇳_CN_中国->🇩🇪_DE_德国_8
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -299,219 +1580,1067 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_40
-  - 🇺🇸_US_美国_6_520
-  - 🇯🇵JP-158.101.144.132-0205 | 14.893MB
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_78
+  - 🇸🇬SG-138.2.108.195-0682 | 18.702MB
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
+  - CO-190.120.231.45-2153 | 11.281MB
+  - 🇫🇷FR-144.24.205.55-0128 | 27.034MB
+  - 🇬🇧GB-143.47.251.94-1484 | 6.901MB
+  - 🇺🇸US-38.107.226.238-0762 | 2.192MB
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_335
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_334
+  - 5|🇰🇷 韩国特殊|@ripaojiedian_348
+  - 🇯🇵JP-3.113.0.133-0706 | 16.136MB
+  - 🇯🇵JP-35.77.94.142-0711 | 10.565MB
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_153
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_620
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_398
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_637
+  - 🇷🇺_RU_俄罗斯联邦_375
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_154
+  - 🇳🇱NL-103.214.68.57-206_491_336
+  - 6|美国2|@ripaojiedian_847
+  - 5|🇺🇸 美国2|@ripaojiedian_841
+  - 6|美国2|@ripaojiedian_667
+  - 🇦🇹AT-95.164.9.196-133_659_342
+  - 🇳🇱NL-103.214.68.57-206_420
+  - 🇰🇷 _KR_韩国_306_419
+  - 🇰🇷 _KR_韩国_260_421
+  - 🇬🇮_GI_直布罗陀_1_370
+  - 🇸🇪_SE_瑞典_387
+  - 🇨🇦_CA_加拿大_390
+  - 🇳🇱NL-103.214.68.57-167
+  - 🇩🇪_DE_德意志联邦共和国_2_392
+  - 6|匈牙利|@ripaojiedian_848_350
+  - 6|芬兰|@ripaojiedian_849_352
+  - 🇩🇪_DE_德意志联邦共和国_1_391
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_351
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_349
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_388
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_344
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_263
+  - 🇦🇹AT-95.164.9.196-133_437
+  - 🇨🇦_CA_加拿大_1_547_428
+  - 🇨🇦_CA_加拿大_1_580_434
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
+  - 🇨🇳 广东省 移动 3
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_70
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_566
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_564
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_283
-  - 🇦🇹AT-95.164.9.196-133_659
-  - 5|🇭🇺 匈牙利|@ripaojiedian_844
-  - 6|匈牙利|@ripaojiedian_848
-  - 6|芬兰|@ripaojiedian_849
-  - 5|🇫🇮 芬兰|@ripaojiedian_669
-  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_418
-  - 🇨🇦_CA_加拿大_2_554_440
-  - 🇺🇸_US_美国_2_529
-  - 🇺🇸_US_美国_6_562
-  - 🇩🇪_DE_德意志联邦共和国_661
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_417
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_706
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_711
-  - 🇨🇦_CA_加拿大_2_699
-  - 6|芬兰|@ripaojiedian_775
-  - 6|匈牙利|@ripaojiedian_774
+  - 🇯🇵JP-158.101.144.132-1550 | 14.843MB
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_432
+  - 🇦🇹AT-95.164.9.196-133_659_573
+  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
+  - 🇨🇦_CA_加拿大_1_547_438
+  - 🇨🇦_CA_加拿大_1_580_444
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450
+  - 🇦🇹AT-95.164.9.196-133_446
+  - 5|🇸🇬 新加坡2|@ripaojiedian_671
+  - 6|新加坡2|@ripaojiedian
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_47_21
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_574
+  - 6|匈牙利|@ripaojiedian_848_575
+  - 6|芬兰|@ripaojiedian_849_576
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_578
+  - 6|美国|@ripaojiedian
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_577
+  - 🇩🇪_DE_德意志联邦共和国_2_599
+  - 🇩🇪_DE_德意志联邦共和国_2_561
+  - 🇨🇦_CA_加拿大_1_547_753
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761
+  - 🇨🇦_CA_加拿大_1_580_760
+  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_737
+  - 5|🇭🇺 匈牙利|@ripaojiedian_771
   - 6|匈牙利|@ripaojiedian_864
   - 5|🇭🇺 匈牙利|@ripaojiedian_860
+  - 🇳🇱NL-103.214.68.57-206_797
+  - 6|芬兰|@ripaojiedian_775
+  - 5|🇫🇮 芬兰|@ripaojiedian_770
   - 6|芬兰|@ripaojiedian_865
+  - 5|🇫🇮 芬兰|@ripaojiedian_861
+  - 🇩🇪_DE_德意志联邦共和国_2_590_666
+  - 🇰🇷 _KR_韩国_306_802
+  - 6|匈牙利|@ripaojiedian_774
+  - 🇰🇷 _KR_韩国_260_801
+  - 🇩🇪_DE_德意志联邦共和国_2_379_664
+  - 🇷🇺_RU_俄罗斯联邦_831
+  - 🇬🇮_GI_直布罗陀_1_826
+  - 🇨🇦_CA_加拿大_846
+  - 🇩🇪_DE_德意志联邦共和国_2_848
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_858
+  - 🇨🇦_CA_加拿大_1_868
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_217_985
+  - 🇩🇪_DE_德意志联邦共和国_1_847
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_941
+  - 6|美国2|@ripaojiedian_1013
+  - 🇩🇪DE-91.107.178.253-130
+  - 🇦🇹AT-95.164.9.196-133_993
+  - 5|🇺🇸 美国2|@ripaojiedian_1012
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
+  - 🇨🇦_CA_加拿大_1_580_995
+  - 🇨🇦_CA_加拿大_1_547_988
+  - 🇩🇪DE-91.107.178.253-184
+  - 🇨🇦_CA_加拿大_1_529_1009
+  - 🇩🇪_DE_德意志联邦共和国_2_379_1004
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
+  - 🇳🇱NL-103.214.68.57-166
+  - 🇩🇪_DE_德意志联邦共和国_2_590_1010
+  - 🇦🇹AT-95.164.9.196-139
+  - 🇨🇳 广东省 移动_1046
+  - CO-190.120.231.45-4332
+  - 🇺🇸 US-156.146.38.163-3713
+  - 🇺🇸 US-156.146.38.163-0292
+  - 5|🇸🇬 狮城特殊|@ripaojiedian_1141
+  - 9|baipaovpn香港
+  - 9|baipaovpn加拿大
+  - 10|🇨🇳_CN_中国->🇺🇸_US_美国_29
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 0,10|🇨🇦_CA_加拿大_2_42
+  - 0,10|🇩🇪_DE_德意志联邦共和国_由快嘴科技提供：kkzui.c...
+  - 5|🇭🇰 香港|@ripaojiedian_1134
+  - 5|🇫🇷 法国|@ripaojiedian
+  - 10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_24
+  - 10|🇨🇳_CN_中国->🇩🇪_DE_德国_8
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_40
-  - 🇺🇸_US_美国_6_520
-  - 🇯🇵JP-158.101.144.132-0205 | 14.893MB
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_78
+  - 🇸🇬SG-138.2.108.195-0682 | 18.702MB
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
+  - CO-190.120.231.45-2153 | 11.281MB
+  - 🇫🇷FR-144.24.205.55-0128 | 27.034MB
+  - 🇬🇧GB-143.47.251.94-1484 | 6.901MB
+  - 🇺🇸US-38.107.226.238-0762 | 2.192MB
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_335
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_334
+  - 5|🇰🇷 韩国特殊|@ripaojiedian_348
+  - 🇯🇵JP-3.113.0.133-0706 | 16.136MB
+  - 🇯🇵JP-35.77.94.142-0711 | 10.565MB
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_153
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_620
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_398
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_637
+  - 🇷🇺_RU_俄罗斯联邦_375
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_154
+  - 🇳🇱NL-103.214.68.57-206_491_336
+  - 6|美国2|@ripaojiedian_847
+  - 5|🇺🇸 美国2|@ripaojiedian_841
+  - 6|美国2|@ripaojiedian_667
+  - 🇦🇹AT-95.164.9.196-133_659_342
+  - 🇳🇱NL-103.214.68.57-206_420
+  - 🇰🇷 _KR_韩国_306_419
+  - 🇰🇷 _KR_韩国_260_421
+  - 🇬🇮_GI_直布罗陀_1_370
+  - 🇸🇪_SE_瑞典_387
+  - 🇨🇦_CA_加拿大_390
+  - 🇳🇱NL-103.214.68.57-167
+  - 🇩🇪_DE_德意志联邦共和国_2_392
+  - 6|匈牙利|@ripaojiedian_848_350
+  - 6|芬兰|@ripaojiedian_849_352
+  - 🇩🇪_DE_德意志联邦共和国_1_391
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_351
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_349
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_388
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_344
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_263
+  - 🇦🇹AT-95.164.9.196-133_437
+  - 🇨🇦_CA_加拿大_1_547_428
+  - 🇨🇦_CA_加拿大_1_580_434
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
+  - 🇨🇳 广东省 移动 3
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_70
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_566
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_564
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_283
-  - 🇦🇹AT-95.164.9.196-133_659
-  - 5|🇭🇺 匈牙利|@ripaojiedian_844
-  - 6|匈牙利|@ripaojiedian_848
-  - 6|芬兰|@ripaojiedian_849
-  - 5|🇫🇮 芬兰|@ripaojiedian_669
-  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_418
-  - 🇨🇦_CA_加拿大_2_554_440
-  - 🇺🇸_US_美国_2_529
-  - 🇺🇸_US_美国_6_562
-  - 🇩🇪_DE_德意志联邦共和国_661
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_417
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_706
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_711
-  - 🇨🇦_CA_加拿大_2_699
-  - 6|芬兰|@ripaojiedian_775
-  - 6|匈牙利|@ripaojiedian_774
+  - 🇯🇵JP-158.101.144.132-1550 | 14.843MB
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_432
+  - 🇦🇹AT-95.164.9.196-133_659_573
+  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
+  - 🇨🇦_CA_加拿大_1_547_438
+  - 🇨🇦_CA_加拿大_1_580_444
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450
+  - 🇦🇹AT-95.164.9.196-133_446
+  - 5|🇸🇬 新加坡2|@ripaojiedian_671
+  - 6|新加坡2|@ripaojiedian
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_47_21
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_574
+  - 6|匈牙利|@ripaojiedian_848_575
+  - 6|芬兰|@ripaojiedian_849_576
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_578
+  - 6|美国|@ripaojiedian
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_577
+  - 🇩🇪_DE_德意志联邦共和国_2_599
+  - 🇩🇪_DE_德意志联邦共和国_2_561
+  - 🇨🇦_CA_加拿大_1_547_753
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761
+  - 🇨🇦_CA_加拿大_1_580_760
+  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_737
+  - 5|🇭🇺 匈牙利|@ripaojiedian_771
   - 6|匈牙利|@ripaojiedian_864
   - 5|🇭🇺 匈牙利|@ripaojiedian_860
+  - 🇳🇱NL-103.214.68.57-206_797
+  - 6|芬兰|@ripaojiedian_775
+  - 5|🇫🇮 芬兰|@ripaojiedian_770
   - 6|芬兰|@ripaojiedian_865
+  - 5|🇫🇮 芬兰|@ripaojiedian_861
+  - 🇩🇪_DE_德意志联邦共和国_2_590_666
+  - 🇰🇷 _KR_韩国_306_802
+  - 6|匈牙利|@ripaojiedian_774
+  - 🇰🇷 _KR_韩国_260_801
+  - 🇩🇪_DE_德意志联邦共和国_2_379_664
+  - 🇷🇺_RU_俄罗斯联邦_831
+  - 🇬🇮_GI_直布罗陀_1_826
+  - 🇨🇦_CA_加拿大_846
+  - 🇩🇪_DE_德意志联邦共和国_2_848
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_858
+  - 🇨🇦_CA_加拿大_1_868
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_217_985
+  - 🇩🇪_DE_德意志联邦共和国_1_847
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_941
+  - 6|美国2|@ripaojiedian_1013
+  - 🇩🇪DE-91.107.178.253-130
+  - 🇦🇹AT-95.164.9.196-133_993
+  - 5|🇺🇸 美国2|@ripaojiedian_1012
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
+  - 🇨🇦_CA_加拿大_1_580_995
+  - 🇨🇦_CA_加拿大_1_547_988
+  - 🇩🇪DE-91.107.178.253-184
+  - 🇨🇦_CA_加拿大_1_529_1009
+  - 🇩🇪_DE_德意志联邦共和国_2_379_1004
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
+  - 🇳🇱NL-103.214.68.57-166
+  - 🇩🇪_DE_德意志联邦共和国_2_590_1010
+  - 🇦🇹AT-95.164.9.196-139
+  - 🇨🇳 广东省 移动_1046
+  - CO-190.120.231.45-4332
+  - 🇺🇸 US-156.146.38.163-3713
+  - 🇺🇸 US-156.146.38.163-0292
+  - 5|🇸🇬 狮城特殊|@ripaojiedian_1141
+  - 9|baipaovpn香港
+  - 9|baipaovpn加拿大
+  - 10|🇨🇳_CN_中国->🇺🇸_US_美国_29
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 0,10|🇨🇦_CA_加拿大_2_42
+  - 0,10|🇩🇪_DE_德意志联邦共和国_由快嘴科技提供：kkzui.c...
+  - 5|🇭🇰 香港|@ripaojiedian_1134
+  - 5|🇫🇷 法国|@ripaojiedian
+  - 10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_24
+  - 10|🇨🇳_CN_中国->🇩🇪_DE_德国_8
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_40
-  - 🇺🇸_US_美国_6_520
-  - 🇯🇵JP-158.101.144.132-0205 | 14.893MB
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_78
+  - 🇸🇬SG-138.2.108.195-0682 | 18.702MB
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
+  - CO-190.120.231.45-2153 | 11.281MB
+  - 🇫🇷FR-144.24.205.55-0128 | 27.034MB
+  - 🇬🇧GB-143.47.251.94-1484 | 6.901MB
+  - 🇺🇸US-38.107.226.238-0762 | 2.192MB
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_335
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_334
+  - 5|🇰🇷 韩国特殊|@ripaojiedian_348
+  - 🇯🇵JP-3.113.0.133-0706 | 16.136MB
+  - 🇯🇵JP-35.77.94.142-0711 | 10.565MB
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_153
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_620
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_398
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_637
+  - 🇷🇺_RU_俄罗斯联邦_375
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_154
+  - 🇳🇱NL-103.214.68.57-206_491_336
+  - 6|美国2|@ripaojiedian_847
+  - 5|🇺🇸 美国2|@ripaojiedian_841
+  - 6|美国2|@ripaojiedian_667
+  - 🇦🇹AT-95.164.9.196-133_659_342
+  - 🇳🇱NL-103.214.68.57-206_420
+  - 🇰🇷 _KR_韩国_306_419
+  - 🇰🇷 _KR_韩国_260_421
+  - 🇬🇮_GI_直布罗陀_1_370
+  - 🇸🇪_SE_瑞典_387
+  - 🇨🇦_CA_加拿大_390
+  - 🇳🇱NL-103.214.68.57-167
+  - 🇩🇪_DE_德意志联邦共和国_2_392
+  - 6|匈牙利|@ripaojiedian_848_350
+  - 6|芬兰|@ripaojiedian_849_352
+  - 🇩🇪_DE_德意志联邦共和国_1_391
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_351
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_349
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_388
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_344
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_263
+  - 🇦🇹AT-95.164.9.196-133_437
+  - 🇨🇦_CA_加拿大_1_547_428
+  - 🇨🇦_CA_加拿大_1_580_434
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
+  - 🇨🇳 广东省 移动 3
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_70
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_566
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_564
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_283
-  - 🇦🇹AT-95.164.9.196-133_659
-  - 5|🇭🇺 匈牙利|@ripaojiedian_844
-  - 6|匈牙利|@ripaojiedian_848
-  - 6|芬兰|@ripaojiedian_849
-  - 5|🇫🇮 芬兰|@ripaojiedian_669
-  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_418
-  - 🇨🇦_CA_加拿大_2_554_440
-  - 🇺🇸_US_美国_2_529
-  - 🇺🇸_US_美国_6_562
-  - 🇩🇪_DE_德意志联邦共和国_661
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_417
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_706
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_711
-  - 🇨🇦_CA_加拿大_2_699
-  - 6|芬兰|@ripaojiedian_775
-  - 6|匈牙利|@ripaojiedian_774
+  - 🇯🇵JP-158.101.144.132-1550 | 14.843MB
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_432
+  - 🇦🇹AT-95.164.9.196-133_659_573
+  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
+  - 🇨🇦_CA_加拿大_1_547_438
+  - 🇨🇦_CA_加拿大_1_580_444
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450
+  - 🇦🇹AT-95.164.9.196-133_446
+  - 5|🇸🇬 新加坡2|@ripaojiedian_671
+  - 6|新加坡2|@ripaojiedian
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_47_21
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_574
+  - 6|匈牙利|@ripaojiedian_848_575
+  - 6|芬兰|@ripaojiedian_849_576
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_578
+  - 6|美国|@ripaojiedian
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_577
+  - 🇩🇪_DE_德意志联邦共和国_2_599
+  - 🇩🇪_DE_德意志联邦共和国_2_561
+  - 🇨🇦_CA_加拿大_1_547_753
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761
+  - 🇨🇦_CA_加拿大_1_580_760
+  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_737
+  - 5|🇭🇺 匈牙利|@ripaojiedian_771
   - 6|匈牙利|@ripaojiedian_864
   - 5|🇭🇺 匈牙利|@ripaojiedian_860
+  - 🇳🇱NL-103.214.68.57-206_797
+  - 6|芬兰|@ripaojiedian_775
+  - 5|🇫🇮 芬兰|@ripaojiedian_770
   - 6|芬兰|@ripaojiedian_865
+  - 5|🇫🇮 芬兰|@ripaojiedian_861
+  - 🇩🇪_DE_德意志联邦共和国_2_590_666
+  - 🇰🇷 _KR_韩国_306_802
+  - 6|匈牙利|@ripaojiedian_774
+  - 🇰🇷 _KR_韩国_260_801
+  - 🇩🇪_DE_德意志联邦共和国_2_379_664
+  - 🇷🇺_RU_俄罗斯联邦_831
+  - 🇬🇮_GI_直布罗陀_1_826
+  - 🇨🇦_CA_加拿大_846
+  - 🇩🇪_DE_德意志联邦共和国_2_848
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_858
+  - 🇨🇦_CA_加拿大_1_868
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_217_985
+  - 🇩🇪_DE_德意志联邦共和国_1_847
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_941
+  - 6|美国2|@ripaojiedian_1013
+  - 🇩🇪DE-91.107.178.253-130
+  - 🇦🇹AT-95.164.9.196-133_993
+  - 5|🇺🇸 美国2|@ripaojiedian_1012
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
+  - 🇨🇦_CA_加拿大_1_580_995
+  - 🇨🇦_CA_加拿大_1_547_988
+  - 🇩🇪DE-91.107.178.253-184
+  - 🇨🇦_CA_加拿大_1_529_1009
+  - 🇩🇪_DE_德意志联邦共和国_2_379_1004
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
+  - 🇳🇱NL-103.214.68.57-166
+  - 🇩🇪_DE_德意志联邦共和国_2_590_1010
+  - 🇦🇹AT-95.164.9.196-139
+  - 🇨🇳 广东省 移动_1046
+  - CO-190.120.231.45-4332
+  - 🇺🇸 US-156.146.38.163-3713
+  - 🇺🇸 US-156.146.38.163-0292
+  - 5|🇸🇬 狮城特殊|@ripaojiedian_1141
+  - 9|baipaovpn香港
+  - 9|baipaovpn加拿大
+  - 10|🇨🇳_CN_中国->🇺🇸_US_美国_29
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 0,10|🇨🇦_CA_加拿大_2_42
+  - 0,10|🇩🇪_DE_德意志联邦共和国_由快嘴科技提供：kkzui.c...
+  - 5|🇭🇰 香港|@ripaojiedian_1134
+  - 5|🇫🇷 法国|@ripaojiedian
+  - 10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_24
+  - 10|🇨🇳_CN_中国->🇩🇪_DE_德国_8
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_40
-  - 🇺🇸_US_美国_6_520
-  - 🇯🇵JP-158.101.144.132-0205 | 14.893MB
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_78
+  - 🇸🇬SG-138.2.108.195-0682 | 18.702MB
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
+  - CO-190.120.231.45-2153 | 11.281MB
+  - 🇫🇷FR-144.24.205.55-0128 | 27.034MB
+  - 🇬🇧GB-143.47.251.94-1484 | 6.901MB
+  - 🇺🇸US-38.107.226.238-0762 | 2.192MB
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_335
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_334
+  - 5|🇰🇷 韩国特殊|@ripaojiedian_348
+  - 🇯🇵JP-3.113.0.133-0706 | 16.136MB
+  - 🇯🇵JP-35.77.94.142-0711 | 10.565MB
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_153
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_620
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_398
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_637
+  - 🇷🇺_RU_俄罗斯联邦_375
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_154
+  - 🇳🇱NL-103.214.68.57-206_491_336
+  - 6|美国2|@ripaojiedian_847
+  - 5|🇺🇸 美国2|@ripaojiedian_841
+  - 6|美国2|@ripaojiedian_667
+  - 🇦🇹AT-95.164.9.196-133_659_342
+  - 🇳🇱NL-103.214.68.57-206_420
+  - 🇰🇷 _KR_韩国_306_419
+  - 🇰🇷 _KR_韩国_260_421
+  - 🇬🇮_GI_直布罗陀_1_370
+  - 🇸🇪_SE_瑞典_387
+  - 🇨🇦_CA_加拿大_390
+  - 🇳🇱NL-103.214.68.57-167
+  - 🇩🇪_DE_德意志联邦共和国_2_392
+  - 6|匈牙利|@ripaojiedian_848_350
+  - 6|芬兰|@ripaojiedian_849_352
+  - 🇩🇪_DE_德意志联邦共和国_1_391
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_351
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_349
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_388
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_344
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_263
+  - 🇦🇹AT-95.164.9.196-133_437
+  - 🇨🇦_CA_加拿大_1_547_428
+  - 🇨🇦_CA_加拿大_1_580_434
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
+  - 🇨🇳 广东省 移动 3
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_70
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_566
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_564
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_283
-  - 🇦🇹AT-95.164.9.196-133_659
-  - 5|🇭🇺 匈牙利|@ripaojiedian_844
-  - 6|匈牙利|@ripaojiedian_848
-  - 6|芬兰|@ripaojiedian_849
-  - 5|🇫🇮 芬兰|@ripaojiedian_669
-  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_418
-  - 🇨🇦_CA_加拿大_2_554_440
-  - 🇺🇸_US_美国_2_529
-  - 🇺🇸_US_美国_6_562
-  - 🇩🇪_DE_德意志联邦共和国_661
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_417
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_706
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_711
-  - 🇨🇦_CA_加拿大_2_699
-  - 6|芬兰|@ripaojiedian_775
-  - 6|匈牙利|@ripaojiedian_774
+  - 🇯🇵JP-158.101.144.132-1550 | 14.843MB
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_432
+  - 🇦🇹AT-95.164.9.196-133_659_573
+  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
+  - 🇨🇦_CA_加拿大_1_547_438
+  - 🇨🇦_CA_加拿大_1_580_444
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450
+  - 🇦🇹AT-95.164.9.196-133_446
+  - 5|🇸🇬 新加坡2|@ripaojiedian_671
+  - 6|新加坡2|@ripaojiedian
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_47_21
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_574
+  - 6|匈牙利|@ripaojiedian_848_575
+  - 6|芬兰|@ripaojiedian_849_576
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_578
+  - 6|美国|@ripaojiedian
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_577
+  - 🇩🇪_DE_德意志联邦共和国_2_599
+  - 🇩🇪_DE_德意志联邦共和国_2_561
+  - 🇨🇦_CA_加拿大_1_547_753
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761
+  - 🇨🇦_CA_加拿大_1_580_760
+  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_737
+  - 5|🇭🇺 匈牙利|@ripaojiedian_771
   - 6|匈牙利|@ripaojiedian_864
   - 5|🇭🇺 匈牙利|@ripaojiedian_860
+  - 🇳🇱NL-103.214.68.57-206_797
+  - 6|芬兰|@ripaojiedian_775
+  - 5|🇫🇮 芬兰|@ripaojiedian_770
   - 6|芬兰|@ripaojiedian_865
+  - 5|🇫🇮 芬兰|@ripaojiedian_861
+  - 🇩🇪_DE_德意志联邦共和国_2_590_666
+  - 🇰🇷 _KR_韩国_306_802
+  - 6|匈牙利|@ripaojiedian_774
+  - 🇰🇷 _KR_韩国_260_801
+  - 🇩🇪_DE_德意志联邦共和国_2_379_664
+  - 🇷🇺_RU_俄罗斯联邦_831
+  - 🇬🇮_GI_直布罗陀_1_826
+  - 🇨🇦_CA_加拿大_846
+  - 🇩🇪_DE_德意志联邦共和国_2_848
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_858
+  - 🇨🇦_CA_加拿大_1_868
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_217_985
+  - 🇩🇪_DE_德意志联邦共和国_1_847
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_941
+  - 6|美国2|@ripaojiedian_1013
+  - 🇩🇪DE-91.107.178.253-130
+  - 🇦🇹AT-95.164.9.196-133_993
+  - 5|🇺🇸 美国2|@ripaojiedian_1012
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
+  - 🇨🇦_CA_加拿大_1_580_995
+  - 🇨🇦_CA_加拿大_1_547_988
+  - 🇩🇪DE-91.107.178.253-184
+  - 🇨🇦_CA_加拿大_1_529_1009
+  - 🇩🇪_DE_德意志联邦共和国_2_379_1004
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
+  - 🇳🇱NL-103.214.68.57-166
+  - 🇩🇪_DE_德意志联邦共和国_2_590_1010
+  - 🇦🇹AT-95.164.9.196-139
+  - 🇨🇳 广东省 移动_1046
+  - CO-190.120.231.45-4332
+  - 🇺🇸 US-156.146.38.163-3713
+  - 🇺🇸 US-156.146.38.163-0292
+  - 5|🇸🇬 狮城特殊|@ripaojiedian_1141
+  - 9|baipaovpn香港
+  - 9|baipaovpn加拿大
+  - 10|🇨🇳_CN_中国->🇺🇸_US_美国_29
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 0,10|🇨🇦_CA_加拿大_2_42
+  - 0,10|🇩🇪_DE_德意志联邦共和国_由快嘴科技提供：kkzui.c...
+  - 5|🇭🇰 香港|@ripaojiedian_1134
+  - 5|🇫🇷 法国|@ripaojiedian
+  - 10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_24
+  - 10|🇨🇳_CN_中国->🇩🇪_DE_德国_8
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
   - 🚀 节点选择
   - ♻️ 自动选择
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_40
-  - 🇺🇸_US_美国_6_520
-  - 🇯🇵JP-158.101.144.132-0205 | 14.893MB
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_78
+  - 🇸🇬SG-138.2.108.195-0682 | 18.702MB
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
+  - CO-190.120.231.45-2153 | 11.281MB
+  - 🇫🇷FR-144.24.205.55-0128 | 27.034MB
+  - 🇬🇧GB-143.47.251.94-1484 | 6.901MB
+  - 🇺🇸US-38.107.226.238-0762 | 2.192MB
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_335
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_334
+  - 5|🇰🇷 韩国特殊|@ripaojiedian_348
+  - 🇯🇵JP-3.113.0.133-0706 | 16.136MB
+  - 🇯🇵JP-35.77.94.142-0711 | 10.565MB
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_153
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_620
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_398
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_637
+  - 🇷🇺_RU_俄罗斯联邦_375
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_154
+  - 🇳🇱NL-103.214.68.57-206_491_336
+  - 6|美国2|@ripaojiedian_847
+  - 5|🇺🇸 美国2|@ripaojiedian_841
+  - 6|美国2|@ripaojiedian_667
+  - 🇦🇹AT-95.164.9.196-133_659_342
+  - 🇳🇱NL-103.214.68.57-206_420
+  - 🇰🇷 _KR_韩国_306_419
+  - 🇰🇷 _KR_韩国_260_421
+  - 🇬🇮_GI_直布罗陀_1_370
+  - 🇸🇪_SE_瑞典_387
+  - 🇨🇦_CA_加拿大_390
+  - 🇳🇱NL-103.214.68.57-167
+  - 🇩🇪_DE_德意志联邦共和国_2_392
+  - 6|匈牙利|@ripaojiedian_848_350
+  - 6|芬兰|@ripaojiedian_849_352
+  - 🇩🇪_DE_德意志联邦共和国_1_391
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_351
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_349
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_388
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_344
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_263
+  - 🇦🇹AT-95.164.9.196-133_437
+  - 🇨🇦_CA_加拿大_1_547_428
+  - 🇨🇦_CA_加拿大_1_580_434
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
+  - 🇨🇳 广东省 移动 3
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_70
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_566
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_564
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_283
-  - 🇦🇹AT-95.164.9.196-133_659
-  - 5|🇭🇺 匈牙利|@ripaojiedian_844
-  - 6|匈牙利|@ripaojiedian_848
-  - 6|芬兰|@ripaojiedian_849
-  - 5|🇫🇮 芬兰|@ripaojiedian_669
-  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_418
-  - 🇨🇦_CA_加拿大_2_554_440
-  - 🇺🇸_US_美国_2_529
-  - 🇺🇸_US_美国_6_562
-  - 🇩🇪_DE_德意志联邦共和国_661
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_417
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_706
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_711
-  - 🇨🇦_CA_加拿大_2_699
-  - 6|芬兰|@ripaojiedian_775
-  - 6|匈牙利|@ripaojiedian_774
+  - 🇯🇵JP-158.101.144.132-1550 | 14.843MB
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_432
+  - 🇦🇹AT-95.164.9.196-133_659_573
+  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
+  - 🇨🇦_CA_加拿大_1_547_438
+  - 🇨🇦_CA_加拿大_1_580_444
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450
+  - 🇦🇹AT-95.164.9.196-133_446
+  - 5|🇸🇬 新加坡2|@ripaojiedian_671
+  - 6|新加坡2|@ripaojiedian
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_47_21
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_574
+  - 6|匈牙利|@ripaojiedian_848_575
+  - 6|芬兰|@ripaojiedian_849_576
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_578
+  - 6|美国|@ripaojiedian
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_577
+  - 🇩🇪_DE_德意志联邦共和国_2_599
+  - 🇩🇪_DE_德意志联邦共和国_2_561
+  - 🇨🇦_CA_加拿大_1_547_753
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761
+  - 🇨🇦_CA_加拿大_1_580_760
+  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_737
+  - 5|🇭🇺 匈牙利|@ripaojiedian_771
   - 6|匈牙利|@ripaojiedian_864
   - 5|🇭🇺 匈牙利|@ripaojiedian_860
+  - 🇳🇱NL-103.214.68.57-206_797
+  - 6|芬兰|@ripaojiedian_775
+  - 5|🇫🇮 芬兰|@ripaojiedian_770
   - 6|芬兰|@ripaojiedian_865
+  - 5|🇫🇮 芬兰|@ripaojiedian_861
+  - 🇩🇪_DE_德意志联邦共和国_2_590_666
+  - 🇰🇷 _KR_韩国_306_802
+  - 6|匈牙利|@ripaojiedian_774
+  - 🇰🇷 _KR_韩国_260_801
+  - 🇩🇪_DE_德意志联邦共和国_2_379_664
+  - 🇷🇺_RU_俄罗斯联邦_831
+  - 🇬🇮_GI_直布罗陀_1_826
+  - 🇨🇦_CA_加拿大_846
+  - 🇩🇪_DE_德意志联邦共和国_2_848
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_858
+  - 🇨🇦_CA_加拿大_1_868
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_217_985
+  - 🇩🇪_DE_德意志联邦共和国_1_847
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_941
+  - 6|美国2|@ripaojiedian_1013
+  - 🇩🇪DE-91.107.178.253-130
+  - 🇦🇹AT-95.164.9.196-133_993
+  - 5|🇺🇸 美国2|@ripaojiedian_1012
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
+  - 🇨🇦_CA_加拿大_1_580_995
+  - 🇨🇦_CA_加拿大_1_547_988
+  - 🇩🇪DE-91.107.178.253-184
+  - 🇨🇦_CA_加拿大_1_529_1009
+  - 🇩🇪_DE_德意志联邦共和国_2_379_1004
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
+  - 🇳🇱NL-103.214.68.57-166
+  - 🇩🇪_DE_德意志联邦共和国_2_590_1010
+  - 🇦🇹AT-95.164.9.196-139
+  - 🇨🇳 广东省 移动_1046
+  - CO-190.120.231.45-4332
+  - 🇺🇸 US-156.146.38.163-3713
+  - 🇺🇸 US-156.146.38.163-0292
+  - 5|🇸🇬 狮城特殊|@ripaojiedian_1141
+  - 9|baipaovpn香港
+  - 9|baipaovpn加拿大
+  - 10|🇨🇳_CN_中国->🇺🇸_US_美国_29
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 0,10|🇨🇦_CA_加拿大_2_42
+  - 0,10|🇩🇪_DE_德意志联邦共和国_由快嘴科技提供：kkzui.c...
+  - 5|🇭🇰 香港|@ripaojiedian_1134
+  - 5|🇫🇷 法国|@ripaojiedian
+  - 10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_24
+  - 10|🇨🇳_CN_中国->🇩🇪_DE_德国_8
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_40
-  - 🇺🇸_US_美国_6_520
-  - 🇯🇵JP-158.101.144.132-0205 | 14.893MB
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_78
+  - 🇸🇬SG-138.2.108.195-0682 | 18.702MB
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
+  - CO-190.120.231.45-2153 | 11.281MB
+  - 🇫🇷FR-144.24.205.55-0128 | 27.034MB
+  - 🇬🇧GB-143.47.251.94-1484 | 6.901MB
+  - 🇺🇸US-38.107.226.238-0762 | 2.192MB
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_335
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_334
+  - 5|🇰🇷 韩国特殊|@ripaojiedian_348
+  - 🇯🇵JP-3.113.0.133-0706 | 16.136MB
+  - 🇯🇵JP-35.77.94.142-0711 | 10.565MB
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_153
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_620
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_398
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_637
+  - 🇷🇺_RU_俄罗斯联邦_375
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_154
+  - 🇳🇱NL-103.214.68.57-206_491_336
+  - 6|美国2|@ripaojiedian_847
+  - 5|🇺🇸 美国2|@ripaojiedian_841
+  - 6|美国2|@ripaojiedian_667
+  - 🇦🇹AT-95.164.9.196-133_659_342
+  - 🇳🇱NL-103.214.68.57-206_420
+  - 🇰🇷 _KR_韩国_306_419
+  - 🇰🇷 _KR_韩国_260_421
+  - 🇬🇮_GI_直布罗陀_1_370
+  - 🇸🇪_SE_瑞典_387
+  - 🇨🇦_CA_加拿大_390
+  - 🇳🇱NL-103.214.68.57-167
+  - 🇩🇪_DE_德意志联邦共和国_2_392
+  - 6|匈牙利|@ripaojiedian_848_350
+  - 6|芬兰|@ripaojiedian_849_352
+  - 🇩🇪_DE_德意志联邦共和国_1_391
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_351
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_349
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_388
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_344
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_263
+  - 🇦🇹AT-95.164.9.196-133_437
+  - 🇨🇦_CA_加拿大_1_547_428
+  - 🇨🇦_CA_加拿大_1_580_434
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
+  - 🇨🇳 广东省 移动 3
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_70
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_566
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_564
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_283
-  - 🇦🇹AT-95.164.9.196-133_659
-  - 5|🇭🇺 匈牙利|@ripaojiedian_844
-  - 6|匈牙利|@ripaojiedian_848
-  - 6|芬兰|@ripaojiedian_849
-  - 5|🇫🇮 芬兰|@ripaojiedian_669
-  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_418
-  - 🇨🇦_CA_加拿大_2_554_440
-  - 🇺🇸_US_美国_2_529
-  - 🇺🇸_US_美国_6_562
-  - 🇩🇪_DE_德意志联邦共和国_661
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_417
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_706
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_711
-  - 🇨🇦_CA_加拿大_2_699
-  - 6|芬兰|@ripaojiedian_775
-  - 6|匈牙利|@ripaojiedian_774
+  - 🇯🇵JP-158.101.144.132-1550 | 14.843MB
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_432
+  - 🇦🇹AT-95.164.9.196-133_659_573
+  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
+  - 🇨🇦_CA_加拿大_1_547_438
+  - 🇨🇦_CA_加拿大_1_580_444
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450
+  - 🇦🇹AT-95.164.9.196-133_446
+  - 5|🇸🇬 新加坡2|@ripaojiedian_671
+  - 6|新加坡2|@ripaojiedian
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_47_21
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_574
+  - 6|匈牙利|@ripaojiedian_848_575
+  - 6|芬兰|@ripaojiedian_849_576
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_578
+  - 6|美国|@ripaojiedian
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_577
+  - 🇩🇪_DE_德意志联邦共和国_2_599
+  - 🇩🇪_DE_德意志联邦共和国_2_561
+  - 🇨🇦_CA_加拿大_1_547_753
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761
+  - 🇨🇦_CA_加拿大_1_580_760
+  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_737
+  - 5|🇭🇺 匈牙利|@ripaojiedian_771
   - 6|匈牙利|@ripaojiedian_864
   - 5|🇭🇺 匈牙利|@ripaojiedian_860
+  - 🇳🇱NL-103.214.68.57-206_797
+  - 6|芬兰|@ripaojiedian_775
+  - 5|🇫🇮 芬兰|@ripaojiedian_770
   - 6|芬兰|@ripaojiedian_865
+  - 5|🇫🇮 芬兰|@ripaojiedian_861
+  - 🇩🇪_DE_德意志联邦共和国_2_590_666
+  - 🇰🇷 _KR_韩国_306_802
+  - 6|匈牙利|@ripaojiedian_774
+  - 🇰🇷 _KR_韩国_260_801
+  - 🇩🇪_DE_德意志联邦共和国_2_379_664
+  - 🇷🇺_RU_俄罗斯联邦_831
+  - 🇬🇮_GI_直布罗陀_1_826
+  - 🇨🇦_CA_加拿大_846
+  - 🇩🇪_DE_德意志联邦共和国_2_848
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_858
+  - 🇨🇦_CA_加拿大_1_868
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_217_985
+  - 🇩🇪_DE_德意志联邦共和国_1_847
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_941
+  - 6|美国2|@ripaojiedian_1013
+  - 🇩🇪DE-91.107.178.253-130
+  - 🇦🇹AT-95.164.9.196-133_993
+  - 5|🇺🇸 美国2|@ripaojiedian_1012
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
+  - 🇨🇦_CA_加拿大_1_580_995
+  - 🇨🇦_CA_加拿大_1_547_988
+  - 🇩🇪DE-91.107.178.253-184
+  - 🇨🇦_CA_加拿大_1_529_1009
+  - 🇩🇪_DE_德意志联邦共和国_2_379_1004
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
+  - 🇳🇱NL-103.214.68.57-166
+  - 🇩🇪_DE_德意志联邦共和国_2_590_1010
+  - 🇦🇹AT-95.164.9.196-139
+  - 🇨🇳 广东省 移动_1046
+  - CO-190.120.231.45-4332
+  - 🇺🇸 US-156.146.38.163-3713
+  - 🇺🇸 US-156.146.38.163-0292
+  - 5|🇸🇬 狮城特殊|@ripaojiedian_1141
+  - 9|baipaovpn香港
+  - 9|baipaovpn加拿大
+  - 10|🇨🇳_CN_中国->🇺🇸_US_美国_29
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 0,10|🇨🇦_CA_加拿大_2_42
+  - 0,10|🇩🇪_DE_德意志联邦共和国_由快嘴科技提供：kkzui.c...
+  - 5|🇭🇰 香港|@ripaojiedian_1134
+  - 5|🇫🇷 法国|@ripaojiedian
+  - 10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_24
+  - 10|🇨🇳_CN_中国->🇩🇪_DE_德国_8
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_40
-  - 🇺🇸_US_美国_6_520
-  - 🇯🇵JP-158.101.144.132-0205 | 14.893MB
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_78
+  - 🇸🇬SG-138.2.108.195-0682 | 18.702MB
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
+  - CO-190.120.231.45-2153 | 11.281MB
+  - 🇫🇷FR-144.24.205.55-0128 | 27.034MB
+  - 🇬🇧GB-143.47.251.94-1484 | 6.901MB
+  - 🇺🇸US-38.107.226.238-0762 | 2.192MB
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_335
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_334
+  - 5|🇰🇷 韩国特殊|@ripaojiedian_348
+  - 🇯🇵JP-3.113.0.133-0706 | 16.136MB
+  - 🇯🇵JP-35.77.94.142-0711 | 10.565MB
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_153
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_620
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_398
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_637
+  - 🇷🇺_RU_俄罗斯联邦_375
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_154
+  - 🇳🇱NL-103.214.68.57-206_491_336
+  - 6|美国2|@ripaojiedian_847
+  - 5|🇺🇸 美国2|@ripaojiedian_841
+  - 6|美国2|@ripaojiedian_667
+  - 🇦🇹AT-95.164.9.196-133_659_342
+  - 🇳🇱NL-103.214.68.57-206_420
+  - 🇰🇷 _KR_韩国_306_419
+  - 🇰🇷 _KR_韩国_260_421
+  - 🇬🇮_GI_直布罗陀_1_370
+  - 🇸🇪_SE_瑞典_387
+  - 🇨🇦_CA_加拿大_390
+  - 🇳🇱NL-103.214.68.57-167
+  - 🇩🇪_DE_德意志联邦共和国_2_392
+  - 6|匈牙利|@ripaojiedian_848_350
+  - 6|芬兰|@ripaojiedian_849_352
+  - 🇩🇪_DE_德意志联邦共和国_1_391
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_351
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_349
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_388
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_344
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_263
+  - 🇦🇹AT-95.164.9.196-133_437
+  - 🇨🇦_CA_加拿大_1_547_428
+  - 🇨🇦_CA_加拿大_1_580_434
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
+  - 🇨🇳 广东省 移动 3
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_70
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_566
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_564
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_283
-  - 🇦🇹AT-95.164.9.196-133_659
-  - 5|🇭🇺 匈牙利|@ripaojiedian_844
-  - 6|匈牙利|@ripaojiedian_848
-  - 6|芬兰|@ripaojiedian_849
-  - 5|🇫🇮 芬兰|@ripaojiedian_669
-  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_418
-  - 🇨🇦_CA_加拿大_2_554_440
-  - 🇺🇸_US_美国_2_529
-  - 🇺🇸_US_美国_6_562
-  - 🇩🇪_DE_德意志联邦共和国_661
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_417
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_706
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_711
-  - 🇨🇦_CA_加拿大_2_699
-  - 6|芬兰|@ripaojiedian_775
-  - 6|匈牙利|@ripaojiedian_774
+  - 🇯🇵JP-158.101.144.132-1550 | 14.843MB
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_432
+  - 🇦🇹AT-95.164.9.196-133_659_573
+  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
+  - 🇨🇦_CA_加拿大_1_547_438
+  - 🇨🇦_CA_加拿大_1_580_444
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450
+  - 🇦🇹AT-95.164.9.196-133_446
+  - 5|🇸🇬 新加坡2|@ripaojiedian_671
+  - 6|新加坡2|@ripaojiedian
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_47_21
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_574
+  - 6|匈牙利|@ripaojiedian_848_575
+  - 6|芬兰|@ripaojiedian_849_576
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_578
+  - 6|美国|@ripaojiedian
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_577
+  - 🇩🇪_DE_德意志联邦共和国_2_599
+  - 🇩🇪_DE_德意志联邦共和国_2_561
+  - 🇨🇦_CA_加拿大_1_547_753
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761
+  - 🇨🇦_CA_加拿大_1_580_760
+  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_737
+  - 5|🇭🇺 匈牙利|@ripaojiedian_771
   - 6|匈牙利|@ripaojiedian_864
   - 5|🇭🇺 匈牙利|@ripaojiedian_860
+  - 🇳🇱NL-103.214.68.57-206_797
+  - 6|芬兰|@ripaojiedian_775
+  - 5|🇫🇮 芬兰|@ripaojiedian_770
   - 6|芬兰|@ripaojiedian_865
+  - 5|🇫🇮 芬兰|@ripaojiedian_861
+  - 🇩🇪_DE_德意志联邦共和国_2_590_666
+  - 🇰🇷 _KR_韩国_306_802
+  - 6|匈牙利|@ripaojiedian_774
+  - 🇰🇷 _KR_韩国_260_801
+  - 🇩🇪_DE_德意志联邦共和国_2_379_664
+  - 🇷🇺_RU_俄罗斯联邦_831
+  - 🇬🇮_GI_直布罗陀_1_826
+  - 🇨🇦_CA_加拿大_846
+  - 🇩🇪_DE_德意志联邦共和国_2_848
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_858
+  - 🇨🇦_CA_加拿大_1_868
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_217_985
+  - 🇩🇪_DE_德意志联邦共和国_1_847
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_941
+  - 6|美国2|@ripaojiedian_1013
+  - 🇩🇪DE-91.107.178.253-130
+  - 🇦🇹AT-95.164.9.196-133_993
+  - 5|🇺🇸 美国2|@ripaojiedian_1012
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
+  - 🇨🇦_CA_加拿大_1_580_995
+  - 🇨🇦_CA_加拿大_1_547_988
+  - 🇩🇪DE-91.107.178.253-184
+  - 🇨🇦_CA_加拿大_1_529_1009
+  - 🇩🇪_DE_德意志联邦共和国_2_379_1004
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
+  - 🇳🇱NL-103.214.68.57-166
+  - 🇩🇪_DE_德意志联邦共和国_2_590_1010
+  - 🇦🇹AT-95.164.9.196-139
+  - 🇨🇳 广东省 移动_1046
+  - CO-190.120.231.45-4332
+  - 🇺🇸 US-156.146.38.163-3713
+  - 🇺🇸 US-156.146.38.163-0292
+  - 5|🇸🇬 狮城特殊|@ripaojiedian_1141
+  - 9|baipaovpn香港
+  - 9|baipaovpn加拿大
+  - 10|🇨🇳_CN_中国->🇺🇸_US_美国_29
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 0,10|🇨🇦_CA_加拿大_2_42
+  - 0,10|🇩🇪_DE_德意志联邦共和国_由快嘴科技提供：kkzui.c...
+  - 5|🇭🇰 香港|@ripaojiedian_1134
+  - 5|🇫🇷 法国|@ripaojiedian
+  - 10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_24
+  - 10|🇨🇳_CN_中国->🇩🇪_DE_德国_8
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_40
-  - 🇺🇸_US_美国_6_520
-  - 🇯🇵JP-158.101.144.132-0205 | 14.893MB
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_78
+  - 🇸🇬SG-138.2.108.195-0682 | 18.702MB
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
+  - CO-190.120.231.45-2153 | 11.281MB
+  - 🇫🇷FR-144.24.205.55-0128 | 27.034MB
+  - 🇬🇧GB-143.47.251.94-1484 | 6.901MB
+  - 🇺🇸US-38.107.226.238-0762 | 2.192MB
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_335
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_334
+  - 5|🇰🇷 韩国特殊|@ripaojiedian_348
+  - 🇯🇵JP-3.113.0.133-0706 | 16.136MB
+  - 🇯🇵JP-35.77.94.142-0711 | 10.565MB
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_153
+  - 🇰🇷KR-43.201.47.36-3428 | 3.758MB_620
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_398
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_637
+  - 🇷🇺_RU_俄罗斯联邦_375
+  - 🇬🇧GB-52.151.70.24-0680 | 2.79MB_154
+  - 🇳🇱NL-103.214.68.57-206_491_336
+  - 6|美国2|@ripaojiedian_847
+  - 5|🇺🇸 美国2|@ripaojiedian_841
+  - 6|美国2|@ripaojiedian_667
+  - 🇦🇹AT-95.164.9.196-133_659_342
+  - 🇳🇱NL-103.214.68.57-206_420
+  - 🇰🇷 _KR_韩国_306_419
+  - 🇰🇷 _KR_韩国_260_421
+  - 🇬🇮_GI_直布罗陀_1_370
+  - 🇸🇪_SE_瑞典_387
+  - 🇨🇦_CA_加拿大_390
+  - 🇳🇱NL-103.214.68.57-167
+  - 🇩🇪_DE_德意志联邦共和国_2_392
+  - 6|匈牙利|@ripaojiedian_848_350
+  - 6|芬兰|@ripaojiedian_849_352
+  - 🇩🇪_DE_德意志联邦共和国_1_391
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_351
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_349
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_388
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_344
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_263
+  - 🇦🇹AT-95.164.9.196-133_437
+  - 🇨🇦_CA_加拿大_1_547_428
+  - 🇨🇦_CA_加拿大_1_580_434
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
+  - 🇨🇳 广东省 移动 3
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_70
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_150_566
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_608_564
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_283
-  - 🇦🇹AT-95.164.9.196-133_659
-  - 5|🇭🇺 匈牙利|@ripaojiedian_844
-  - 6|匈牙利|@ripaojiedian_848
-  - 6|芬兰|@ripaojiedian_849
-  - 5|🇫🇮 芬兰|@ripaojiedian_669
-  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
-  - 🇰🇷KR-43.201.54.34-3488 | 12.574MB_418
-  - 🇨🇦_CA_加拿大_2_554_440
-  - 🇺🇸_US_美国_2_529
-  - 🇺🇸_US_美国_6_562
-  - 🇩🇪_DE_德意志联邦共和国_661
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_417
+  - 🇯🇵JP-54.199.167.157-0703 | 16.794MB_706
   - 🇰🇷KR-43.201.110.81-3436 | 4.68MB_711
-  - 🇨🇦_CA_加拿大_2_699
-  - 6|芬兰|@ripaojiedian_775
-  - 6|匈牙利|@ripaojiedian_774
+  - 🇯🇵JP-158.101.144.132-1550 | 14.843MB
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_432
+  - 🇦🇹AT-95.164.9.196-133_659_573
+  - 🇸🇬SG-158.178.238.38-0210 | 10.367MB
+  - 🇨🇦_CA_加拿大_1_547_438
+  - 🇨🇦_CA_加拿大_1_580_444
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450
+  - 🇦🇹AT-95.164.9.196-133_446
+  - 5|🇸🇬 新加坡2|@ripaojiedian_671
+  - 6|新加坡2|@ripaojiedian
+  - 🇰🇷KR-43.201.34.246-3414 | 12.55MB_47_21
+  - 5|🇭🇺 匈牙利|@ripaojiedian_844_574
+  - 6|匈牙利|@ripaojiedian_848_575
+  - 6|芬兰|@ripaojiedian_849_576
+  - 5|🇫🇮 芬兰|@ripaojiedian_669_578
+  - 6|美国|@ripaojiedian
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇫🇮 芬兰|@ripaojiedian_845_577
+  - 🇩🇪_DE_德意志联邦共和国_2_599
+  - 🇩🇪_DE_德意志联邦共和国_2_561
+  - 🇨🇦_CA_加拿大_1_547_753
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761
+  - 🇨🇦_CA_加拿大_1_580_760
+  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_737
+  - 5|🇭🇺 匈牙利|@ripaojiedian_771
   - 6|匈牙利|@ripaojiedian_864
   - 5|🇭🇺 匈牙利|@ripaojiedian_860
+  - 🇳🇱NL-103.214.68.57-206_797
+  - 6|芬兰|@ripaojiedian_775
+  - 5|🇫🇮 芬兰|@ripaojiedian_770
   - 6|芬兰|@ripaojiedian_865
+  - 5|🇫🇮 芬兰|@ripaojiedian_861
+  - 🇩🇪_DE_德意志联邦共和国_2_590_666
+  - 🇰🇷 _KR_韩国_306_802
+  - 6|匈牙利|@ripaojiedian_774
+  - 🇰🇷 _KR_韩国_260_801
+  - 🇩🇪_DE_德意志联邦共和国_2_379_664
+  - 🇷🇺_RU_俄罗斯联邦_831
+  - 🇬🇮_GI_直布罗陀_1_826
+  - 🇨🇦_CA_加拿大_846
+  - 🇩🇪_DE_德意志联邦共和国_2_848
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_858
+  - 🇨🇦_CA_加拿大_1_868
+  - 🇰🇷KR-13.125.25.193-3436 | 4.292MB_217_985
+  - 🇩🇪_DE_德意志联邦共和国_1_847
+  - 🇸🇬SG-54.179.167.94-0707 | 23.629MB_941
+  - 6|美国2|@ripaojiedian_1013
+  - 🇩🇪DE-91.107.178.253-130
+  - 🇦🇹AT-95.164.9.196-133_993
+  - 5|🇺🇸 美国2|@ripaojiedian_1012
+  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
+  - 🇨🇦_CA_加拿大_1_580_995
+  - 🇨🇦_CA_加拿大_1_547_988
+  - 🇩🇪DE-91.107.178.253-184
+  - 🇨🇦_CA_加拿大_1_529_1009
+  - 🇩🇪_DE_德意志联邦共和国_2_379_1004
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
+  - 🇳🇱NL-103.214.68.57-166
+  - 🇩🇪_DE_德意志联邦共和国_2_590_1010
+  - 🇦🇹AT-95.164.9.196-139
+  - 🇨🇳 广东省 移动_1046
+  - CO-190.120.231.45-4332
+  - 🇺🇸 US-156.146.38.163-3713
+  - 🇺🇸 US-156.146.38.163-0292
+  - 5|🇸🇬 狮城特殊|@ripaojiedian_1141
+  - 9|baipaovpn香港
+  - 9|baipaovpn加拿大
+  - 10|🇨🇳_CN_中国->🇺🇸_US_美国_29
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 0,10|🇨🇦_CA_加拿大_2_42
+  - 0,10|🇩🇪_DE_德意志联邦共和国_由快嘴科技提供：kkzui.c...
+  - 5|🇭🇰 香港|@ripaojiedian_1134
+  - 5|🇫🇷 法国|@ripaojiedian
+  - 10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_24
+  - 10|🇨🇳_CN_中国->🇩🇪_DE_德国_8
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
