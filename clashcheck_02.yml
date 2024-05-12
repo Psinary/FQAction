@@ -4,17 +4,194 @@ log-level: info
 mixed-port: 7890
 mode: Rule
 proxies:
-- cipher: aes-128-cfb
-  name: 🇳🇱NL-109.201.152.181-0610 | 24.012MB
-  password: shadowsocks
+- cipher: aes-256-cfb
+  name: 🇸🇬SG-18.143.93.163-4264 | 24.713MB
+  password: amazonskr05
   port: 443
-  server: 109.201.152.181
+  server: 18.143.93.163
   type: ss
 - cipher: aes-128-cfb
-  name: CH-156.146.62.160-0628 | 10.621MB
+  name: 🇺🇸US-212.102.47.198-0302 | 68.007MB
   password: shadowsocks
   port: 443
-  server: 156.146.62.160
+  server: 212.102.47.198
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸US-156.146.38.163-0297 | 99.227MB
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_4_18
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 167.88.61.235
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸US-156.146.38.163-0621 | 97.064MB
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_3_34
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_2_15
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_7_75
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.86.135.31-3073 | 3.084MB
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 38.86.135.31
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.86.135.31-3086 | 3.208MB
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 38.86.135.31
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_6_57
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇷🇺_RU_俄罗斯联邦_26
+  network: ws
+  port: 12910
+  server: 45.136.245.240
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+- name: 🇺🇸_US_美国_1_80
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 18.189.103.46
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬SG-103.172.116.79-1568 | 5.41MB
+  password: GeregetR8cvQHzYr
+  port: 9030
+  server: 103.172.116.79
+  type: ss
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_81
+  network: tcp
+  password: MyYoZhfX
+  port: 15274
+  server: 223.113.54.154
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_4_103
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 167.88.61.235
+  type: ss
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_67
+  network: tcp
+  password: MyYoZhfX
+  port: 15274
+  server: 223.113.54.154
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_2_100
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_88
+  network: tcp
+  password: MyYoZhfX
+  port: 15274
+  server: 223.113.54.154
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-128-cfb
+  name: 🇺🇸US-156.146.38.163-003
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸US-212.102.47.198-006
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  type: ss
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
+  network: tcp
+  password: MyYoZhfX
+  port: 20344
+  server: 36.151.195.46
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
+  network: tcp
+  password: MyYoZhfX
+  port: 15274
+  server: 223.113.54.154
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇱🇺_LU_卢森堡_2_115
+  network: http
+  port: 3389
+  server: 45.82.31.164
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.61.235-141
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 167.88.61.235
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.61.235-138
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 167.88.61.235
+  type: ss
+- name: 🇨🇳CN-223.113.54.154-005
+  password: MyYoZhfX
+  port: 15274
+  server: 223.113.54.154
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_3_72
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
   type: ss
 - cipher: aes-128-cfb
   name: 🇺🇸US-212.102.47.198-0563 | 27.251MB
@@ -23,10 +200,22 @@ proxies:
   server: 212.102.47.198
   type: ss
 - cipher: aes-128-cfb
-  name: 🇳🇱_NL_荷兰_43
+  name: 🇺🇸_US_美国_3_58
   password: shadowsocks
   port: 443
-  server: 109.201.152.181
+  server: 212.102.47.198
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-23.154.136.105-146
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 23.154.136.105
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸US-156.146.38.163-0231 | 82.825MB
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
   type: ss
 - cipher: aes-128-cfb
   name: 🇺🇸US-156.146.38.163-1567 | 86.315MB
@@ -35,120 +224,77 @@ proxies:
   server: 156.146.38.163
   type: ss
 - cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸US-38.110.1.51-3372 | 1.077MB
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 38.110.1.51
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇳🇱_NL_荷兰_89
-  password: shadowsocks
-  port: 443
-  server: 109.201.152.181
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_3_58
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  type: ss
-- cipher: aes-128-cfb
   name: 🇺🇸_US_美国_6_19
   password: shadowsocks
   port: 443
   server: 156.146.38.163
   type: ss
-- name: 🇺🇸US-128.199.13.40-0143 | 25.897MB
-  password: e9edd1db-e6f0-4c37-9be7-135335a81e6c
-  port: 30020
-  server: 128.199.13.40
-  skip-cert-verify: false
-  sni: us05.freeflyingcloud.xyz
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱NL-103.214.68.57-145
+  network: tcp
+  port: 10001
+  server: 103.214.68.57
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
+  ws-headers:
+    Host: 103.214.68.57
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱NL-103.214.68.57-192
+  network: tcp
+  port: 10001
+  server: 103.214.68.57
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
+  ws-headers:
+    Host: 103.214.68.57
+  ws-path: /
 - cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_3_72
+  name: 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
   password: shadowsocks
   port: 443
-  server: 212.102.47.198
+  server: 156.146.38.163
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺_RU_俄罗斯联邦_59
-  password: KTwIQM1cQJwtkrjfld6Usn
-  port: 32913
-  server: 46.226.162.112
-  type: ss
-- name: 🇺🇸US-128.199.13.40-0176 | 25.034MB
-  password: 15f804fa-27be-4b0f-85d4-cead43a483ef
-  port: 30020
-  server: us05.freeflyingcloud.xyz
-  skip-cert-verify: false
-  sni: us05.freeflyingcloud.xyz
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺_RU_俄罗斯联邦_42
-  password: KTwIQM1cQJwtkrjfld6Usn
-  port: 32913
-  server: 46.226.162.112
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺_RU_俄罗斯联邦_73
-  password: KTwIQM1cQJwtkrjfld6Usn
-  port: 32913
-  server: 46.226.162.112
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸US-38.110.1.51-3374 | 1.077MB
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.110.1.51
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_2_45
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 38.110.1.111
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺_RU_俄罗斯联邦_88
-  password: KTwIQM1cQJwtkrjfld6Usn
-  port: 32913
-  server: 46.226.162.112
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_2_91
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 38.110.1.111
+- cipher: aes-128-cfb
+  name: 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇱🇺_LU_卢森堡_14
-  network: http
-  port: 3389
-  server: 45.82.31.164
+  name: 🇨🇳CN-183.240.179.195-191
+  network: tcp
+  port: 61002
+  server: 183.240.179.195
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  ws-headers:
+    Host: 183.240.179.195
+  ws-path: /
+- name: 🇨🇳CN-36.151.195.46-142
+  password: MyYoZhfX
+  port: 20344
+  server: 36.151.195.46
+  skip-cert-verify: true
+  type: trojan
+- name: 🇨🇳CN-223.113.54.154-164
+  password: MyYoZhfX
+  port: 15274
+  server: 223.113.54.154
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 🇱🇺_LU_卢森堡_40
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_86
   network: http
   port: 3389
   server: 45.82.31.164
@@ -168,7 +314,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 🇱🇺_LU_卢森堡_67
+  name: 🇱🇺_LU_卢森堡_2_79
   network: http
   port: 3389
   server: 45.82.31.164
@@ -176,164 +322,127 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大
-  network: ws
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_6_486_274
+  password: shadowsocks
   port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_9_742_357
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_9_832_360
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸 US-156.146.38.163-3713_1364_493
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_6_1165_441
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸 US-156.146.38.163-0292_1452_505
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸 US-212.102.47.198-0833_540
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸 US-156.146.38.163-3713_542
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸 US-156.146.38.163-0292_541
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸 US-156.146.38.163-0292_1365_494
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸 US-156.146.38.163-3713_1446_501
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3_70
-  network: ws
-  port: 2095
-  server: 172.67.214.33
+  name: 🇱🇺_LU_卢森堡_731_386
+  network: http
+  port: 3389
+  server: 45.82.31.164
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      host: fcdn.flha.ru
-    path: /
-- cipher: aes-128-cfb
-  name: CH-156.146.62.160-0641 | 16.118MB
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.160
-  type: ss
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-43.201.69.200-3411 | 3.302MB_172
+  name: 🇰🇷KR-13.124.178.1-0719 | 1.456MB
   password: amazonskr05
   port: 443
-  server: 43.201.69.200
+  server: 13.124.178.1
   type: ss
 - cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-0256 | 48.932MB
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-0619 | 49.688MB
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_27
-  password: amazonskr05
-  port: 443
-  server: 43.201.69.200
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇮🇸 IS(AzadNet.t.me)_283
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 37.235.49.152
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_326
-  password: amazonskr05
-  port: 443
-  server: 43.201.69.200
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_313
-  password: amazonskr05
-  port: 443
-  server: 43.201.69.200
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-43.201.69.200-3411 | 3.302MB_39
-  password: amazonskr05
-  port: 443
-  server: 43.201.69.200
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_88
-  password: amazonskr05
-  port: 443
-  server: 43.201.69.200
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_6_486
+  name: 🇺🇸_US_美国_6_486_695
   password: shadowsocks
   port: 443
   server: 156.146.38.163
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇨🇦_CA_加拿大_1_580_302
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_547_296
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- cipher: aes-256-cfb
-  name: VN-103.163.218.2-0971_309
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.163.218.2
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇮🇸 IS(AzadNet.t.me)_713
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 37.235.49.152
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_311
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_9_742
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_9_832
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_503
+  name: 🇱🇺_LU_卢森堡_821_416
   network: http
   port: 3389
   server: 45.82.31.164
@@ -341,494 +450,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_480
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_482
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_731
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_12_1137
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 38.110.1.111
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_669
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_529_691
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_821
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_547_661
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_580_668
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_6_1165
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_738
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-1563 | 126.019MB
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-0262 | 123.334MB
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_828
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
 - cipher: aes-256-cfb
-  name: 🇸🇬SG-47.129.9.69-3371 | 18.14MB
-  password: amazonskr05
-  port: 443
-  server: 47.129.9.69
+  name: 🇸🇬 SG-103.172.116.103-0943_99
+  password: Lp27rqyJq72bZsqX
+  port: 9045
+  server: 103.172.116.103
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_1159
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_2_114
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_547_438_960
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 64
-  cipher: auto
-  name: 5|🇭🇰 香港|@ripaojiedian_1134
-  port: 54437
-  server: 183.236.51.59
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_580_444_963
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_964
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_547_753_1076
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_580_760_1075
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_1135
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_529_1082
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1074
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1161
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- cipher: aes-128-cfb
-  name: CH-156.146.62.160-0896_117
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.160
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG-103.172.116.103-0993_316_83
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
+  server: 103.172.116.103
   type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-3713_1364
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG-103.172.116.103-0995_101
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 103.172.116.103
   type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-0292_1365
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_390
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_547_428
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_580_434
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-3713_1446
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-0292_1452
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_547_438_1301
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_1304
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_580_444_1303
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇱🇺 _LU_卢森堡 2_115
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇱🇺 _LU_卢森堡 3_116
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_580_760_1323
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_547_753_1321
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1322
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_529_668
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
 - alterId: 0
   cipher: auto
   http-opts:
@@ -844,450 +483,561 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 🇨🇦_CA_加拿大_1_868
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_846
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_529_1009
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_580_995
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 0,10|🇨🇦_CA_加拿大_2_42
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 10|🇱🇺_LU_卢森堡_26
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇱🇺 _LU_卢森堡 2_115
   network: http
   port: 3389
   server: 45.82.31.164
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_9_742_762
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_9_832_766
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇨🇦_CA_加拿大_1_547_988
-  network: ws
-  port: 443
-  server: 158.51.123.111
+  name: 🇱🇺_LU_卢森堡_2_114
+  network: http
+  port: 3389
+  server: 45.82.31.164
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 🇱🇺_LU_卢森堡_503_737
+  network: http
+  port: 3389
+  server: 45.82.31.164
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - cipher: aes-256-cfb
-  name: VN-103.163.218.2-0971_1437
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.163.218.2
+  name: 🇸🇬 SG-103.172.116.103-0993_449_726
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_6_1165_838
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
   type: ss
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇱🇺 _LU_卢森堡 2_134
+  name: 🇱🇺_LU_卢森堡_821_795
   network: http
   port: 3389
   server: 45.82.31.164
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇱🇺 _LU_卢森堡 3_137
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-128-cfb
-  name: 🇳🇱 NL-109.201.152.181-0876
-  password: shadowsocks
-  port: 443
-  server: 109.201.152.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_3_2由快嘴科技提供：kkzui.com
-  network: ws
-  port: 2095
-  server: 172.67.214.33
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: fcdn.flha.ru
-    path: /
-- cipher: aes-128-cfb
-  name: CH-156.146.62.160-0896_161
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.160
-  type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇱🇺 _LU_卢森堡 5_153
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-128-cfb
-  name: "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r"
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  type: ss
-- name: 🇺🇸 _US_美国 29
-  network: ws
-  password: 0b1371aa-649d-41dc-9126-338c87936500
-  port: 443
-  server: 95.164.33.62
   skip-cert-verify: true
-  sni: sourceforge.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sourceforge.net
-    path: /websocket
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 🇱🇺_LU_卢森堡_480_727
+  network: http
+  port: 3389
+  server: 45.82.31.164
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - cipher: aes-128-cfb
-  name: "%�\x11�%�P���NL-109.201.152.181-924%%�"
+  name: 🇺🇸 US-156.146.38.163-0292_1365_918
   password: shadowsocks
   port: 443
-  server: 109.201.152.181
+  server: 156.146.38.163
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇱🇺_LU_卢森堡_2_836
+  network: http
+  port: 3389
+  server: 45.82.31.164
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- cipher: aes-128-cfb
+  name: 🇺🇸 US-156.146.38.163-3713_1364_917
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
   type: ss
 - cipher: aes-128-cfb
-  name: 🇺🇸 US-212.102.47.198-0833
+  name: 🇺🇸 US-156.146.38.163-3713_1446_939
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸 US-156.146.38.163-0292_1452_942
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸 _US_美国 33
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 169.197.142.216
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG-103.172.116.103-0993_1422
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG-103.172.116.103-0995_1451
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-128-cfb
+  name: "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇱🇺 _LU_卢森堡 5_978
+  network: http
+  port: 3389
+  server: 45.82.31.164
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG-103.172.116.103-5712
+  password: NvS8N4Vf8qAGPSCL
+  port: 9046
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG-103.172.116.103-0969
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸 US-212.102.47.198-0833_1020
   password: shadowsocks
   port: 443
   server: 212.102.47.198
   type: ss
 - cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-0292
+  name: 🇺🇸 US-156.146.38.163-3713_1016
   password: shadowsocks
   port: 443
   server: 156.146.38.163
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 5|🇭🇰 香港3|@ripaojiedian_1023
+  port: 8443
+  server: 120.232.240.38
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
+- cipher: aes-128-cfb
+  name: 🇺🇸 US-156.146.38.163-0292_1021
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG-103.172.116.103-0994_1013
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
+  server: 103.172.116.103
   type: ss
 - cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-3713
+  name: 5|🇺🇸 美国|@ripaojiedian
   password: shadowsocks
   port: 443
-  server: 156.146.38.163
+  server: 212.102.47.198
+  tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 5|🇭🇰 香港8|@ripaojiedian
+  port: 15603
+  server: 183.232.199.61
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 5|🇸🇬 新加坡|@ripaojiedian
+  port: 37997
+  server: 8789-kf49kc85w.uy2w4vf-sg03.my777999.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6399ac7d-8265-436d-b348-299df4b735a5
+- cipher: chacha20-ietf-poly1305
+  name: 5|🇰🇷 韩国|@ripaojiedian
+  password: 6399ac7d-8265-436d-b348-299df4b735a5
+  port: 32999
+  server: gfoq.b4-h5a6gq7.h3w-kr01.my777999.top
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  country: SG
+  name: 0,3|IHwyOS45Nk1i
+  obfs: plain
+  password: S7KwUu7yBy58S3Ga
+  port: '9042'
+  protocol: origin
+  protocol-param: ''
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwyOS42M01i
+  obfs: plain
+  password: rNBfNuuANFCAk7KB
+  port: '9056'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwzMC41Nk1i
+  obfs: plain
+  password: KnJGad3FqTvjqbaX
+  port: '9014'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwzMC4yN01i
+  obfs: plain
+  password: f8npKgNzdkss2ytn
+  port: '9088'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwzMC4wOU1i
+  obfs: plain
+  password: daFYagqDdBdA6VTX
+  port: '9073'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- name: 8|CN_speednode_0006
+  network: tcp
+  password: MyYoZhfX
+  port: 46011
+  server: 112.29.94.23
+  skip-cert-verify: true
+  type: trojan
+  udp: false
+- cipher: aes-256-cfb
+  name: 3|IHwzMC4wNk1i
+  obfs: plain
+  password: ZpNDDKRu9MagNvaf
+  port: '9015'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- name: 5|🇺🇸 美国4|@ripaojiedian
+  password: MyYoZhfX
+  port: 15274
+  server: 223.113.54.154
+  skip-cert-verify: true
+  type: trojan
+- name: 5|🇺🇸 美国5|@ripaojiedian_1026
+  password: MyYoZhfX
+  port: 20344
+  server: 36.151.195.46
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 6|香港8|@ripaojiedian
+  network: tcp
+  port: '15603'
+  server: 183.232.199.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- name: 5|🇭🇰 香港4|@ripaojiedian_1024
+  password: MyYoZhfX
+  port: 24791
+  server: 223.113.54.154
+  skip-cert-verify: true
+  type: trojan
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
-  - CH-156.146.62.160-0628 | 10.621MB
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇳🇱_NL_荷兰_43
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-38.110.1.51-3372 | 1.077MB
-  - 🇳🇱_NL_荷兰_89
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸_US_美国_6_19
-  - 🇺🇸US-128.199.13.40-0143 | 25.897MB
+  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
+  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
+  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
+  - 🇺🇸_US_美国_4_18
+  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
+  - 🇺🇸_US_美国_3_34
+  - 🇺🇸_US_美国_2_15
+  - 🇺🇸_US_美国_7_75
+  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
+  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
+  - 🇺🇸_US_美国_6_57
+  - 🇷🇺_RU_俄罗斯联邦_26
+  - 🇺🇸_US_美国_1_80
+  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
+  - 🇺🇸_US_美国_4_103
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
+  - 🇺🇸_US_美国_2_100
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
+  - 🇺🇸US-156.146.38.163-003
+  - 🇺🇸US-212.102.47.198-006
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
+  - 🇱🇺_LU_卢森堡_2_115
+  - 🇺🇸US-167.88.61.235-141
+  - 🇺🇸US-167.88.61.235-138
+  - 🇨🇳CN-223.113.54.154-005
   - 🇺🇸_US_美国_3_72
-  - 🇷🇺_RU_俄罗斯联邦_59
-  - 🇺🇸US-128.199.13.40-0176 | 25.034MB
-  - 🇷🇺_RU_俄罗斯联邦_42
-  - 🇷🇺_RU_俄罗斯联邦_73
-  - 🇺🇸US-38.110.1.51-3374 | 1.077MB
-  - 🇺🇸_US_美国_2_45
-  - 🇷🇺_RU_俄罗斯联邦_88
-  - 🇺🇸_US_美国_2_91
-  - 🇱🇺_LU_卢森堡_14
+  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
+  - 🇺🇸_US_美国_3_58
+  - 🇺🇸US-23.154.136.105-146
+  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
+  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
+  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-103.214.68.57-145
+  - 🇳🇱NL-103.214.68.57-192
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
+  - 🇨🇳CN-183.240.179.195-191
+  - 🇨🇳CN-36.151.195.46-142
+  - 🇨🇳CN-223.113.54.154-164
   - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_86
   - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_67
-  - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3_70
-  - CH-156.146.62.160-0641 | 16.118MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_172
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_27
-  - 🇮🇸 IS(AzadNet.t.me)_283
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_326
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_313
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_39
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_88
-  - 🇺🇸_US_美国_6_486
-  - 🇨🇦_CA_加拿大_1_580_302
-  - 🇨🇦_CA_加拿大_1_547_296
-  - VN-103.163.218.2-0971_309
-  - 🇮🇸 IS(AzadNet.t.me)_713
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_311
-  - 🇺🇸_US_美国_9_742
-  - 🇺🇸_US_美国_9_832
-  - 🇱🇺_LU_卢森堡_503
-  - 🇱🇺_LU_卢森堡_480
-  - 🇨🇦_CA_加拿大_482
-  - 🇱🇺_LU_卢森堡_731
-  - 🇺🇸_US_美国_12_1137
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_669
-  - 🇨🇦_CA_加拿大_1_529_691
-  - 🇱🇺_LU_卢森堡_821
-  - 🇨🇦_CA_加拿大_1_547_661
-  - 🇨🇦_CA_加拿大_1_580_668
-  - 🇺🇸_US_美国_6_1165
-  - 🇨🇦_CA_加拿大_738
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
-  - 🇨🇦_CA_加拿大_828
-  - 🇸🇬SG-47.129.9.69-3371 | 18.14MB
-  - 🇱🇺_LU_卢森堡_1159
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇨🇦_CA_加拿大_1_547_438_960
-  - 5|🇭🇰 香港|@ripaojiedian_1134
-  - 🇨🇦_CA_加拿大_1_580_444_963
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_964
-  - 🇨🇦_CA_加拿大_1_547_753_1076
-  - 🇨🇦_CA_加拿大_1_580_760_1075
-  - 🇨🇦_CA_加拿大_1_1135
-  - 🇨🇦_CA_加拿大_1_529_1082
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1074
-  - 🇨🇦_CA_加拿大_1161
-  - CH-156.146.62.160-0896_117
-  - 🇺🇸 US-156.146.38.163-3713_1364
-  - 🇺🇸 US-156.146.38.163-0292_1365
-  - 🇨🇦_CA_加拿大_390
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
-  - 🇨🇦_CA_加拿大_1_547_428
-  - 🇨🇦_CA_加拿大_1_580_434
-  - 🇺🇸 US-156.146.38.163-3713_1446
-  - 🇺🇸 US-156.146.38.163-0292_1452
-  - 🇨🇦_CA_加拿大_1_547_438_1301
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_1304
-  - 🇨🇦_CA_加拿大_1_580_444_1303
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇱🇺 _LU_卢森堡 3_116
-  - 🇨🇦_CA_加拿大_1_580_760_1323
-  - 🇨🇦_CA_加拿大_1_547_753_1321
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1322
-  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇱🇺_LU_卢森堡_2_79
+  - 🇺🇸_US_美国_6_486_274
+  - 🇺🇸_US_美国_9_742_357
+  - 🇺🇸_US_美国_9_832_360
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
+  - 🇺🇸 US-156.146.38.163-3713_1364_493
+  - 🇺🇸_US_美国_6_1165_441
+  - 🇺🇸 US-156.146.38.163-0292_1452_505
+  - 🇺🇸 US-212.102.47.198-0833_540
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
+  - 🇺🇸 US-156.146.38.163-3713_542
+  - 🇺🇸 US-156.146.38.163-0292_541
+  - 🇺🇸 US-156.146.38.163-0292_1365_494
+  - 🇺🇸 US-156.146.38.163-3713_1446_501
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
+  - 🇱🇺_LU_卢森堡_731_386
+  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
+  - 🇺🇸_US_美国_6_486_695
+  - 🇱🇺_LU_卢森堡_821_416
+  - 🇸🇬 SG-103.172.116.103-0943_99
+  - 🇸🇬 SG-103.172.116.103-0993_316_83
+  - 🇸🇬 SG-103.172.116.103-0995_101
   - 🇱🇺 _LU_卢森堡 5_118
-  - 🇨🇦_CA_加拿大_1_868
-  - 🇨🇦_CA_加拿大_846
-  - 🇨🇦_CA_加拿大_1_529_1009
-  - 🇨🇦_CA_加拿大_1_580_995
-  - 0,10|🇨🇦_CA_加拿大_2_42
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
-  - 10|🇱🇺_LU_卢森堡_26
-  - 🇨🇦_CA_加拿大_1_547_988
-  - VN-103.163.218.2-0971_1437
-  - 🇱🇺 _LU_卢森堡 2_134
-  - 🇱🇺 _LU_卢森堡 3_137
-  - 🇳🇱 NL-109.201.152.181-0876
-  - 10|🇺🇸_US_美国_3_2由快嘴科技提供：kkzui.com
-  - CH-156.146.62.160-0896_161
-  - 🇱🇺 _LU_卢森堡 5_153
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r"
-  - 🇺🇸 _US_美国 29
-  - "%�\x11�%�P���NL-109.201.152.181-924%%�"
-  - 🇺🇸 US-212.102.47.198-0833
-  - 🇺🇸 US-156.146.38.163-0292
-  - 🇺🇸 US-156.146.38.163-3713
+  - 🇱🇺 _LU_卢森堡 2_115
+  - 🇺🇸_US_美国_9_742_762
+  - 🇺🇸_US_美国_9_832_766
+  - 🇱🇺_LU_卢森堡_2_114
+  - 🇱🇺_LU_卢森堡_503_737
+  - 🇸🇬 SG-103.172.116.103-0993_449_726
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
+  - 🇺🇸_US_美国_6_1165_838
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
+  - 🇱🇺_LU_卢森堡_821_795
+  - 🇱🇺_LU_卢森堡_480_727
+  - 🇺🇸 US-156.146.38.163-0292_1365_918
+  - 🇱🇺_LU_卢森堡_2_836
+  - 🇺🇸 US-156.146.38.163-3713_1364_917
+  - 🇺🇸 US-156.146.38.163-3713_1446_939
+  - 🇺🇸 US-156.146.38.163-0292_1452_942
+  - 🇺🇸 _US_美国 33
+  - 🇸🇬 SG-103.172.116.103-0993_1422
+  - 🇸🇬 SG-103.172.116.103-0995_1451
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
+  - 🇱🇺 _LU_卢森堡 5_978
+  - 🇸🇬 SG-103.172.116.103-5712
+  - 🇸🇬 SG-103.172.116.103-0969
+  - 🇺🇸 US-212.102.47.198-0833_1020
+  - 🇺🇸 US-156.146.38.163-3713_1016
+  - 5|🇭🇰 香港3|@ripaojiedian_1023
+  - 🇺🇸 US-156.146.38.163-0292_1021
+  - 🇸🇬 SG-103.172.116.103-0994_1013
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇭🇰 香港8|@ripaojiedian
+  - 5|🇸🇬 新加坡|@ripaojiedian
+  - 5|🇰🇷 韩国|@ripaojiedian
+  - 0,3|IHwyOS45Nk1i
+  - 3|IHwyOS42M01i
+  - 3|IHwzMC41Nk1i
+  - 3|IHwzMC4yN01i
+  - 3|IHwzMC4wOU1i
+  - 8|CN_speednode_0006
+  - 3|IHwzMC4wNk1i
+  - 5|🇺🇸 美国4|@ripaojiedian
+  - 5|🇺🇸 美国5|@ripaojiedian_1026
+  - 6|香港8|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_1024
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
-  - CH-156.146.62.160-0628 | 10.621MB
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇳🇱_NL_荷兰_43
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-38.110.1.51-3372 | 1.077MB
-  - 🇳🇱_NL_荷兰_89
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸_US_美国_6_19
-  - 🇺🇸US-128.199.13.40-0143 | 25.897MB
+  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
+  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
+  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
+  - 🇺🇸_US_美国_4_18
+  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
+  - 🇺🇸_US_美国_3_34
+  - 🇺🇸_US_美国_2_15
+  - 🇺🇸_US_美国_7_75
+  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
+  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
+  - 🇺🇸_US_美国_6_57
+  - 🇷🇺_RU_俄罗斯联邦_26
+  - 🇺🇸_US_美国_1_80
+  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
+  - 🇺🇸_US_美国_4_103
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
+  - 🇺🇸_US_美国_2_100
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
+  - 🇺🇸US-156.146.38.163-003
+  - 🇺🇸US-212.102.47.198-006
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
+  - 🇱🇺_LU_卢森堡_2_115
+  - 🇺🇸US-167.88.61.235-141
+  - 🇺🇸US-167.88.61.235-138
+  - 🇨🇳CN-223.113.54.154-005
   - 🇺🇸_US_美国_3_72
-  - 🇷🇺_RU_俄罗斯联邦_59
-  - 🇺🇸US-128.199.13.40-0176 | 25.034MB
-  - 🇷🇺_RU_俄罗斯联邦_42
-  - 🇷🇺_RU_俄罗斯联邦_73
-  - 🇺🇸US-38.110.1.51-3374 | 1.077MB
-  - 🇺🇸_US_美国_2_45
-  - 🇷🇺_RU_俄罗斯联邦_88
-  - 🇺🇸_US_美国_2_91
-  - 🇱🇺_LU_卢森堡_14
+  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
+  - 🇺🇸_US_美国_3_58
+  - 🇺🇸US-23.154.136.105-146
+  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
+  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
+  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-103.214.68.57-145
+  - 🇳🇱NL-103.214.68.57-192
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
+  - 🇨🇳CN-183.240.179.195-191
+  - 🇨🇳CN-36.151.195.46-142
+  - 🇨🇳CN-223.113.54.154-164
   - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_86
   - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_67
-  - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3_70
-  - CH-156.146.62.160-0641 | 16.118MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_172
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_27
-  - 🇮🇸 IS(AzadNet.t.me)_283
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_326
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_313
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_39
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_88
-  - 🇺🇸_US_美国_6_486
-  - 🇨🇦_CA_加拿大_1_580_302
-  - 🇨🇦_CA_加拿大_1_547_296
-  - VN-103.163.218.2-0971_309
-  - 🇮🇸 IS(AzadNet.t.me)_713
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_311
-  - 🇺🇸_US_美国_9_742
-  - 🇺🇸_US_美国_9_832
-  - 🇱🇺_LU_卢森堡_503
-  - 🇱🇺_LU_卢森堡_480
-  - 🇨🇦_CA_加拿大_482
-  - 🇱🇺_LU_卢森堡_731
-  - 🇺🇸_US_美国_12_1137
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_669
-  - 🇨🇦_CA_加拿大_1_529_691
-  - 🇱🇺_LU_卢森堡_821
-  - 🇨🇦_CA_加拿大_1_547_661
-  - 🇨🇦_CA_加拿大_1_580_668
-  - 🇺🇸_US_美国_6_1165
-  - 🇨🇦_CA_加拿大_738
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
-  - 🇨🇦_CA_加拿大_828
-  - 🇸🇬SG-47.129.9.69-3371 | 18.14MB
-  - 🇱🇺_LU_卢森堡_1159
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇨🇦_CA_加拿大_1_547_438_960
-  - 5|🇭🇰 香港|@ripaojiedian_1134
-  - 🇨🇦_CA_加拿大_1_580_444_963
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_964
-  - 🇨🇦_CA_加拿大_1_547_753_1076
-  - 🇨🇦_CA_加拿大_1_580_760_1075
-  - 🇨🇦_CA_加拿大_1_1135
-  - 🇨🇦_CA_加拿大_1_529_1082
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1074
-  - 🇨🇦_CA_加拿大_1161
-  - CH-156.146.62.160-0896_117
-  - 🇺🇸 US-156.146.38.163-3713_1364
-  - 🇺🇸 US-156.146.38.163-0292_1365
-  - 🇨🇦_CA_加拿大_390
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
-  - 🇨🇦_CA_加拿大_1_547_428
-  - 🇨🇦_CA_加拿大_1_580_434
-  - 🇺🇸 US-156.146.38.163-3713_1446
-  - 🇺🇸 US-156.146.38.163-0292_1452
-  - 🇨🇦_CA_加拿大_1_547_438_1301
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_1304
-  - 🇨🇦_CA_加拿大_1_580_444_1303
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇱🇺 _LU_卢森堡 3_116
-  - 🇨🇦_CA_加拿大_1_580_760_1323
-  - 🇨🇦_CA_加拿大_1_547_753_1321
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1322
-  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇱🇺_LU_卢森堡_2_79
+  - 🇺🇸_US_美国_6_486_274
+  - 🇺🇸_US_美国_9_742_357
+  - 🇺🇸_US_美国_9_832_360
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
+  - 🇺🇸 US-156.146.38.163-3713_1364_493
+  - 🇺🇸_US_美国_6_1165_441
+  - 🇺🇸 US-156.146.38.163-0292_1452_505
+  - 🇺🇸 US-212.102.47.198-0833_540
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
+  - 🇺🇸 US-156.146.38.163-3713_542
+  - 🇺🇸 US-156.146.38.163-0292_541
+  - 🇺🇸 US-156.146.38.163-0292_1365_494
+  - 🇺🇸 US-156.146.38.163-3713_1446_501
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
+  - 🇱🇺_LU_卢森堡_731_386
+  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
+  - 🇺🇸_US_美国_6_486_695
+  - 🇱🇺_LU_卢森堡_821_416
+  - 🇸🇬 SG-103.172.116.103-0943_99
+  - 🇸🇬 SG-103.172.116.103-0993_316_83
+  - 🇸🇬 SG-103.172.116.103-0995_101
   - 🇱🇺 _LU_卢森堡 5_118
-  - 🇨🇦_CA_加拿大_1_868
-  - 🇨🇦_CA_加拿大_846
-  - 🇨🇦_CA_加拿大_1_529_1009
-  - 🇨🇦_CA_加拿大_1_580_995
-  - 0,10|🇨🇦_CA_加拿大_2_42
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
-  - 10|🇱🇺_LU_卢森堡_26
-  - 🇨🇦_CA_加拿大_1_547_988
-  - VN-103.163.218.2-0971_1437
-  - 🇱🇺 _LU_卢森堡 2_134
-  - 🇱🇺 _LU_卢森堡 3_137
-  - 🇳🇱 NL-109.201.152.181-0876
-  - 10|🇺🇸_US_美国_3_2由快嘴科技提供：kkzui.com
-  - CH-156.146.62.160-0896_161
-  - 🇱🇺 _LU_卢森堡 5_153
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r"
-  - 🇺🇸 _US_美国 29
-  - "%�\x11�%�P���NL-109.201.152.181-924%%�"
-  - 🇺🇸 US-212.102.47.198-0833
-  - 🇺🇸 US-156.146.38.163-0292
-  - 🇺🇸 US-156.146.38.163-3713
+  - 🇱🇺 _LU_卢森堡 2_115
+  - 🇺🇸_US_美国_9_742_762
+  - 🇺🇸_US_美国_9_832_766
+  - 🇱🇺_LU_卢森堡_2_114
+  - 🇱🇺_LU_卢森堡_503_737
+  - 🇸🇬 SG-103.172.116.103-0993_449_726
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
+  - 🇺🇸_US_美国_6_1165_838
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
+  - 🇱🇺_LU_卢森堡_821_795
+  - 🇱🇺_LU_卢森堡_480_727
+  - 🇺🇸 US-156.146.38.163-0292_1365_918
+  - 🇱🇺_LU_卢森堡_2_836
+  - 🇺🇸 US-156.146.38.163-3713_1364_917
+  - 🇺🇸 US-156.146.38.163-3713_1446_939
+  - 🇺🇸 US-156.146.38.163-0292_1452_942
+  - 🇺🇸 _US_美国 33
+  - 🇸🇬 SG-103.172.116.103-0993_1422
+  - 🇸🇬 SG-103.172.116.103-0995_1451
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
+  - 🇱🇺 _LU_卢森堡 5_978
+  - 🇸🇬 SG-103.172.116.103-5712
+  - 🇸🇬 SG-103.172.116.103-0969
+  - 🇺🇸 US-212.102.47.198-0833_1020
+  - 🇺🇸 US-156.146.38.163-3713_1016
+  - 5|🇭🇰 香港3|@ripaojiedian_1023
+  - 🇺🇸 US-156.146.38.163-0292_1021
+  - 🇸🇬 SG-103.172.116.103-0994_1013
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇭🇰 香港8|@ripaojiedian
+  - 5|🇸🇬 新加坡|@ripaojiedian
+  - 5|🇰🇷 韩国|@ripaojiedian
+  - 0,3|IHwyOS45Nk1i
+  - 3|IHwyOS42M01i
+  - 3|IHwzMC41Nk1i
+  - 3|IHwzMC4yN01i
+  - 3|IHwzMC4wOU1i
+  - 8|CN_speednode_0006
+  - 3|IHwzMC4wNk1i
+  - 5|🇺🇸 美国4|@ripaojiedian
+  - 5|🇺🇸 美国5|@ripaojiedian_1026
+  - 6|香港8|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_1024
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1296,947 +1046,931 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
-  - CH-156.146.62.160-0628 | 10.621MB
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇳🇱_NL_荷兰_43
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-38.110.1.51-3372 | 1.077MB
-  - 🇳🇱_NL_荷兰_89
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸_US_美国_6_19
-  - 🇺🇸US-128.199.13.40-0143 | 25.897MB
+  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
+  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
+  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
+  - 🇺🇸_US_美国_4_18
+  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
+  - 🇺🇸_US_美国_3_34
+  - 🇺🇸_US_美国_2_15
+  - 🇺🇸_US_美国_7_75
+  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
+  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
+  - 🇺🇸_US_美国_6_57
+  - 🇷🇺_RU_俄罗斯联邦_26
+  - 🇺🇸_US_美国_1_80
+  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
+  - 🇺🇸_US_美国_4_103
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
+  - 🇺🇸_US_美国_2_100
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
+  - 🇺🇸US-156.146.38.163-003
+  - 🇺🇸US-212.102.47.198-006
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
+  - 🇱🇺_LU_卢森堡_2_115
+  - 🇺🇸US-167.88.61.235-141
+  - 🇺🇸US-167.88.61.235-138
+  - 🇨🇳CN-223.113.54.154-005
   - 🇺🇸_US_美国_3_72
-  - 🇷🇺_RU_俄罗斯联邦_59
-  - 🇺🇸US-128.199.13.40-0176 | 25.034MB
-  - 🇷🇺_RU_俄罗斯联邦_42
-  - 🇷🇺_RU_俄罗斯联邦_73
-  - 🇺🇸US-38.110.1.51-3374 | 1.077MB
-  - 🇺🇸_US_美国_2_45
-  - 🇷🇺_RU_俄罗斯联邦_88
-  - 🇺🇸_US_美国_2_91
-  - 🇱🇺_LU_卢森堡_14
+  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
+  - 🇺🇸_US_美国_3_58
+  - 🇺🇸US-23.154.136.105-146
+  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
+  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
+  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-103.214.68.57-145
+  - 🇳🇱NL-103.214.68.57-192
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
+  - 🇨🇳CN-183.240.179.195-191
+  - 🇨🇳CN-36.151.195.46-142
+  - 🇨🇳CN-223.113.54.154-164
   - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_86
   - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_67
-  - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3_70
-  - CH-156.146.62.160-0641 | 16.118MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_172
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_27
-  - 🇮🇸 IS(AzadNet.t.me)_283
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_326
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_313
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_39
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_88
-  - 🇺🇸_US_美国_6_486
-  - 🇨🇦_CA_加拿大_1_580_302
-  - 🇨🇦_CA_加拿大_1_547_296
-  - VN-103.163.218.2-0971_309
-  - 🇮🇸 IS(AzadNet.t.me)_713
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_311
-  - 🇺🇸_US_美国_9_742
-  - 🇺🇸_US_美国_9_832
-  - 🇱🇺_LU_卢森堡_503
-  - 🇱🇺_LU_卢森堡_480
-  - 🇨🇦_CA_加拿大_482
-  - 🇱🇺_LU_卢森堡_731
-  - 🇺🇸_US_美国_12_1137
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_669
-  - 🇨🇦_CA_加拿大_1_529_691
-  - 🇱🇺_LU_卢森堡_821
-  - 🇨🇦_CA_加拿大_1_547_661
-  - 🇨🇦_CA_加拿大_1_580_668
-  - 🇺🇸_US_美国_6_1165
-  - 🇨🇦_CA_加拿大_738
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
-  - 🇨🇦_CA_加拿大_828
-  - 🇸🇬SG-47.129.9.69-3371 | 18.14MB
-  - 🇱🇺_LU_卢森堡_1159
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇨🇦_CA_加拿大_1_547_438_960
-  - 5|🇭🇰 香港|@ripaojiedian_1134
-  - 🇨🇦_CA_加拿大_1_580_444_963
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_964
-  - 🇨🇦_CA_加拿大_1_547_753_1076
-  - 🇨🇦_CA_加拿大_1_580_760_1075
-  - 🇨🇦_CA_加拿大_1_1135
-  - 🇨🇦_CA_加拿大_1_529_1082
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1074
-  - 🇨🇦_CA_加拿大_1161
-  - CH-156.146.62.160-0896_117
-  - 🇺🇸 US-156.146.38.163-3713_1364
-  - 🇺🇸 US-156.146.38.163-0292_1365
-  - 🇨🇦_CA_加拿大_390
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
-  - 🇨🇦_CA_加拿大_1_547_428
-  - 🇨🇦_CA_加拿大_1_580_434
-  - 🇺🇸 US-156.146.38.163-3713_1446
-  - 🇺🇸 US-156.146.38.163-0292_1452
-  - 🇨🇦_CA_加拿大_1_547_438_1301
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_1304
-  - 🇨🇦_CA_加拿大_1_580_444_1303
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇱🇺 _LU_卢森堡 3_116
-  - 🇨🇦_CA_加拿大_1_580_760_1323
-  - 🇨🇦_CA_加拿大_1_547_753_1321
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1322
-  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇱🇺_LU_卢森堡_2_79
+  - 🇺🇸_US_美国_6_486_274
+  - 🇺🇸_US_美国_9_742_357
+  - 🇺🇸_US_美国_9_832_360
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
+  - 🇺🇸 US-156.146.38.163-3713_1364_493
+  - 🇺🇸_US_美国_6_1165_441
+  - 🇺🇸 US-156.146.38.163-0292_1452_505
+  - 🇺🇸 US-212.102.47.198-0833_540
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
+  - 🇺🇸 US-156.146.38.163-3713_542
+  - 🇺🇸 US-156.146.38.163-0292_541
+  - 🇺🇸 US-156.146.38.163-0292_1365_494
+  - 🇺🇸 US-156.146.38.163-3713_1446_501
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
+  - 🇱🇺_LU_卢森堡_731_386
+  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
+  - 🇺🇸_US_美国_6_486_695
+  - 🇱🇺_LU_卢森堡_821_416
+  - 🇸🇬 SG-103.172.116.103-0943_99
+  - 🇸🇬 SG-103.172.116.103-0993_316_83
+  - 🇸🇬 SG-103.172.116.103-0995_101
   - 🇱🇺 _LU_卢森堡 5_118
-  - 🇨🇦_CA_加拿大_1_868
-  - 🇨🇦_CA_加拿大_846
-  - 🇨🇦_CA_加拿大_1_529_1009
-  - 🇨🇦_CA_加拿大_1_580_995
-  - 0,10|🇨🇦_CA_加拿大_2_42
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
-  - 10|🇱🇺_LU_卢森堡_26
-  - 🇨🇦_CA_加拿大_1_547_988
-  - VN-103.163.218.2-0971_1437
-  - 🇱🇺 _LU_卢森堡 2_134
-  - 🇱🇺 _LU_卢森堡 3_137
-  - 🇳🇱 NL-109.201.152.181-0876
-  - 10|🇺🇸_US_美国_3_2由快嘴科技提供：kkzui.com
-  - CH-156.146.62.160-0896_161
-  - 🇱🇺 _LU_卢森堡 5_153
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r"
-  - 🇺🇸 _US_美国 29
-  - "%�\x11�%�P���NL-109.201.152.181-924%%�"
-  - 🇺🇸 US-212.102.47.198-0833
-  - 🇺🇸 US-156.146.38.163-0292
-  - 🇺🇸 US-156.146.38.163-3713
+  - 🇱🇺 _LU_卢森堡 2_115
+  - 🇺🇸_US_美国_9_742_762
+  - 🇺🇸_US_美国_9_832_766
+  - 🇱🇺_LU_卢森堡_2_114
+  - 🇱🇺_LU_卢森堡_503_737
+  - 🇸🇬 SG-103.172.116.103-0993_449_726
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
+  - 🇺🇸_US_美国_6_1165_838
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
+  - 🇱🇺_LU_卢森堡_821_795
+  - 🇱🇺_LU_卢森堡_480_727
+  - 🇺🇸 US-156.146.38.163-0292_1365_918
+  - 🇱🇺_LU_卢森堡_2_836
+  - 🇺🇸 US-156.146.38.163-3713_1364_917
+  - 🇺🇸 US-156.146.38.163-3713_1446_939
+  - 🇺🇸 US-156.146.38.163-0292_1452_942
+  - 🇺🇸 _US_美国 33
+  - 🇸🇬 SG-103.172.116.103-0993_1422
+  - 🇸🇬 SG-103.172.116.103-0995_1451
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
+  - 🇱🇺 _LU_卢森堡 5_978
+  - 🇸🇬 SG-103.172.116.103-5712
+  - 🇸🇬 SG-103.172.116.103-0969
+  - 🇺🇸 US-212.102.47.198-0833_1020
+  - 🇺🇸 US-156.146.38.163-3713_1016
+  - 5|🇭🇰 香港3|@ripaojiedian_1023
+  - 🇺🇸 US-156.146.38.163-0292_1021
+  - 🇸🇬 SG-103.172.116.103-0994_1013
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇭🇰 香港8|@ripaojiedian
+  - 5|🇸🇬 新加坡|@ripaojiedian
+  - 5|🇰🇷 韩国|@ripaojiedian
+  - 0,3|IHwyOS45Nk1i
+  - 3|IHwyOS42M01i
+  - 3|IHwzMC41Nk1i
+  - 3|IHwzMC4yN01i
+  - 3|IHwzMC4wOU1i
+  - 8|CN_speednode_0006
+  - 3|IHwzMC4wNk1i
+  - 5|🇺🇸 美国4|@ripaojiedian
+  - 5|🇺🇸 美国5|@ripaojiedian_1026
+  - 6|香港8|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_1024
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
-  - CH-156.146.62.160-0628 | 10.621MB
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇳🇱_NL_荷兰_43
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-38.110.1.51-3372 | 1.077MB
-  - 🇳🇱_NL_荷兰_89
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸_US_美国_6_19
-  - 🇺🇸US-128.199.13.40-0143 | 25.897MB
+  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
+  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
+  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
+  - 🇺🇸_US_美国_4_18
+  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
+  - 🇺🇸_US_美国_3_34
+  - 🇺🇸_US_美国_2_15
+  - 🇺🇸_US_美国_7_75
+  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
+  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
+  - 🇺🇸_US_美国_6_57
+  - 🇷🇺_RU_俄罗斯联邦_26
+  - 🇺🇸_US_美国_1_80
+  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
+  - 🇺🇸_US_美国_4_103
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
+  - 🇺🇸_US_美国_2_100
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
+  - 🇺🇸US-156.146.38.163-003
+  - 🇺🇸US-212.102.47.198-006
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
+  - 🇱🇺_LU_卢森堡_2_115
+  - 🇺🇸US-167.88.61.235-141
+  - 🇺🇸US-167.88.61.235-138
+  - 🇨🇳CN-223.113.54.154-005
   - 🇺🇸_US_美国_3_72
-  - 🇷🇺_RU_俄罗斯联邦_59
-  - 🇺🇸US-128.199.13.40-0176 | 25.034MB
-  - 🇷🇺_RU_俄罗斯联邦_42
-  - 🇷🇺_RU_俄罗斯联邦_73
-  - 🇺🇸US-38.110.1.51-3374 | 1.077MB
-  - 🇺🇸_US_美国_2_45
-  - 🇷🇺_RU_俄罗斯联邦_88
-  - 🇺🇸_US_美国_2_91
-  - 🇱🇺_LU_卢森堡_14
+  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
+  - 🇺🇸_US_美国_3_58
+  - 🇺🇸US-23.154.136.105-146
+  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
+  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
+  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-103.214.68.57-145
+  - 🇳🇱NL-103.214.68.57-192
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
+  - 🇨🇳CN-183.240.179.195-191
+  - 🇨🇳CN-36.151.195.46-142
+  - 🇨🇳CN-223.113.54.154-164
   - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_86
   - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_67
-  - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3_70
-  - CH-156.146.62.160-0641 | 16.118MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_172
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_27
-  - 🇮🇸 IS(AzadNet.t.me)_283
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_326
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_313
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_39
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_88
-  - 🇺🇸_US_美国_6_486
-  - 🇨🇦_CA_加拿大_1_580_302
-  - 🇨🇦_CA_加拿大_1_547_296
-  - VN-103.163.218.2-0971_309
-  - 🇮🇸 IS(AzadNet.t.me)_713
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_311
-  - 🇺🇸_US_美国_9_742
-  - 🇺🇸_US_美国_9_832
-  - 🇱🇺_LU_卢森堡_503
-  - 🇱🇺_LU_卢森堡_480
-  - 🇨🇦_CA_加拿大_482
-  - 🇱🇺_LU_卢森堡_731
-  - 🇺🇸_US_美国_12_1137
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_669
-  - 🇨🇦_CA_加拿大_1_529_691
-  - 🇱🇺_LU_卢森堡_821
-  - 🇨🇦_CA_加拿大_1_547_661
-  - 🇨🇦_CA_加拿大_1_580_668
-  - 🇺🇸_US_美国_6_1165
-  - 🇨🇦_CA_加拿大_738
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
-  - 🇨🇦_CA_加拿大_828
-  - 🇸🇬SG-47.129.9.69-3371 | 18.14MB
-  - 🇱🇺_LU_卢森堡_1159
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇨🇦_CA_加拿大_1_547_438_960
-  - 5|🇭🇰 香港|@ripaojiedian_1134
-  - 🇨🇦_CA_加拿大_1_580_444_963
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_964
-  - 🇨🇦_CA_加拿大_1_547_753_1076
-  - 🇨🇦_CA_加拿大_1_580_760_1075
-  - 🇨🇦_CA_加拿大_1_1135
-  - 🇨🇦_CA_加拿大_1_529_1082
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1074
-  - 🇨🇦_CA_加拿大_1161
-  - CH-156.146.62.160-0896_117
-  - 🇺🇸 US-156.146.38.163-3713_1364
-  - 🇺🇸 US-156.146.38.163-0292_1365
-  - 🇨🇦_CA_加拿大_390
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
-  - 🇨🇦_CA_加拿大_1_547_428
-  - 🇨🇦_CA_加拿大_1_580_434
-  - 🇺🇸 US-156.146.38.163-3713_1446
-  - 🇺🇸 US-156.146.38.163-0292_1452
-  - 🇨🇦_CA_加拿大_1_547_438_1301
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_1304
-  - 🇨🇦_CA_加拿大_1_580_444_1303
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇱🇺 _LU_卢森堡 3_116
-  - 🇨🇦_CA_加拿大_1_580_760_1323
-  - 🇨🇦_CA_加拿大_1_547_753_1321
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1322
-  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇱🇺_LU_卢森堡_2_79
+  - 🇺🇸_US_美国_6_486_274
+  - 🇺🇸_US_美国_9_742_357
+  - 🇺🇸_US_美国_9_832_360
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
+  - 🇺🇸 US-156.146.38.163-3713_1364_493
+  - 🇺🇸_US_美国_6_1165_441
+  - 🇺🇸 US-156.146.38.163-0292_1452_505
+  - 🇺🇸 US-212.102.47.198-0833_540
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
+  - 🇺🇸 US-156.146.38.163-3713_542
+  - 🇺🇸 US-156.146.38.163-0292_541
+  - 🇺🇸 US-156.146.38.163-0292_1365_494
+  - 🇺🇸 US-156.146.38.163-3713_1446_501
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
+  - 🇱🇺_LU_卢森堡_731_386
+  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
+  - 🇺🇸_US_美国_6_486_695
+  - 🇱🇺_LU_卢森堡_821_416
+  - 🇸🇬 SG-103.172.116.103-0943_99
+  - 🇸🇬 SG-103.172.116.103-0993_316_83
+  - 🇸🇬 SG-103.172.116.103-0995_101
   - 🇱🇺 _LU_卢森堡 5_118
-  - 🇨🇦_CA_加拿大_1_868
-  - 🇨🇦_CA_加拿大_846
-  - 🇨🇦_CA_加拿大_1_529_1009
-  - 🇨🇦_CA_加拿大_1_580_995
-  - 0,10|🇨🇦_CA_加拿大_2_42
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
-  - 10|🇱🇺_LU_卢森堡_26
-  - 🇨🇦_CA_加拿大_1_547_988
-  - VN-103.163.218.2-0971_1437
-  - 🇱🇺 _LU_卢森堡 2_134
-  - 🇱🇺 _LU_卢森堡 3_137
-  - 🇳🇱 NL-109.201.152.181-0876
-  - 10|🇺🇸_US_美国_3_2由快嘴科技提供：kkzui.com
-  - CH-156.146.62.160-0896_161
-  - 🇱🇺 _LU_卢森堡 5_153
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r"
-  - 🇺🇸 _US_美国 29
-  - "%�\x11�%�P���NL-109.201.152.181-924%%�"
-  - 🇺🇸 US-212.102.47.198-0833
-  - 🇺🇸 US-156.146.38.163-0292
-  - 🇺🇸 US-156.146.38.163-3713
+  - 🇱🇺 _LU_卢森堡 2_115
+  - 🇺🇸_US_美国_9_742_762
+  - 🇺🇸_US_美国_9_832_766
+  - 🇱🇺_LU_卢森堡_2_114
+  - 🇱🇺_LU_卢森堡_503_737
+  - 🇸🇬 SG-103.172.116.103-0993_449_726
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
+  - 🇺🇸_US_美国_6_1165_838
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
+  - 🇱🇺_LU_卢森堡_821_795
+  - 🇱🇺_LU_卢森堡_480_727
+  - 🇺🇸 US-156.146.38.163-0292_1365_918
+  - 🇱🇺_LU_卢森堡_2_836
+  - 🇺🇸 US-156.146.38.163-3713_1364_917
+  - 🇺🇸 US-156.146.38.163-3713_1446_939
+  - 🇺🇸 US-156.146.38.163-0292_1452_942
+  - 🇺🇸 _US_美国 33
+  - 🇸🇬 SG-103.172.116.103-0993_1422
+  - 🇸🇬 SG-103.172.116.103-0995_1451
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
+  - 🇱🇺 _LU_卢森堡 5_978
+  - 🇸🇬 SG-103.172.116.103-5712
+  - 🇸🇬 SG-103.172.116.103-0969
+  - 🇺🇸 US-212.102.47.198-0833_1020
+  - 🇺🇸 US-156.146.38.163-3713_1016
+  - 5|🇭🇰 香港3|@ripaojiedian_1023
+  - 🇺🇸 US-156.146.38.163-0292_1021
+  - 🇸🇬 SG-103.172.116.103-0994_1013
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇭🇰 香港8|@ripaojiedian
+  - 5|🇸🇬 新加坡|@ripaojiedian
+  - 5|🇰🇷 韩国|@ripaojiedian
+  - 0,3|IHwyOS45Nk1i
+  - 3|IHwyOS42M01i
+  - 3|IHwzMC41Nk1i
+  - 3|IHwzMC4yN01i
+  - 3|IHwzMC4wOU1i
+  - 8|CN_speednode_0006
+  - 3|IHwzMC4wNk1i
+  - 5|🇺🇸 美国4|@ripaojiedian
+  - 5|🇺🇸 美国5|@ripaojiedian_1026
+  - 6|香港8|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_1024
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
-  - CH-156.146.62.160-0628 | 10.621MB
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇳🇱_NL_荷兰_43
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-38.110.1.51-3372 | 1.077MB
-  - 🇳🇱_NL_荷兰_89
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸_US_美国_6_19
-  - 🇺🇸US-128.199.13.40-0143 | 25.897MB
+  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
+  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
+  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
+  - 🇺🇸_US_美国_4_18
+  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
+  - 🇺🇸_US_美国_3_34
+  - 🇺🇸_US_美国_2_15
+  - 🇺🇸_US_美国_7_75
+  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
+  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
+  - 🇺🇸_US_美国_6_57
+  - 🇷🇺_RU_俄罗斯联邦_26
+  - 🇺🇸_US_美国_1_80
+  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
+  - 🇺🇸_US_美国_4_103
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
+  - 🇺🇸_US_美国_2_100
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
+  - 🇺🇸US-156.146.38.163-003
+  - 🇺🇸US-212.102.47.198-006
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
+  - 🇱🇺_LU_卢森堡_2_115
+  - 🇺🇸US-167.88.61.235-141
+  - 🇺🇸US-167.88.61.235-138
+  - 🇨🇳CN-223.113.54.154-005
   - 🇺🇸_US_美国_3_72
-  - 🇷🇺_RU_俄罗斯联邦_59
-  - 🇺🇸US-128.199.13.40-0176 | 25.034MB
-  - 🇷🇺_RU_俄罗斯联邦_42
-  - 🇷🇺_RU_俄罗斯联邦_73
-  - 🇺🇸US-38.110.1.51-3374 | 1.077MB
-  - 🇺🇸_US_美国_2_45
-  - 🇷🇺_RU_俄罗斯联邦_88
-  - 🇺🇸_US_美国_2_91
-  - 🇱🇺_LU_卢森堡_14
+  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
+  - 🇺🇸_US_美国_3_58
+  - 🇺🇸US-23.154.136.105-146
+  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
+  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
+  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-103.214.68.57-145
+  - 🇳🇱NL-103.214.68.57-192
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
+  - 🇨🇳CN-183.240.179.195-191
+  - 🇨🇳CN-36.151.195.46-142
+  - 🇨🇳CN-223.113.54.154-164
   - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_86
   - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_67
-  - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3_70
-  - CH-156.146.62.160-0641 | 16.118MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_172
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_27
-  - 🇮🇸 IS(AzadNet.t.me)_283
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_326
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_313
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_39
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_88
-  - 🇺🇸_US_美国_6_486
-  - 🇨🇦_CA_加拿大_1_580_302
-  - 🇨🇦_CA_加拿大_1_547_296
-  - VN-103.163.218.2-0971_309
-  - 🇮🇸 IS(AzadNet.t.me)_713
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_311
-  - 🇺🇸_US_美国_9_742
-  - 🇺🇸_US_美国_9_832
-  - 🇱🇺_LU_卢森堡_503
-  - 🇱🇺_LU_卢森堡_480
-  - 🇨🇦_CA_加拿大_482
-  - 🇱🇺_LU_卢森堡_731
-  - 🇺🇸_US_美国_12_1137
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_669
-  - 🇨🇦_CA_加拿大_1_529_691
-  - 🇱🇺_LU_卢森堡_821
-  - 🇨🇦_CA_加拿大_1_547_661
-  - 🇨🇦_CA_加拿大_1_580_668
-  - 🇺🇸_US_美国_6_1165
-  - 🇨🇦_CA_加拿大_738
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
-  - 🇨🇦_CA_加拿大_828
-  - 🇸🇬SG-47.129.9.69-3371 | 18.14MB
-  - 🇱🇺_LU_卢森堡_1159
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇨🇦_CA_加拿大_1_547_438_960
-  - 5|🇭🇰 香港|@ripaojiedian_1134
-  - 🇨🇦_CA_加拿大_1_580_444_963
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_964
-  - 🇨🇦_CA_加拿大_1_547_753_1076
-  - 🇨🇦_CA_加拿大_1_580_760_1075
-  - 🇨🇦_CA_加拿大_1_1135
-  - 🇨🇦_CA_加拿大_1_529_1082
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1074
-  - 🇨🇦_CA_加拿大_1161
-  - CH-156.146.62.160-0896_117
-  - 🇺🇸 US-156.146.38.163-3713_1364
-  - 🇺🇸 US-156.146.38.163-0292_1365
-  - 🇨🇦_CA_加拿大_390
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
-  - 🇨🇦_CA_加拿大_1_547_428
-  - 🇨🇦_CA_加拿大_1_580_434
-  - 🇺🇸 US-156.146.38.163-3713_1446
-  - 🇺🇸 US-156.146.38.163-0292_1452
-  - 🇨🇦_CA_加拿大_1_547_438_1301
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_1304
-  - 🇨🇦_CA_加拿大_1_580_444_1303
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇱🇺 _LU_卢森堡 3_116
-  - 🇨🇦_CA_加拿大_1_580_760_1323
-  - 🇨🇦_CA_加拿大_1_547_753_1321
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1322
-  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇱🇺_LU_卢森堡_2_79
+  - 🇺🇸_US_美国_6_486_274
+  - 🇺🇸_US_美国_9_742_357
+  - 🇺🇸_US_美国_9_832_360
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
+  - 🇺🇸 US-156.146.38.163-3713_1364_493
+  - 🇺🇸_US_美国_6_1165_441
+  - 🇺🇸 US-156.146.38.163-0292_1452_505
+  - 🇺🇸 US-212.102.47.198-0833_540
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
+  - 🇺🇸 US-156.146.38.163-3713_542
+  - 🇺🇸 US-156.146.38.163-0292_541
+  - 🇺🇸 US-156.146.38.163-0292_1365_494
+  - 🇺🇸 US-156.146.38.163-3713_1446_501
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
+  - 🇱🇺_LU_卢森堡_731_386
+  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
+  - 🇺🇸_US_美国_6_486_695
+  - 🇱🇺_LU_卢森堡_821_416
+  - 🇸🇬 SG-103.172.116.103-0943_99
+  - 🇸🇬 SG-103.172.116.103-0993_316_83
+  - 🇸🇬 SG-103.172.116.103-0995_101
   - 🇱🇺 _LU_卢森堡 5_118
-  - 🇨🇦_CA_加拿大_1_868
-  - 🇨🇦_CA_加拿大_846
-  - 🇨🇦_CA_加拿大_1_529_1009
-  - 🇨🇦_CA_加拿大_1_580_995
-  - 0,10|🇨🇦_CA_加拿大_2_42
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
-  - 10|🇱🇺_LU_卢森堡_26
-  - 🇨🇦_CA_加拿大_1_547_988
-  - VN-103.163.218.2-0971_1437
-  - 🇱🇺 _LU_卢森堡 2_134
-  - 🇱🇺 _LU_卢森堡 3_137
-  - 🇳🇱 NL-109.201.152.181-0876
-  - 10|🇺🇸_US_美国_3_2由快嘴科技提供：kkzui.com
-  - CH-156.146.62.160-0896_161
-  - 🇱🇺 _LU_卢森堡 5_153
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r"
-  - 🇺🇸 _US_美国 29
-  - "%�\x11�%�P���NL-109.201.152.181-924%%�"
-  - 🇺🇸 US-212.102.47.198-0833
-  - 🇺🇸 US-156.146.38.163-0292
-  - 🇺🇸 US-156.146.38.163-3713
+  - 🇱🇺 _LU_卢森堡 2_115
+  - 🇺🇸_US_美国_9_742_762
+  - 🇺🇸_US_美国_9_832_766
+  - 🇱🇺_LU_卢森堡_2_114
+  - 🇱🇺_LU_卢森堡_503_737
+  - 🇸🇬 SG-103.172.116.103-0993_449_726
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
+  - 🇺🇸_US_美国_6_1165_838
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
+  - 🇱🇺_LU_卢森堡_821_795
+  - 🇱🇺_LU_卢森堡_480_727
+  - 🇺🇸 US-156.146.38.163-0292_1365_918
+  - 🇱🇺_LU_卢森堡_2_836
+  - 🇺🇸 US-156.146.38.163-3713_1364_917
+  - 🇺🇸 US-156.146.38.163-3713_1446_939
+  - 🇺🇸 US-156.146.38.163-0292_1452_942
+  - 🇺🇸 _US_美国 33
+  - 🇸🇬 SG-103.172.116.103-0993_1422
+  - 🇸🇬 SG-103.172.116.103-0995_1451
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
+  - 🇱🇺 _LU_卢森堡 5_978
+  - 🇸🇬 SG-103.172.116.103-5712
+  - 🇸🇬 SG-103.172.116.103-0969
+  - 🇺🇸 US-212.102.47.198-0833_1020
+  - 🇺🇸 US-156.146.38.163-3713_1016
+  - 5|🇭🇰 香港3|@ripaojiedian_1023
+  - 🇺🇸 US-156.146.38.163-0292_1021
+  - 🇸🇬 SG-103.172.116.103-0994_1013
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇭🇰 香港8|@ripaojiedian
+  - 5|🇸🇬 新加坡|@ripaojiedian
+  - 5|🇰🇷 韩国|@ripaojiedian
+  - 0,3|IHwyOS45Nk1i
+  - 3|IHwyOS42M01i
+  - 3|IHwzMC41Nk1i
+  - 3|IHwzMC4yN01i
+  - 3|IHwzMC4wOU1i
+  - 8|CN_speednode_0006
+  - 3|IHwzMC4wNk1i
+  - 5|🇺🇸 美国4|@ripaojiedian
+  - 5|🇺🇸 美国5|@ripaojiedian_1026
+  - 6|香港8|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_1024
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
-  - CH-156.146.62.160-0628 | 10.621MB
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇳🇱_NL_荷兰_43
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-38.110.1.51-3372 | 1.077MB
-  - 🇳🇱_NL_荷兰_89
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸_US_美国_6_19
-  - 🇺🇸US-128.199.13.40-0143 | 25.897MB
+  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
+  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
+  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
+  - 🇺🇸_US_美国_4_18
+  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
+  - 🇺🇸_US_美国_3_34
+  - 🇺🇸_US_美国_2_15
+  - 🇺🇸_US_美国_7_75
+  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
+  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
+  - 🇺🇸_US_美国_6_57
+  - 🇷🇺_RU_俄罗斯联邦_26
+  - 🇺🇸_US_美国_1_80
+  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
+  - 🇺🇸_US_美国_4_103
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
+  - 🇺🇸_US_美国_2_100
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
+  - 🇺🇸US-156.146.38.163-003
+  - 🇺🇸US-212.102.47.198-006
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
+  - 🇱🇺_LU_卢森堡_2_115
+  - 🇺🇸US-167.88.61.235-141
+  - 🇺🇸US-167.88.61.235-138
+  - 🇨🇳CN-223.113.54.154-005
   - 🇺🇸_US_美国_3_72
-  - 🇷🇺_RU_俄罗斯联邦_59
-  - 🇺🇸US-128.199.13.40-0176 | 25.034MB
-  - 🇷🇺_RU_俄罗斯联邦_42
-  - 🇷🇺_RU_俄罗斯联邦_73
-  - 🇺🇸US-38.110.1.51-3374 | 1.077MB
-  - 🇺🇸_US_美国_2_45
-  - 🇷🇺_RU_俄罗斯联邦_88
-  - 🇺🇸_US_美国_2_91
-  - 🇱🇺_LU_卢森堡_14
+  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
+  - 🇺🇸_US_美国_3_58
+  - 🇺🇸US-23.154.136.105-146
+  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
+  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
+  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-103.214.68.57-145
+  - 🇳🇱NL-103.214.68.57-192
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
+  - 🇨🇳CN-183.240.179.195-191
+  - 🇨🇳CN-36.151.195.46-142
+  - 🇨🇳CN-223.113.54.154-164
   - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_86
   - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_67
-  - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3_70
-  - CH-156.146.62.160-0641 | 16.118MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_172
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_27
-  - 🇮🇸 IS(AzadNet.t.me)_283
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_326
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_313
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_39
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_88
-  - 🇺🇸_US_美国_6_486
-  - 🇨🇦_CA_加拿大_1_580_302
-  - 🇨🇦_CA_加拿大_1_547_296
-  - VN-103.163.218.2-0971_309
-  - 🇮🇸 IS(AzadNet.t.me)_713
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_311
-  - 🇺🇸_US_美国_9_742
-  - 🇺🇸_US_美国_9_832
-  - 🇱🇺_LU_卢森堡_503
-  - 🇱🇺_LU_卢森堡_480
-  - 🇨🇦_CA_加拿大_482
-  - 🇱🇺_LU_卢森堡_731
-  - 🇺🇸_US_美国_12_1137
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_669
-  - 🇨🇦_CA_加拿大_1_529_691
-  - 🇱🇺_LU_卢森堡_821
-  - 🇨🇦_CA_加拿大_1_547_661
-  - 🇨🇦_CA_加拿大_1_580_668
-  - 🇺🇸_US_美国_6_1165
-  - 🇨🇦_CA_加拿大_738
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
-  - 🇨🇦_CA_加拿大_828
-  - 🇸🇬SG-47.129.9.69-3371 | 18.14MB
-  - 🇱🇺_LU_卢森堡_1159
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇨🇦_CA_加拿大_1_547_438_960
-  - 5|🇭🇰 香港|@ripaojiedian_1134
-  - 🇨🇦_CA_加拿大_1_580_444_963
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_964
-  - 🇨🇦_CA_加拿大_1_547_753_1076
-  - 🇨🇦_CA_加拿大_1_580_760_1075
-  - 🇨🇦_CA_加拿大_1_1135
-  - 🇨🇦_CA_加拿大_1_529_1082
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1074
-  - 🇨🇦_CA_加拿大_1161
-  - CH-156.146.62.160-0896_117
-  - 🇺🇸 US-156.146.38.163-3713_1364
-  - 🇺🇸 US-156.146.38.163-0292_1365
-  - 🇨🇦_CA_加拿大_390
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
-  - 🇨🇦_CA_加拿大_1_547_428
-  - 🇨🇦_CA_加拿大_1_580_434
-  - 🇺🇸 US-156.146.38.163-3713_1446
-  - 🇺🇸 US-156.146.38.163-0292_1452
-  - 🇨🇦_CA_加拿大_1_547_438_1301
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_1304
-  - 🇨🇦_CA_加拿大_1_580_444_1303
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇱🇺 _LU_卢森堡 3_116
-  - 🇨🇦_CA_加拿大_1_580_760_1323
-  - 🇨🇦_CA_加拿大_1_547_753_1321
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1322
-  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇱🇺_LU_卢森堡_2_79
+  - 🇺🇸_US_美国_6_486_274
+  - 🇺🇸_US_美国_9_742_357
+  - 🇺🇸_US_美国_9_832_360
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
+  - 🇺🇸 US-156.146.38.163-3713_1364_493
+  - 🇺🇸_US_美国_6_1165_441
+  - 🇺🇸 US-156.146.38.163-0292_1452_505
+  - 🇺🇸 US-212.102.47.198-0833_540
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
+  - 🇺🇸 US-156.146.38.163-3713_542
+  - 🇺🇸 US-156.146.38.163-0292_541
+  - 🇺🇸 US-156.146.38.163-0292_1365_494
+  - 🇺🇸 US-156.146.38.163-3713_1446_501
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
+  - 🇱🇺_LU_卢森堡_731_386
+  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
+  - 🇺🇸_US_美国_6_486_695
+  - 🇱🇺_LU_卢森堡_821_416
+  - 🇸🇬 SG-103.172.116.103-0943_99
+  - 🇸🇬 SG-103.172.116.103-0993_316_83
+  - 🇸🇬 SG-103.172.116.103-0995_101
   - 🇱🇺 _LU_卢森堡 5_118
-  - 🇨🇦_CA_加拿大_1_868
-  - 🇨🇦_CA_加拿大_846
-  - 🇨🇦_CA_加拿大_1_529_1009
-  - 🇨🇦_CA_加拿大_1_580_995
-  - 0,10|🇨🇦_CA_加拿大_2_42
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
-  - 10|🇱🇺_LU_卢森堡_26
-  - 🇨🇦_CA_加拿大_1_547_988
-  - VN-103.163.218.2-0971_1437
-  - 🇱🇺 _LU_卢森堡 2_134
-  - 🇱🇺 _LU_卢森堡 3_137
-  - 🇳🇱 NL-109.201.152.181-0876
-  - 10|🇺🇸_US_美国_3_2由快嘴科技提供：kkzui.com
-  - CH-156.146.62.160-0896_161
-  - 🇱🇺 _LU_卢森堡 5_153
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r"
-  - 🇺🇸 _US_美国 29
-  - "%�\x11�%�P���NL-109.201.152.181-924%%�"
-  - 🇺🇸 US-212.102.47.198-0833
-  - 🇺🇸 US-156.146.38.163-0292
-  - 🇺🇸 US-156.146.38.163-3713
+  - 🇱🇺 _LU_卢森堡 2_115
+  - 🇺🇸_US_美国_9_742_762
+  - 🇺🇸_US_美国_9_832_766
+  - 🇱🇺_LU_卢森堡_2_114
+  - 🇱🇺_LU_卢森堡_503_737
+  - 🇸🇬 SG-103.172.116.103-0993_449_726
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
+  - 🇺🇸_US_美国_6_1165_838
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
+  - 🇱🇺_LU_卢森堡_821_795
+  - 🇱🇺_LU_卢森堡_480_727
+  - 🇺🇸 US-156.146.38.163-0292_1365_918
+  - 🇱🇺_LU_卢森堡_2_836
+  - 🇺🇸 US-156.146.38.163-3713_1364_917
+  - 🇺🇸 US-156.146.38.163-3713_1446_939
+  - 🇺🇸 US-156.146.38.163-0292_1452_942
+  - 🇺🇸 _US_美国 33
+  - 🇸🇬 SG-103.172.116.103-0993_1422
+  - 🇸🇬 SG-103.172.116.103-0995_1451
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
+  - 🇱🇺 _LU_卢森堡 5_978
+  - 🇸🇬 SG-103.172.116.103-5712
+  - 🇸🇬 SG-103.172.116.103-0969
+  - 🇺🇸 US-212.102.47.198-0833_1020
+  - 🇺🇸 US-156.146.38.163-3713_1016
+  - 5|🇭🇰 香港3|@ripaojiedian_1023
+  - 🇺🇸 US-156.146.38.163-0292_1021
+  - 🇸🇬 SG-103.172.116.103-0994_1013
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇭🇰 香港8|@ripaojiedian
+  - 5|🇸🇬 新加坡|@ripaojiedian
+  - 5|🇰🇷 韩国|@ripaojiedian
+  - 0,3|IHwyOS45Nk1i
+  - 3|IHwyOS42M01i
+  - 3|IHwzMC41Nk1i
+  - 3|IHwzMC4yN01i
+  - 3|IHwzMC4wOU1i
+  - 8|CN_speednode_0006
+  - 3|IHwzMC4wNk1i
+  - 5|🇺🇸 美国4|@ripaojiedian
+  - 5|🇺🇸 美国5|@ripaojiedian_1026
+  - 6|香港8|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_1024
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
   - 🚀 节点选择
   - ♻️ 自动选择
-  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
-  - CH-156.146.62.160-0628 | 10.621MB
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇳🇱_NL_荷兰_43
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-38.110.1.51-3372 | 1.077MB
-  - 🇳🇱_NL_荷兰_89
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸_US_美国_6_19
-  - 🇺🇸US-128.199.13.40-0143 | 25.897MB
+  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
+  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
+  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
+  - 🇺🇸_US_美国_4_18
+  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
+  - 🇺🇸_US_美国_3_34
+  - 🇺🇸_US_美国_2_15
+  - 🇺🇸_US_美国_7_75
+  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
+  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
+  - 🇺🇸_US_美国_6_57
+  - 🇷🇺_RU_俄罗斯联邦_26
+  - 🇺🇸_US_美国_1_80
+  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
+  - 🇺🇸_US_美国_4_103
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
+  - 🇺🇸_US_美国_2_100
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
+  - 🇺🇸US-156.146.38.163-003
+  - 🇺🇸US-212.102.47.198-006
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
+  - 🇱🇺_LU_卢森堡_2_115
+  - 🇺🇸US-167.88.61.235-141
+  - 🇺🇸US-167.88.61.235-138
+  - 🇨🇳CN-223.113.54.154-005
   - 🇺🇸_US_美国_3_72
-  - 🇷🇺_RU_俄罗斯联邦_59
-  - 🇺🇸US-128.199.13.40-0176 | 25.034MB
-  - 🇷🇺_RU_俄罗斯联邦_42
-  - 🇷🇺_RU_俄罗斯联邦_73
-  - 🇺🇸US-38.110.1.51-3374 | 1.077MB
-  - 🇺🇸_US_美国_2_45
-  - 🇷🇺_RU_俄罗斯联邦_88
-  - 🇺🇸_US_美国_2_91
-  - 🇱🇺_LU_卢森堡_14
+  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
+  - 🇺🇸_US_美国_3_58
+  - 🇺🇸US-23.154.136.105-146
+  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
+  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
+  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-103.214.68.57-145
+  - 🇳🇱NL-103.214.68.57-192
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
+  - 🇨🇳CN-183.240.179.195-191
+  - 🇨🇳CN-36.151.195.46-142
+  - 🇨🇳CN-223.113.54.154-164
   - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_86
   - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_67
-  - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3_70
-  - CH-156.146.62.160-0641 | 16.118MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_172
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_27
-  - 🇮🇸 IS(AzadNet.t.me)_283
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_326
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_313
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_39
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_88
-  - 🇺🇸_US_美国_6_486
-  - 🇨🇦_CA_加拿大_1_580_302
-  - 🇨🇦_CA_加拿大_1_547_296
-  - VN-103.163.218.2-0971_309
-  - 🇮🇸 IS(AzadNet.t.me)_713
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_311
-  - 🇺🇸_US_美国_9_742
-  - 🇺🇸_US_美国_9_832
-  - 🇱🇺_LU_卢森堡_503
-  - 🇱🇺_LU_卢森堡_480
-  - 🇨🇦_CA_加拿大_482
-  - 🇱🇺_LU_卢森堡_731
-  - 🇺🇸_US_美国_12_1137
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_669
-  - 🇨🇦_CA_加拿大_1_529_691
-  - 🇱🇺_LU_卢森堡_821
-  - 🇨🇦_CA_加拿大_1_547_661
-  - 🇨🇦_CA_加拿大_1_580_668
-  - 🇺🇸_US_美国_6_1165
-  - 🇨🇦_CA_加拿大_738
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
-  - 🇨🇦_CA_加拿大_828
-  - 🇸🇬SG-47.129.9.69-3371 | 18.14MB
-  - 🇱🇺_LU_卢森堡_1159
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇨🇦_CA_加拿大_1_547_438_960
-  - 5|🇭🇰 香港|@ripaojiedian_1134
-  - 🇨🇦_CA_加拿大_1_580_444_963
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_964
-  - 🇨🇦_CA_加拿大_1_547_753_1076
-  - 🇨🇦_CA_加拿大_1_580_760_1075
-  - 🇨🇦_CA_加拿大_1_1135
-  - 🇨🇦_CA_加拿大_1_529_1082
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1074
-  - 🇨🇦_CA_加拿大_1161
-  - CH-156.146.62.160-0896_117
-  - 🇺🇸 US-156.146.38.163-3713_1364
-  - 🇺🇸 US-156.146.38.163-0292_1365
-  - 🇨🇦_CA_加拿大_390
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
-  - 🇨🇦_CA_加拿大_1_547_428
-  - 🇨🇦_CA_加拿大_1_580_434
-  - 🇺🇸 US-156.146.38.163-3713_1446
-  - 🇺🇸 US-156.146.38.163-0292_1452
-  - 🇨🇦_CA_加拿大_1_547_438_1301
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_1304
-  - 🇨🇦_CA_加拿大_1_580_444_1303
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇱🇺 _LU_卢森堡 3_116
-  - 🇨🇦_CA_加拿大_1_580_760_1323
-  - 🇨🇦_CA_加拿大_1_547_753_1321
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1322
-  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇱🇺_LU_卢森堡_2_79
+  - 🇺🇸_US_美国_6_486_274
+  - 🇺🇸_US_美国_9_742_357
+  - 🇺🇸_US_美国_9_832_360
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
+  - 🇺🇸 US-156.146.38.163-3713_1364_493
+  - 🇺🇸_US_美国_6_1165_441
+  - 🇺🇸 US-156.146.38.163-0292_1452_505
+  - 🇺🇸 US-212.102.47.198-0833_540
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
+  - 🇺🇸 US-156.146.38.163-3713_542
+  - 🇺🇸 US-156.146.38.163-0292_541
+  - 🇺🇸 US-156.146.38.163-0292_1365_494
+  - 🇺🇸 US-156.146.38.163-3713_1446_501
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
+  - 🇱🇺_LU_卢森堡_731_386
+  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
+  - 🇺🇸_US_美国_6_486_695
+  - 🇱🇺_LU_卢森堡_821_416
+  - 🇸🇬 SG-103.172.116.103-0943_99
+  - 🇸🇬 SG-103.172.116.103-0993_316_83
+  - 🇸🇬 SG-103.172.116.103-0995_101
   - 🇱🇺 _LU_卢森堡 5_118
-  - 🇨🇦_CA_加拿大_1_868
-  - 🇨🇦_CA_加拿大_846
-  - 🇨🇦_CA_加拿大_1_529_1009
-  - 🇨🇦_CA_加拿大_1_580_995
-  - 0,10|🇨🇦_CA_加拿大_2_42
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
-  - 10|🇱🇺_LU_卢森堡_26
-  - 🇨🇦_CA_加拿大_1_547_988
-  - VN-103.163.218.2-0971_1437
-  - 🇱🇺 _LU_卢森堡 2_134
-  - 🇱🇺 _LU_卢森堡 3_137
-  - 🇳🇱 NL-109.201.152.181-0876
-  - 10|🇺🇸_US_美国_3_2由快嘴科技提供：kkzui.com
-  - CH-156.146.62.160-0896_161
-  - 🇱🇺 _LU_卢森堡 5_153
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r"
-  - 🇺🇸 _US_美国 29
-  - "%�\x11�%�P���NL-109.201.152.181-924%%�"
-  - 🇺🇸 US-212.102.47.198-0833
-  - 🇺🇸 US-156.146.38.163-0292
-  - 🇺🇸 US-156.146.38.163-3713
+  - 🇱🇺 _LU_卢森堡 2_115
+  - 🇺🇸_US_美国_9_742_762
+  - 🇺🇸_US_美国_9_832_766
+  - 🇱🇺_LU_卢森堡_2_114
+  - 🇱🇺_LU_卢森堡_503_737
+  - 🇸🇬 SG-103.172.116.103-0993_449_726
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
+  - 🇺🇸_US_美国_6_1165_838
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
+  - 🇱🇺_LU_卢森堡_821_795
+  - 🇱🇺_LU_卢森堡_480_727
+  - 🇺🇸 US-156.146.38.163-0292_1365_918
+  - 🇱🇺_LU_卢森堡_2_836
+  - 🇺🇸 US-156.146.38.163-3713_1364_917
+  - 🇺🇸 US-156.146.38.163-3713_1446_939
+  - 🇺🇸 US-156.146.38.163-0292_1452_942
+  - 🇺🇸 _US_美国 33
+  - 🇸🇬 SG-103.172.116.103-0993_1422
+  - 🇸🇬 SG-103.172.116.103-0995_1451
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
+  - 🇱🇺 _LU_卢森堡 5_978
+  - 🇸🇬 SG-103.172.116.103-5712
+  - 🇸🇬 SG-103.172.116.103-0969
+  - 🇺🇸 US-212.102.47.198-0833_1020
+  - 🇺🇸 US-156.146.38.163-3713_1016
+  - 5|🇭🇰 香港3|@ripaojiedian_1023
+  - 🇺🇸 US-156.146.38.163-0292_1021
+  - 🇸🇬 SG-103.172.116.103-0994_1013
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇭🇰 香港8|@ripaojiedian
+  - 5|🇸🇬 新加坡|@ripaojiedian
+  - 5|🇰🇷 韩国|@ripaojiedian
+  - 0,3|IHwyOS45Nk1i
+  - 3|IHwyOS42M01i
+  - 3|IHwzMC41Nk1i
+  - 3|IHwzMC4yN01i
+  - 3|IHwzMC4wOU1i
+  - 8|CN_speednode_0006
+  - 3|IHwzMC4wNk1i
+  - 5|🇺🇸 美国4|@ripaojiedian
+  - 5|🇺🇸 美国5|@ripaojiedian_1026
+  - 6|香港8|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_1024
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
-  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
-  - CH-156.146.62.160-0628 | 10.621MB
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇳🇱_NL_荷兰_43
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-38.110.1.51-3372 | 1.077MB
-  - 🇳🇱_NL_荷兰_89
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸_US_美国_6_19
-  - 🇺🇸US-128.199.13.40-0143 | 25.897MB
+  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
+  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
+  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
+  - 🇺🇸_US_美国_4_18
+  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
+  - 🇺🇸_US_美国_3_34
+  - 🇺🇸_US_美国_2_15
+  - 🇺🇸_US_美国_7_75
+  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
+  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
+  - 🇺🇸_US_美国_6_57
+  - 🇷🇺_RU_俄罗斯联邦_26
+  - 🇺🇸_US_美国_1_80
+  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
+  - 🇺🇸_US_美国_4_103
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
+  - 🇺🇸_US_美国_2_100
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
+  - 🇺🇸US-156.146.38.163-003
+  - 🇺🇸US-212.102.47.198-006
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
+  - 🇱🇺_LU_卢森堡_2_115
+  - 🇺🇸US-167.88.61.235-141
+  - 🇺🇸US-167.88.61.235-138
+  - 🇨🇳CN-223.113.54.154-005
   - 🇺🇸_US_美国_3_72
-  - 🇷🇺_RU_俄罗斯联邦_59
-  - 🇺🇸US-128.199.13.40-0176 | 25.034MB
-  - 🇷🇺_RU_俄罗斯联邦_42
-  - 🇷🇺_RU_俄罗斯联邦_73
-  - 🇺🇸US-38.110.1.51-3374 | 1.077MB
-  - 🇺🇸_US_美国_2_45
-  - 🇷🇺_RU_俄罗斯联邦_88
-  - 🇺🇸_US_美国_2_91
-  - 🇱🇺_LU_卢森堡_14
+  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
+  - 🇺🇸_US_美国_3_58
+  - 🇺🇸US-23.154.136.105-146
+  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
+  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
+  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-103.214.68.57-145
+  - 🇳🇱NL-103.214.68.57-192
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
+  - 🇨🇳CN-183.240.179.195-191
+  - 🇨🇳CN-36.151.195.46-142
+  - 🇨🇳CN-223.113.54.154-164
   - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_86
   - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_67
-  - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3_70
-  - CH-156.146.62.160-0641 | 16.118MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_172
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_27
-  - 🇮🇸 IS(AzadNet.t.me)_283
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_326
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_313
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_39
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_88
-  - 🇺🇸_US_美国_6_486
-  - 🇨🇦_CA_加拿大_1_580_302
-  - 🇨🇦_CA_加拿大_1_547_296
-  - VN-103.163.218.2-0971_309
-  - 🇮🇸 IS(AzadNet.t.me)_713
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_311
-  - 🇺🇸_US_美国_9_742
-  - 🇺🇸_US_美国_9_832
-  - 🇱🇺_LU_卢森堡_503
-  - 🇱🇺_LU_卢森堡_480
-  - 🇨🇦_CA_加拿大_482
-  - 🇱🇺_LU_卢森堡_731
-  - 🇺🇸_US_美国_12_1137
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_669
-  - 🇨🇦_CA_加拿大_1_529_691
-  - 🇱🇺_LU_卢森堡_821
-  - 🇨🇦_CA_加拿大_1_547_661
-  - 🇨🇦_CA_加拿大_1_580_668
-  - 🇺🇸_US_美国_6_1165
-  - 🇨🇦_CA_加拿大_738
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
-  - 🇨🇦_CA_加拿大_828
-  - 🇸🇬SG-47.129.9.69-3371 | 18.14MB
-  - 🇱🇺_LU_卢森堡_1159
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇨🇦_CA_加拿大_1_547_438_960
-  - 5|🇭🇰 香港|@ripaojiedian_1134
-  - 🇨🇦_CA_加拿大_1_580_444_963
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_964
-  - 🇨🇦_CA_加拿大_1_547_753_1076
-  - 🇨🇦_CA_加拿大_1_580_760_1075
-  - 🇨🇦_CA_加拿大_1_1135
-  - 🇨🇦_CA_加拿大_1_529_1082
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1074
-  - 🇨🇦_CA_加拿大_1161
-  - CH-156.146.62.160-0896_117
-  - 🇺🇸 US-156.146.38.163-3713_1364
-  - 🇺🇸 US-156.146.38.163-0292_1365
-  - 🇨🇦_CA_加拿大_390
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
-  - 🇨🇦_CA_加拿大_1_547_428
-  - 🇨🇦_CA_加拿大_1_580_434
-  - 🇺🇸 US-156.146.38.163-3713_1446
-  - 🇺🇸 US-156.146.38.163-0292_1452
-  - 🇨🇦_CA_加拿大_1_547_438_1301
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_1304
-  - 🇨🇦_CA_加拿大_1_580_444_1303
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇱🇺 _LU_卢森堡 3_116
-  - 🇨🇦_CA_加拿大_1_580_760_1323
-  - 🇨🇦_CA_加拿大_1_547_753_1321
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1322
-  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇱🇺_LU_卢森堡_2_79
+  - 🇺🇸_US_美国_6_486_274
+  - 🇺🇸_US_美国_9_742_357
+  - 🇺🇸_US_美国_9_832_360
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
+  - 🇺🇸 US-156.146.38.163-3713_1364_493
+  - 🇺🇸_US_美国_6_1165_441
+  - 🇺🇸 US-156.146.38.163-0292_1452_505
+  - 🇺🇸 US-212.102.47.198-0833_540
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
+  - 🇺🇸 US-156.146.38.163-3713_542
+  - 🇺🇸 US-156.146.38.163-0292_541
+  - 🇺🇸 US-156.146.38.163-0292_1365_494
+  - 🇺🇸 US-156.146.38.163-3713_1446_501
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
+  - 🇱🇺_LU_卢森堡_731_386
+  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
+  - 🇺🇸_US_美国_6_486_695
+  - 🇱🇺_LU_卢森堡_821_416
+  - 🇸🇬 SG-103.172.116.103-0943_99
+  - 🇸🇬 SG-103.172.116.103-0993_316_83
+  - 🇸🇬 SG-103.172.116.103-0995_101
   - 🇱🇺 _LU_卢森堡 5_118
-  - 🇨🇦_CA_加拿大_1_868
-  - 🇨🇦_CA_加拿大_846
-  - 🇨🇦_CA_加拿大_1_529_1009
-  - 🇨🇦_CA_加拿大_1_580_995
-  - 0,10|🇨🇦_CA_加拿大_2_42
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
-  - 10|🇱🇺_LU_卢森堡_26
-  - 🇨🇦_CA_加拿大_1_547_988
-  - VN-103.163.218.2-0971_1437
-  - 🇱🇺 _LU_卢森堡 2_134
-  - 🇱🇺 _LU_卢森堡 3_137
-  - 🇳🇱 NL-109.201.152.181-0876
-  - 10|🇺🇸_US_美国_3_2由快嘴科技提供：kkzui.com
-  - CH-156.146.62.160-0896_161
-  - 🇱🇺 _LU_卢森堡 5_153
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r"
-  - 🇺🇸 _US_美国 29
-  - "%�\x11�%�P���NL-109.201.152.181-924%%�"
-  - 🇺🇸 US-212.102.47.198-0833
-  - 🇺🇸 US-156.146.38.163-0292
-  - 🇺🇸 US-156.146.38.163-3713
+  - 🇱🇺 _LU_卢森堡 2_115
+  - 🇺🇸_US_美国_9_742_762
+  - 🇺🇸_US_美国_9_832_766
+  - 🇱🇺_LU_卢森堡_2_114
+  - 🇱🇺_LU_卢森堡_503_737
+  - 🇸🇬 SG-103.172.116.103-0993_449_726
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
+  - 🇺🇸_US_美国_6_1165_838
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
+  - 🇱🇺_LU_卢森堡_821_795
+  - 🇱🇺_LU_卢森堡_480_727
+  - 🇺🇸 US-156.146.38.163-0292_1365_918
+  - 🇱🇺_LU_卢森堡_2_836
+  - 🇺🇸 US-156.146.38.163-3713_1364_917
+  - 🇺🇸 US-156.146.38.163-3713_1446_939
+  - 🇺🇸 US-156.146.38.163-0292_1452_942
+  - 🇺🇸 _US_美国 33
+  - 🇸🇬 SG-103.172.116.103-0993_1422
+  - 🇸🇬 SG-103.172.116.103-0995_1451
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
+  - 🇱🇺 _LU_卢森堡 5_978
+  - 🇸🇬 SG-103.172.116.103-5712
+  - 🇸🇬 SG-103.172.116.103-0969
+  - 🇺🇸 US-212.102.47.198-0833_1020
+  - 🇺🇸 US-156.146.38.163-3713_1016
+  - 5|🇭🇰 香港3|@ripaojiedian_1023
+  - 🇺🇸 US-156.146.38.163-0292_1021
+  - 🇸🇬 SG-103.172.116.103-0994_1013
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇭🇰 香港8|@ripaojiedian
+  - 5|🇸🇬 新加坡|@ripaojiedian
+  - 5|🇰🇷 韩国|@ripaojiedian
+  - 0,3|IHwyOS45Nk1i
+  - 3|IHwyOS42M01i
+  - 3|IHwzMC41Nk1i
+  - 3|IHwzMC4yN01i
+  - 3|IHwzMC4wOU1i
+  - 8|CN_speednode_0006
+  - 3|IHwzMC4wNk1i
+  - 5|🇺🇸 美国4|@ripaojiedian
+  - 5|🇺🇸 美国5|@ripaojiedian_1026
+  - 6|香港8|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_1024
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
-  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
-  - CH-156.146.62.160-0628 | 10.621MB
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇳🇱_NL_荷兰_43
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-38.110.1.51-3372 | 1.077MB
-  - 🇳🇱_NL_荷兰_89
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸_US_美国_6_19
-  - 🇺🇸US-128.199.13.40-0143 | 25.897MB
+  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
+  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
+  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
+  - 🇺🇸_US_美国_4_18
+  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
+  - 🇺🇸_US_美国_3_34
+  - 🇺🇸_US_美国_2_15
+  - 🇺🇸_US_美国_7_75
+  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
+  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
+  - 🇺🇸_US_美国_6_57
+  - 🇷🇺_RU_俄罗斯联邦_26
+  - 🇺🇸_US_美国_1_80
+  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
+  - 🇺🇸_US_美国_4_103
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
+  - 🇺🇸_US_美国_2_100
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
+  - 🇺🇸US-156.146.38.163-003
+  - 🇺🇸US-212.102.47.198-006
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
+  - 🇱🇺_LU_卢森堡_2_115
+  - 🇺🇸US-167.88.61.235-141
+  - 🇺🇸US-167.88.61.235-138
+  - 🇨🇳CN-223.113.54.154-005
   - 🇺🇸_US_美国_3_72
-  - 🇷🇺_RU_俄罗斯联邦_59
-  - 🇺🇸US-128.199.13.40-0176 | 25.034MB
-  - 🇷🇺_RU_俄罗斯联邦_42
-  - 🇷🇺_RU_俄罗斯联邦_73
-  - 🇺🇸US-38.110.1.51-3374 | 1.077MB
-  - 🇺🇸_US_美国_2_45
-  - 🇷🇺_RU_俄罗斯联邦_88
-  - 🇺🇸_US_美国_2_91
-  - 🇱🇺_LU_卢森堡_14
+  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
+  - 🇺🇸_US_美国_3_58
+  - 🇺🇸US-23.154.136.105-146
+  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
+  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
+  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-103.214.68.57-145
+  - 🇳🇱NL-103.214.68.57-192
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
+  - 🇨🇳CN-183.240.179.195-191
+  - 🇨🇳CN-36.151.195.46-142
+  - 🇨🇳CN-223.113.54.154-164
   - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_86
   - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_67
-  - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3_70
-  - CH-156.146.62.160-0641 | 16.118MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_172
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_27
-  - 🇮🇸 IS(AzadNet.t.me)_283
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_326
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_313
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_39
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_88
-  - 🇺🇸_US_美国_6_486
-  - 🇨🇦_CA_加拿大_1_580_302
-  - 🇨🇦_CA_加拿大_1_547_296
-  - VN-103.163.218.2-0971_309
-  - 🇮🇸 IS(AzadNet.t.me)_713
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_311
-  - 🇺🇸_US_美国_9_742
-  - 🇺🇸_US_美国_9_832
-  - 🇱🇺_LU_卢森堡_503
-  - 🇱🇺_LU_卢森堡_480
-  - 🇨🇦_CA_加拿大_482
-  - 🇱🇺_LU_卢森堡_731
-  - 🇺🇸_US_美国_12_1137
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_669
-  - 🇨🇦_CA_加拿大_1_529_691
-  - 🇱🇺_LU_卢森堡_821
-  - 🇨🇦_CA_加拿大_1_547_661
-  - 🇨🇦_CA_加拿大_1_580_668
-  - 🇺🇸_US_美国_6_1165
-  - 🇨🇦_CA_加拿大_738
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
-  - 🇨🇦_CA_加拿大_828
-  - 🇸🇬SG-47.129.9.69-3371 | 18.14MB
-  - 🇱🇺_LU_卢森堡_1159
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇨🇦_CA_加拿大_1_547_438_960
-  - 5|🇭🇰 香港|@ripaojiedian_1134
-  - 🇨🇦_CA_加拿大_1_580_444_963
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_964
-  - 🇨🇦_CA_加拿大_1_547_753_1076
-  - 🇨🇦_CA_加拿大_1_580_760_1075
-  - 🇨🇦_CA_加拿大_1_1135
-  - 🇨🇦_CA_加拿大_1_529_1082
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1074
-  - 🇨🇦_CA_加拿大_1161
-  - CH-156.146.62.160-0896_117
-  - 🇺🇸 US-156.146.38.163-3713_1364
-  - 🇺🇸 US-156.146.38.163-0292_1365
-  - 🇨🇦_CA_加拿大_390
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
-  - 🇨🇦_CA_加拿大_1_547_428
-  - 🇨🇦_CA_加拿大_1_580_434
-  - 🇺🇸 US-156.146.38.163-3713_1446
-  - 🇺🇸 US-156.146.38.163-0292_1452
-  - 🇨🇦_CA_加拿大_1_547_438_1301
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_1304
-  - 🇨🇦_CA_加拿大_1_580_444_1303
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇱🇺 _LU_卢森堡 3_116
-  - 🇨🇦_CA_加拿大_1_580_760_1323
-  - 🇨🇦_CA_加拿大_1_547_753_1321
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1322
-  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇱🇺_LU_卢森堡_2_79
+  - 🇺🇸_US_美国_6_486_274
+  - 🇺🇸_US_美国_9_742_357
+  - 🇺🇸_US_美国_9_832_360
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
+  - 🇺🇸 US-156.146.38.163-3713_1364_493
+  - 🇺🇸_US_美国_6_1165_441
+  - 🇺🇸 US-156.146.38.163-0292_1452_505
+  - 🇺🇸 US-212.102.47.198-0833_540
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
+  - 🇺🇸 US-156.146.38.163-3713_542
+  - 🇺🇸 US-156.146.38.163-0292_541
+  - 🇺🇸 US-156.146.38.163-0292_1365_494
+  - 🇺🇸 US-156.146.38.163-3713_1446_501
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
+  - 🇱🇺_LU_卢森堡_731_386
+  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
+  - 🇺🇸_US_美国_6_486_695
+  - 🇱🇺_LU_卢森堡_821_416
+  - 🇸🇬 SG-103.172.116.103-0943_99
+  - 🇸🇬 SG-103.172.116.103-0993_316_83
+  - 🇸🇬 SG-103.172.116.103-0995_101
   - 🇱🇺 _LU_卢森堡 5_118
-  - 🇨🇦_CA_加拿大_1_868
-  - 🇨🇦_CA_加拿大_846
-  - 🇨🇦_CA_加拿大_1_529_1009
-  - 🇨🇦_CA_加拿大_1_580_995
-  - 0,10|🇨🇦_CA_加拿大_2_42
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
-  - 10|🇱🇺_LU_卢森堡_26
-  - 🇨🇦_CA_加拿大_1_547_988
-  - VN-103.163.218.2-0971_1437
-  - 🇱🇺 _LU_卢森堡 2_134
-  - 🇱🇺 _LU_卢森堡 3_137
-  - 🇳🇱 NL-109.201.152.181-0876
-  - 10|🇺🇸_US_美国_3_2由快嘴科技提供：kkzui.com
-  - CH-156.146.62.160-0896_161
-  - 🇱🇺 _LU_卢森堡 5_153
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r"
-  - 🇺🇸 _US_美国 29
-  - "%�\x11�%�P���NL-109.201.152.181-924%%�"
-  - 🇺🇸 US-212.102.47.198-0833
-  - 🇺🇸 US-156.146.38.163-0292
-  - 🇺🇸 US-156.146.38.163-3713
+  - 🇱🇺 _LU_卢森堡 2_115
+  - 🇺🇸_US_美国_9_742_762
+  - 🇺🇸_US_美国_9_832_766
+  - 🇱🇺_LU_卢森堡_2_114
+  - 🇱🇺_LU_卢森堡_503_737
+  - 🇸🇬 SG-103.172.116.103-0993_449_726
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
+  - 🇺🇸_US_美国_6_1165_838
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
+  - 🇱🇺_LU_卢森堡_821_795
+  - 🇱🇺_LU_卢森堡_480_727
+  - 🇺🇸 US-156.146.38.163-0292_1365_918
+  - 🇱🇺_LU_卢森堡_2_836
+  - 🇺🇸 US-156.146.38.163-3713_1364_917
+  - 🇺🇸 US-156.146.38.163-3713_1446_939
+  - 🇺🇸 US-156.146.38.163-0292_1452_942
+  - 🇺🇸 _US_美国 33
+  - 🇸🇬 SG-103.172.116.103-0993_1422
+  - 🇸🇬 SG-103.172.116.103-0995_1451
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
+  - 🇱🇺 _LU_卢森堡 5_978
+  - 🇸🇬 SG-103.172.116.103-5712
+  - 🇸🇬 SG-103.172.116.103-0969
+  - 🇺🇸 US-212.102.47.198-0833_1020
+  - 🇺🇸 US-156.146.38.163-3713_1016
+  - 5|🇭🇰 香港3|@ripaojiedian_1023
+  - 🇺🇸 US-156.146.38.163-0292_1021
+  - 🇸🇬 SG-103.172.116.103-0994_1013
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇭🇰 香港8|@ripaojiedian
+  - 5|🇸🇬 新加坡|@ripaojiedian
+  - 5|🇰🇷 韩国|@ripaojiedian
+  - 0,3|IHwyOS45Nk1i
+  - 3|IHwyOS42M01i
+  - 3|IHwzMC41Nk1i
+  - 3|IHwzMC4yN01i
+  - 3|IHwzMC4wOU1i
+  - 8|CN_speednode_0006
+  - 3|IHwzMC4wNk1i
+  - 5|🇺🇸 美国4|@ripaojiedian
+  - 5|🇺🇸 美国5|@ripaojiedian_1026
+  - 6|香港8|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_1024
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
-  - CH-156.146.62.160-0628 | 10.621MB
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇳🇱_NL_荷兰_43
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-38.110.1.51-3372 | 1.077MB
-  - 🇳🇱_NL_荷兰_89
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸_US_美国_6_19
-  - 🇺🇸US-128.199.13.40-0143 | 25.897MB
+  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
+  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
+  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
+  - 🇺🇸_US_美国_4_18
+  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
+  - 🇺🇸_US_美国_3_34
+  - 🇺🇸_US_美国_2_15
+  - 🇺🇸_US_美国_7_75
+  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
+  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
+  - 🇺🇸_US_美国_6_57
+  - 🇷🇺_RU_俄罗斯联邦_26
+  - 🇺🇸_US_美国_1_80
+  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
+  - 🇺🇸_US_美国_4_103
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
+  - 🇺🇸_US_美国_2_100
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
+  - 🇺🇸US-156.146.38.163-003
+  - 🇺🇸US-212.102.47.198-006
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
+  - 🇱🇺_LU_卢森堡_2_115
+  - 🇺🇸US-167.88.61.235-141
+  - 🇺🇸US-167.88.61.235-138
+  - 🇨🇳CN-223.113.54.154-005
   - 🇺🇸_US_美国_3_72
-  - 🇷🇺_RU_俄罗斯联邦_59
-  - 🇺🇸US-128.199.13.40-0176 | 25.034MB
-  - 🇷🇺_RU_俄罗斯联邦_42
-  - 🇷🇺_RU_俄罗斯联邦_73
-  - 🇺🇸US-38.110.1.51-3374 | 1.077MB
-  - 🇺🇸_US_美国_2_45
-  - 🇷🇺_RU_俄罗斯联邦_88
-  - 🇺🇸_US_美国_2_91
-  - 🇱🇺_LU_卢森堡_14
+  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
+  - 🇺🇸_US_美国_3_58
+  - 🇺🇸US-23.154.136.105-146
+  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
+  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
+  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-103.214.68.57-145
+  - 🇳🇱NL-103.214.68.57-192
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
+  - 🇨🇳CN-183.240.179.195-191
+  - 🇨🇳CN-36.151.195.46-142
+  - 🇨🇳CN-223.113.54.154-164
   - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_86
   - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_67
-  - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3_70
-  - CH-156.146.62.160-0641 | 16.118MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_172
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_27
-  - 🇮🇸 IS(AzadNet.t.me)_283
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_326
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_0_313
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_39
-  - 🇰🇷KR-43.201.69.200-3411 | 3.302MB_83_88
-  - 🇺🇸_US_美国_6_486
-  - 🇨🇦_CA_加拿大_1_580_302
-  - 🇨🇦_CA_加拿大_1_547_296
-  - VN-103.163.218.2-0971_309
-  - 🇮🇸 IS(AzadNet.t.me)_713
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_311
-  - 🇺🇸_US_美国_9_742
-  - 🇺🇸_US_美国_9_832
-  - 🇱🇺_LU_卢森堡_503
-  - 🇱🇺_LU_卢森堡_480
-  - 🇨🇦_CA_加拿大_482
-  - 🇱🇺_LU_卢森堡_731
-  - 🇺🇸_US_美国_12_1137
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_669
-  - 🇨🇦_CA_加拿大_1_529_691
-  - 🇱🇺_LU_卢森堡_821
-  - 🇨🇦_CA_加拿大_1_547_661
-  - 🇨🇦_CA_加拿大_1_580_668
-  - 🇺🇸_US_美国_6_1165
-  - 🇨🇦_CA_加拿大_738
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB
-  - 🇨🇦_CA_加拿大_828
-  - 🇸🇬SG-47.129.9.69-3371 | 18.14MB
-  - 🇱🇺_LU_卢森堡_1159
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇨🇦_CA_加拿大_1_547_438_960
-  - 5|🇭🇰 香港|@ripaojiedian_1134
-  - 🇨🇦_CA_加拿大_1_580_444_963
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_964
-  - 🇨🇦_CA_加拿大_1_547_753_1076
-  - 🇨🇦_CA_加拿大_1_580_760_1075
-  - 🇨🇦_CA_加拿大_1_1135
-  - 🇨🇦_CA_加拿大_1_529_1082
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1074
-  - 🇨🇦_CA_加拿大_1161
-  - CH-156.146.62.160-0896_117
-  - 🇺🇸 US-156.146.38.163-3713_1364
-  - 🇺🇸 US-156.146.38.163-0292_1365
-  - 🇨🇦_CA_加拿大_390
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_442
-  - 🇨🇦_CA_加拿大_1_547_428
-  - 🇨🇦_CA_加拿大_1_580_434
-  - 🇺🇸 US-156.146.38.163-3713_1446
-  - 🇺🇸 US-156.146.38.163-0292_1452
-  - 🇨🇦_CA_加拿大_1_547_438_1301
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_450_1304
-  - 🇨🇦_CA_加拿大_1_580_444_1303
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇱🇺 _LU_卢森堡 3_116
-  - 🇨🇦_CA_加拿大_1_580_760_1323
-  - 🇨🇦_CA_加拿大_1_547_753_1321
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_761_1322
-  - 🇨🇦_CA_加拿大_1_529_668
+  - 🇱🇺_LU_卢森堡_2_79
+  - 🇺🇸_US_美国_6_486_274
+  - 🇺🇸_US_美国_9_742_357
+  - 🇺🇸_US_美国_9_832_360
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
+  - 🇺🇸 US-156.146.38.163-3713_1364_493
+  - 🇺🇸_US_美国_6_1165_441
+  - 🇺🇸 US-156.146.38.163-0292_1452_505
+  - 🇺🇸 US-212.102.47.198-0833_540
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
+  - 🇺🇸 US-156.146.38.163-3713_542
+  - 🇺🇸 US-156.146.38.163-0292_541
+  - 🇺🇸 US-156.146.38.163-0292_1365_494
+  - 🇺🇸 US-156.146.38.163-3713_1446_501
+  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
+  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
+  - 🇱🇺_LU_卢森堡_731_386
+  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
+  - 🇺🇸_US_美国_6_486_695
+  - 🇱🇺_LU_卢森堡_821_416
+  - 🇸🇬 SG-103.172.116.103-0943_99
+  - 🇸🇬 SG-103.172.116.103-0993_316_83
+  - 🇸🇬 SG-103.172.116.103-0995_101
   - 🇱🇺 _LU_卢森堡 5_118
-  - 🇨🇦_CA_加拿大_1_868
-  - 🇨🇦_CA_加拿大_846
-  - 🇨🇦_CA_加拿大_1_529_1009
-  - 🇨🇦_CA_加拿大_1_580_995
-  - 0,10|🇨🇦_CA_加拿大_2_42
-  - 0,10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19_996
-  - 10|🇱🇺_LU_卢森堡_26
-  - 🇨🇦_CA_加拿大_1_547_988
-  - VN-103.163.218.2-0971_1437
-  - 🇱🇺 _LU_卢森堡 2_134
-  - 🇱🇺 _LU_卢森堡 3_137
-  - 🇳🇱 NL-109.201.152.181-0876
-  - 10|🇺🇸_US_美国_3_2由快嘴科技提供：kkzui.com
-  - CH-156.146.62.160-0896_161
-  - 🇱🇺 _LU_卢森堡 5_153
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r"
-  - 🇺🇸 _US_美国 29
-  - "%�\x11�%�P���NL-109.201.152.181-924%%�"
-  - 🇺🇸 US-212.102.47.198-0833
-  - 🇺🇸 US-156.146.38.163-0292
-  - 🇺🇸 US-156.146.38.163-3713
+  - 🇱🇺 _LU_卢森堡 2_115
+  - 🇺🇸_US_美国_9_742_762
+  - 🇺🇸_US_美国_9_832_766
+  - 🇱🇺_LU_卢森堡_2_114
+  - 🇱🇺_LU_卢森堡_503_737
+  - 🇸🇬 SG-103.172.116.103-0993_449_726
+  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
+  - 🇺🇸_US_美国_6_1165_838
+  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
+  - 🇱🇺_LU_卢森堡_821_795
+  - 🇱🇺_LU_卢森堡_480_727
+  - 🇺🇸 US-156.146.38.163-0292_1365_918
+  - 🇱🇺_LU_卢森堡_2_836
+  - 🇺🇸 US-156.146.38.163-3713_1364_917
+  - 🇺🇸 US-156.146.38.163-3713_1446_939
+  - 🇺🇸 US-156.146.38.163-0292_1452_942
+  - 🇺🇸 _US_美国 33
+  - 🇸🇬 SG-103.172.116.103-0993_1422
+  - 🇸🇬 SG-103.172.116.103-0995_1451
+  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
+  - 🇱🇺 _LU_卢森堡 5_978
+  - 🇸🇬 SG-103.172.116.103-5712
+  - 🇸🇬 SG-103.172.116.103-0969
+  - 🇺🇸 US-212.102.47.198-0833_1020
+  - 🇺🇸 US-156.146.38.163-3713_1016
+  - 5|🇭🇰 香港3|@ripaojiedian_1023
+  - 🇺🇸 US-156.146.38.163-0292_1021
+  - 🇸🇬 SG-103.172.116.103-0994_1013
+  - 5|🇺🇸 美国|@ripaojiedian
+  - 5|🇭🇰 香港8|@ripaojiedian
+  - 5|🇸🇬 新加坡|@ripaojiedian
+  - 5|🇰🇷 韩国|@ripaojiedian
+  - 0,3|IHwyOS45Nk1i
+  - 3|IHwyOS42M01i
+  - 3|IHwzMC41Nk1i
+  - 3|IHwzMC4yN01i
+  - 3|IHwzMC4wOU1i
+  - 8|CN_speednode_0006
+  - 3|IHwzMC4wNk1i
+  - 5|🇺🇸 美国4|@ripaojiedian
+  - 5|🇺🇸 美国5|@ripaojiedian_1026
+  - 6|香港8|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_1024
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
