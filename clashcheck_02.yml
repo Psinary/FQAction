@@ -4,75 +4,457 @@ log-level: info
 mixed-port: 7890
 mode: Rule
 proxies:
-- cipher: aes-256-cfb
-  name: 🇸🇬SG-18.143.93.163-4264 | 24.713MB
-  password: amazonskr05
-  port: 443
-  server: 18.143.93.163
-  type: ss
 - cipher: aes-128-cfb
-  name: 🇺🇸US-212.102.47.198-0302 | 68.007MB
+  name: 🇳🇱NL-109.201.152.181-0721 | 20.996MB
   password: shadowsocks
   port: 443
-  server: 212.102.47.198
+  server: 109.201.152.181
   type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-0297 | 99.227MB
+- cipher: aes-128-gcm
+  name: 🇬🇧GB-212.102.53.80-0716 | 19.54MB
   password: shadowsocks
   port: 443
-  server: 156.146.38.163
+  server: 212.102.53.80
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸US-184.170.241.194-0365 | 41.998MB
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-52.151.99.42-0701 | 20.502MB
+  password: jha5ZXvI7J4CkWQn4iB3AF
+  port: 58939
+  server: 52.151.99.42
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_4_18
+  name: 🇵🇱_PL_波兰_1_69
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_2_104
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_9_113
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧_GB_英国_120
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.80
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_12_128
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 51.77.53.200
+  type: ss
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_76
+  network: tcp
+  password: TNDSJfNv
+  port: 4603
+  server: 36.151.195.48
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_14_130
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_13_129
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_18_135
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_20_138
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_17_134
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_21_139
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_7_124
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_23_144
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_4_153
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧_GB_英国_166
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.80
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_9_159
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 51.77.53.200
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸_US_美国_11_141
+  password: H5S0hvcxRi#YLmgU
+  port: 1230
+  server: 38.107.226.146
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_12_174
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 51.77.53.200
+  type: ss
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_3_118
+  network: tcp
+  password: TNDSJfNv
+  port: 4787
+  server: 36.151.195.48
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_15_177
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 51.77.53.200
+  type: ss
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_2_117
+  network: tcp
+  password: TNDSJfNv
+  port: 4603
+  server: 36.151.195.48
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_7_170
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_22_189
   password: e4FCWrgpkji3QY
   port: 9102
-  server: 167.88.61.235
+  server: 51.77.53.200
   type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-0621 | 97.064MB
-  password: shadowsocks
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸_US_美国_1_148
+  password: lWaGPVFjmnag
   port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_3_34
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_2_15
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_7_75
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
+  server: 205.134.180.139
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.86.135.31-3073 | 3.084MB
+  name: 🇵🇱PL-51.77.53.200-008
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 51.77.53.200
+  type: ss
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_3_164
+  network: tcp
+  password: TNDSJfNv
+  port: 4787
+  server: 36.151.195.48
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US-205.134.180.139-018
+  password: lWaGPVFjmnag
+  port: 443
+  server: 205.134.180.139
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇫🇷FR-149.202.82.172-194
   password: PCnnH6SQSnfoS27
   port: 8091
-  server: 38.86.135.31
+  server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.86.135.31-3086 | 3.208MB
-  password: lGqs95QkFHo2NV
-  port: 5498
-  server: 38.86.135.31
+  name: 🇵🇱PL-51.77.53.200-204
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 51.77.53.200
   type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_6_57
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_2_163
+  network: tcp
+  password: TNDSJfNv
+  port: 4603
+  server: 36.151.195.48
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_11_127
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 51.77.53.200
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 🇨🇳CN-120.238.122.250-244
+  network: tcp
+  port: 34414
+  server: 120.238.122.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.238.122.250
+  ws-path: /
+- cipher: aes-256-gcm
+  name: 🇵🇱PL-51.77.53.200-208
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱PL-51.77.53.200-211
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇦🇱_AL_阿尔巴尼亚_178
+  password: dongtaiwang.com
+  port: 51122
+  server: 109.104.152.126
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-52.151.99.42-191
+  password: jha5ZXvI7J4CkWQn4iB3AF
+  port: 58939
+  server: 52.151.99.42
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱PL-51.77.53.200-216
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 51.77.53.200
+  type: ss
+- name: 🇨🇦_CA_加拿大_202
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 35.182.39.30
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷FR-149.202.82.172-215
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_25_192
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 51.77.53.200
+  type: ss
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_2_199
+  network: tcp
+  password: TNDSJfNv
+  port: 4787
+  server: 36.151.195.48
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷FR-149.202.82.172-231
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 149.202.82.172
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇷🇺_RU_俄罗斯联邦_26
+  name: 🇨🇳CN-183.240.179.207-210
+  network: tcp
+  port: 30127
+  server: 183.240.179.207
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
+  ws-headers:
+    Host: 183.240.179.207
+  ws-path: /
+- name: 🇨🇳CN-36.151.195.48-012
+  password: TNDSJfNv
+  port: 4787
+  server: 36.151.195.48
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇵🇱PL-51.77.53.200-255
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_5_154
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇫🇷FR-149.202.82.172-245
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 149.202.82.172
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-51.140.93.164-223
+  password: REpxHYqh4fqAjuIojeCOFZ
+  port: 7045
+  server: 51.140.93.164
+  type: ss
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_3_200
+  network: tcp
+  password: TNDSJfNv
+  port: 4603
+  server: 36.151.195.48
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇵🇱PL-51.77.53.200-264
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 51.77.53.200
+  type: ss
+- name: 🇨🇳CN-36.151.195.48-013
+  password: TNDSJfNv
+  port: 4603
+  server: 36.151.195.48
+  skip-cert-verify: true
+  type: trojan
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_216
+  network: tcp
+  password: TNDSJfNv
+  port: 4603
+  server: 36.151.195.48
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇵🇱PL-51.77.53.200-261
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇫🇷FR-149.202.82.172-250
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇫🇷FR-149.202.82.172-266
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_1_209
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇫🇷FR-149.202.82.172-199
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 149.202.82.172
+  type: ss
+- name: 🇺🇸US-3.134.180.239-242
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.134.180.239
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇺🇸US-109.104.152.126-246
+  password: dongtaiwang.com
+  port: 51122
+  server: 109.104.152.126
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_18_181
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 51.77.53.200
+  type: ss
+- name: 🇨🇳CN-36.151.195.48-224
+  password: TNDSJfNv
+  port: 4787
+  server: 36.151.195.48
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇫🇷FR-149.202.82.172-258
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱PL-51.77.53.200-268
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱PL-51.77.53.200-005
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 51.77.53.200
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇷🇺RU-45.136.245.240-006
   network: ws
   port: 12910
   server: 45.136.245.240
@@ -80,154 +462,14 @@ proxies:
   tls: true
   type: vmess
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-- name: 🇺🇸_US_美国_1_80
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.189.103.46
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇸🇬SG-103.172.116.79-1568 | 5.41MB
-  password: GeregetR8cvQHzYr
-  port: 9030
-  server: 103.172.116.79
-  type: ss
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_81
-  network: tcp
-  password: MyYoZhfX
-  port: 15274
-  server: 223.113.54.154
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  ws-headers:
+    Host: 45.136.245.240
+  ws-path: /
 - cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_4_103
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 167.88.61.235
-  type: ss
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_67
-  network: tcp
-  password: MyYoZhfX
-  port: 15274
-  server: 223.113.54.154
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_2_100
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_88
-  network: tcp
-  password: MyYoZhfX
-  port: 15274
-  server: 223.113.54.154
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-003
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸US-212.102.47.198-006
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  type: ss
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
-  network: tcp
-  password: MyYoZhfX
-  port: 20344
-  server: 36.151.195.46
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
-  network: tcp
-  password: MyYoZhfX
-  port: 15274
-  server: 223.113.54.154
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_2_115
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-256-gcm
-  name: 🇺🇸US-167.88.61.235-141
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 167.88.61.235
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸US-167.88.61.235-138
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 167.88.61.235
-  type: ss
-- name: 🇨🇳CN-223.113.54.154-005
-  password: MyYoZhfX
-  port: 15274
-  server: 223.113.54.154
-  skip-cert-verify: true
-  type: trojan
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_3_72
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_3_58
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸US-23.154.136.105-146
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 23.154.136.105
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_6_19
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
+  name: 🇫🇷FR-149.202.82.172-267
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 149.202.82.172
   type: ss
 - alterId: 0
   cipher: auto
@@ -255,789 +497,573 @@ proxies:
   ws-headers:
     Host: 103.214.68.57
   ws-path: /
-- cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳CN-183.240.179.195-191
-  network: tcp
-  port: 61002
-  server: 183.240.179.195
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-  ws-headers:
-    Host: 183.240.179.195
-  ws-path: /
-- name: 🇨🇳CN-36.151.195.46-142
-  password: MyYoZhfX
-  port: 20344
-  server: 36.151.195.46
-  skip-cert-verify: true
-  type: trojan
-- name: 🇨🇳CN-223.113.54.154-164
-  password: MyYoZhfX
-  port: 15274
-  server: 223.113.54.154
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_40
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_53
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_2_79
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_6_486_274
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_9_742_357
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_9_832_360
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-3713_1364_493
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_6_1165_441
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-0292_1452_505
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-212.102.47.198-0833_540
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-3713_542
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-0292_541
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-0292_1365_494
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-3713_1446_501
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_731_386
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-13.124.178.1-0719 | 1.456MB
-  password: amazonskr05
-  port: 443
-  server: 13.124.178.1
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_6_486_695
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_821_416
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-0943_99
-  password: Lp27rqyJq72bZsqX
-  port: 9045
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-0993_316_83
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-0995_101
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  server: 103.172.116.103
-  type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇱🇺 _LU_卢森堡 5_118
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇱🇺 _LU_卢森堡 2_115
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_9_742_762
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_9_832_766
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_2_114
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_503_737
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-0993_449_726
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_6_1165_838
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_821_795
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_480_727
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-0292_1365_918
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_2_836
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-3713_1364_917
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-3713_1446_939
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-0292_1452_942
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
+- cipher: aes-256-gcm
+  name: 🇫🇷FR-149.202.82.172-234
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸 _US_美国 33
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 169.197.142.216
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-0993_1422
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-0995_1451
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-128-cfb
-  name: "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
+  name: 🇵🇱PL-51.77.53.200-251
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 51.77.53.200
   type: ss
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇱🇺 _LU_卢森堡 5_978
-  network: http
-  port: 3389
-  server: 45.82.31.164
+  client-fingerprint: chrome
+  name: 🇨🇳 湖南省 联通
+  network: ws
+  port: 16632
+  server: yes.cnmjcn.net
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-5712
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-0969
-  password: fG2artUmHfNT2cX7
-  port: 9018
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-212.102.47.198-0833_1020
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-3713_1016
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- alterId: 0
+  udp: true
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 64
   cipher: auto
-  name: 5|🇭🇰 香港3|@ripaojiedian_1023
-  port: 8443
-  server: 120.232.240.38
-  skip-cert-verify: true
+  name: 5|🇺🇸 美国3|@ripaojiedian
+  port: 34414
+  server: 120.238.122.250
+  skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
-- cipher: aes-128-cfb
-  name: 🇺🇸 US-156.146.38.163-0292_1021
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG-103.172.116.103-0994_1013
-  password: FAdUvMJUq5vDgKEq
-  port: 9006
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-128-cfb
-  name: 5|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  tfo: false
-  type: ss
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 5|🇭🇰 香港4|@ripaojiedian_331
+  password: TNDSJfNv
+  port: 41446
+  server: 183.232.139.22
+  skip-cert-verify: true
+  type: trojan
+- name: 8|CN_speednode_0014
+  network: tcp
+  password: TNDSJfNv
+  port: 29529
+  server: 120.236.196.21
+  skip-cert-verify: true
+  type: trojan
+- name: 5|🇰🇷 韩国|@ripaojiedian_333
+  network: ws
+  password: moist
+  port: 14850
+  server: 146.56.130.130
+  skip-cert-verify: false
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 5|🇭🇰 香港8|@ripaojiedian
-  port: 15603
-  server: 183.232.199.61
+  name: 5|🇭🇰 香港|@ripaojiedian
+  port: 15605
+  server: 183.232.199.28
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
+- name: 5|🇯🇵 日本|@ripaojiedian
+  password: TNDSJfNv
+  port: 29841
+  server: 36.151.195.48
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-128-cfb
+  name: 🇳🇱NL-109.201.152.181-0610 | 24.012MB
+  password: shadowsocks
+  port: 443
+  server: 109.201.152.181
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇳🇱_NL_荷兰_43
+  password: shadowsocks
+  port: 443
+  server: 109.201.152.181
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇳🇱_NL_荷兰_89
+  password: shadowsocks
+  port: 443
+  server: 109.201.152.181
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 3
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 149.202.82.172
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 4
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 149.202.82.172
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 149.202.82.172
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 6
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 149.202.82.172
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 7
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 149.202.82.172
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 9
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 149.202.82.172
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 8
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 149.202.82.172
+  tfo: false
+  type: ss
+  udp: true
+- alterId: 64
   cipher: auto
-  name: 5|🇸🇬 新加坡|@ripaojiedian
-  port: 37997
-  server: 8789-kf49kc85w.uy2w4vf-sg03.my777999.top
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省广州市 移动_338
+  port: 51707
+  server: 183.236.51.59
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 6399ac7d-8265-436d-b348-299df4b735a5
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: 5|🇰🇷 韩国|@ripaojiedian
-  password: 6399ac7d-8265-436d-b348-299df4b735a5
-  port: 32999
-  server: gfoq.b4-h5a6gq7.h3w-kr01.my777999.top
+  client-fingerprint: chrome
+  name: 🇺🇸 美国+华盛顿Cogent通信公司 2
+  password: H5S0hvcxRi#YLmgU
+  port: 1230
+  server: 38.107.226.146
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  country: SG
-  name: 0,3|IHwyOS45Nk1i
-  obfs: plain
-  password: S7KwUu7yBy58S3Ga
-  port: '9042'
-  protocol: origin
-  protocol-param: ''
-  server: 103.172.116.79
-  type: ssr
-- cipher: aes-256-cfb
-  name: 3|IHwyOS42M01i
-  obfs: plain
-  password: rNBfNuuANFCAk7KB
-  port: '9056'
-  protocol: origin
-  server: 103.172.116.79
-  type: ssr
-- cipher: aes-256-cfb
-  name: 3|IHwzMC41Nk1i
-  obfs: plain
-  password: KnJGad3FqTvjqbaX
-  port: '9014'
-  protocol: origin
-  server: 103.172.116.79
-  type: ssr
-- cipher: aes-256-cfb
-  name: 3|IHwzMC4yN01i
-  obfs: plain
-  password: f8npKgNzdkss2ytn
-  port: '9088'
-  protocol: origin
-  server: 103.172.116.79
-  type: ssr
-- cipher: aes-256-cfb
-  name: 3|IHwzMC4wOU1i
-  obfs: plain
-  password: daFYagqDdBdA6VTX
-  port: '9073'
-  protocol: origin
-  server: 103.172.116.79
-  type: ssr
-- name: 8|CN_speednode_0006
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 2
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 149.202.82.172
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国+OVH 6
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.77.53.200
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国+OVH 5
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 51.77.53.200
+  tfo: false
+  type: ss
+  udp: true
+- name: 5|🇺🇸 美国5|@ripaojiedian_334
+  password: TNDSJfNv
+  port: 4787
+  server: 36.151.195.48
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国+OVH 2
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 51.77.53.200
+  tfo: false
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 5|🇰🇷 韩国3|@ripaojiedian
+  port: 42001
+  server: 183.232.199.28
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- name: 5,8|CN_speednode_0020
   network: tcp
-  password: MyYoZhfX
-  port: 46011
-  server: 112.29.94.23
-  skip-cert-verify: true
-  type: trojan
-  udp: false
-- cipher: aes-256-cfb
-  name: 3|IHwzMC4wNk1i
-  obfs: plain
-  password: ZpNDDKRu9MagNvaf
-  port: '9015'
-  protocol: origin
-  server: 103.172.116.79
-  type: ssr
-- name: 5|🇺🇸 美国4|@ripaojiedian
-  password: MyYoZhfX
-  port: 15274
-  server: 223.113.54.154
-  skip-cert-verify: true
-  type: trojan
-- name: 5|🇺🇸 美国5|@ripaojiedian_1026
-  password: MyYoZhfX
-  port: 20344
-  server: 36.151.195.46
+  password: TNDSJfNv
+  port: 4603
+  server: 36.151.195.48
   skip-cert-verify: true
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 6|香港8|@ripaojiedian
+  name: 6|香港|@ripaojiedian
   network: tcp
-  port: '15603'
+  port: '15605'
+  server: 183.232.199.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 6|香港2|@ripaojiedian
+  network: tcp
+  port: '15601'
   server: 183.232.199.61
   servername: ''
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- name: 5|🇭🇰 香港4|@ripaojiedian_1024
-  password: MyYoZhfX
-  port: 24791
-  server: 223.113.54.154
+- alterId: 0
+  cipher: auto
+  name: 6|香港3|@ripaojiedian_336
+  network: tcp
+  port: '15603'
+  server: 183.232.199.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省佛山市 移动
+  port: 15603
+  server: 183.232.199.28
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国+OVH 4
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 51.77.53.200
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: "%�\x11�%�P���NL-109.201.152.181-924%%�_754"
+  password: shadowsocks
+  port: 443
+  server: 109.201.152.181
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇳🇱 NL-109.201.152.181-0876_749
+  password: shadowsocks
+  port: 443
+  server: 109.201.152.181
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇳🇱 NL-109.201.152.181-0876_1237
+  password: shadowsocks
+  port: 443
+  server: 109.201.152.181
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧 GB-212.102.53.80-0855
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.80
+  type: ss
+- name: 🇺🇸 _US_美国 29_1225
+  network: ws
+  password: 0b1371aa-649d-41dc-9126-338c87936500
+  port: 443
+  server: 95.164.33.62
   skip-cert-verify: true
+  sni: sourceforge.net
   type: trojan
+  ws-opts:
+    headers:
+      Host: sourceforge.net
+    path: /websocket
+- cipher: aes-128-cfb
+  name: "%�\x11�%�P���NL-109.201.152.181-924%%�_1259"
+  password: shadowsocks
+  port: 443
+  server: 109.201.152.181
+  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
-  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
-  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
-  - 🇺🇸_US_美国_4_18
-  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
-  - 🇺🇸_US_美国_3_34
-  - 🇺🇸_US_美国_2_15
-  - 🇺🇸_US_美国_7_75
-  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
-  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
-  - 🇺🇸_US_美国_6_57
-  - 🇷🇺_RU_俄罗斯联邦_26
-  - 🇺🇸_US_美国_1_80
-  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
-  - 🇺🇸_US_美国_4_103
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-  - 🇺🇸_US_美国_2_100
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
-  - 🇺🇸US-156.146.38.163-003
-  - 🇺🇸US-212.102.47.198-006
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
-  - 🇱🇺_LU_卢森堡_2_115
-  - 🇺🇸US-167.88.61.235-141
-  - 🇺🇸US-167.88.61.235-138
-  - 🇨🇳CN-223.113.54.154-005
-  - 🇺🇸_US_美国_3_72
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸US-23.154.136.105-146
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-109.201.152.181-0721 | 20.996MB
+  - 🇬🇧GB-212.102.53.80-0716 | 19.54MB
+  - 🇺🇸US-184.170.241.194-0365 | 41.998MB
+  - 🇬🇧GB-52.151.99.42-0701 | 20.502MB
+  - 🇵🇱_PL_波兰_1_69
+  - 🇵🇱_PL_波兰_2_104
+  - 🇵🇱_PL_波兰_9_113
+  - 🇬🇧_GB_英国_120
+  - 🇵🇱_PL_波兰_12_128
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_76
+  - 🇵🇱_PL_波兰_14_130
+  - 🇵🇱_PL_波兰_13_129
+  - 🇵🇱_PL_波兰_18_135
+  - 🇵🇱_PL_波兰_20_138
+  - 🇵🇱_PL_波兰_17_134
+  - 🇵🇱_PL_波兰_21_139
+  - 🇺🇸_US_美国_7_124
+  - 🇵🇱_PL_波兰_23_144
+  - 🇵🇱_PL_波兰_4_153
+  - 🇬🇧_GB_英国_166
+  - 🇵🇱_PL_波兰_9_159
+  - 🇺🇸_US_美国_11_141
+  - 🇵🇱_PL_波兰_12_174
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_118
+  - 🇵🇱_PL_波兰_15_177
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_117
+  - 🇺🇸_US_美国_7_170
+  - 🇵🇱_PL_波兰_22_189
+  - 🇺🇸_US_美国_1_148
+  - 🇵🇱PL-51.77.53.200-008
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_164
+  - 🇺🇸US-205.134.180.139-018
+  - 🇫🇷FR-149.202.82.172-194
+  - 🇵🇱PL-51.77.53.200-204
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_163
+  - 🇵🇱_PL_波兰_11_127
+  - 🇨🇳CN-120.238.122.250-244
+  - 🇵🇱PL-51.77.53.200-208
+  - 🇵🇱PL-51.77.53.200-211
+  - 🇦🇱_AL_阿尔巴尼亚_178
+  - 🇬🇧GB-52.151.99.42-191
+  - 🇵🇱PL-51.77.53.200-216
+  - 🇨🇦_CA_加拿大_202
+  - 🇫🇷FR-149.202.82.172-215
+  - 🇵🇱_PL_波兰_25_192
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_199
+  - 🇫🇷FR-149.202.82.172-231
+  - 🇨🇳CN-183.240.179.207-210
+  - 🇨🇳CN-36.151.195.48-012
+  - 🇵🇱PL-51.77.53.200-255
+  - 🇵🇱_PL_波兰_5_154
+  - 🇫🇷FR-149.202.82.172-245
+  - 🇬🇧GB-51.140.93.164-223
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_200
+  - 🇵🇱PL-51.77.53.200-264
+  - 🇨🇳CN-36.151.195.48-013
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_216
+  - 🇵🇱PL-51.77.53.200-261
+  - 🇫🇷FR-149.202.82.172-250
+  - 🇫🇷FR-149.202.82.172-266
+  - 🇵🇱_PL_波兰_1_209
+  - 🇫🇷FR-149.202.82.172-199
+  - 🇺🇸US-3.134.180.239-242
+  - 🇺🇸US-109.104.152.126-246
+  - 🇵🇱_PL_波兰_18_181
+  - 🇨🇳CN-36.151.195.48-224
+  - 🇫🇷FR-149.202.82.172-258
+  - 🇵🇱PL-51.77.53.200-268
+  - 🇵🇱PL-51.77.53.200-005
+  - 🇷🇺RU-45.136.245.240-006
+  - 🇫🇷FR-149.202.82.172-267
   - 🇳🇱NL-103.214.68.57-145
   - 🇳🇱NL-103.214.68.57-192
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
-  - 🇨🇳CN-183.240.179.195-191
-  - 🇨🇳CN-36.151.195.46-142
-  - 🇨🇳CN-223.113.54.154-164
-  - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_2_79
-  - 🇺🇸_US_美国_6_486_274
-  - 🇺🇸_US_美国_9_742_357
-  - 🇺🇸_US_美国_9_832_360
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
-  - 🇺🇸 US-156.146.38.163-3713_1364_493
-  - 🇺🇸_US_美国_6_1165_441
-  - 🇺🇸 US-156.146.38.163-0292_1452_505
-  - 🇺🇸 US-212.102.47.198-0833_540
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
-  - 🇺🇸 US-156.146.38.163-3713_542
-  - 🇺🇸 US-156.146.38.163-0292_541
-  - 🇺🇸 US-156.146.38.163-0292_1365_494
-  - 🇺🇸 US-156.146.38.163-3713_1446_501
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
-  - 🇱🇺_LU_卢森堡_731_386
-  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
-  - 🇺🇸_US_美国_6_486_695
-  - 🇱🇺_LU_卢森堡_821_416
-  - 🇸🇬 SG-103.172.116.103-0943_99
-  - 🇸🇬 SG-103.172.116.103-0993_316_83
-  - 🇸🇬 SG-103.172.116.103-0995_101
-  - 🇱🇺 _LU_卢森堡 5_118
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇺🇸_US_美国_9_742_762
-  - 🇺🇸_US_美国_9_832_766
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇱🇺_LU_卢森堡_503_737
-  - 🇸🇬 SG-103.172.116.103-0993_449_726
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
-  - 🇺🇸_US_美国_6_1165_838
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
-  - 🇱🇺_LU_卢森堡_821_795
-  - 🇱🇺_LU_卢森堡_480_727
-  - 🇺🇸 US-156.146.38.163-0292_1365_918
-  - 🇱🇺_LU_卢森堡_2_836
-  - 🇺🇸 US-156.146.38.163-3713_1364_917
-  - 🇺🇸 US-156.146.38.163-3713_1446_939
-  - 🇺🇸 US-156.146.38.163-0292_1452_942
-  - 🇺🇸 _US_美国 33
-  - 🇸🇬 SG-103.172.116.103-0993_1422
-  - 🇸🇬 SG-103.172.116.103-0995_1451
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
-  - 🇱🇺 _LU_卢森堡 5_978
-  - 🇸🇬 SG-103.172.116.103-5712
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇺🇸 US-212.102.47.198-0833_1020
-  - 🇺🇸 US-156.146.38.163-3713_1016
-  - 5|🇭🇰 香港3|@ripaojiedian_1023
-  - 🇺🇸 US-156.146.38.163-0292_1021
-  - 🇸🇬 SG-103.172.116.103-0994_1013
-  - 5|🇺🇸 美国|@ripaojiedian
-  - 5|🇭🇰 香港8|@ripaojiedian
-  - 5|🇸🇬 新加坡|@ripaojiedian
-  - 5|🇰🇷 韩国|@ripaojiedian
-  - 0,3|IHwyOS45Nk1i
-  - 3|IHwyOS42M01i
-  - 3|IHwzMC41Nk1i
-  - 3|IHwzMC4yN01i
-  - 3|IHwzMC4wOU1i
-  - 8|CN_speednode_0006
-  - 3|IHwzMC4wNk1i
-  - 5|🇺🇸 美国4|@ripaojiedian
-  - 5|🇺🇸 美国5|@ripaojiedian_1026
-  - 6|香港8|@ripaojiedian
-  - 5|🇭🇰 香港4|@ripaojiedian_1024
+  - 🇫🇷FR-149.202.82.172-234
+  - 🇵🇱PL-51.77.53.200-251
+  - 🇨🇳 湖南省 联通
+  - 5|🇺🇸 美国3|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_331
+  - 8|CN_speednode_0014
+  - 5|🇰🇷 韩国|@ripaojiedian_333
+  - 5|🇭🇰 香港|@ripaojiedian
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
+  - 🇳🇱_NL_荷兰_43
+  - 🇳🇱_NL_荷兰_89
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 3
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 4
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 6
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 7
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 9
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 8
+  - 🇨🇳 广东省广州市 移动_338
+  - 🇺🇸 美国+华盛顿Cogent通信公司 2
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 2
+  - 🇫🇷 法国+OVH 6
+  - 🇫🇷 法国+OVH 5
+  - 5|🇺🇸 美国5|@ripaojiedian_334
+  - 🇫🇷 法国+OVH 2
+  - 5|🇰🇷 韩国3|@ripaojiedian
+  - 5,8|CN_speednode_0020
+  - 6|香港|@ripaojiedian
+  - 6|香港2|@ripaojiedian
+  - 6|香港3|@ripaojiedian_336
+  - 🇨🇳 广东省佛山市 移动
+  - 🇫🇷 法国+OVH 4
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_754"
+  - 🇳🇱 NL-109.201.152.181-0876_749
+  - 🇳🇱 NL-109.201.152.181-0876_1237
+  - 🇬🇧 GB-212.102.53.80-0855
+  - 🇺🇸 _US_美国 29_1225
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_1259"
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
-  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
-  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
-  - 🇺🇸_US_美国_4_18
-  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
-  - 🇺🇸_US_美国_3_34
-  - 🇺🇸_US_美国_2_15
-  - 🇺🇸_US_美国_7_75
-  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
-  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
-  - 🇺🇸_US_美国_6_57
-  - 🇷🇺_RU_俄罗斯联邦_26
-  - 🇺🇸_US_美国_1_80
-  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
-  - 🇺🇸_US_美国_4_103
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-  - 🇺🇸_US_美国_2_100
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
-  - 🇺🇸US-156.146.38.163-003
-  - 🇺🇸US-212.102.47.198-006
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
-  - 🇱🇺_LU_卢森堡_2_115
-  - 🇺🇸US-167.88.61.235-141
-  - 🇺🇸US-167.88.61.235-138
-  - 🇨🇳CN-223.113.54.154-005
-  - 🇺🇸_US_美国_3_72
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸US-23.154.136.105-146
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-109.201.152.181-0721 | 20.996MB
+  - 🇬🇧GB-212.102.53.80-0716 | 19.54MB
+  - 🇺🇸US-184.170.241.194-0365 | 41.998MB
+  - 🇬🇧GB-52.151.99.42-0701 | 20.502MB
+  - 🇵🇱_PL_波兰_1_69
+  - 🇵🇱_PL_波兰_2_104
+  - 🇵🇱_PL_波兰_9_113
+  - 🇬🇧_GB_英国_120
+  - 🇵🇱_PL_波兰_12_128
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_76
+  - 🇵🇱_PL_波兰_14_130
+  - 🇵🇱_PL_波兰_13_129
+  - 🇵🇱_PL_波兰_18_135
+  - 🇵🇱_PL_波兰_20_138
+  - 🇵🇱_PL_波兰_17_134
+  - 🇵🇱_PL_波兰_21_139
+  - 🇺🇸_US_美国_7_124
+  - 🇵🇱_PL_波兰_23_144
+  - 🇵🇱_PL_波兰_4_153
+  - 🇬🇧_GB_英国_166
+  - 🇵🇱_PL_波兰_9_159
+  - 🇺🇸_US_美国_11_141
+  - 🇵🇱_PL_波兰_12_174
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_118
+  - 🇵🇱_PL_波兰_15_177
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_117
+  - 🇺🇸_US_美国_7_170
+  - 🇵🇱_PL_波兰_22_189
+  - 🇺🇸_US_美国_1_148
+  - 🇵🇱PL-51.77.53.200-008
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_164
+  - 🇺🇸US-205.134.180.139-018
+  - 🇫🇷FR-149.202.82.172-194
+  - 🇵🇱PL-51.77.53.200-204
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_163
+  - 🇵🇱_PL_波兰_11_127
+  - 🇨🇳CN-120.238.122.250-244
+  - 🇵🇱PL-51.77.53.200-208
+  - 🇵🇱PL-51.77.53.200-211
+  - 🇦🇱_AL_阿尔巴尼亚_178
+  - 🇬🇧GB-52.151.99.42-191
+  - 🇵🇱PL-51.77.53.200-216
+  - 🇨🇦_CA_加拿大_202
+  - 🇫🇷FR-149.202.82.172-215
+  - 🇵🇱_PL_波兰_25_192
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_199
+  - 🇫🇷FR-149.202.82.172-231
+  - 🇨🇳CN-183.240.179.207-210
+  - 🇨🇳CN-36.151.195.48-012
+  - 🇵🇱PL-51.77.53.200-255
+  - 🇵🇱_PL_波兰_5_154
+  - 🇫🇷FR-149.202.82.172-245
+  - 🇬🇧GB-51.140.93.164-223
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_200
+  - 🇵🇱PL-51.77.53.200-264
+  - 🇨🇳CN-36.151.195.48-013
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_216
+  - 🇵🇱PL-51.77.53.200-261
+  - 🇫🇷FR-149.202.82.172-250
+  - 🇫🇷FR-149.202.82.172-266
+  - 🇵🇱_PL_波兰_1_209
+  - 🇫🇷FR-149.202.82.172-199
+  - 🇺🇸US-3.134.180.239-242
+  - 🇺🇸US-109.104.152.126-246
+  - 🇵🇱_PL_波兰_18_181
+  - 🇨🇳CN-36.151.195.48-224
+  - 🇫🇷FR-149.202.82.172-258
+  - 🇵🇱PL-51.77.53.200-268
+  - 🇵🇱PL-51.77.53.200-005
+  - 🇷🇺RU-45.136.245.240-006
+  - 🇫🇷FR-149.202.82.172-267
   - 🇳🇱NL-103.214.68.57-145
   - 🇳🇱NL-103.214.68.57-192
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
-  - 🇨🇳CN-183.240.179.195-191
-  - 🇨🇳CN-36.151.195.46-142
-  - 🇨🇳CN-223.113.54.154-164
-  - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_2_79
-  - 🇺🇸_US_美国_6_486_274
-  - 🇺🇸_US_美国_9_742_357
-  - 🇺🇸_US_美国_9_832_360
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
-  - 🇺🇸 US-156.146.38.163-3713_1364_493
-  - 🇺🇸_US_美国_6_1165_441
-  - 🇺🇸 US-156.146.38.163-0292_1452_505
-  - 🇺🇸 US-212.102.47.198-0833_540
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
-  - 🇺🇸 US-156.146.38.163-3713_542
-  - 🇺🇸 US-156.146.38.163-0292_541
-  - 🇺🇸 US-156.146.38.163-0292_1365_494
-  - 🇺🇸 US-156.146.38.163-3713_1446_501
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
-  - 🇱🇺_LU_卢森堡_731_386
-  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
-  - 🇺🇸_US_美国_6_486_695
-  - 🇱🇺_LU_卢森堡_821_416
-  - 🇸🇬 SG-103.172.116.103-0943_99
-  - 🇸🇬 SG-103.172.116.103-0993_316_83
-  - 🇸🇬 SG-103.172.116.103-0995_101
-  - 🇱🇺 _LU_卢森堡 5_118
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇺🇸_US_美国_9_742_762
-  - 🇺🇸_US_美国_9_832_766
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇱🇺_LU_卢森堡_503_737
-  - 🇸🇬 SG-103.172.116.103-0993_449_726
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
-  - 🇺🇸_US_美国_6_1165_838
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
-  - 🇱🇺_LU_卢森堡_821_795
-  - 🇱🇺_LU_卢森堡_480_727
-  - 🇺🇸 US-156.146.38.163-0292_1365_918
-  - 🇱🇺_LU_卢森堡_2_836
-  - 🇺🇸 US-156.146.38.163-3713_1364_917
-  - 🇺🇸 US-156.146.38.163-3713_1446_939
-  - 🇺🇸 US-156.146.38.163-0292_1452_942
-  - 🇺🇸 _US_美国 33
-  - 🇸🇬 SG-103.172.116.103-0993_1422
-  - 🇸🇬 SG-103.172.116.103-0995_1451
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
-  - 🇱🇺 _LU_卢森堡 5_978
-  - 🇸🇬 SG-103.172.116.103-5712
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇺🇸 US-212.102.47.198-0833_1020
-  - 🇺🇸 US-156.146.38.163-3713_1016
-  - 5|🇭🇰 香港3|@ripaojiedian_1023
-  - 🇺🇸 US-156.146.38.163-0292_1021
-  - 🇸🇬 SG-103.172.116.103-0994_1013
-  - 5|🇺🇸 美国|@ripaojiedian
-  - 5|🇭🇰 香港8|@ripaojiedian
-  - 5|🇸🇬 新加坡|@ripaojiedian
-  - 5|🇰🇷 韩国|@ripaojiedian
-  - 0,3|IHwyOS45Nk1i
-  - 3|IHwyOS42M01i
-  - 3|IHwzMC41Nk1i
-  - 3|IHwzMC4yN01i
-  - 3|IHwzMC4wOU1i
-  - 8|CN_speednode_0006
-  - 3|IHwzMC4wNk1i
-  - 5|🇺🇸 美国4|@ripaojiedian
-  - 5|🇺🇸 美国5|@ripaojiedian_1026
-  - 6|香港8|@ripaojiedian
-  - 5|🇭🇰 香港4|@ripaojiedian_1024
+  - 🇫🇷FR-149.202.82.172-234
+  - 🇵🇱PL-51.77.53.200-251
+  - 🇨🇳 湖南省 联通
+  - 5|🇺🇸 美国3|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_331
+  - 8|CN_speednode_0014
+  - 5|🇰🇷 韩国|@ripaojiedian_333
+  - 5|🇭🇰 香港|@ripaojiedian
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
+  - 🇳🇱_NL_荷兰_43
+  - 🇳🇱_NL_荷兰_89
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 3
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 4
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 6
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 7
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 9
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 8
+  - 🇨🇳 广东省广州市 移动_338
+  - 🇺🇸 美国+华盛顿Cogent通信公司 2
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 2
+  - 🇫🇷 法国+OVH 6
+  - 🇫🇷 法国+OVH 5
+  - 5|🇺🇸 美国5|@ripaojiedian_334
+  - 🇫🇷 法国+OVH 2
+  - 5|🇰🇷 韩国3|@ripaojiedian
+  - 5,8|CN_speednode_0020
+  - 6|香港|@ripaojiedian
+  - 6|香港2|@ripaojiedian
+  - 6|香港3|@ripaojiedian_336
+  - 🇨🇳 广东省佛山市 移动
+  - 🇫🇷 法国+OVH 4
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_754"
+  - 🇳🇱 NL-109.201.152.181-0876_749
+  - 🇳🇱 NL-109.201.152.181-0876_1237
+  - 🇬🇧 GB-212.102.53.80-0855
+  - 🇺🇸 _US_美国 29_1225
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_1259"
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1046,931 +1072,939 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
-  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
-  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
-  - 🇺🇸_US_美国_4_18
-  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
-  - 🇺🇸_US_美国_3_34
-  - 🇺🇸_US_美国_2_15
-  - 🇺🇸_US_美国_7_75
-  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
-  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
-  - 🇺🇸_US_美国_6_57
-  - 🇷🇺_RU_俄罗斯联邦_26
-  - 🇺🇸_US_美国_1_80
-  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
-  - 🇺🇸_US_美国_4_103
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-  - 🇺🇸_US_美国_2_100
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
-  - 🇺🇸US-156.146.38.163-003
-  - 🇺🇸US-212.102.47.198-006
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
-  - 🇱🇺_LU_卢森堡_2_115
-  - 🇺🇸US-167.88.61.235-141
-  - 🇺🇸US-167.88.61.235-138
-  - 🇨🇳CN-223.113.54.154-005
-  - 🇺🇸_US_美国_3_72
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸US-23.154.136.105-146
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-109.201.152.181-0721 | 20.996MB
+  - 🇬🇧GB-212.102.53.80-0716 | 19.54MB
+  - 🇺🇸US-184.170.241.194-0365 | 41.998MB
+  - 🇬🇧GB-52.151.99.42-0701 | 20.502MB
+  - 🇵🇱_PL_波兰_1_69
+  - 🇵🇱_PL_波兰_2_104
+  - 🇵🇱_PL_波兰_9_113
+  - 🇬🇧_GB_英国_120
+  - 🇵🇱_PL_波兰_12_128
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_76
+  - 🇵🇱_PL_波兰_14_130
+  - 🇵🇱_PL_波兰_13_129
+  - 🇵🇱_PL_波兰_18_135
+  - 🇵🇱_PL_波兰_20_138
+  - 🇵🇱_PL_波兰_17_134
+  - 🇵🇱_PL_波兰_21_139
+  - 🇺🇸_US_美国_7_124
+  - 🇵🇱_PL_波兰_23_144
+  - 🇵🇱_PL_波兰_4_153
+  - 🇬🇧_GB_英国_166
+  - 🇵🇱_PL_波兰_9_159
+  - 🇺🇸_US_美国_11_141
+  - 🇵🇱_PL_波兰_12_174
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_118
+  - 🇵🇱_PL_波兰_15_177
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_117
+  - 🇺🇸_US_美国_7_170
+  - 🇵🇱_PL_波兰_22_189
+  - 🇺🇸_US_美国_1_148
+  - 🇵🇱PL-51.77.53.200-008
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_164
+  - 🇺🇸US-205.134.180.139-018
+  - 🇫🇷FR-149.202.82.172-194
+  - 🇵🇱PL-51.77.53.200-204
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_163
+  - 🇵🇱_PL_波兰_11_127
+  - 🇨🇳CN-120.238.122.250-244
+  - 🇵🇱PL-51.77.53.200-208
+  - 🇵🇱PL-51.77.53.200-211
+  - 🇦🇱_AL_阿尔巴尼亚_178
+  - 🇬🇧GB-52.151.99.42-191
+  - 🇵🇱PL-51.77.53.200-216
+  - 🇨🇦_CA_加拿大_202
+  - 🇫🇷FR-149.202.82.172-215
+  - 🇵🇱_PL_波兰_25_192
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_199
+  - 🇫🇷FR-149.202.82.172-231
+  - 🇨🇳CN-183.240.179.207-210
+  - 🇨🇳CN-36.151.195.48-012
+  - 🇵🇱PL-51.77.53.200-255
+  - 🇵🇱_PL_波兰_5_154
+  - 🇫🇷FR-149.202.82.172-245
+  - 🇬🇧GB-51.140.93.164-223
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_200
+  - 🇵🇱PL-51.77.53.200-264
+  - 🇨🇳CN-36.151.195.48-013
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_216
+  - 🇵🇱PL-51.77.53.200-261
+  - 🇫🇷FR-149.202.82.172-250
+  - 🇫🇷FR-149.202.82.172-266
+  - 🇵🇱_PL_波兰_1_209
+  - 🇫🇷FR-149.202.82.172-199
+  - 🇺🇸US-3.134.180.239-242
+  - 🇺🇸US-109.104.152.126-246
+  - 🇵🇱_PL_波兰_18_181
+  - 🇨🇳CN-36.151.195.48-224
+  - 🇫🇷FR-149.202.82.172-258
+  - 🇵🇱PL-51.77.53.200-268
+  - 🇵🇱PL-51.77.53.200-005
+  - 🇷🇺RU-45.136.245.240-006
+  - 🇫🇷FR-149.202.82.172-267
   - 🇳🇱NL-103.214.68.57-145
   - 🇳🇱NL-103.214.68.57-192
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
-  - 🇨🇳CN-183.240.179.195-191
-  - 🇨🇳CN-36.151.195.46-142
-  - 🇨🇳CN-223.113.54.154-164
-  - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_2_79
-  - 🇺🇸_US_美国_6_486_274
-  - 🇺🇸_US_美国_9_742_357
-  - 🇺🇸_US_美国_9_832_360
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
-  - 🇺🇸 US-156.146.38.163-3713_1364_493
-  - 🇺🇸_US_美国_6_1165_441
-  - 🇺🇸 US-156.146.38.163-0292_1452_505
-  - 🇺🇸 US-212.102.47.198-0833_540
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
-  - 🇺🇸 US-156.146.38.163-3713_542
-  - 🇺🇸 US-156.146.38.163-0292_541
-  - 🇺🇸 US-156.146.38.163-0292_1365_494
-  - 🇺🇸 US-156.146.38.163-3713_1446_501
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
-  - 🇱🇺_LU_卢森堡_731_386
-  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
-  - 🇺🇸_US_美国_6_486_695
-  - 🇱🇺_LU_卢森堡_821_416
-  - 🇸🇬 SG-103.172.116.103-0943_99
-  - 🇸🇬 SG-103.172.116.103-0993_316_83
-  - 🇸🇬 SG-103.172.116.103-0995_101
-  - 🇱🇺 _LU_卢森堡 5_118
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇺🇸_US_美国_9_742_762
-  - 🇺🇸_US_美国_9_832_766
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇱🇺_LU_卢森堡_503_737
-  - 🇸🇬 SG-103.172.116.103-0993_449_726
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
-  - 🇺🇸_US_美国_6_1165_838
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
-  - 🇱🇺_LU_卢森堡_821_795
-  - 🇱🇺_LU_卢森堡_480_727
-  - 🇺🇸 US-156.146.38.163-0292_1365_918
-  - 🇱🇺_LU_卢森堡_2_836
-  - 🇺🇸 US-156.146.38.163-3713_1364_917
-  - 🇺🇸 US-156.146.38.163-3713_1446_939
-  - 🇺🇸 US-156.146.38.163-0292_1452_942
-  - 🇺🇸 _US_美国 33
-  - 🇸🇬 SG-103.172.116.103-0993_1422
-  - 🇸🇬 SG-103.172.116.103-0995_1451
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
-  - 🇱🇺 _LU_卢森堡 5_978
-  - 🇸🇬 SG-103.172.116.103-5712
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇺🇸 US-212.102.47.198-0833_1020
-  - 🇺🇸 US-156.146.38.163-3713_1016
-  - 5|🇭🇰 香港3|@ripaojiedian_1023
-  - 🇺🇸 US-156.146.38.163-0292_1021
-  - 🇸🇬 SG-103.172.116.103-0994_1013
-  - 5|🇺🇸 美国|@ripaojiedian
-  - 5|🇭🇰 香港8|@ripaojiedian
-  - 5|🇸🇬 新加坡|@ripaojiedian
-  - 5|🇰🇷 韩国|@ripaojiedian
-  - 0,3|IHwyOS45Nk1i
-  - 3|IHwyOS42M01i
-  - 3|IHwzMC41Nk1i
-  - 3|IHwzMC4yN01i
-  - 3|IHwzMC4wOU1i
-  - 8|CN_speednode_0006
-  - 3|IHwzMC4wNk1i
-  - 5|🇺🇸 美国4|@ripaojiedian
-  - 5|🇺🇸 美国5|@ripaojiedian_1026
-  - 6|香港8|@ripaojiedian
-  - 5|🇭🇰 香港4|@ripaojiedian_1024
+  - 🇫🇷FR-149.202.82.172-234
+  - 🇵🇱PL-51.77.53.200-251
+  - 🇨🇳 湖南省 联通
+  - 5|🇺🇸 美国3|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_331
+  - 8|CN_speednode_0014
+  - 5|🇰🇷 韩国|@ripaojiedian_333
+  - 5|🇭🇰 香港|@ripaojiedian
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
+  - 🇳🇱_NL_荷兰_43
+  - 🇳🇱_NL_荷兰_89
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 3
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 4
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 6
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 7
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 9
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 8
+  - 🇨🇳 广东省广州市 移动_338
+  - 🇺🇸 美国+华盛顿Cogent通信公司 2
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 2
+  - 🇫🇷 法国+OVH 6
+  - 🇫🇷 法国+OVH 5
+  - 5|🇺🇸 美国5|@ripaojiedian_334
+  - 🇫🇷 法国+OVH 2
+  - 5|🇰🇷 韩国3|@ripaojiedian
+  - 5,8|CN_speednode_0020
+  - 6|香港|@ripaojiedian
+  - 6|香港2|@ripaojiedian
+  - 6|香港3|@ripaojiedian_336
+  - 🇨🇳 广东省佛山市 移动
+  - 🇫🇷 法国+OVH 4
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_754"
+  - 🇳🇱 NL-109.201.152.181-0876_749
+  - 🇳🇱 NL-109.201.152.181-0876_1237
+  - 🇬🇧 GB-212.102.53.80-0855
+  - 🇺🇸 _US_美国 29_1225
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_1259"
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
-  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
-  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
-  - 🇺🇸_US_美国_4_18
-  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
-  - 🇺🇸_US_美国_3_34
-  - 🇺🇸_US_美国_2_15
-  - 🇺🇸_US_美国_7_75
-  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
-  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
-  - 🇺🇸_US_美国_6_57
-  - 🇷🇺_RU_俄罗斯联邦_26
-  - 🇺🇸_US_美国_1_80
-  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
-  - 🇺🇸_US_美国_4_103
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-  - 🇺🇸_US_美国_2_100
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
-  - 🇺🇸US-156.146.38.163-003
-  - 🇺🇸US-212.102.47.198-006
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
-  - 🇱🇺_LU_卢森堡_2_115
-  - 🇺🇸US-167.88.61.235-141
-  - 🇺🇸US-167.88.61.235-138
-  - 🇨🇳CN-223.113.54.154-005
-  - 🇺🇸_US_美国_3_72
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸US-23.154.136.105-146
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-109.201.152.181-0721 | 20.996MB
+  - 🇬🇧GB-212.102.53.80-0716 | 19.54MB
+  - 🇺🇸US-184.170.241.194-0365 | 41.998MB
+  - 🇬🇧GB-52.151.99.42-0701 | 20.502MB
+  - 🇵🇱_PL_波兰_1_69
+  - 🇵🇱_PL_波兰_2_104
+  - 🇵🇱_PL_波兰_9_113
+  - 🇬🇧_GB_英国_120
+  - 🇵🇱_PL_波兰_12_128
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_76
+  - 🇵🇱_PL_波兰_14_130
+  - 🇵🇱_PL_波兰_13_129
+  - 🇵🇱_PL_波兰_18_135
+  - 🇵🇱_PL_波兰_20_138
+  - 🇵🇱_PL_波兰_17_134
+  - 🇵🇱_PL_波兰_21_139
+  - 🇺🇸_US_美国_7_124
+  - 🇵🇱_PL_波兰_23_144
+  - 🇵🇱_PL_波兰_4_153
+  - 🇬🇧_GB_英国_166
+  - 🇵🇱_PL_波兰_9_159
+  - 🇺🇸_US_美国_11_141
+  - 🇵🇱_PL_波兰_12_174
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_118
+  - 🇵🇱_PL_波兰_15_177
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_117
+  - 🇺🇸_US_美国_7_170
+  - 🇵🇱_PL_波兰_22_189
+  - 🇺🇸_US_美国_1_148
+  - 🇵🇱PL-51.77.53.200-008
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_164
+  - 🇺🇸US-205.134.180.139-018
+  - 🇫🇷FR-149.202.82.172-194
+  - 🇵🇱PL-51.77.53.200-204
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_163
+  - 🇵🇱_PL_波兰_11_127
+  - 🇨🇳CN-120.238.122.250-244
+  - 🇵🇱PL-51.77.53.200-208
+  - 🇵🇱PL-51.77.53.200-211
+  - 🇦🇱_AL_阿尔巴尼亚_178
+  - 🇬🇧GB-52.151.99.42-191
+  - 🇵🇱PL-51.77.53.200-216
+  - 🇨🇦_CA_加拿大_202
+  - 🇫🇷FR-149.202.82.172-215
+  - 🇵🇱_PL_波兰_25_192
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_199
+  - 🇫🇷FR-149.202.82.172-231
+  - 🇨🇳CN-183.240.179.207-210
+  - 🇨🇳CN-36.151.195.48-012
+  - 🇵🇱PL-51.77.53.200-255
+  - 🇵🇱_PL_波兰_5_154
+  - 🇫🇷FR-149.202.82.172-245
+  - 🇬🇧GB-51.140.93.164-223
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_200
+  - 🇵🇱PL-51.77.53.200-264
+  - 🇨🇳CN-36.151.195.48-013
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_216
+  - 🇵🇱PL-51.77.53.200-261
+  - 🇫🇷FR-149.202.82.172-250
+  - 🇫🇷FR-149.202.82.172-266
+  - 🇵🇱_PL_波兰_1_209
+  - 🇫🇷FR-149.202.82.172-199
+  - 🇺🇸US-3.134.180.239-242
+  - 🇺🇸US-109.104.152.126-246
+  - 🇵🇱_PL_波兰_18_181
+  - 🇨🇳CN-36.151.195.48-224
+  - 🇫🇷FR-149.202.82.172-258
+  - 🇵🇱PL-51.77.53.200-268
+  - 🇵🇱PL-51.77.53.200-005
+  - 🇷🇺RU-45.136.245.240-006
+  - 🇫🇷FR-149.202.82.172-267
   - 🇳🇱NL-103.214.68.57-145
   - 🇳🇱NL-103.214.68.57-192
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
-  - 🇨🇳CN-183.240.179.195-191
-  - 🇨🇳CN-36.151.195.46-142
-  - 🇨🇳CN-223.113.54.154-164
-  - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_2_79
-  - 🇺🇸_US_美国_6_486_274
-  - 🇺🇸_US_美国_9_742_357
-  - 🇺🇸_US_美国_9_832_360
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
-  - 🇺🇸 US-156.146.38.163-3713_1364_493
-  - 🇺🇸_US_美国_6_1165_441
-  - 🇺🇸 US-156.146.38.163-0292_1452_505
-  - 🇺🇸 US-212.102.47.198-0833_540
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
-  - 🇺🇸 US-156.146.38.163-3713_542
-  - 🇺🇸 US-156.146.38.163-0292_541
-  - 🇺🇸 US-156.146.38.163-0292_1365_494
-  - 🇺🇸 US-156.146.38.163-3713_1446_501
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
-  - 🇱🇺_LU_卢森堡_731_386
-  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
-  - 🇺🇸_US_美国_6_486_695
-  - 🇱🇺_LU_卢森堡_821_416
-  - 🇸🇬 SG-103.172.116.103-0943_99
-  - 🇸🇬 SG-103.172.116.103-0993_316_83
-  - 🇸🇬 SG-103.172.116.103-0995_101
-  - 🇱🇺 _LU_卢森堡 5_118
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇺🇸_US_美国_9_742_762
-  - 🇺🇸_US_美国_9_832_766
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇱🇺_LU_卢森堡_503_737
-  - 🇸🇬 SG-103.172.116.103-0993_449_726
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
-  - 🇺🇸_US_美国_6_1165_838
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
-  - 🇱🇺_LU_卢森堡_821_795
-  - 🇱🇺_LU_卢森堡_480_727
-  - 🇺🇸 US-156.146.38.163-0292_1365_918
-  - 🇱🇺_LU_卢森堡_2_836
-  - 🇺🇸 US-156.146.38.163-3713_1364_917
-  - 🇺🇸 US-156.146.38.163-3713_1446_939
-  - 🇺🇸 US-156.146.38.163-0292_1452_942
-  - 🇺🇸 _US_美国 33
-  - 🇸🇬 SG-103.172.116.103-0993_1422
-  - 🇸🇬 SG-103.172.116.103-0995_1451
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
-  - 🇱🇺 _LU_卢森堡 5_978
-  - 🇸🇬 SG-103.172.116.103-5712
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇺🇸 US-212.102.47.198-0833_1020
-  - 🇺🇸 US-156.146.38.163-3713_1016
-  - 5|🇭🇰 香港3|@ripaojiedian_1023
-  - 🇺🇸 US-156.146.38.163-0292_1021
-  - 🇸🇬 SG-103.172.116.103-0994_1013
-  - 5|🇺🇸 美国|@ripaojiedian
-  - 5|🇭🇰 香港8|@ripaojiedian
-  - 5|🇸🇬 新加坡|@ripaojiedian
-  - 5|🇰🇷 韩国|@ripaojiedian
-  - 0,3|IHwyOS45Nk1i
-  - 3|IHwyOS42M01i
-  - 3|IHwzMC41Nk1i
-  - 3|IHwzMC4yN01i
-  - 3|IHwzMC4wOU1i
-  - 8|CN_speednode_0006
-  - 3|IHwzMC4wNk1i
-  - 5|🇺🇸 美国4|@ripaojiedian
-  - 5|🇺🇸 美国5|@ripaojiedian_1026
-  - 6|香港8|@ripaojiedian
-  - 5|🇭🇰 香港4|@ripaojiedian_1024
+  - 🇫🇷FR-149.202.82.172-234
+  - 🇵🇱PL-51.77.53.200-251
+  - 🇨🇳 湖南省 联通
+  - 5|🇺🇸 美国3|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_331
+  - 8|CN_speednode_0014
+  - 5|🇰🇷 韩国|@ripaojiedian_333
+  - 5|🇭🇰 香港|@ripaojiedian
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
+  - 🇳🇱_NL_荷兰_43
+  - 🇳🇱_NL_荷兰_89
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 3
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 4
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 6
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 7
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 9
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 8
+  - 🇨🇳 广东省广州市 移动_338
+  - 🇺🇸 美国+华盛顿Cogent通信公司 2
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 2
+  - 🇫🇷 法国+OVH 6
+  - 🇫🇷 法国+OVH 5
+  - 5|🇺🇸 美国5|@ripaojiedian_334
+  - 🇫🇷 法国+OVH 2
+  - 5|🇰🇷 韩国3|@ripaojiedian
+  - 5,8|CN_speednode_0020
+  - 6|香港|@ripaojiedian
+  - 6|香港2|@ripaojiedian
+  - 6|香港3|@ripaojiedian_336
+  - 🇨🇳 广东省佛山市 移动
+  - 🇫🇷 法国+OVH 4
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_754"
+  - 🇳🇱 NL-109.201.152.181-0876_749
+  - 🇳🇱 NL-109.201.152.181-0876_1237
+  - 🇬🇧 GB-212.102.53.80-0855
+  - 🇺🇸 _US_美国 29_1225
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_1259"
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
-  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
-  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
-  - 🇺🇸_US_美国_4_18
-  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
-  - 🇺🇸_US_美国_3_34
-  - 🇺🇸_US_美国_2_15
-  - 🇺🇸_US_美国_7_75
-  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
-  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
-  - 🇺🇸_US_美国_6_57
-  - 🇷🇺_RU_俄罗斯联邦_26
-  - 🇺🇸_US_美国_1_80
-  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
-  - 🇺🇸_US_美国_4_103
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-  - 🇺🇸_US_美国_2_100
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
-  - 🇺🇸US-156.146.38.163-003
-  - 🇺🇸US-212.102.47.198-006
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
-  - 🇱🇺_LU_卢森堡_2_115
-  - 🇺🇸US-167.88.61.235-141
-  - 🇺🇸US-167.88.61.235-138
-  - 🇨🇳CN-223.113.54.154-005
-  - 🇺🇸_US_美国_3_72
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸US-23.154.136.105-146
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-109.201.152.181-0721 | 20.996MB
+  - 🇬🇧GB-212.102.53.80-0716 | 19.54MB
+  - 🇺🇸US-184.170.241.194-0365 | 41.998MB
+  - 🇬🇧GB-52.151.99.42-0701 | 20.502MB
+  - 🇵🇱_PL_波兰_1_69
+  - 🇵🇱_PL_波兰_2_104
+  - 🇵🇱_PL_波兰_9_113
+  - 🇬🇧_GB_英国_120
+  - 🇵🇱_PL_波兰_12_128
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_76
+  - 🇵🇱_PL_波兰_14_130
+  - 🇵🇱_PL_波兰_13_129
+  - 🇵🇱_PL_波兰_18_135
+  - 🇵🇱_PL_波兰_20_138
+  - 🇵🇱_PL_波兰_17_134
+  - 🇵🇱_PL_波兰_21_139
+  - 🇺🇸_US_美国_7_124
+  - 🇵🇱_PL_波兰_23_144
+  - 🇵🇱_PL_波兰_4_153
+  - 🇬🇧_GB_英国_166
+  - 🇵🇱_PL_波兰_9_159
+  - 🇺🇸_US_美国_11_141
+  - 🇵🇱_PL_波兰_12_174
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_118
+  - 🇵🇱_PL_波兰_15_177
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_117
+  - 🇺🇸_US_美国_7_170
+  - 🇵🇱_PL_波兰_22_189
+  - 🇺🇸_US_美国_1_148
+  - 🇵🇱PL-51.77.53.200-008
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_164
+  - 🇺🇸US-205.134.180.139-018
+  - 🇫🇷FR-149.202.82.172-194
+  - 🇵🇱PL-51.77.53.200-204
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_163
+  - 🇵🇱_PL_波兰_11_127
+  - 🇨🇳CN-120.238.122.250-244
+  - 🇵🇱PL-51.77.53.200-208
+  - 🇵🇱PL-51.77.53.200-211
+  - 🇦🇱_AL_阿尔巴尼亚_178
+  - 🇬🇧GB-52.151.99.42-191
+  - 🇵🇱PL-51.77.53.200-216
+  - 🇨🇦_CA_加拿大_202
+  - 🇫🇷FR-149.202.82.172-215
+  - 🇵🇱_PL_波兰_25_192
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_199
+  - 🇫🇷FR-149.202.82.172-231
+  - 🇨🇳CN-183.240.179.207-210
+  - 🇨🇳CN-36.151.195.48-012
+  - 🇵🇱PL-51.77.53.200-255
+  - 🇵🇱_PL_波兰_5_154
+  - 🇫🇷FR-149.202.82.172-245
+  - 🇬🇧GB-51.140.93.164-223
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_200
+  - 🇵🇱PL-51.77.53.200-264
+  - 🇨🇳CN-36.151.195.48-013
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_216
+  - 🇵🇱PL-51.77.53.200-261
+  - 🇫🇷FR-149.202.82.172-250
+  - 🇫🇷FR-149.202.82.172-266
+  - 🇵🇱_PL_波兰_1_209
+  - 🇫🇷FR-149.202.82.172-199
+  - 🇺🇸US-3.134.180.239-242
+  - 🇺🇸US-109.104.152.126-246
+  - 🇵🇱_PL_波兰_18_181
+  - 🇨🇳CN-36.151.195.48-224
+  - 🇫🇷FR-149.202.82.172-258
+  - 🇵🇱PL-51.77.53.200-268
+  - 🇵🇱PL-51.77.53.200-005
+  - 🇷🇺RU-45.136.245.240-006
+  - 🇫🇷FR-149.202.82.172-267
   - 🇳🇱NL-103.214.68.57-145
   - 🇳🇱NL-103.214.68.57-192
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
-  - 🇨🇳CN-183.240.179.195-191
-  - 🇨🇳CN-36.151.195.46-142
-  - 🇨🇳CN-223.113.54.154-164
-  - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_2_79
-  - 🇺🇸_US_美国_6_486_274
-  - 🇺🇸_US_美国_9_742_357
-  - 🇺🇸_US_美国_9_832_360
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
-  - 🇺🇸 US-156.146.38.163-3713_1364_493
-  - 🇺🇸_US_美国_6_1165_441
-  - 🇺🇸 US-156.146.38.163-0292_1452_505
-  - 🇺🇸 US-212.102.47.198-0833_540
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
-  - 🇺🇸 US-156.146.38.163-3713_542
-  - 🇺🇸 US-156.146.38.163-0292_541
-  - 🇺🇸 US-156.146.38.163-0292_1365_494
-  - 🇺🇸 US-156.146.38.163-3713_1446_501
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
-  - 🇱🇺_LU_卢森堡_731_386
-  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
-  - 🇺🇸_US_美国_6_486_695
-  - 🇱🇺_LU_卢森堡_821_416
-  - 🇸🇬 SG-103.172.116.103-0943_99
-  - 🇸🇬 SG-103.172.116.103-0993_316_83
-  - 🇸🇬 SG-103.172.116.103-0995_101
-  - 🇱🇺 _LU_卢森堡 5_118
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇺🇸_US_美国_9_742_762
-  - 🇺🇸_US_美国_9_832_766
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇱🇺_LU_卢森堡_503_737
-  - 🇸🇬 SG-103.172.116.103-0993_449_726
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
-  - 🇺🇸_US_美国_6_1165_838
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
-  - 🇱🇺_LU_卢森堡_821_795
-  - 🇱🇺_LU_卢森堡_480_727
-  - 🇺🇸 US-156.146.38.163-0292_1365_918
-  - 🇱🇺_LU_卢森堡_2_836
-  - 🇺🇸 US-156.146.38.163-3713_1364_917
-  - 🇺🇸 US-156.146.38.163-3713_1446_939
-  - 🇺🇸 US-156.146.38.163-0292_1452_942
-  - 🇺🇸 _US_美国 33
-  - 🇸🇬 SG-103.172.116.103-0993_1422
-  - 🇸🇬 SG-103.172.116.103-0995_1451
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
-  - 🇱🇺 _LU_卢森堡 5_978
-  - 🇸🇬 SG-103.172.116.103-5712
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇺🇸 US-212.102.47.198-0833_1020
-  - 🇺🇸 US-156.146.38.163-3713_1016
-  - 5|🇭🇰 香港3|@ripaojiedian_1023
-  - 🇺🇸 US-156.146.38.163-0292_1021
-  - 🇸🇬 SG-103.172.116.103-0994_1013
-  - 5|🇺🇸 美国|@ripaojiedian
-  - 5|🇭🇰 香港8|@ripaojiedian
-  - 5|🇸🇬 新加坡|@ripaojiedian
-  - 5|🇰🇷 韩国|@ripaojiedian
-  - 0,3|IHwyOS45Nk1i
-  - 3|IHwyOS42M01i
-  - 3|IHwzMC41Nk1i
-  - 3|IHwzMC4yN01i
-  - 3|IHwzMC4wOU1i
-  - 8|CN_speednode_0006
-  - 3|IHwzMC4wNk1i
-  - 5|🇺🇸 美国4|@ripaojiedian
-  - 5|🇺🇸 美国5|@ripaojiedian_1026
-  - 6|香港8|@ripaojiedian
-  - 5|🇭🇰 香港4|@ripaojiedian_1024
+  - 🇫🇷FR-149.202.82.172-234
+  - 🇵🇱PL-51.77.53.200-251
+  - 🇨🇳 湖南省 联通
+  - 5|🇺🇸 美国3|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_331
+  - 8|CN_speednode_0014
+  - 5|🇰🇷 韩国|@ripaojiedian_333
+  - 5|🇭🇰 香港|@ripaojiedian
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
+  - 🇳🇱_NL_荷兰_43
+  - 🇳🇱_NL_荷兰_89
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 3
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 4
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 6
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 7
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 9
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 8
+  - 🇨🇳 广东省广州市 移动_338
+  - 🇺🇸 美国+华盛顿Cogent通信公司 2
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 2
+  - 🇫🇷 法国+OVH 6
+  - 🇫🇷 法国+OVH 5
+  - 5|🇺🇸 美国5|@ripaojiedian_334
+  - 🇫🇷 法国+OVH 2
+  - 5|🇰🇷 韩国3|@ripaojiedian
+  - 5,8|CN_speednode_0020
+  - 6|香港|@ripaojiedian
+  - 6|香港2|@ripaojiedian
+  - 6|香港3|@ripaojiedian_336
+  - 🇨🇳 广东省佛山市 移动
+  - 🇫🇷 法国+OVH 4
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_754"
+  - 🇳🇱 NL-109.201.152.181-0876_749
+  - 🇳🇱 NL-109.201.152.181-0876_1237
+  - 🇬🇧 GB-212.102.53.80-0855
+  - 🇺🇸 _US_美国 29_1225
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_1259"
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
-  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
-  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
-  - 🇺🇸_US_美国_4_18
-  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
-  - 🇺🇸_US_美国_3_34
-  - 🇺🇸_US_美国_2_15
-  - 🇺🇸_US_美国_7_75
-  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
-  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
-  - 🇺🇸_US_美国_6_57
-  - 🇷🇺_RU_俄罗斯联邦_26
-  - 🇺🇸_US_美国_1_80
-  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
-  - 🇺🇸_US_美国_4_103
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-  - 🇺🇸_US_美国_2_100
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
-  - 🇺🇸US-156.146.38.163-003
-  - 🇺🇸US-212.102.47.198-006
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
-  - 🇱🇺_LU_卢森堡_2_115
-  - 🇺🇸US-167.88.61.235-141
-  - 🇺🇸US-167.88.61.235-138
-  - 🇨🇳CN-223.113.54.154-005
-  - 🇺🇸_US_美国_3_72
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸US-23.154.136.105-146
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-109.201.152.181-0721 | 20.996MB
+  - 🇬🇧GB-212.102.53.80-0716 | 19.54MB
+  - 🇺🇸US-184.170.241.194-0365 | 41.998MB
+  - 🇬🇧GB-52.151.99.42-0701 | 20.502MB
+  - 🇵🇱_PL_波兰_1_69
+  - 🇵🇱_PL_波兰_2_104
+  - 🇵🇱_PL_波兰_9_113
+  - 🇬🇧_GB_英国_120
+  - 🇵🇱_PL_波兰_12_128
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_76
+  - 🇵🇱_PL_波兰_14_130
+  - 🇵🇱_PL_波兰_13_129
+  - 🇵🇱_PL_波兰_18_135
+  - 🇵🇱_PL_波兰_20_138
+  - 🇵🇱_PL_波兰_17_134
+  - 🇵🇱_PL_波兰_21_139
+  - 🇺🇸_US_美国_7_124
+  - 🇵🇱_PL_波兰_23_144
+  - 🇵🇱_PL_波兰_4_153
+  - 🇬🇧_GB_英国_166
+  - 🇵🇱_PL_波兰_9_159
+  - 🇺🇸_US_美国_11_141
+  - 🇵🇱_PL_波兰_12_174
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_118
+  - 🇵🇱_PL_波兰_15_177
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_117
+  - 🇺🇸_US_美国_7_170
+  - 🇵🇱_PL_波兰_22_189
+  - 🇺🇸_US_美国_1_148
+  - 🇵🇱PL-51.77.53.200-008
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_164
+  - 🇺🇸US-205.134.180.139-018
+  - 🇫🇷FR-149.202.82.172-194
+  - 🇵🇱PL-51.77.53.200-204
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_163
+  - 🇵🇱_PL_波兰_11_127
+  - 🇨🇳CN-120.238.122.250-244
+  - 🇵🇱PL-51.77.53.200-208
+  - 🇵🇱PL-51.77.53.200-211
+  - 🇦🇱_AL_阿尔巴尼亚_178
+  - 🇬🇧GB-52.151.99.42-191
+  - 🇵🇱PL-51.77.53.200-216
+  - 🇨🇦_CA_加拿大_202
+  - 🇫🇷FR-149.202.82.172-215
+  - 🇵🇱_PL_波兰_25_192
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_199
+  - 🇫🇷FR-149.202.82.172-231
+  - 🇨🇳CN-183.240.179.207-210
+  - 🇨🇳CN-36.151.195.48-012
+  - 🇵🇱PL-51.77.53.200-255
+  - 🇵🇱_PL_波兰_5_154
+  - 🇫🇷FR-149.202.82.172-245
+  - 🇬🇧GB-51.140.93.164-223
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_200
+  - 🇵🇱PL-51.77.53.200-264
+  - 🇨🇳CN-36.151.195.48-013
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_216
+  - 🇵🇱PL-51.77.53.200-261
+  - 🇫🇷FR-149.202.82.172-250
+  - 🇫🇷FR-149.202.82.172-266
+  - 🇵🇱_PL_波兰_1_209
+  - 🇫🇷FR-149.202.82.172-199
+  - 🇺🇸US-3.134.180.239-242
+  - 🇺🇸US-109.104.152.126-246
+  - 🇵🇱_PL_波兰_18_181
+  - 🇨🇳CN-36.151.195.48-224
+  - 🇫🇷FR-149.202.82.172-258
+  - 🇵🇱PL-51.77.53.200-268
+  - 🇵🇱PL-51.77.53.200-005
+  - 🇷🇺RU-45.136.245.240-006
+  - 🇫🇷FR-149.202.82.172-267
   - 🇳🇱NL-103.214.68.57-145
   - 🇳🇱NL-103.214.68.57-192
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
-  - 🇨🇳CN-183.240.179.195-191
-  - 🇨🇳CN-36.151.195.46-142
-  - 🇨🇳CN-223.113.54.154-164
-  - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_2_79
-  - 🇺🇸_US_美国_6_486_274
-  - 🇺🇸_US_美国_9_742_357
-  - 🇺🇸_US_美国_9_832_360
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
-  - 🇺🇸 US-156.146.38.163-3713_1364_493
-  - 🇺🇸_US_美国_6_1165_441
-  - 🇺🇸 US-156.146.38.163-0292_1452_505
-  - 🇺🇸 US-212.102.47.198-0833_540
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
-  - 🇺🇸 US-156.146.38.163-3713_542
-  - 🇺🇸 US-156.146.38.163-0292_541
-  - 🇺🇸 US-156.146.38.163-0292_1365_494
-  - 🇺🇸 US-156.146.38.163-3713_1446_501
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
-  - 🇱🇺_LU_卢森堡_731_386
-  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
-  - 🇺🇸_US_美国_6_486_695
-  - 🇱🇺_LU_卢森堡_821_416
-  - 🇸🇬 SG-103.172.116.103-0943_99
-  - 🇸🇬 SG-103.172.116.103-0993_316_83
-  - 🇸🇬 SG-103.172.116.103-0995_101
-  - 🇱🇺 _LU_卢森堡 5_118
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇺🇸_US_美国_9_742_762
-  - 🇺🇸_US_美国_9_832_766
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇱🇺_LU_卢森堡_503_737
-  - 🇸🇬 SG-103.172.116.103-0993_449_726
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
-  - 🇺🇸_US_美国_6_1165_838
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
-  - 🇱🇺_LU_卢森堡_821_795
-  - 🇱🇺_LU_卢森堡_480_727
-  - 🇺🇸 US-156.146.38.163-0292_1365_918
-  - 🇱🇺_LU_卢森堡_2_836
-  - 🇺🇸 US-156.146.38.163-3713_1364_917
-  - 🇺🇸 US-156.146.38.163-3713_1446_939
-  - 🇺🇸 US-156.146.38.163-0292_1452_942
-  - 🇺🇸 _US_美国 33
-  - 🇸🇬 SG-103.172.116.103-0993_1422
-  - 🇸🇬 SG-103.172.116.103-0995_1451
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
-  - 🇱🇺 _LU_卢森堡 5_978
-  - 🇸🇬 SG-103.172.116.103-5712
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇺🇸 US-212.102.47.198-0833_1020
-  - 🇺🇸 US-156.146.38.163-3713_1016
-  - 5|🇭🇰 香港3|@ripaojiedian_1023
-  - 🇺🇸 US-156.146.38.163-0292_1021
-  - 🇸🇬 SG-103.172.116.103-0994_1013
-  - 5|🇺🇸 美国|@ripaojiedian
-  - 5|🇭🇰 香港8|@ripaojiedian
-  - 5|🇸🇬 新加坡|@ripaojiedian
-  - 5|🇰🇷 韩国|@ripaojiedian
-  - 0,3|IHwyOS45Nk1i
-  - 3|IHwyOS42M01i
-  - 3|IHwzMC41Nk1i
-  - 3|IHwzMC4yN01i
-  - 3|IHwzMC4wOU1i
-  - 8|CN_speednode_0006
-  - 3|IHwzMC4wNk1i
-  - 5|🇺🇸 美国4|@ripaojiedian
-  - 5|🇺🇸 美国5|@ripaojiedian_1026
-  - 6|香港8|@ripaojiedian
-  - 5|🇭🇰 香港4|@ripaojiedian_1024
+  - 🇫🇷FR-149.202.82.172-234
+  - 🇵🇱PL-51.77.53.200-251
+  - 🇨🇳 湖南省 联通
+  - 5|🇺🇸 美国3|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_331
+  - 8|CN_speednode_0014
+  - 5|🇰🇷 韩国|@ripaojiedian_333
+  - 5|🇭🇰 香港|@ripaojiedian
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
+  - 🇳🇱_NL_荷兰_43
+  - 🇳🇱_NL_荷兰_89
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 3
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 4
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 6
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 7
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 9
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 8
+  - 🇨🇳 广东省广州市 移动_338
+  - 🇺🇸 美国+华盛顿Cogent通信公司 2
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 2
+  - 🇫🇷 法国+OVH 6
+  - 🇫🇷 法国+OVH 5
+  - 5|🇺🇸 美国5|@ripaojiedian_334
+  - 🇫🇷 法国+OVH 2
+  - 5|🇰🇷 韩国3|@ripaojiedian
+  - 5,8|CN_speednode_0020
+  - 6|香港|@ripaojiedian
+  - 6|香港2|@ripaojiedian
+  - 6|香港3|@ripaojiedian_336
+  - 🇨🇳 广东省佛山市 移动
+  - 🇫🇷 法国+OVH 4
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_754"
+  - 🇳🇱 NL-109.201.152.181-0876_749
+  - 🇳🇱 NL-109.201.152.181-0876_1237
+  - 🇬🇧 GB-212.102.53.80-0855
+  - 🇺🇸 _US_美国 29_1225
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_1259"
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
   - 🚀 节点选择
   - ♻️ 自动选择
-  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
-  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
-  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
-  - 🇺🇸_US_美国_4_18
-  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
-  - 🇺🇸_US_美国_3_34
-  - 🇺🇸_US_美国_2_15
-  - 🇺🇸_US_美国_7_75
-  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
-  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
-  - 🇺🇸_US_美国_6_57
-  - 🇷🇺_RU_俄罗斯联邦_26
-  - 🇺🇸_US_美国_1_80
-  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
-  - 🇺🇸_US_美国_4_103
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-  - 🇺🇸_US_美国_2_100
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
-  - 🇺🇸US-156.146.38.163-003
-  - 🇺🇸US-212.102.47.198-006
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
-  - 🇱🇺_LU_卢森堡_2_115
-  - 🇺🇸US-167.88.61.235-141
-  - 🇺🇸US-167.88.61.235-138
-  - 🇨🇳CN-223.113.54.154-005
-  - 🇺🇸_US_美国_3_72
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸US-23.154.136.105-146
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-109.201.152.181-0721 | 20.996MB
+  - 🇬🇧GB-212.102.53.80-0716 | 19.54MB
+  - 🇺🇸US-184.170.241.194-0365 | 41.998MB
+  - 🇬🇧GB-52.151.99.42-0701 | 20.502MB
+  - 🇵🇱_PL_波兰_1_69
+  - 🇵🇱_PL_波兰_2_104
+  - 🇵🇱_PL_波兰_9_113
+  - 🇬🇧_GB_英国_120
+  - 🇵🇱_PL_波兰_12_128
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_76
+  - 🇵🇱_PL_波兰_14_130
+  - 🇵🇱_PL_波兰_13_129
+  - 🇵🇱_PL_波兰_18_135
+  - 🇵🇱_PL_波兰_20_138
+  - 🇵🇱_PL_波兰_17_134
+  - 🇵🇱_PL_波兰_21_139
+  - 🇺🇸_US_美国_7_124
+  - 🇵🇱_PL_波兰_23_144
+  - 🇵🇱_PL_波兰_4_153
+  - 🇬🇧_GB_英国_166
+  - 🇵🇱_PL_波兰_9_159
+  - 🇺🇸_US_美国_11_141
+  - 🇵🇱_PL_波兰_12_174
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_118
+  - 🇵🇱_PL_波兰_15_177
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_117
+  - 🇺🇸_US_美国_7_170
+  - 🇵🇱_PL_波兰_22_189
+  - 🇺🇸_US_美国_1_148
+  - 🇵🇱PL-51.77.53.200-008
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_164
+  - 🇺🇸US-205.134.180.139-018
+  - 🇫🇷FR-149.202.82.172-194
+  - 🇵🇱PL-51.77.53.200-204
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_163
+  - 🇵🇱_PL_波兰_11_127
+  - 🇨🇳CN-120.238.122.250-244
+  - 🇵🇱PL-51.77.53.200-208
+  - 🇵🇱PL-51.77.53.200-211
+  - 🇦🇱_AL_阿尔巴尼亚_178
+  - 🇬🇧GB-52.151.99.42-191
+  - 🇵🇱PL-51.77.53.200-216
+  - 🇨🇦_CA_加拿大_202
+  - 🇫🇷FR-149.202.82.172-215
+  - 🇵🇱_PL_波兰_25_192
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_199
+  - 🇫🇷FR-149.202.82.172-231
+  - 🇨🇳CN-183.240.179.207-210
+  - 🇨🇳CN-36.151.195.48-012
+  - 🇵🇱PL-51.77.53.200-255
+  - 🇵🇱_PL_波兰_5_154
+  - 🇫🇷FR-149.202.82.172-245
+  - 🇬🇧GB-51.140.93.164-223
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_200
+  - 🇵🇱PL-51.77.53.200-264
+  - 🇨🇳CN-36.151.195.48-013
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_216
+  - 🇵🇱PL-51.77.53.200-261
+  - 🇫🇷FR-149.202.82.172-250
+  - 🇫🇷FR-149.202.82.172-266
+  - 🇵🇱_PL_波兰_1_209
+  - 🇫🇷FR-149.202.82.172-199
+  - 🇺🇸US-3.134.180.239-242
+  - 🇺🇸US-109.104.152.126-246
+  - 🇵🇱_PL_波兰_18_181
+  - 🇨🇳CN-36.151.195.48-224
+  - 🇫🇷FR-149.202.82.172-258
+  - 🇵🇱PL-51.77.53.200-268
+  - 🇵🇱PL-51.77.53.200-005
+  - 🇷🇺RU-45.136.245.240-006
+  - 🇫🇷FR-149.202.82.172-267
   - 🇳🇱NL-103.214.68.57-145
   - 🇳🇱NL-103.214.68.57-192
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
-  - 🇨🇳CN-183.240.179.195-191
-  - 🇨🇳CN-36.151.195.46-142
-  - 🇨🇳CN-223.113.54.154-164
-  - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_2_79
-  - 🇺🇸_US_美国_6_486_274
-  - 🇺🇸_US_美国_9_742_357
-  - 🇺🇸_US_美国_9_832_360
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
-  - 🇺🇸 US-156.146.38.163-3713_1364_493
-  - 🇺🇸_US_美国_6_1165_441
-  - 🇺🇸 US-156.146.38.163-0292_1452_505
-  - 🇺🇸 US-212.102.47.198-0833_540
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
-  - 🇺🇸 US-156.146.38.163-3713_542
-  - 🇺🇸 US-156.146.38.163-0292_541
-  - 🇺🇸 US-156.146.38.163-0292_1365_494
-  - 🇺🇸 US-156.146.38.163-3713_1446_501
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
-  - 🇱🇺_LU_卢森堡_731_386
-  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
-  - 🇺🇸_US_美国_6_486_695
-  - 🇱🇺_LU_卢森堡_821_416
-  - 🇸🇬 SG-103.172.116.103-0943_99
-  - 🇸🇬 SG-103.172.116.103-0993_316_83
-  - 🇸🇬 SG-103.172.116.103-0995_101
-  - 🇱🇺 _LU_卢森堡 5_118
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇺🇸_US_美国_9_742_762
-  - 🇺🇸_US_美国_9_832_766
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇱🇺_LU_卢森堡_503_737
-  - 🇸🇬 SG-103.172.116.103-0993_449_726
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
-  - 🇺🇸_US_美国_6_1165_838
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
-  - 🇱🇺_LU_卢森堡_821_795
-  - 🇱🇺_LU_卢森堡_480_727
-  - 🇺🇸 US-156.146.38.163-0292_1365_918
-  - 🇱🇺_LU_卢森堡_2_836
-  - 🇺🇸 US-156.146.38.163-3713_1364_917
-  - 🇺🇸 US-156.146.38.163-3713_1446_939
-  - 🇺🇸 US-156.146.38.163-0292_1452_942
-  - 🇺🇸 _US_美国 33
-  - 🇸🇬 SG-103.172.116.103-0993_1422
-  - 🇸🇬 SG-103.172.116.103-0995_1451
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
-  - 🇱🇺 _LU_卢森堡 5_978
-  - 🇸🇬 SG-103.172.116.103-5712
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇺🇸 US-212.102.47.198-0833_1020
-  - 🇺🇸 US-156.146.38.163-3713_1016
-  - 5|🇭🇰 香港3|@ripaojiedian_1023
-  - 🇺🇸 US-156.146.38.163-0292_1021
-  - 🇸🇬 SG-103.172.116.103-0994_1013
-  - 5|🇺🇸 美国|@ripaojiedian
-  - 5|🇭🇰 香港8|@ripaojiedian
-  - 5|🇸🇬 新加坡|@ripaojiedian
-  - 5|🇰🇷 韩国|@ripaojiedian
-  - 0,3|IHwyOS45Nk1i
-  - 3|IHwyOS42M01i
-  - 3|IHwzMC41Nk1i
-  - 3|IHwzMC4yN01i
-  - 3|IHwzMC4wOU1i
-  - 8|CN_speednode_0006
-  - 3|IHwzMC4wNk1i
-  - 5|🇺🇸 美国4|@ripaojiedian
-  - 5|🇺🇸 美国5|@ripaojiedian_1026
-  - 6|香港8|@ripaojiedian
-  - 5|🇭🇰 香港4|@ripaojiedian_1024
+  - 🇫🇷FR-149.202.82.172-234
+  - 🇵🇱PL-51.77.53.200-251
+  - 🇨🇳 湖南省 联通
+  - 5|🇺🇸 美国3|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_331
+  - 8|CN_speednode_0014
+  - 5|🇰🇷 韩国|@ripaojiedian_333
+  - 5|🇭🇰 香港|@ripaojiedian
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
+  - 🇳🇱_NL_荷兰_43
+  - 🇳🇱_NL_荷兰_89
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 3
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 4
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 6
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 7
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 9
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 8
+  - 🇨🇳 广东省广州市 移动_338
+  - 🇺🇸 美国+华盛顿Cogent通信公司 2
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 2
+  - 🇫🇷 法国+OVH 6
+  - 🇫🇷 法国+OVH 5
+  - 5|🇺🇸 美国5|@ripaojiedian_334
+  - 🇫🇷 法国+OVH 2
+  - 5|🇰🇷 韩国3|@ripaojiedian
+  - 5,8|CN_speednode_0020
+  - 6|香港|@ripaojiedian
+  - 6|香港2|@ripaojiedian
+  - 6|香港3|@ripaojiedian_336
+  - 🇨🇳 广东省佛山市 移动
+  - 🇫🇷 法国+OVH 4
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_754"
+  - 🇳🇱 NL-109.201.152.181-0876_749
+  - 🇳🇱 NL-109.201.152.181-0876_1237
+  - 🇬🇧 GB-212.102.53.80-0855
+  - 🇺🇸 _US_美国 29_1225
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_1259"
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
-  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
-  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
-  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
-  - 🇺🇸_US_美国_4_18
-  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
-  - 🇺🇸_US_美国_3_34
-  - 🇺🇸_US_美国_2_15
-  - 🇺🇸_US_美国_7_75
-  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
-  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
-  - 🇺🇸_US_美国_6_57
-  - 🇷🇺_RU_俄罗斯联邦_26
-  - 🇺🇸_US_美国_1_80
-  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
-  - 🇺🇸_US_美国_4_103
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-  - 🇺🇸_US_美国_2_100
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
-  - 🇺🇸US-156.146.38.163-003
-  - 🇺🇸US-212.102.47.198-006
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
-  - 🇱🇺_LU_卢森堡_2_115
-  - 🇺🇸US-167.88.61.235-141
-  - 🇺🇸US-167.88.61.235-138
-  - 🇨🇳CN-223.113.54.154-005
-  - 🇺🇸_US_美国_3_72
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸US-23.154.136.105-146
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-109.201.152.181-0721 | 20.996MB
+  - 🇬🇧GB-212.102.53.80-0716 | 19.54MB
+  - 🇺🇸US-184.170.241.194-0365 | 41.998MB
+  - 🇬🇧GB-52.151.99.42-0701 | 20.502MB
+  - 🇵🇱_PL_波兰_1_69
+  - 🇵🇱_PL_波兰_2_104
+  - 🇵🇱_PL_波兰_9_113
+  - 🇬🇧_GB_英国_120
+  - 🇵🇱_PL_波兰_12_128
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_76
+  - 🇵🇱_PL_波兰_14_130
+  - 🇵🇱_PL_波兰_13_129
+  - 🇵🇱_PL_波兰_18_135
+  - 🇵🇱_PL_波兰_20_138
+  - 🇵🇱_PL_波兰_17_134
+  - 🇵🇱_PL_波兰_21_139
+  - 🇺🇸_US_美国_7_124
+  - 🇵🇱_PL_波兰_23_144
+  - 🇵🇱_PL_波兰_4_153
+  - 🇬🇧_GB_英国_166
+  - 🇵🇱_PL_波兰_9_159
+  - 🇺🇸_US_美国_11_141
+  - 🇵🇱_PL_波兰_12_174
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_118
+  - 🇵🇱_PL_波兰_15_177
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_117
+  - 🇺🇸_US_美国_7_170
+  - 🇵🇱_PL_波兰_22_189
+  - 🇺🇸_US_美国_1_148
+  - 🇵🇱PL-51.77.53.200-008
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_164
+  - 🇺🇸US-205.134.180.139-018
+  - 🇫🇷FR-149.202.82.172-194
+  - 🇵🇱PL-51.77.53.200-204
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_163
+  - 🇵🇱_PL_波兰_11_127
+  - 🇨🇳CN-120.238.122.250-244
+  - 🇵🇱PL-51.77.53.200-208
+  - 🇵🇱PL-51.77.53.200-211
+  - 🇦🇱_AL_阿尔巴尼亚_178
+  - 🇬🇧GB-52.151.99.42-191
+  - 🇵🇱PL-51.77.53.200-216
+  - 🇨🇦_CA_加拿大_202
+  - 🇫🇷FR-149.202.82.172-215
+  - 🇵🇱_PL_波兰_25_192
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_199
+  - 🇫🇷FR-149.202.82.172-231
+  - 🇨🇳CN-183.240.179.207-210
+  - 🇨🇳CN-36.151.195.48-012
+  - 🇵🇱PL-51.77.53.200-255
+  - 🇵🇱_PL_波兰_5_154
+  - 🇫🇷FR-149.202.82.172-245
+  - 🇬🇧GB-51.140.93.164-223
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_200
+  - 🇵🇱PL-51.77.53.200-264
+  - 🇨🇳CN-36.151.195.48-013
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_216
+  - 🇵🇱PL-51.77.53.200-261
+  - 🇫🇷FR-149.202.82.172-250
+  - 🇫🇷FR-149.202.82.172-266
+  - 🇵🇱_PL_波兰_1_209
+  - 🇫🇷FR-149.202.82.172-199
+  - 🇺🇸US-3.134.180.239-242
+  - 🇺🇸US-109.104.152.126-246
+  - 🇵🇱_PL_波兰_18_181
+  - 🇨🇳CN-36.151.195.48-224
+  - 🇫🇷FR-149.202.82.172-258
+  - 🇵🇱PL-51.77.53.200-268
+  - 🇵🇱PL-51.77.53.200-005
+  - 🇷🇺RU-45.136.245.240-006
+  - 🇫🇷FR-149.202.82.172-267
   - 🇳🇱NL-103.214.68.57-145
   - 🇳🇱NL-103.214.68.57-192
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
-  - 🇨🇳CN-183.240.179.195-191
-  - 🇨🇳CN-36.151.195.46-142
-  - 🇨🇳CN-223.113.54.154-164
-  - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_2_79
-  - 🇺🇸_US_美国_6_486_274
-  - 🇺🇸_US_美国_9_742_357
-  - 🇺🇸_US_美国_9_832_360
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
-  - 🇺🇸 US-156.146.38.163-3713_1364_493
-  - 🇺🇸_US_美国_6_1165_441
-  - 🇺🇸 US-156.146.38.163-0292_1452_505
-  - 🇺🇸 US-212.102.47.198-0833_540
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
-  - 🇺🇸 US-156.146.38.163-3713_542
-  - 🇺🇸 US-156.146.38.163-0292_541
-  - 🇺🇸 US-156.146.38.163-0292_1365_494
-  - 🇺🇸 US-156.146.38.163-3713_1446_501
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
-  - 🇱🇺_LU_卢森堡_731_386
-  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
-  - 🇺🇸_US_美国_6_486_695
-  - 🇱🇺_LU_卢森堡_821_416
-  - 🇸🇬 SG-103.172.116.103-0943_99
-  - 🇸🇬 SG-103.172.116.103-0993_316_83
-  - 🇸🇬 SG-103.172.116.103-0995_101
-  - 🇱🇺 _LU_卢森堡 5_118
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇺🇸_US_美国_9_742_762
-  - 🇺🇸_US_美国_9_832_766
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇱🇺_LU_卢森堡_503_737
-  - 🇸🇬 SG-103.172.116.103-0993_449_726
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
-  - 🇺🇸_US_美国_6_1165_838
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
-  - 🇱🇺_LU_卢森堡_821_795
-  - 🇱🇺_LU_卢森堡_480_727
-  - 🇺🇸 US-156.146.38.163-0292_1365_918
-  - 🇱🇺_LU_卢森堡_2_836
-  - 🇺🇸 US-156.146.38.163-3713_1364_917
-  - 🇺🇸 US-156.146.38.163-3713_1446_939
-  - 🇺🇸 US-156.146.38.163-0292_1452_942
-  - 🇺🇸 _US_美国 33
-  - 🇸🇬 SG-103.172.116.103-0993_1422
-  - 🇸🇬 SG-103.172.116.103-0995_1451
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
-  - 🇱🇺 _LU_卢森堡 5_978
-  - 🇸🇬 SG-103.172.116.103-5712
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇺🇸 US-212.102.47.198-0833_1020
-  - 🇺🇸 US-156.146.38.163-3713_1016
-  - 5|🇭🇰 香港3|@ripaojiedian_1023
-  - 🇺🇸 US-156.146.38.163-0292_1021
-  - 🇸🇬 SG-103.172.116.103-0994_1013
-  - 5|🇺🇸 美国|@ripaojiedian
-  - 5|🇭🇰 香港8|@ripaojiedian
-  - 5|🇸🇬 新加坡|@ripaojiedian
-  - 5|🇰🇷 韩国|@ripaojiedian
-  - 0,3|IHwyOS45Nk1i
-  - 3|IHwyOS42M01i
-  - 3|IHwzMC41Nk1i
-  - 3|IHwzMC4yN01i
-  - 3|IHwzMC4wOU1i
-  - 8|CN_speednode_0006
-  - 3|IHwzMC4wNk1i
-  - 5|🇺🇸 美国4|@ripaojiedian
-  - 5|🇺🇸 美国5|@ripaojiedian_1026
-  - 6|香港8|@ripaojiedian
-  - 5|🇭🇰 香港4|@ripaojiedian_1024
+  - 🇫🇷FR-149.202.82.172-234
+  - 🇵🇱PL-51.77.53.200-251
+  - 🇨🇳 湖南省 联通
+  - 5|🇺🇸 美国3|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_331
+  - 8|CN_speednode_0014
+  - 5|🇰🇷 韩国|@ripaojiedian_333
+  - 5|🇭🇰 香港|@ripaojiedian
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
+  - 🇳🇱_NL_荷兰_43
+  - 🇳🇱_NL_荷兰_89
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 3
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 4
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 6
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 7
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 9
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 8
+  - 🇨🇳 广东省广州市 移动_338
+  - 🇺🇸 美国+华盛顿Cogent通信公司 2
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 2
+  - 🇫🇷 法国+OVH 6
+  - 🇫🇷 法国+OVH 5
+  - 5|🇺🇸 美国5|@ripaojiedian_334
+  - 🇫🇷 法国+OVH 2
+  - 5|🇰🇷 韩国3|@ripaojiedian
+  - 5,8|CN_speednode_0020
+  - 6|香港|@ripaojiedian
+  - 6|香港2|@ripaojiedian
+  - 6|香港3|@ripaojiedian_336
+  - 🇨🇳 广东省佛山市 移动
+  - 🇫🇷 法国+OVH 4
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_754"
+  - 🇳🇱 NL-109.201.152.181-0876_749
+  - 🇳🇱 NL-109.201.152.181-0876_1237
+  - 🇬🇧 GB-212.102.53.80-0855
+  - 🇺🇸 _US_美国 29_1225
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_1259"
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
-  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
-  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
-  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
-  - 🇺🇸_US_美国_4_18
-  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
-  - 🇺🇸_US_美国_3_34
-  - 🇺🇸_US_美国_2_15
-  - 🇺🇸_US_美国_7_75
-  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
-  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
-  - 🇺🇸_US_美国_6_57
-  - 🇷🇺_RU_俄罗斯联邦_26
-  - 🇺🇸_US_美国_1_80
-  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
-  - 🇺🇸_US_美国_4_103
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-  - 🇺🇸_US_美国_2_100
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
-  - 🇺🇸US-156.146.38.163-003
-  - 🇺🇸US-212.102.47.198-006
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
-  - 🇱🇺_LU_卢森堡_2_115
-  - 🇺🇸US-167.88.61.235-141
-  - 🇺🇸US-167.88.61.235-138
-  - 🇨🇳CN-223.113.54.154-005
-  - 🇺🇸_US_美国_3_72
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸US-23.154.136.105-146
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-109.201.152.181-0721 | 20.996MB
+  - 🇬🇧GB-212.102.53.80-0716 | 19.54MB
+  - 🇺🇸US-184.170.241.194-0365 | 41.998MB
+  - 🇬🇧GB-52.151.99.42-0701 | 20.502MB
+  - 🇵🇱_PL_波兰_1_69
+  - 🇵🇱_PL_波兰_2_104
+  - 🇵🇱_PL_波兰_9_113
+  - 🇬🇧_GB_英国_120
+  - 🇵🇱_PL_波兰_12_128
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_76
+  - 🇵🇱_PL_波兰_14_130
+  - 🇵🇱_PL_波兰_13_129
+  - 🇵🇱_PL_波兰_18_135
+  - 🇵🇱_PL_波兰_20_138
+  - 🇵🇱_PL_波兰_17_134
+  - 🇵🇱_PL_波兰_21_139
+  - 🇺🇸_US_美国_7_124
+  - 🇵🇱_PL_波兰_23_144
+  - 🇵🇱_PL_波兰_4_153
+  - 🇬🇧_GB_英国_166
+  - 🇵🇱_PL_波兰_9_159
+  - 🇺🇸_US_美国_11_141
+  - 🇵🇱_PL_波兰_12_174
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_118
+  - 🇵🇱_PL_波兰_15_177
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_117
+  - 🇺🇸_US_美国_7_170
+  - 🇵🇱_PL_波兰_22_189
+  - 🇺🇸_US_美国_1_148
+  - 🇵🇱PL-51.77.53.200-008
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_164
+  - 🇺🇸US-205.134.180.139-018
+  - 🇫🇷FR-149.202.82.172-194
+  - 🇵🇱PL-51.77.53.200-204
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_163
+  - 🇵🇱_PL_波兰_11_127
+  - 🇨🇳CN-120.238.122.250-244
+  - 🇵🇱PL-51.77.53.200-208
+  - 🇵🇱PL-51.77.53.200-211
+  - 🇦🇱_AL_阿尔巴尼亚_178
+  - 🇬🇧GB-52.151.99.42-191
+  - 🇵🇱PL-51.77.53.200-216
+  - 🇨🇦_CA_加拿大_202
+  - 🇫🇷FR-149.202.82.172-215
+  - 🇵🇱_PL_波兰_25_192
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_199
+  - 🇫🇷FR-149.202.82.172-231
+  - 🇨🇳CN-183.240.179.207-210
+  - 🇨🇳CN-36.151.195.48-012
+  - 🇵🇱PL-51.77.53.200-255
+  - 🇵🇱_PL_波兰_5_154
+  - 🇫🇷FR-149.202.82.172-245
+  - 🇬🇧GB-51.140.93.164-223
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_200
+  - 🇵🇱PL-51.77.53.200-264
+  - 🇨🇳CN-36.151.195.48-013
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_216
+  - 🇵🇱PL-51.77.53.200-261
+  - 🇫🇷FR-149.202.82.172-250
+  - 🇫🇷FR-149.202.82.172-266
+  - 🇵🇱_PL_波兰_1_209
+  - 🇫🇷FR-149.202.82.172-199
+  - 🇺🇸US-3.134.180.239-242
+  - 🇺🇸US-109.104.152.126-246
+  - 🇵🇱_PL_波兰_18_181
+  - 🇨🇳CN-36.151.195.48-224
+  - 🇫🇷FR-149.202.82.172-258
+  - 🇵🇱PL-51.77.53.200-268
+  - 🇵🇱PL-51.77.53.200-005
+  - 🇷🇺RU-45.136.245.240-006
+  - 🇫🇷FR-149.202.82.172-267
   - 🇳🇱NL-103.214.68.57-145
   - 🇳🇱NL-103.214.68.57-192
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
-  - 🇨🇳CN-183.240.179.195-191
-  - 🇨🇳CN-36.151.195.46-142
-  - 🇨🇳CN-223.113.54.154-164
-  - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_2_79
-  - 🇺🇸_US_美国_6_486_274
-  - 🇺🇸_US_美国_9_742_357
-  - 🇺🇸_US_美国_9_832_360
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
-  - 🇺🇸 US-156.146.38.163-3713_1364_493
-  - 🇺🇸_US_美国_6_1165_441
-  - 🇺🇸 US-156.146.38.163-0292_1452_505
-  - 🇺🇸 US-212.102.47.198-0833_540
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
-  - 🇺🇸 US-156.146.38.163-3713_542
-  - 🇺🇸 US-156.146.38.163-0292_541
-  - 🇺🇸 US-156.146.38.163-0292_1365_494
-  - 🇺🇸 US-156.146.38.163-3713_1446_501
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
-  - 🇱🇺_LU_卢森堡_731_386
-  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
-  - 🇺🇸_US_美国_6_486_695
-  - 🇱🇺_LU_卢森堡_821_416
-  - 🇸🇬 SG-103.172.116.103-0943_99
-  - 🇸🇬 SG-103.172.116.103-0993_316_83
-  - 🇸🇬 SG-103.172.116.103-0995_101
-  - 🇱🇺 _LU_卢森堡 5_118
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇺🇸_US_美国_9_742_762
-  - 🇺🇸_US_美国_9_832_766
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇱🇺_LU_卢森堡_503_737
-  - 🇸🇬 SG-103.172.116.103-0993_449_726
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
-  - 🇺🇸_US_美国_6_1165_838
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
-  - 🇱🇺_LU_卢森堡_821_795
-  - 🇱🇺_LU_卢森堡_480_727
-  - 🇺🇸 US-156.146.38.163-0292_1365_918
-  - 🇱🇺_LU_卢森堡_2_836
-  - 🇺🇸 US-156.146.38.163-3713_1364_917
-  - 🇺🇸 US-156.146.38.163-3713_1446_939
-  - 🇺🇸 US-156.146.38.163-0292_1452_942
-  - 🇺🇸 _US_美国 33
-  - 🇸🇬 SG-103.172.116.103-0993_1422
-  - 🇸🇬 SG-103.172.116.103-0995_1451
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
-  - 🇱🇺 _LU_卢森堡 5_978
-  - 🇸🇬 SG-103.172.116.103-5712
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇺🇸 US-212.102.47.198-0833_1020
-  - 🇺🇸 US-156.146.38.163-3713_1016
-  - 5|🇭🇰 香港3|@ripaojiedian_1023
-  - 🇺🇸 US-156.146.38.163-0292_1021
-  - 🇸🇬 SG-103.172.116.103-0994_1013
-  - 5|🇺🇸 美国|@ripaojiedian
-  - 5|🇭🇰 香港8|@ripaojiedian
-  - 5|🇸🇬 新加坡|@ripaojiedian
-  - 5|🇰🇷 韩国|@ripaojiedian
-  - 0,3|IHwyOS45Nk1i
-  - 3|IHwyOS42M01i
-  - 3|IHwzMC41Nk1i
-  - 3|IHwzMC4yN01i
-  - 3|IHwzMC4wOU1i
-  - 8|CN_speednode_0006
-  - 3|IHwzMC4wNk1i
-  - 5|🇺🇸 美国4|@ripaojiedian
-  - 5|🇺🇸 美国5|@ripaojiedian_1026
-  - 6|香港8|@ripaojiedian
-  - 5|🇭🇰 香港4|@ripaojiedian_1024
+  - 🇫🇷FR-149.202.82.172-234
+  - 🇵🇱PL-51.77.53.200-251
+  - 🇨🇳 湖南省 联通
+  - 5|🇺🇸 美国3|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_331
+  - 8|CN_speednode_0014
+  - 5|🇰🇷 韩国|@ripaojiedian_333
+  - 5|🇭🇰 香港|@ripaojiedian
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
+  - 🇳🇱_NL_荷兰_43
+  - 🇳🇱_NL_荷兰_89
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 3
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 4
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 6
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 7
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 9
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 8
+  - 🇨🇳 广东省广州市 移动_338
+  - 🇺🇸 美国+华盛顿Cogent通信公司 2
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 2
+  - 🇫🇷 法国+OVH 6
+  - 🇫🇷 法国+OVH 5
+  - 5|🇺🇸 美国5|@ripaojiedian_334
+  - 🇫🇷 法国+OVH 2
+  - 5|🇰🇷 韩国3|@ripaojiedian
+  - 5,8|CN_speednode_0020
+  - 6|香港|@ripaojiedian
+  - 6|香港2|@ripaojiedian
+  - 6|香港3|@ripaojiedian_336
+  - 🇨🇳 广东省佛山市 移动
+  - 🇫🇷 法国+OVH 4
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_754"
+  - 🇳🇱 NL-109.201.152.181-0876_749
+  - 🇳🇱 NL-109.201.152.181-0876_1237
+  - 🇬🇧 GB-212.102.53.80-0855
+  - 🇺🇸 _US_美国 29_1225
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_1259"
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇸🇬SG-18.143.93.163-4264 | 24.713MB
-  - 🇺🇸US-212.102.47.198-0302 | 68.007MB
-  - 🇺🇸US-156.146.38.163-0297 | 99.227MB
-  - 🇺🇸_US_美国_4_18
-  - 🇺🇸US-156.146.38.163-0621 | 97.064MB
-  - 🇺🇸_US_美国_3_34
-  - 🇺🇸_US_美国_2_15
-  - 🇺🇸_US_美国_7_75
-  - 🇺🇸US-38.86.135.31-3073 | 3.084MB
-  - 🇺🇸US-38.86.135.31-3086 | 3.208MB
-  - 🇺🇸_US_美国_6_57
-  - 🇷🇺_RU_俄罗斯联邦_26
-  - 🇺🇸_US_美国_1_80
-  - 🇸🇬SG-103.172.116.79-1568 | 5.41MB
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_81
-  - 🇺🇸_US_美国_4_103
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_67
-  - 🇺🇸_US_美国_2_100
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_88
-  - 🇺🇸US-156.146.38.163-003
-  - 🇺🇸US-212.102.47.198-006
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_99
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_106
-  - 🇱🇺_LU_卢森堡_2_115
-  - 🇺🇸US-167.88.61.235-141
-  - 🇺🇸US-167.88.61.235-138
-  - 🇨🇳CN-223.113.54.154-005
-  - 🇺🇸_US_美国_3_72
-  - 🇺🇸US-212.102.47.198-0563 | 27.251MB
-  - 🇺🇸_US_美国_3_58
-  - 🇺🇸US-23.154.136.105-146
-  - 🇺🇸US-156.146.38.163-0231 | 82.825MB
-  - 🇺🇸US-156.146.38.163-1567 | 86.315MB
-  - 🇺🇸_US_美国_6_19
+  - 🇳🇱NL-109.201.152.181-0721 | 20.996MB
+  - 🇬🇧GB-212.102.53.80-0716 | 19.54MB
+  - 🇺🇸US-184.170.241.194-0365 | 41.998MB
+  - 🇬🇧GB-52.151.99.42-0701 | 20.502MB
+  - 🇵🇱_PL_波兰_1_69
+  - 🇵🇱_PL_波兰_2_104
+  - 🇵🇱_PL_波兰_9_113
+  - 🇬🇧_GB_英国_120
+  - 🇵🇱_PL_波兰_12_128
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_76
+  - 🇵🇱_PL_波兰_14_130
+  - 🇵🇱_PL_波兰_13_129
+  - 🇵🇱_PL_波兰_18_135
+  - 🇵🇱_PL_波兰_20_138
+  - 🇵🇱_PL_波兰_17_134
+  - 🇵🇱_PL_波兰_21_139
+  - 🇺🇸_US_美国_7_124
+  - 🇵🇱_PL_波兰_23_144
+  - 🇵🇱_PL_波兰_4_153
+  - 🇬🇧_GB_英国_166
+  - 🇵🇱_PL_波兰_9_159
+  - 🇺🇸_US_美国_11_141
+  - 🇵🇱_PL_波兰_12_174
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_118
+  - 🇵🇱_PL_波兰_15_177
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_117
+  - 🇺🇸_US_美国_7_170
+  - 🇵🇱_PL_波兰_22_189
+  - 🇺🇸_US_美国_1_148
+  - 🇵🇱PL-51.77.53.200-008
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_164
+  - 🇺🇸US-205.134.180.139-018
+  - 🇫🇷FR-149.202.82.172-194
+  - 🇵🇱PL-51.77.53.200-204
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_163
+  - 🇵🇱_PL_波兰_11_127
+  - 🇨🇳CN-120.238.122.250-244
+  - 🇵🇱PL-51.77.53.200-208
+  - 🇵🇱PL-51.77.53.200-211
+  - 🇦🇱_AL_阿尔巴尼亚_178
+  - 🇬🇧GB-52.151.99.42-191
+  - 🇵🇱PL-51.77.53.200-216
+  - 🇨🇦_CA_加拿大_202
+  - 🇫🇷FR-149.202.82.172-215
+  - 🇵🇱_PL_波兰_25_192
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_199
+  - 🇫🇷FR-149.202.82.172-231
+  - 🇨🇳CN-183.240.179.207-210
+  - 🇨🇳CN-36.151.195.48-012
+  - 🇵🇱PL-51.77.53.200-255
+  - 🇵🇱_PL_波兰_5_154
+  - 🇫🇷FR-149.202.82.172-245
+  - 🇬🇧GB-51.140.93.164-223
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_200
+  - 🇵🇱PL-51.77.53.200-264
+  - 🇨🇳CN-36.151.195.48-013
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_216
+  - 🇵🇱PL-51.77.53.200-261
+  - 🇫🇷FR-149.202.82.172-250
+  - 🇫🇷FR-149.202.82.172-266
+  - 🇵🇱_PL_波兰_1_209
+  - 🇫🇷FR-149.202.82.172-199
+  - 🇺🇸US-3.134.180.239-242
+  - 🇺🇸US-109.104.152.126-246
+  - 🇵🇱_PL_波兰_18_181
+  - 🇨🇳CN-36.151.195.48-224
+  - 🇫🇷FR-149.202.82.172-258
+  - 🇵🇱PL-51.77.53.200-268
+  - 🇵🇱PL-51.77.53.200-005
+  - 🇷🇺RU-45.136.245.240-006
+  - 🇫🇷FR-149.202.82.172-267
   - 🇳🇱NL-103.214.68.57-145
   - 🇳🇱NL-103.214.68.57-192
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_163
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_158
-  - 🇨🇳CN-183.240.179.195-191
-  - 🇨🇳CN-36.151.195.46-142
-  - 🇨🇳CN-223.113.54.154-164
-  - 🇱🇺_LU_卢森堡_40
-  - 🇱🇺_LU_卢森堡_53
-  - 🇱🇺_LU_卢森堡_2_79
-  - 🇺🇸_US_美国_6_486_274
-  - 🇺🇸_US_美国_9_742_357
-  - 🇺🇸_US_美国_9_832_360
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_454
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_536"
-  - 🇺🇸 US-156.146.38.163-3713_1364_493
-  - 🇺🇸_US_美国_6_1165_441
-  - 🇺🇸 US-156.146.38.163-0292_1452_505
-  - 🇺🇸 US-212.102.47.198-0833_540
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_453
-  - 🇺🇸 US-156.146.38.163-3713_542
-  - 🇺🇸 US-156.146.38.163-0292_541
-  - 🇺🇸 US-156.146.38.163-0292_1365_494
-  - 🇺🇸 US-156.146.38.163-3713_1446_501
-  - 🇺🇸US-156.146.38.163-0619 | 49.688MB_557
-  - 🇺🇸US-156.146.38.163-0256 | 48.932MB_559
-  - 🇱🇺_LU_卢森堡_731_386
-  - 🇰🇷KR-13.124.178.1-0719 | 1.456MB
-  - 🇺🇸_US_美国_6_486_695
-  - 🇱🇺_LU_卢森堡_821_416
-  - 🇸🇬 SG-103.172.116.103-0943_99
-  - 🇸🇬 SG-103.172.116.103-0993_316_83
-  - 🇸🇬 SG-103.172.116.103-0995_101
-  - 🇱🇺 _LU_卢森堡 5_118
-  - 🇱🇺 _LU_卢森堡 2_115
-  - 🇺🇸_US_美国_9_742_762
-  - 🇺🇸_US_美国_9_832_766
-  - 🇱🇺_LU_卢森堡_2_114
-  - 🇱🇺_LU_卢森堡_503_737
-  - 🇸🇬 SG-103.172.116.103-0993_449_726
-  - 🇺🇸US-156.146.38.163-1563 | 126.019MB_850
-  - 🇺🇸_US_美国_6_1165_838
-  - 🇺🇸US-156.146.38.163-0262 | 123.334MB_847
-  - 🇱🇺_LU_卢森堡_821_795
-  - 🇱🇺_LU_卢森堡_480_727
-  - 🇺🇸 US-156.146.38.163-0292_1365_918
-  - 🇱🇺_LU_卢森堡_2_836
-  - 🇺🇸 US-156.146.38.163-3713_1364_917
-  - 🇺🇸 US-156.146.38.163-3713_1446_939
-  - 🇺🇸 US-156.146.38.163-0292_1452_942
-  - 🇺🇸 _US_美国 33
-  - 🇸🇬 SG-103.172.116.103-0993_1422
-  - 🇸🇬 SG-103.172.116.103-0995_1451
-  - "%�\x11�'��\x15T�L�L��L\f��\rˌNN\vNL�\r_992"
-  - 🇱🇺 _LU_卢森堡 5_978
-  - 🇸🇬 SG-103.172.116.103-5712
-  - 🇸🇬 SG-103.172.116.103-0969
-  - 🇺🇸 US-212.102.47.198-0833_1020
-  - 🇺🇸 US-156.146.38.163-3713_1016
-  - 5|🇭🇰 香港3|@ripaojiedian_1023
-  - 🇺🇸 US-156.146.38.163-0292_1021
-  - 🇸🇬 SG-103.172.116.103-0994_1013
-  - 5|🇺🇸 美国|@ripaojiedian
-  - 5|🇭🇰 香港8|@ripaojiedian
-  - 5|🇸🇬 新加坡|@ripaojiedian
-  - 5|🇰🇷 韩国|@ripaojiedian
-  - 0,3|IHwyOS45Nk1i
-  - 3|IHwyOS42M01i
-  - 3|IHwzMC41Nk1i
-  - 3|IHwzMC4yN01i
-  - 3|IHwzMC4wOU1i
-  - 8|CN_speednode_0006
-  - 3|IHwzMC4wNk1i
-  - 5|🇺🇸 美国4|@ripaojiedian
-  - 5|🇺🇸 美国5|@ripaojiedian_1026
-  - 6|香港8|@ripaojiedian
-  - 5|🇭🇰 香港4|@ripaojiedian_1024
+  - 🇫🇷FR-149.202.82.172-234
+  - 🇵🇱PL-51.77.53.200-251
+  - 🇨🇳 湖南省 联通
+  - 5|🇺🇸 美国3|@ripaojiedian
+  - 5|🇭🇰 香港4|@ripaojiedian_331
+  - 8|CN_speednode_0014
+  - 5|🇰🇷 韩国|@ripaojiedian_333
+  - 5|🇭🇰 香港|@ripaojiedian
+  - 5|🇯🇵 日本|@ripaojiedian
+  - 🇳🇱NL-109.201.152.181-0610 | 24.012MB
+  - 🇳🇱_NL_荷兰_43
+  - 🇳🇱_NL_荷兰_89
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 3
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 4
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 6
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 7
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 9
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 8
+  - 🇨🇳 广东省广州市 移动_338
+  - 🇺🇸 美国+华盛顿Cogent通信公司 2
+  - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 2
+  - 🇫🇷 法国+OVH 6
+  - 🇫🇷 法国+OVH 5
+  - 5|🇺🇸 美国5|@ripaojiedian_334
+  - 🇫🇷 法国+OVH 2
+  - 5|🇰🇷 韩国3|@ripaojiedian
+  - 5,8|CN_speednode_0020
+  - 6|香港|@ripaojiedian
+  - 6|香港2|@ripaojiedian
+  - 6|香港3|@ripaojiedian_336
+  - 🇨🇳 广东省佛山市 移动
+  - 🇫🇷 法国+OVH 4
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_754"
+  - 🇳🇱 NL-109.201.152.181-0876_749
+  - 🇳🇱 NL-109.201.152.181-0876_1237
+  - 🇬🇧 GB-212.102.53.80-0855
+  - 🇺🇸 _US_美国 29_1225
+  - "%�\x11�%�P���NL-109.201.152.181-924%%�_1259"
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
