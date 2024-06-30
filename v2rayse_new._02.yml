@@ -89,12 +89,6 @@ proxies:
   port: 443
   server: 172.104.49.76
   type: ss
-- name: 🇪🇸_ES_西班牙
-  network: tcp
-  port: 20513
-  server: 188.130.206.54
-  type: vless
-  uuid: 39412fcd-00e8-4662-b6c5-b85de316f0a3
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱_NL_荷兰
   password: PcJxyxcDSd2eJGZEMtudcV
@@ -107,23 +101,23 @@ proxies:
   port: 15084
   server: 59.56.77.178
   type: ss
-- cipher: aes-256-cfb
-  name: 未知_3
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.163.218.2
-  type: ss
 - name: 🇬🇧_GB_英国
   password: telegram-id-privatevpns
   port: 22222
   server: 51.20.50.245
   sni: trojan.burgerip.co.uk
   type: trojan
+- name: 🇪🇸_ES_西班牙
+  network: tcp
+  port: 20513
+  server: 188.130.206.54
+  type: vless
+  uuid: 39412fcd-00e8-4662-b6c5-b85de316f0a3
 - cipher: aes-256-cfb
-  name: 🇺🇾_UY_乌拉圭
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 179.27.200.28
+  name: 未知_1
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  server: 103.172.116.79
   type: ss
 - cipher: aes-256-cfb
   name: 🇿🇦_ZA_南非
@@ -137,12 +131,6 @@ proxies:
   port: 9084
   server: 103.172.116.79
   type: ss
-- cipher: aes-256-cfb
-  name: 未知_1
-  password: KnJGad3FqTvjqbaX
-  port: 9014
-  server: 103.172.116.79
-  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -150,30 +138,26 @@ proxy-groups:
   - DIRECT
   - 🇩🇪_DE_德国->🇯🇵_JP_日本
   - 🇸🇬_SG_新加坡
-  - 🇪🇸_ES_西班牙
   - 🇳🇱_NL_荷兰
   - 🇨🇳_CN_中国->🇯🇵_JP_日本
-  - 未知_3
   - 🇬🇧_GB_英国
-  - 🇺🇾_UY_乌拉圭
+  - 🇪🇸_ES_西班牙
+  - 未知_1
   - 🇿🇦_ZA_南非
   - 未知_4
-  - 未知_1
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 🇩🇪_DE_德国->🇯🇵_JP_日本
   - 🇸🇬_SG_新加坡
-  - 🇪🇸_ES_西班牙
   - 🇳🇱_NL_荷兰
   - 🇨🇳_CN_中国->🇯🇵_JP_日本
-  - 未知_3
   - 🇬🇧_GB_英国
-  - 🇺🇾_UY_乌拉圭
+  - 🇪🇸_ES_西班牙
+  - 未知_1
   - 🇿🇦_ZA_南非
   - 未知_4
-  - 未知_1
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -184,15 +168,13 @@ proxy-groups:
   - 🎯 全球直连
   - 🇩🇪_DE_德国->🇯🇵_JP_日本
   - 🇸🇬_SG_新加坡
-  - 🇪🇸_ES_西班牙
   - 🇳🇱_NL_荷兰
   - 🇨🇳_CN_中国->🇯🇵_JP_日本
-  - 未知_3
   - 🇬🇧_GB_英国
-  - 🇺🇾_UY_乌拉圭
+  - 🇪🇸_ES_西班牙
+  - 未知_1
   - 🇿🇦_ZA_南非
   - 未知_4
-  - 未知_1
   type: select
 - name: 📲 电报信息
   proxies:
@@ -200,15 +182,13 @@ proxy-groups:
   - 🎯 全球直连
   - 🇩🇪_DE_德国->🇯🇵_JP_日本
   - 🇸🇬_SG_新加坡
-  - 🇪🇸_ES_西班牙
   - 🇳🇱_NL_荷兰
   - 🇨🇳_CN_中国->🇯🇵_JP_日本
-  - 未知_3
   - 🇬🇧_GB_英国
-  - 🇺🇾_UY_乌拉圭
+  - 🇪🇸_ES_西班牙
+  - 未知_1
   - 🇿🇦_ZA_南非
   - 未知_4
-  - 未知_1
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -216,15 +196,13 @@ proxy-groups:
   - 🚀 节点选择
   - 🇩🇪_DE_德国->🇯🇵_JP_日本
   - 🇸🇬_SG_新加坡
-  - 🇪🇸_ES_西班牙
   - 🇳🇱_NL_荷兰
   - 🇨🇳_CN_中国->🇯🇵_JP_日本
-  - 未知_3
   - 🇬🇧_GB_英国
-  - 🇺🇾_UY_乌拉圭
+  - 🇪🇸_ES_西班牙
+  - 未知_1
   - 🇿🇦_ZA_南非
   - 未知_4
-  - 未知_1
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -232,15 +210,13 @@ proxy-groups:
   - 🎯 全球直连
   - 🇩🇪_DE_德国->🇯🇵_JP_日本
   - 🇸🇬_SG_新加坡
-  - 🇪🇸_ES_西班牙
   - 🇳🇱_NL_荷兰
   - 🇨🇳_CN_中国->🇯🇵_JP_日本
-  - 未知_3
   - 🇬🇧_GB_英国
-  - 🇺🇾_UY_乌拉圭
+  - 🇪🇸_ES_西班牙
+  - 未知_1
   - 🇿🇦_ZA_南非
   - 未知_4
-  - 未知_1
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -249,15 +225,13 @@ proxy-groups:
   - ♻️ 自动选择
   - 🇩🇪_DE_德国->🇯🇵_JP_日本
   - 🇸🇬_SG_新加坡
-  - 🇪🇸_ES_西班牙
   - 🇳🇱_NL_荷兰
   - 🇨🇳_CN_中国->🇯🇵_JP_日本
-  - 未知_3
   - 🇬🇧_GB_英国
-  - 🇺🇾_UY_乌拉圭
+  - 🇪🇸_ES_西班牙
+  - 未知_1
   - 🇿🇦_ZA_南非
   - 未知_4
-  - 未知_1
   type: select
 - name: 🛑 全球拦截
   proxies:
@@ -265,15 +239,13 @@ proxy-groups:
   - DIRECT
   - 🇩🇪_DE_德国->🇯🇵_JP_日本
   - 🇸🇬_SG_新加坡
-  - 🇪🇸_ES_西班牙
   - 🇳🇱_NL_荷兰
   - 🇨🇳_CN_中国->🇯🇵_JP_日本
-  - 未知_3
   - 🇬🇧_GB_英国
-  - 🇺🇾_UY_乌拉圭
+  - 🇪🇸_ES_西班牙
+  - 未知_1
   - 🇿🇦_ZA_南非
   - 未知_4
-  - 未知_1
   type: select
 - name: 🍃 应用净化
   proxies:
@@ -281,15 +253,13 @@ proxy-groups:
   - DIRECT
   - 🇩🇪_DE_德国->🇯🇵_JP_日本
   - 🇸🇬_SG_新加坡
-  - 🇪🇸_ES_西班牙
   - 🇳🇱_NL_荷兰
   - 🇨🇳_CN_中国->🇯🇵_JP_日本
-  - 未知_3
   - 🇬🇧_GB_英国
-  - 🇺🇾_UY_乌拉圭
+  - 🇪🇸_ES_西班牙
+  - 未知_1
   - 🇿🇦_ZA_南非
   - 未知_4
-  - 未知_1
   type: select
 - name: 🐟 漏网之鱼
   proxies:
@@ -298,15 +268,13 @@ proxy-groups:
   - ♻️ 自动选择
   - 🇩🇪_DE_德国->🇯🇵_JP_日本
   - 🇸🇬_SG_新加坡
-  - 🇪🇸_ES_西班牙
   - 🇳🇱_NL_荷兰
   - 🇨🇳_CN_中国->🇯🇵_JP_日本
-  - 未知_3
   - 🇬🇧_GB_英国
-  - 🇺🇾_UY_乌拉圭
+  - 🇪🇸_ES_西班牙
+  - 未知_1
   - 🇿🇦_ZA_南非
   - 未知_4
-  - 未知_1
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
