@@ -7,12 +7,110 @@ proxies:
 - alterId: 0
   cipher: auto
   http-opts: {}
+  name: 🇺🇸_US_美国_50_64
+  network: http
+  port: 2098
+  server: 185.247.184.115
+  type: vmess
+  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+- alterId: 0
+  cipher: auto
+  http-opts: {}
+  name: 🇺🇸_US_美国_4_62_0
+  network: http
+  port: 2098
+  server: 185.247.184.115
+  type: vmess
+  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+- alterId: 0
+  cipher: auto
+  http-opts: {}
   name: 🇺🇸_US_美国_50_42
   network: http
   port: 2098
   server: 185.247.184.115
   type: vmess
   uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+- cipher: aes-128-gcm
+  name: 🇺🇸US-156.146.38.170-0439 | 70.406MB
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.170
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇷🇺_RU_俄罗斯_7
+  password: NvS8N4Vf8qAGPSCL
+  port: 9046
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇷🇺_RU_俄罗斯_2_14
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇷🇺_RU_俄罗斯_2_39
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  server: 80.92.204.106
+  type: ss
+- name: 🇺🇸US-154.17.26.150-0973 | 4.257MB
+  password: z8lCAl8SOAe53DSxEDNZSyx4wFKBuacYTFRD2pCy39aOjYq30pgICRnZ73e6Xa
+  port: 443
+  server: deliver.missionsec.io
+  skip-cert-verify: false
+  sni: deliver.missionsec.io
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇷🇺_RU_俄罗斯_32
+  password: NvS8N4Vf8qAGPSCL
+  port: 9046
+  server: 80.92.204.106
+  type: ss
+- name: 🇺🇸US-154.21.82.134-0972 | 3.995MB
+  password: DaYaplOl83F0CeS43DEZ692Cxx3DqFyaewNAKCujAIn5ZypgSRT3R7XYBOcz8S
+  port: 18331
+  server: citylife.freetrade.link
+  skip-cert-verify: false
+  sni: citylife.freetrade.link
+  type: trojan
+- name: 🇺🇸_US_美国->🇧🇪_BE_比利时
+  network: ws
+  port: 8080
+  server: 104.17.148.22
+  type: vless
+  uuid: 05f5b769-e0d8-4d67-8d0f-89473e144116
+  ws-opts:
+    headers:
+      host: viPmAin.ahaNg-alpha.IR.
+    path: /TELEGRAM-@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray?ed=8880
+- cipher: aes-256-cfb
+  name: 🇷🇺_RU_俄罗斯_5_57
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
+  server: 80.92.204.106
+  type: ss
+- alterId: 0
+  cipher: auto
+  http-opts: {}
+  name: 🇺🇸_US_美国_50_204
+  network: http
+  port: 2098
+  server: 185.247.184.115
+  type: vmess
+  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+- name: 🇺🇸_US_美国_7_61
+  network: ws
+  port: 80
+  server: 104.21.63.51
+  servername: ca.ailicf.us.kg
+  type: vless
+  uuid: 571f64c7-bff0-4d33-8765-56ad2334cb55
+  ws-opts:
+    headers:
+      host: ca.ailicf.us.kg
+    path: /ascb
 - alterId: 0
   cipher: auto
   http-opts: {}
@@ -22,16 +120,18 @@ proxies:
   server: 185.247.184.115
   type: vmess
   uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- name: 🇺🇸_US_美国_13_37
+- name: 🇺🇸_US_美国_2_20
   network: ws
-  port: 2095
-  server: 104.16.16.26
-  type: vless
-  uuid: 0fca6851-457c-50e0-b8af-fc1ef830626c
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 104.16.192.1
+  sni: sherasheba.com
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      host: www.speedtest.net.xn--join-FreeV2rng.com.be2.vless.Sitespeedtest.net.
-    path: /-join-@FreeV2rng?ed=1024
+      host: sherasheba.com
+    path: /6b777a91
 - name: 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
   network: ws
   port: 80
@@ -42,34 +142,119 @@ proxies:
     headers:
       host: De2.vless.site.
     path: /vless
-- alterId: 0
-  cipher: auto
-  http-opts: {}
-  name: 🇺🇸_US_美国_50_204
-  network: http
-  port: 2098
-  server: 185.247.184.115
-  type: vmess
-  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+- cipher: aes-256-cfb
+  name: 🇷🇺_RU_俄罗斯_4_18
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
+  server: 80.92.204.106
+  type: ss
+- name: 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_63
+  network: ws
+  port: 80
+  server: 185.146.173.76
+  type: vless
+  uuid: 94dd682b-2200-5a85-8133-c985be28d273
+  ws-opts:
+    headers:
+      host: De2.vless.site.
+    path: /vless
+- name: 🇺🇸_US_美国_2_46
+  network: ws
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 104.16.192.1
+  sni: sherasheba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: sherasheba.com
+    path: /6b777a91
+- name: 🇺🇸_US_美国_24_0_65
+  network: ws
+  port: 8080
+  server: 104.17.148.22
+  type: vless
+  uuid: 8b85495d-133f-4f49-b7f1-41e668e8b293
+  ws-opts:
+    headers:
+      host: speedtest.net.at3.v2vless.sitespeedtest.net
+    path: /vless
+- name: 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_69
+  network: ws
+  port: 80
+  server: 185.146.173.76
+  type: vless
+  uuid: 94dd682b-2200-5a85-8133-c985be28d273
+  ws-opts:
+    headers:
+      host: De2.vless.site.
+    path: /vless
+- name: 🇺🇸_US_美国_13_37
+  network: ws
+  port: 2095
+  server: 104.16.16.26
+  type: vless
+  uuid: 0fca6851-457c-50e0-b8af-fc1ef830626c
+  ws-opts:
+    headers:
+      host: www.speedtest.net.xn--join-FreeV2rng.com.be2.vless.Sitespeedtest.net.
+    path: /-join-@FreeV2rng?ed=1024
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
+  - 🇺🇸_US_美国_50_64
+  - 🇺🇸_US_美国_4_62_0
   - 🇺🇸_US_美国_50_42
-  - 🇺🇸_US_美国_4_40
-  - 🇺🇸_US_美国_13_37
-  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇺🇸US-156.146.38.170-0439 | 70.406MB
+  - 🇷🇺_RU_俄罗斯_7
+  - 🇷🇺_RU_俄罗斯_2_14
+  - 🇷🇺_RU_俄罗斯_2_39
+  - 🇺🇸US-154.17.26.150-0973 | 4.257MB
+  - 🇷🇺_RU_俄罗斯_32
+  - 🇺🇸US-154.21.82.134-0972 | 3.995MB
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇷🇺_RU_俄罗斯_5_57
   - 🇺🇸_US_美国_50_204
+  - 🇺🇸_US_美国_7_61
+  - 🇺🇸_US_美国_4_40
+  - 🇺🇸_US_美国_2_20
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇷🇺_RU_俄罗斯_4_18
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_63
+  - 🇺🇸_US_美国_2_46
+  - 🇺🇸_US_美国_24_0_65
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_69
+  - 🇺🇸_US_美国_13_37
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 🇺🇸_US_美国_50_64
+  - 🇺🇸_US_美国_4_62_0
   - 🇺🇸_US_美国_50_42
-  - 🇺🇸_US_美国_4_40
-  - 🇺🇸_US_美国_13_37
-  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇺🇸US-156.146.38.170-0439 | 70.406MB
+  - 🇷🇺_RU_俄罗斯_7
+  - 🇷🇺_RU_俄罗斯_2_14
+  - 🇷🇺_RU_俄罗斯_2_39
+  - 🇺🇸US-154.17.26.150-0973 | 4.257MB
+  - 🇷🇺_RU_俄罗斯_32
+  - 🇺🇸US-154.21.82.134-0972 | 3.995MB
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇷🇺_RU_俄罗斯_5_57
   - 🇺🇸_US_美国_50_204
+  - 🇺🇸_US_美国_7_61
+  - 🇺🇸_US_美国_4_40
+  - 🇺🇸_US_美国_2_20
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇷🇺_RU_俄罗斯_4_18
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_63
+  - 🇺🇸_US_美国_2_46
+  - 🇺🇸_US_美国_24_0_65
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_69
+  - 🇺🇸_US_美国_13_37
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -78,83 +263,227 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
+  - 🇺🇸_US_美国_50_64
+  - 🇺🇸_US_美国_4_62_0
   - 🇺🇸_US_美国_50_42
-  - 🇺🇸_US_美国_4_40
-  - 🇺🇸_US_美国_13_37
-  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇺🇸US-156.146.38.170-0439 | 70.406MB
+  - 🇷🇺_RU_俄罗斯_7
+  - 🇷🇺_RU_俄罗斯_2_14
+  - 🇷🇺_RU_俄罗斯_2_39
+  - 🇺🇸US-154.17.26.150-0973 | 4.257MB
+  - 🇷🇺_RU_俄罗斯_32
+  - 🇺🇸US-154.21.82.134-0972 | 3.995MB
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇷🇺_RU_俄罗斯_5_57
   - 🇺🇸_US_美国_50_204
+  - 🇺🇸_US_美国_7_61
+  - 🇺🇸_US_美国_4_40
+  - 🇺🇸_US_美国_2_20
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇷🇺_RU_俄罗斯_4_18
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_63
+  - 🇺🇸_US_美国_2_46
+  - 🇺🇸_US_美国_24_0_65
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_69
+  - 🇺🇸_US_美国_13_37
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇺🇸_US_美国_50_64
+  - 🇺🇸_US_美国_4_62_0
   - 🇺🇸_US_美国_50_42
-  - 🇺🇸_US_美国_4_40
-  - 🇺🇸_US_美国_13_37
-  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇺🇸US-156.146.38.170-0439 | 70.406MB
+  - 🇷🇺_RU_俄罗斯_7
+  - 🇷🇺_RU_俄罗斯_2_14
+  - 🇷🇺_RU_俄罗斯_2_39
+  - 🇺🇸US-154.17.26.150-0973 | 4.257MB
+  - 🇷🇺_RU_俄罗斯_32
+  - 🇺🇸US-154.21.82.134-0972 | 3.995MB
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇷🇺_RU_俄罗斯_5_57
   - 🇺🇸_US_美国_50_204
+  - 🇺🇸_US_美国_7_61
+  - 🇺🇸_US_美国_4_40
+  - 🇺🇸_US_美国_2_20
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇷🇺_RU_俄罗斯_4_18
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_63
+  - 🇺🇸_US_美国_2_46
+  - 🇺🇸_US_美国_24_0_65
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_69
+  - 🇺🇸_US_美国_13_37
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇺🇸_US_美国_50_64
+  - 🇺🇸_US_美国_4_62_0
   - 🇺🇸_US_美国_50_42
-  - 🇺🇸_US_美国_4_40
-  - 🇺🇸_US_美国_13_37
-  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇺🇸US-156.146.38.170-0439 | 70.406MB
+  - 🇷🇺_RU_俄罗斯_7
+  - 🇷🇺_RU_俄罗斯_2_14
+  - 🇷🇺_RU_俄罗斯_2_39
+  - 🇺🇸US-154.17.26.150-0973 | 4.257MB
+  - 🇷🇺_RU_俄罗斯_32
+  - 🇺🇸US-154.21.82.134-0972 | 3.995MB
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇷🇺_RU_俄罗斯_5_57
   - 🇺🇸_US_美国_50_204
+  - 🇺🇸_US_美国_7_61
+  - 🇺🇸_US_美国_4_40
+  - 🇺🇸_US_美国_2_20
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇷🇺_RU_俄罗斯_4_18
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_63
+  - 🇺🇸_US_美国_2_46
+  - 🇺🇸_US_美国_24_0_65
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_69
+  - 🇺🇸_US_美国_13_37
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇺🇸_US_美国_50_64
+  - 🇺🇸_US_美国_4_62_0
   - 🇺🇸_US_美国_50_42
-  - 🇺🇸_US_美国_4_40
-  - 🇺🇸_US_美国_13_37
-  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇺🇸US-156.146.38.170-0439 | 70.406MB
+  - 🇷🇺_RU_俄罗斯_7
+  - 🇷🇺_RU_俄罗斯_2_14
+  - 🇷🇺_RU_俄罗斯_2_39
+  - 🇺🇸US-154.17.26.150-0973 | 4.257MB
+  - 🇷🇺_RU_俄罗斯_32
+  - 🇺🇸US-154.21.82.134-0972 | 3.995MB
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇷🇺_RU_俄罗斯_5_57
   - 🇺🇸_US_美国_50_204
+  - 🇺🇸_US_美国_7_61
+  - 🇺🇸_US_美国_4_40
+  - 🇺🇸_US_美国_2_20
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇷🇺_RU_俄罗斯_4_18
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_63
+  - 🇺🇸_US_美国_2_46
+  - 🇺🇸_US_美国_24_0_65
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_69
+  - 🇺🇸_US_美国_13_37
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
   - 🚀 节点选择
   - ♻️ 自动选择
+  - 🇺🇸_US_美国_50_64
+  - 🇺🇸_US_美国_4_62_0
   - 🇺🇸_US_美国_50_42
-  - 🇺🇸_US_美国_4_40
-  - 🇺🇸_US_美国_13_37
-  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇺🇸US-156.146.38.170-0439 | 70.406MB
+  - 🇷🇺_RU_俄罗斯_7
+  - 🇷🇺_RU_俄罗斯_2_14
+  - 🇷🇺_RU_俄罗斯_2_39
+  - 🇺🇸US-154.17.26.150-0973 | 4.257MB
+  - 🇷🇺_RU_俄罗斯_32
+  - 🇺🇸US-154.21.82.134-0972 | 3.995MB
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇷🇺_RU_俄罗斯_5_57
   - 🇺🇸_US_美国_50_204
+  - 🇺🇸_US_美国_7_61
+  - 🇺🇸_US_美国_4_40
+  - 🇺🇸_US_美国_2_20
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇷🇺_RU_俄罗斯_4_18
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_63
+  - 🇺🇸_US_美国_2_46
+  - 🇺🇸_US_美国_24_0_65
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_69
+  - 🇺🇸_US_美国_13_37
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
+  - 🇺🇸_US_美国_50_64
+  - 🇺🇸_US_美国_4_62_0
   - 🇺🇸_US_美国_50_42
-  - 🇺🇸_US_美国_4_40
-  - 🇺🇸_US_美国_13_37
-  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇺🇸US-156.146.38.170-0439 | 70.406MB
+  - 🇷🇺_RU_俄罗斯_7
+  - 🇷🇺_RU_俄罗斯_2_14
+  - 🇷🇺_RU_俄罗斯_2_39
+  - 🇺🇸US-154.17.26.150-0973 | 4.257MB
+  - 🇷🇺_RU_俄罗斯_32
+  - 🇺🇸US-154.21.82.134-0972 | 3.995MB
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇷🇺_RU_俄罗斯_5_57
   - 🇺🇸_US_美国_50_204
+  - 🇺🇸_US_美国_7_61
+  - 🇺🇸_US_美国_4_40
+  - 🇺🇸_US_美国_2_20
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇷🇺_RU_俄罗斯_4_18
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_63
+  - 🇺🇸_US_美国_2_46
+  - 🇺🇸_US_美国_24_0_65
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_69
+  - 🇺🇸_US_美国_13_37
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
+  - 🇺🇸_US_美国_50_64
+  - 🇺🇸_US_美国_4_62_0
   - 🇺🇸_US_美国_50_42
-  - 🇺🇸_US_美国_4_40
-  - 🇺🇸_US_美国_13_37
-  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇺🇸US-156.146.38.170-0439 | 70.406MB
+  - 🇷🇺_RU_俄罗斯_7
+  - 🇷🇺_RU_俄罗斯_2_14
+  - 🇷🇺_RU_俄罗斯_2_39
+  - 🇺🇸US-154.17.26.150-0973 | 4.257MB
+  - 🇷🇺_RU_俄罗斯_32
+  - 🇺🇸US-154.21.82.134-0972 | 3.995MB
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇷🇺_RU_俄罗斯_5_57
   - 🇺🇸_US_美国_50_204
+  - 🇺🇸_US_美国_7_61
+  - 🇺🇸_US_美国_4_40
+  - 🇺🇸_US_美国_2_20
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇷🇺_RU_俄罗斯_4_18
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_63
+  - 🇺🇸_US_美国_2_46
+  - 🇺🇸_US_美国_24_0_65
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_69
+  - 🇺🇸_US_美国_13_37
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
+  - 🇺🇸_US_美国_50_64
+  - 🇺🇸_US_美国_4_62_0
   - 🇺🇸_US_美国_50_42
-  - 🇺🇸_US_美国_4_40
-  - 🇺🇸_US_美国_13_37
-  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇺🇸US-156.146.38.170-0439 | 70.406MB
+  - 🇷🇺_RU_俄罗斯_7
+  - 🇷🇺_RU_俄罗斯_2_14
+  - 🇷🇺_RU_俄罗斯_2_39
+  - 🇺🇸US-154.17.26.150-0973 | 4.257MB
+  - 🇷🇺_RU_俄罗斯_32
+  - 🇺🇸US-154.21.82.134-0972 | 3.995MB
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇷🇺_RU_俄罗斯_5_57
   - 🇺🇸_US_美国_50_204
+  - 🇺🇸_US_美国_7_61
+  - 🇺🇸_US_美国_4_40
+  - 🇺🇸_US_美国_2_20
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_41
+  - 🇷🇺_RU_俄罗斯_4_18
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_63
+  - 🇺🇸_US_美国_2_46
+  - 🇺🇸_US_美国_24_0_65
+  - 🇸🇪_SE_瑞典->🇺🇦_UA_乌克兰_69
+  - 🇺🇸_US_美国_13_37
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
